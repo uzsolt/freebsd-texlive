@@ -1,0 +1,105 @@
+# $FreeBSD$
+
+COMMENT=	Classes and packages for specific publishers
+TEXMF_CATEG=	publishers
+TEXMF_DIRS=	bibtex/bib/IEEEtran/ \
+		bibtex/bib/abntex2 \
+		bibtex/bib/nostarch \
+		bibtex/bib/revtex4 \
+		bibtex/bib/spie \
+		bibtex/bst/IEEEtran \
+		bibtex/bst/aastex \
+		bibtex/bst/abntex2 \
+		bibtex/bst/acmart \
+		bibtex/bst/adfathesis \
+		bibtex/bst/afthesis \
+		bibtex/bst/aguplus \
+		bibtex/bst/aiaa \
+		bibtex/bst/ametsoc \
+		bibtex/bst/aomart \
+		bibtex/bst/asaetr \
+		bibtex/bst/ascelike \
+		bibtex/bst/beilstein \
+		bibtex/bst/bgteubner \
+		bibtex/bst/cascadilla \
+		bibtex/bst/chem-journal \
+		bibtex/bst/cje \
+		bibtex/bst/cmpj \
+		bibtex/bst/confproc \
+		bibtex/bst/cquthesis \
+		bibtex/bst/elsarticle \
+		bibtex/bst/fcavtex \
+		bibtex/bst/gatech-thesis \
+		bibtex/bst/hithesis \
+		bibtex/bst/hustthesis \
+		bibtex/bst/ieeepes \
+		bibtex/bst/ijmart \
+		bibtex/bst/imac \
+		bibtex/bst/kluwer \
+		bibtex/bst/langsci \
+		bibtex/bst/lion-msc \
+		bibtex/bst/lni \
+		bibtex/bst/mnras \
+		bibtex/bst/nature \
+		bibtex/bst/nddiss \
+		bibtex/bst/psu-thesis \
+		bibtex/bst/resphilosophica \
+		bibtex/bst/revtex \
+		bibtex/bst/revtex4 \
+		bibtex/bst/sageep \
+		bibtex/bst/sapthesis \
+		bibtex/bst/seuthesis \
+		bibtex/bst/seuthesix \
+		bibtex/bst/spie \
+		bibtex/bst/stellenbosch \
+		bibtex/bst/thuthesis \
+		bibtex/bst/tugboat \
+		bibtex/bst/uestcthesis \
+		bibtex/bst/unamthesis \
+		bibtex/bst/vancouver \
+		fonts/opentype/novel \
+		makeindex/bgteubner \
+		makeindex/confproc \
+		makeindex/gatech-thesis \
+		makeindex/hithesis \
+		makeindex/nostarch \
+		scripts/jmlr \
+		tex/plain/tugboat-plain \
+		tex/xelatex/langsci \
+		tex/xelatex/mynsfc
+TEXMF_DIRS_LATEX=	\
+	IEEEconf IEEEtran aastex abnt abntex2 acmart acmconf active-conf \
+	adfathesis afparticle afthesis aguplus aiaa ametsoc aomart apa apa6 \
+	apa6e arsclassica articleingud asaetr ascelike aucklandthesis \
+	bangorcsthesis beilstein bgteubner br-lex brandeis-dissertation \
+	cascadilla cje classicthesis cleanthesis cmpj confproc cquthesis \
+	dccpaper dithesis ebook ebsthesis ejpecp ekaia elbioimp elsarticle \
+	elteikthesis emisa erdc estcpmm fbithesis fcavtex fcltxdoc fei gaceta \
+	gatech-thesis grant gsemthesis gzt h2020proposal hagenberg-thesis \
+	har2nat hecthese hithesis hustthesis icsv ieeepes ijmart ijsra imac \
+	imtekda iscram jacow jmlr jpsj kdgdocs kluwer ksp-thesis ku-template \
+	lion-msc llncsconf lni lps matc3 matc3mem mcmthesis mentis mnras \
+	msu-thesis mucproc mugsthesis musuos muthesis nature navydocs nddiss \
+	ndsu-thesis nih nostarch nrc nwejm onrannual opteng \
+	philosophersimprint pittetd pkuthss powerdot-FUBerlin pracjourn \
+	procIAGssymp proposal psu-thesis ptptex resphilosophica revtex revtex4 \
+	rutitlepage ryethesis sageep sapthesis scientific-thesis-cover scrjrnl \
+	sduthesis seuthesix sphdthesis spie sr-vorl stellenbosch suftesi \
+	sugconf tabriz-thesis texilikechaps texilikecover thesis-ekf \
+	thesis-gwu thesis-titlepage-fhac thucoursework thuthesis timbreicmc \
+	toptesi tudscr tugboat tui turabian uaclasses uafthesis ucbthesis \
+	ucdavisthesis ucthesis uestcthesis uhhassignment uiucredborder \
+	uiucthesis ulthese umbclegislation umich-thesis umthesis unamthesis \
+	unitn-bimrep univie-ling unswcover uothesis uowthesis \
+	uowthesistitlepage urcls uspatent ut-thesis uwthesis wsemclassic \
+	xcookybooky xduthesis yathesis york-thesis
+
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover}
+
+TEXMF_SHEBANG_FILES=	share/doc/texlive-texmf/ejpecp/mgetmref.py
+
+USES+=	python
+
+MASTERDIR=	${.CURDIR}/../texlive-texmf-all
+
+.include "${MASTERDIR}/Makefile"

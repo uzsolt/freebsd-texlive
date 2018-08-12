@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# This script is used at install and deinstall too.
+[ "$2" = "PRE-INSTALL" -o "$2" = "DEINSTALL" ] && exit 0
+
+/usr/local/bin/texhash --verbose

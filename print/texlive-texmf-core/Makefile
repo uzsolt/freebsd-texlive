@@ -59,10 +59,9 @@ TEXMF_DIRS=	fonts/map/dvips \
 		tex/xmltex/xmltexconfig \
 		web2c
 TEXMF_DOCDIRS+=	latex/base latex/graphics latex/tools
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 USES=	perl5
-
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 
 post-install:
 	${MKDIR} ${STAGEDIR}${SITE_PERL}
@@ -70,5 +69,7 @@ post-install:
 .for confl in mktex.opt mktexdir mktexdir.opt mktexnam mktexnam.opt mktexupd texmf.cnf
 	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/${confl}
 .endfor
+
+MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 
 .include "${MASTERDIR}/Makefile"

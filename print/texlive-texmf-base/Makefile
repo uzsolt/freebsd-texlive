@@ -175,7 +175,7 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		fonts/tfm/cs/cs-a35/ \
 		fonts/tfm/cs/cs-charter/ \
 		fonts/tfm/hoekwater/ \
-		fonts/tfm/jknappen/ \
+		fonts/tfm/jknappen/ec \
 		fonts/tfm/jmn/ \
 		fonts/tfm/metapost/ \
 		fonts/tfm/monotype/helvetic/ \

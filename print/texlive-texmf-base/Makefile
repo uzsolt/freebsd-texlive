@@ -687,7 +687,7 @@ TEXMF_DIRS_LATEX=	\
 	tabvar tdsfrmath \
 	termcal-de tex-gyre tex4ebook texosquery \
 	textpath times tipa tracklang translator \
-	turkmen txfonts typehtml ucharcat udesoftec \
+	turkmen txfonts typehtml ucharcat ucs udesoftec \
 	uhrzeit umlaute underscore unicode-math url \
 	wasysym xcjk2uni xcolor xebaposter xkeyval \
 	xltxtra zapfchan zapfding zxjafont
@@ -704,6 +704,12 @@ TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
  textpath times tipa tracklang txfonts zapfchan zapfding
 TEXMF_DOCDIRS_LATEX:=${TEXMF_DOCDIRS_LATEX:N${exc}}
 .endfor
+
+TEXMF_SHEBANG_FILES_DOCS=	\
+	share/doc/texlive-texmf/ucs/latexout.pl\
+	share/doc/texlive-texmf/ucs/unsupported/u2ps\
+	share/doc/texlive-texmf/ucs/discovermacro.pl\
+	share/doc/texlive-texmf/ucs/makeunidef.pl
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

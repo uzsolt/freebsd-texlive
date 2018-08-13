@@ -716,7 +716,6 @@ TEXMF_DIRS_LATEX=	\
 		typoaid\
 		typogrid\
 		uassign\
-		ucs\
 		umoline\
 		underlin\
 		underoverlap\
@@ -787,10 +786,6 @@ TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/uspace/uspace-ctanify.sh\
 	share/doc/texlive-texmf/pdfreview/pdfreview.sh\
 	share/doc/texlive-texmf/pdfreview/pdfshrink.sh\
-	share/doc/texlive-texmf/ucs/latexout.pl\
-	share/doc/texlive-texmf/ucs/unsupported/u2ps\
-	share/doc/texlive-texmf/ucs/discovermacro.pl\
-	share/doc/texlive-texmf/ucs/makeunidef.pl\
 	share/doc/texlive-texmf/shdoc/shreformat.sh\
 	share/doc/texlive-texmf/scanpages/replicate.py
 

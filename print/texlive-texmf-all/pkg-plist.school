@@ -62,6 +62,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cloze/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cloze/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cloze/cloze.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cnltx/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cnltx/cnltx_en.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cnltx/cnltx_en.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/courseoutline/Outline.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/esami/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/esami/VERSION
@@ -389,6 +392,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sexam/exam_with_wexam_ar-DZ.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sexam/sexam_wexam_doc_ar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sexam/sexam_wexam_doc_ar.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/tasks_en.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/tasks_en.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/translations/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/translations/translations_en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/translations/translations_en.tex
@@ -484,6 +490,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xsim/xsim.ideas
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xsim/xsim_manual.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xsim/xsim_manual.tex
+%%TEXMFDIR%%bibtex/bib/cnltx/cnltx.bib
+%%TEXMFDIR%%makeindex/cnltx/cnltx.ist
 %%TEXMFDIR%%tex/latex/alterqcm/alterqcm.sty
 %%TEXMFDIR%%tex/latex/answers/answers.sty
 %%TEXMFDIR%%tex/latex/bangorexam/bangorexam.cls
@@ -492,6 +500,17 @@
 %%TEXMFDIR%%tex/latex/cesenaexam/cesenaexam.cls
 %%TEXMFDIR%%tex/latex/cesenaexam/cesenaexam.sty
 %%TEXMFDIR%%tex/latex/chemexec/chemexec.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-base.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-doc.cls
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-example.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-listings.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-names.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-tools.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx-translations.sty
+%%TEXMFDIR%%tex/latex/cnltx/cnltx.bbx
+%%TEXMFDIR%%tex/latex/cnltx/cnltx.cbx
+%%TEXMFDIR%%tex/latex/cnltx/cnltx.dbx
+%%TEXMFDIR%%tex/latex/cnltx/cnltx.sty
 %%TEXMFDIR%%tex/latex/courseoutline/courseoutline.cls
 %%TEXMFDIR%%tex/latex/esami/es-UKenglish.lng
 %%TEXMFDIR%%tex/latex/esami/es-USenglish.lng
@@ -546,6 +565,8 @@
 %%TEXMFDIR%%tex/latex/schule/schulphy.sty
 %%TEXMFDIR%%tex/latex/schule/syntaxdi.sty
 %%TEXMFDIR%%tex/latex/sesstime/sesstime.sty
+%%TEXMFDIR%%tex/latex/tasks/tasks.cfg
+%%TEXMFDIR%%tex/latex/tasks/tasks.sty
 %%TEXMFDIR%%tex/latex/translations/translations-basic-dictionary-catalan.trsl
 %%TEXMFDIR%%tex/latex/translations/translations-basic-dictionary-dutch.trsl
 %%TEXMFDIR%%tex/latex/translations/translations-basic-dictionary-english.trsl

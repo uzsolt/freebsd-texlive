@@ -2,11 +2,14 @@
 
 COMMENT=	LaTeX packages for schools and education
 TEXMF_CATEG=	school
-TEXMF_DIRS=	tex/lualatex/cloze/ \
+TEXMF_DIRS=	bibtex/bib/cnltx/ \
+		makeindex/cnltx/ \
+		tex/lualatex/cloze/ \
 		tex/xelatex/na-box/ \
 		tex/xelatex/sexam/
 TEXMF_DIRS_LATEX=	\
-	alterqcm answers bangorexam bhcexam cesenaexam chemexec courseoutline \
+	alterqcm answers bangorexam bhcexam cesenaexam chemexec cnltx \
+	courseoutline tasks\
 	esami exam exam-n examdesign exercise exercisebank exercises exsheets \
 	exsol jslectureplanner mafr mathexam mcexam moodle pas-cours pbsheet \
 	probsoln qcm schule sesstime translations uantwerpendocs uebungsblatt \

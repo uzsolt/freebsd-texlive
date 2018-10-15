@@ -4,7 +4,6 @@ COMMENT=	Large collection of add-on packages for LaTeX
 TEXMF_CATEG=	latexextra
 
 TEXMF_DIRS=	bibtex/bib/attachfile/ \
-		bibtex/bib/cnltx/ \
 		bibtex/bib/directory/ \
 		bibtex/bib/frankenstein/ \
 		bibtex/bib/gloss/ \
@@ -51,7 +50,6 @@ TEXMF_DIRS=	bibtex/bib/attachfile/ \
 		fonts/type1/public/esint-type1/ \
 		fonts/type1/public/scanpages/ \
 		fonts/vf/public/relenc/ \
-		makeindex/cnltx/ \
 		makeindex/gmdoc/ \
 		makeindex/iso/ \
 		makeindex/leipzig/ \
@@ -118,7 +116,7 @@ TEXMF_DIRS_LATEX=	\
 		changes chappg chapterfolder cheatsheet chet chextras \
 		childdoc chkfloat chletter chronology circ \
 		classics classpack clefval cleveref clipboard clock \
-		cmdtrack cmsd cnltx \
+		cmdtrack cmsd \
 		codedoc codepage codesection \
 		colordoc colorinfo coloring colorspace colorwav \
 		colorweb combelow combine comma \
@@ -661,7 +659,6 @@ TEXMF_DIRS_LATEX=	\
 		tagging\
 		tagpair\
 		tamefloats\
-		tasks\
 		tcldoc\
 		tdclock\
 		technics\

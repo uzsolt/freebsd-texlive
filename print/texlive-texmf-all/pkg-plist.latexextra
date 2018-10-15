@@ -597,9 +597,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cmdtrack/cmdtrack.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cmsd/liesmich
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cmsd/readme
-%%PORTDOCS%%%%DOCSDIR%%-texmf/cnltx/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/cnltx/cnltx_en.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/cnltx/cnltx_en.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/codedoc/CodeDoc-manual.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/codedoc/CodeDoc-manual.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/codedoc/README
@@ -4411,9 +4408,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tamefloats/deml3541.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tamefloats/fltfltdk.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tamefloats/newbug.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/tasks_en.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/tasks_en.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcldoc/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcldoc/examples/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcldoc/examples/parsetcl.dtx
@@ -4899,7 +4893,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zwgetfdate/zwgetfdate.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zwgetfdate/zwgetfdate.tex
 %%TEXMFDIR%%bibtex/bib/attachfile/attachfile.bib
-%%TEXMFDIR%%bibtex/bib/cnltx/cnltx.bib
 %%TEXMFDIR%%bibtex/bib/directory/business.bib
 %%TEXMFDIR%%bibtex/bib/directory/family.bib
 %%TEXMFDIR%%bibtex/bib/frankenstein/frankenstein.bib
@@ -5002,7 +4995,6 @@
 %%TEXMFDIR%%fonts/type1/public/scanpages/scanwipe.pfb
 %%TEXMFDIR%%fonts/vf/public/relenc/zcmr8d.vf
 %%TEXMFDIR%%fonts/vf/public/relenc/zcmra.vf
-%%TEXMFDIR%%makeindex/cnltx/cnltx.ist
 %%TEXMFDIR%%makeindex/gmdoc/gmglo.ist
 %%TEXMFDIR%%makeindex/iso/iso.ist
 %%TEXMFDIR%%makeindex/leipzig/leipzig.ist
@@ -5351,17 +5343,6 @@
 %%TEXMFDIR%%tex/latex/cmsd/cmsd.sty
 %%TEXMFDIR%%tex/latex/cmsd/t1cmsd.fd
 %%TEXMFDIR%%tex/latex/cmsd/ts1cmsd.fd
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-base.sty
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-doc.cls
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-example.sty
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-listings.sty
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-names.sty
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-tools.sty
-%%TEXMFDIR%%tex/latex/cnltx/cnltx-translations.sty
-%%TEXMFDIR%%tex/latex/cnltx/cnltx.bbx
-%%TEXMFDIR%%tex/latex/cnltx/cnltx.cbx
-%%TEXMFDIR%%tex/latex/cnltx/cnltx.dbx
-%%TEXMFDIR%%tex/latex/cnltx/cnltx.sty
 %%TEXMFDIR%%tex/latex/codedoc/codedoc.cls
 %%TEXMFDIR%%tex/latex/codepage/code437.tex
 %%TEXMFDIR%%tex/latex/codepage/code850.tex
@@ -7466,8 +7447,6 @@
 %%TEXMFDIR%%tex/latex/tagging/tagging.sty
 %%TEXMFDIR%%tex/latex/tagpair/tagpair.sty
 %%TEXMFDIR%%tex/latex/tamefloats/tameflts.sty
-%%TEXMFDIR%%tex/latex/tasks/tasks.cfg
-%%TEXMFDIR%%tex/latex/tasks/tasks.sty
 %%TEXMFDIR%%tex/latex/tcldoc/tcldoc.cls
 %%TEXMFDIR%%tex/latex/tcldoc/tcldoc.sty
 %%TEXMFDIR%%tex/latex/tcldoc/tclldoc.cls

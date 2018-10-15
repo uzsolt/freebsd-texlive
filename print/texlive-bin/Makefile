@@ -39,13 +39,11 @@ DEPENDS=	${LOCALBASE}/share/texmf-dist/pkg-core:print/texlive-texmf-core
 BUILD_DEPENDS=	${DEPENDS}
 RUN_DEPENDS=	${DEPENDS}
 
-USES=		compiler:c++11-lang gmake iconv libtool \
+USES=		compiler:c++11-lang gmake iconv libtool localbase \
 		pkgconfig python:run shebangfix tar:xz
 USE_GNOME+=	cairo
 USE_LDCONFIG=	yes
 USE_XORG+=	ice pixman sm x11 xext xmu xpm xt
-CPPFLAGS+=	-I${LOCALBASE}/include
-LDFLAGS+=	-L${LOCALBASE}/lib
 GNU_CONFIGURE=	yes
 CONFIGURE_OUTSOURCE=	yes
 SHEBANG_GLOB=	*.pl *.py *.rb *.sh
@@ -121,51 +119,51 @@ INFO=	dvipng dvips tlbuild web2c
 
 post-install: install-create-links install-copy-data install-formats
 	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES:[2]} \
-	  -C ${STAGEDIR}${LOCALBASE}/share/texmf-dist/scripts/texlive \
+	  -C ${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive \
 	  --include texlive-${PORTVERSION}-extra/tlpkg/TeXLive \
 	  --strip-components 2
 
 install-copy-data:
-	${MKDIR} ${STAGEDIR}${LOCALBASE}/share/texmf-dist/scripts/texlive/TeXLive
-	${INSTALL_DATA} ${WRKSRC}/texk/tests/TeXLive/*.pm ${STAGEDIR}${LOCALBASE}/share/texmf-dist/scripts/texlive/TeXLive
+	${MKDIR} ${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive/TeXLive
+	${INSTALL_DATA} ${WRKSRC}/texk/tests/TeXLive/*.pm ${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive/TeXLive
 
 install-create-links:
-	${RLN} ${STAGEDIR}${LOCALBASE}/bin/eptex ${STAGEDIR}${LOCALBASE}/bin/platex
-	${RLN} ${STAGEDIR}${LOCALBASE}/bin/euptex ${STAGEDIR}${LOCALBASE}/bin/uplatex
-	${RLN} ${STAGEDIR}${LOCALBASE}/bin/tex ${STAGEDIR}${LOCALBASE}/bin/lollipop
+	${RLN} ${STAGEDIR}${PREFIX}/bin/eptex ${STAGEDIR}${PREFIX}/bin/platex
+	${RLN} ${STAGEDIR}${PREFIX}/bin/euptex ${STAGEDIR}${PREFIX}/bin/uplatex
+	${RLN} ${STAGEDIR}${PREFIX}/bin/tex ${STAGEDIR}${PREFIX}/bin/lollipop
 
 install-formats:
-	${MKDIR} ${STAGEDIR}${LOCALBASE}/share/texmf-dist/web2c
-	${RLN} ${LOCALBASE}/share/texmf-dist/web2c/texmf.cnf ${STAGEDIR}${LOCALBASE}/share/texmf-dist/web2c
+	${MKDIR} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c
+	${RLN} ${PREFIX}/share/texmf-dist/web2c/texmf.cnf ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c
 .for format in ${TEXFORMATS}
-	${SETENV} PATH=${STAGEDIR}${PREFIX}/bin:${PATH}:${LOCALBASE}/bin \
-	  TEXMFDIST=${STAGEDIR}${PREFIX}/${TEXMFDISTDIR}:${LOCALBASE}/${TEXMFDISTDIR} \
-	  TEXMFVAR=${STAGEDIR}${LOCALBASE}/share/texmf-var \
-	  PERLLIB=${STAGEDIR}${LOCALBASE}/share/texmf-dist/scripts/texlive \
-	  LD_LIBRARY_PATH=${STAGEDIR}${LOCALBASE}/lib \
-	${STAGEDIR}${LOCALBASE}/bin/fmtutil-sys \
+	${SETENV} PATH=${STAGEDIR}${PREFIX}/bin:${PATH}:${PREFIX}/bin \
+	  TEXMFDIST=${STAGEDIR}${PREFIX}/${TEXMFDISTDIR}:${PREFIX}/${TEXMFDISTDIR} \
+	  TEXMFVAR=${STAGEDIR}${PREFIX}/share/texmf-var \
+	  PERLLIB=${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive \
+	  LD_LIBRARY_PATH=${STAGEDIR}${PREFIX}/lib \
+	${STAGEDIR}${PREFIX}/bin/fmtutil-sys \
 	  --byfmt ${format} \
 	  --fmtdir ${STAGEDIR}${PREFIX}/share/texmf-var/web2c \
 	  --cnffile ${PREFIX}/share/texmf-dist/web2c/fmtutil.cnf
 .endfor
 	# This file is part of print/texlive-kpathsea
-	${RM} ${STAGEDIR}${LOCALBASE}/share/texmf-dist/web2c/fmtutil.cnf
-	${RM} ${STAGEDIR}${LOCALBASE}/share/texmf-dist/web2c/texmf.cnf
-	${RM} ${STAGEDIR}${LOCALBASE}/ls-R
+	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/fmtutil.cnf
+	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/texmf.cnf
+	${RM} ${STAGEDIR}${PREFIX}/ls-R
 
 post-install-LUATEX-on:
 .for link in dvilualatex dviluatex lualatex
-	${RLN} ${STAGEDIR}${LOCALBASE}/bin/luatex ${STAGEDIR}${LOCALBASE}/bin/${link}
+	${RLN} ${STAGEDIR}${PREFIX}/bin/luatex ${STAGEDIR}${PREFIX}/bin/${link}
 .endfor
 
 post-install-PDFTEX-on:
 .for link in amstex cslatex csplain eplain jadetex latex mex mllatex mltex \
 	pdfetex pdfcslatex pdfcsplain pdfjadetex pdflatex pdfmex pdfxmltex \
 	texsis utf8mex xmltex
-	${RLN} ${STAGEDIR}${LOCALBASE}/bin/pdftex ${STAGEDIR}${LOCALBASE}/bin/${link}
+	${RLN} ${STAGEDIR}${PREFIX}/bin/pdftex ${STAGEDIR}${PREFIX}/bin/${link}
 .endfor
 
 post-install-XETEX-on:
-	${RLN} ${STAGEDIR}${LOCALBASE}/bin/xetex ${STAGEDIR}${LOCALBASE}/bin/xelatex
+	${RLN} ${STAGEDIR}${PREFIX}/bin/xetex ${STAGEDIR}${PREFIX}/bin/xelatex
 
 .include <bsd.port.mk>

@@ -37,10 +37,16 @@ LIB_DEPENDS=	libicuio.so:devel/icu \
 # Required to create format files
 DEPENDS=	${LOCALBASE}/share/texmf-dist/pkg-core:print/texlive-texmf-core
 BUILD_DEPENDS=	${DEPENDS}
-RUN_DEPENDS=	${DEPENDS}
+# p5-* are required by latexindent
+RUN_DEPENDS=	${DEPENDS} \
+		p5-File-HomeDir>=0:devel/p5-File-HomeDir \
+		p5-Log-Log4perl>=0:devel/p5-Log-Log4perl \
+		p5-Log-Dispatch>=0:devel/p5-Log-Dispatch \
+		p5-Unicode-LineBreak>=0:textproc/p5-Unicode-LineBreak \
+		p5-YAML-Tiny>=0:textproc/p5-YAML-Tiny
 
 USES=		compiler:c++11-lang gmake iconv libtool localbase \
-		pkgconfig python:run shebangfix tar:xz
+		perl5 pkgconfig python:run shebangfix tar:xz
 USE_GNOME+=	cairo
 USE_LDCONFIG=	yes
 USE_XORG+=	ice pixman sm x11 xext xmu xpm xt

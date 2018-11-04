@@ -660,7 +660,7 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 TEXMF_DIRS_LATEX=	\
 	accfonts ae aeguill amscls amsfonts amsmath anysize armenian \
 	asymptote auto-pst-pdf-lua avantgar babelbib basque-book basque-date \
-	bibleref-french bibleref-german bookman bredzenie breqn bundledoc \
+	biblatex bibleref-french bibleref-german bookman bredzenie breqn bundledoc \
 	caption carlisle checklistings cite cjk cjkpunct cm-super cmap \
 	cnbwp cntformats codicefiscaleitaliano context courier crop \
 	csbulletin dhua droit-fr emp encxvlna enigma enumitem eso-pic \

@@ -300,6 +300,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pst-plot/pst-plot-doc.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pst-plot/pst-plot-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pst-plot/pst-plot-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-3dplot/CHANGELOG
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-3dplot/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-3dplot/externalize_images.bat
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-3dplot/tikz-3dplot_documentation.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-3dplot/tikz-3dplot_documentation.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-3dplot/tikz-3dplot_documentation_figures.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-fct/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-fct/examples/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-fct/examples/info_fct_tex.txt
@@ -416,6 +422,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-kiviat/latex/TKZdoc-kiviat-main.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-kiviat/latex/file.dat
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-kiviat/latex/file2.dat
+%%TEXMFDIR%%scripts/pgfplots/matlab2pgfplots.m
+%%TEXMFDIR%%scripts/pgfplots/matlab2pgfplots.sh
+%%TEXMFDIR%%scripts/pgfplots/pgf2pdf.sh
+%%TEXMFDIR%%scripts/pgfplots/pgfplots.py
 %%TEXMFDIR%%tex/generic/pst-plot/pst-plot.tex
 %%TEXMFDIR%%tex/generic/pst-plot/pst-plot97.tex
 %%TEXMFDIR%%tex/latex/bodegraph/bodegraph.sty
@@ -444,5 +454,6 @@
 %%TEXMFDIR%%tex/latex/pst-infixplot/infix-RPN.sty
 %%TEXMFDIR%%tex/latex/pst-infixplot/pst-infixplot.sty
 %%TEXMFDIR%%tex/latex/pst-plot/pst-plot.sty
+%%TEXMFDIR%%tex/latex/tikz-3dplot/tikz-3dplot.sty
 %%TEXMFDIR%%tex/latex/tkz-fct/tkz-fct.sty
 %%TEXMFDIR%%tex/latex/tkz-kiviat/tkz-kiviat.sty

@@ -1142,11 +1142,6 @@
 %%TEXMFDIR%%fonts/afm/public/newtx/txexas.afm
 %%TEXMFDIR%%fonts/afm/public/newtx/txexs.afm
 %%TEXMFDIR%%fonts/afm/public/newtx/txsys.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/bbding10.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/dingbat.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/karta15.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/umranda.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/umrandb.afm
 %%TEXMFDIR%%fonts/afm/public/nimbus15/zco-Bold.afm
 %%TEXMFDIR%%fonts/afm/public/nimbus15/zco-BoldOblique.afm
 %%TEXMFDIR%%fonts/afm/public/nimbus15/zco-Light.afm
@@ -5706,8 +5701,6 @@
 %%TEXMFDIR%%fonts/source/public/cryst/cryst.mf
 %%TEXMFDIR%%fonts/source/public/dancers/dancers.mf
 %%TEXMFDIR%%fonts/source/public/dice/dice3d.mf
-%%TEXMFDIR%%fonts/source/public/dingbat/ark10.mf
-%%TEXMFDIR%%fonts/source/public/dingbat/dingbat.mf
 %%TEXMFDIR%%fonts/source/public/doublestroke/dsrom.mf
 %%TEXMFDIR%%fonts/source/public/doublestroke/dsrom10.mf
 %%TEXMFDIR%%fonts/source/public/doublestroke/dsrom12.mf
@@ -23432,8 +23425,6 @@
 %%TEXMFDIR%%fonts/tfm/public/dejavu/DejaVuSerifCondensed-tlf-x2.tfm
 %%TEXMFDIR%%fonts/tfm/public/dice/dice3d.tfm
 %%TEXMFDIR%%fonts/tfm/public/dictsym/dictsym.tfm
-%%TEXMFDIR%%fonts/tfm/public/dingbat/ark10.tfm
-%%TEXMFDIR%%fonts/tfm/public/dingbat/dingbat.tfm
 %%TEXMFDIR%%fonts/tfm/public/doublestroke/dsrom10.tfm
 %%TEXMFDIR%%fonts/tfm/public/doublestroke/dsrom12.tfm
 %%TEXMFDIR%%fonts/tfm/public/doublestroke/dsrom8.tfm
@@ -42101,11 +42092,6 @@
 %%TEXMFDIR%%fonts/type1/public/newtxtt/newtxbttsc.pfb
 %%TEXMFDIR%%fonts/type1/public/newtxtt/newtxtt.pfb
 %%TEXMFDIR%%fonts/type1/public/newtxtt/newtxttsc.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/bbding10.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/dingbat.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/karta15.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/umranda.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/umrandb.pfb
 %%TEXMFDIR%%fonts/type1/public/nimbus15/zco-Bold.pfb
 %%TEXMFDIR%%fonts/type1/public/nimbus15/zco-BoldOblique.pfb
 %%TEXMFDIR%%fonts/type1/public/nimbus15/zco-Light.pfb
@@ -55815,9 +55801,6 @@
 %%TEXMFDIR%%tex/latex/dejavu/X2DejaVuSerifCondensed-TLF.fd
 %%TEXMFDIR%%tex/latex/dejavu/dejavu.sty
 %%TEXMFDIR%%tex/latex/dictsym/dictsym.sty
-%%TEXMFDIR%%tex/latex/dingbat/dingbat.sty
-%%TEXMFDIR%%tex/latex/dingbat/uark.fd
-%%TEXMFDIR%%tex/latex/dingbat/udingbat.fd
 %%TEXMFDIR%%tex/latex/doublestroke/Udsrom.fd
 %%TEXMFDIR%%tex/latex/doublestroke/Udsss.fd
 %%TEXMFDIR%%tex/latex/doublestroke/dsfont.sty

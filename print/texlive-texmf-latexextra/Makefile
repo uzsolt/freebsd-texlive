@@ -34,14 +34,18 @@ TEXMF_DIRS=	bibtex/bib/attachfile/ \
 		fonts/source/public/clock/ \
 		fonts/source/public/esint/ \
 		fonts/source/public/niceframe/ \
+		fonts/afm/public/niceframe-type1/ \
 		fonts/source/public/trsym/ \
 		fonts/tfm/public/casyl/ \
 		fonts/tfm/public/cbcoptic/ \
 		fonts/tfm/public/circ/ \
 		fonts/tfm/public/clock/ \
+		fonts/source/public/dingbat/ \
+		fonts/tfm/public/dingbat/ \
 		fonts/tfm/public/epiolmec/ \
 		fonts/tfm/public/esint/ \
 		fonts/tfm/public/niceframe/ \
+		fonts/type1/public/niceframe-type1/ \
 		fonts/tfm/public/relenc/ \
 		fonts/tfm/public/scanpages/ \
 		fonts/tfm/public/trsym/ \
@@ -145,7 +149,7 @@ TEXMF_DIRS_LATEX=	\
 		datetime2-turkish datetime2-ukrainian datetime2-usorbian \
 		datetime2-welsh datetime2 dblfloatfix decimal decorule \
 		delimtxt denisbdoc diagnose dichokey \
-		dinbrief directory dirtytalk dlfltxb dnaseq doclicense \
+		dingbat dinbrief directory dirtytalk dlfltxb dnaseq doclicense \
 		docmfp docmute doctools documentation doi dotarrow dotseqn \
 		download dox dpfloat dprogress draftcopy draftfigure \
 		draftwatermark dtk dtxdescribe ducksay dvdcoll \

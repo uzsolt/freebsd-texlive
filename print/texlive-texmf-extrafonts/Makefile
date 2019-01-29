@@ -80,7 +80,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/afm/public/miama/ \
 		fonts/afm/public/newpx/ \
 		fonts/afm/public/newtx/ \
-		fonts/afm/public/niceframe-type1/ \
 		fonts/afm/public/nimbus15/ \
 		fonts/afm/public/old-arrows/ \
 		fonts/afm/public/opensans/ \
@@ -321,7 +320,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/source/public/cryst/ \
 		fonts/source/public/dancers/ \
 		fonts/source/public/dice/ \
-		fonts/source/public/dingbat/ \
 		fonts/source/public/doublestroke/ \
 		fonts/source/public/dozenal/ \
 		fonts/source/public/drm/ \
@@ -460,7 +458,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/tfm/public/dejavu/ \
 		fonts/tfm/public/dice/ \
 		fonts/tfm/public/dictsym/ \
-		fonts/tfm/public/dingbat/ \
 		fonts/tfm/public/doublestroke/ \
 		fonts/tfm/public/dozenal/ \
 		fonts/tfm/public/drm/ \
@@ -773,7 +770,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/type1/public/newtx/ \
 		fonts/type1/public/newtxsf/ \
 		fonts/type1/public/newtxtt/ \
-		fonts/type1/public/niceframe-type1/ \
 		fonts/type1/public/nimbus15/ \
 		fonts/type1/public/ocr-b-outline/ \
 		fonts/type1/public/old-arrows/ \
@@ -957,7 +953,7 @@ TEXMF_DIRS_LATEX= \
 		coelacanth comfortaa comicneue cookingsymbols \
 		cormorantgaramond countriesofeurope courier-scaled \
 		crimson cyklop dantelogo dejavu-otf dejavu dictsym \
-		dingbat doublestroke dozenal drm droid duerer-latex \
+		doublestroke dozenal drm droid duerer-latex \
 		dutchcal ebgaramond-maths ebgaramond eco eiad-ltx \
 		eiad electrum epigrafica epsdice erewhon esrelation \
 		esstix esvect eulervm fbb fdsymbol fetamont feyn \

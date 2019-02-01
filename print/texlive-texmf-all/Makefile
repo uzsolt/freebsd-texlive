@@ -66,7 +66,7 @@ USES+=	shebangfix tar:xz
 
 TEXMFDISTDIR=	${LOCALBASE}/share/texmf-dist/
 TEXMF_CATEGORIES=	\
-	base boxing core cv database extrafonts games geometry \
+	base biblatex-styles boxing core cv database extrafonts games geometry \
 	humanities latexextra macro music pictures plot presentation \
 	pstricks publishers school science table vc \
 	langchinese langcyrillic langextra langgreek langjapanese langkorean

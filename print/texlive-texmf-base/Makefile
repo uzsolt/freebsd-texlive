@@ -692,7 +692,7 @@ TEXMF_DIRS_LATEX=	\
 	wasysym xcjk2uni xcolor xebaposter xkeyval \
 	xltxtra zapfchan zapfding zxjafont
 
-TEXMF_DOCDIRS=	generic/pgf/pgfmanual.pdf generic/randomlist/randomlist.pdf
+TEXMF_DOCDIRS+=	bibtex/abstyles generic/pgf/pgfmanual.pdf generic/randomlist/randomlist.pdf
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
 .for exc in \
  accfonts ae amsfonts armenian asymptote\

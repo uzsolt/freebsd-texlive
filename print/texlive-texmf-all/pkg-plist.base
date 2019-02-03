@@ -1,4 +1,13 @@
 @rmtry %%TEXMFDIR%%ls-R 
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/a4c.sty
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/a4c.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/abstdok.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/abstdok.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/apreambl.doc
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/btxabst.doc
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/docmac.doc
+%%PORTDOCS%%%%DOCSDIR%%-texmf/abstyles/docmac.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aeguill/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aeguill/guil-test1.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aeguill/guil-test1.tex

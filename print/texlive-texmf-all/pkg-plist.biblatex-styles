@@ -361,6 +361,13 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/biblatex-true-citepages-omit/makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gbt7714/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gbt7714/gbt7714.pdf
+%%TEXMFDIR%%bibtex/bst/chembst/ChemCommun.bst
+%%TEXMFDIR%%bibtex/bst/chembst/ChemEurJ.bst
+%%TEXMFDIR%%bibtex/bst/chembst/InorgChem.bst
+%%TEXMFDIR%%bibtex/bst/chembst/JAmChemSoc.bst
+%%TEXMFDIR%%bibtex/bst/chembst/JAmChemSoc_all.bst
+%%TEXMFDIR%%bibtex/bst/chembst/cv.bst
+%%TEXMFDIR%%bibtex/bst/chicago/chicago.bst
 %%TEXMFDIR%%bibtex/bst/gbt7714/gbt7714-plain.bst
 %%TEXMFDIR%%bibtex/bst/gbt7714/gbt7714-unsrt.bst
 %%TEXMFDIR%%tex/latex/biblatex-abnt/abnt-ibid.bbx

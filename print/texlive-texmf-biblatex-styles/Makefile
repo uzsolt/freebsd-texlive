@@ -15,11 +15,13 @@ TEXMF_DIRS_LATEX=	${STYLES:S/^/biblatex-/}
 # gbt7714 documentation in doc/bibtex
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX}
 TEXMF_DIRS_LATEX+=	gbt7714
-TEXMF_DIRS+=	bibtex/bst/gbt7714
+TEXMF_DIRS+=	\
+	bibtex/bst/chembst bibtex/bst/chicago \
+	bibtex/bst/gbt7714
 TEXMF_DOCDIRS+=	bibtex/gbt7714
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
 TEXMF_SHEBANG_FILES_DOCS+=	share/doc/texlive-texmf/biblatex-abnt/test.sh
+
+MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 
 .include "${MASTERDIR}/Makefile"

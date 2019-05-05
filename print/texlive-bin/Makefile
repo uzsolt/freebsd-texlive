@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	texlive
-PORTVERSION=	20180414
+PORTVERSION=	20190410
 DISTVERSIONSUFFIX=	-source
 CATEGORIES=	print
 MASTER_SITES=	http://mirrors.nxthost.com/ctan/systems/texlive/Source/ \

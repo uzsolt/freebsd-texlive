@@ -27,17 +27,11 @@ TEXMF_DIRS=	bibtex/bst/computational-complexity \
 		scripts/sympytexpackage/ \
 		tex/amstex/base \
 		tex/context/third/circuitikz \
-		tex/generic/lpform/ \
-		tex/generic/circuitikz \
-		tex/generic/pst-circ \
-		tex/generic/pst-cox \
-		tex/generic/pst-eucl \
-		tex/generic/pst-geometrictools \
-		tex/generic/pst-math \
-		tex/generic/pst-ode \
-		tex/generic/pst-poly \
-		tex/generic/pst-vehicle \
-		tex/generic/tex-ewd
+TEXMF_DIRS_GENERIC=	\
+	lpform circuitikz \
+	pst-circ pst-cox pst-eucl pst-geometrictools \
+	pst-math pst-ode pst-poly pst-vehicle \
+	tex-ewd
 TEXMF_DIRS_LATEX=	\
 	12many SIstyle SIunits alg algobox algorithm2e algorithmicx algorithms \
 	aligned-overset apxproof autobreak axodraw2 backnaur begriff binomexp \

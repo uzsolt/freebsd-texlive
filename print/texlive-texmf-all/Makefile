@@ -15,9 +15,12 @@
 #
 # Honored extra variables in slave ports:
 #
-# TEXMF_DIRS_LATEX:
-#   List of directories inside texmf-dist/tex/latex. They'll append
+# TEXMF_DIRS_GENERIC:
+#   List of directories inside texmf-dist/tex/generic. They'll append
 #   to TEXMF_DIRS.
+#
+# TEXMF_DIRS_LATEX:
+#   Similar to TEXMF_DIRS_GENERIC
 #
 # TEXMF_DOCDIRS:
 #   Same as TEXMF_DIRS but they will be installed into ${DOCSDIR}
@@ -89,6 +92,7 @@ PLIST_FILES+=	"@postexec ${LOCALBASE}/bin/texhash" \
 		"@postunexec ${LOCALBASE}/bin/texhash"
 
 TEXMF_DIRS+=	${TEXMF_DIRS_LATEX:@dir@tex/latex/${dir}@}
+TEXMF_DIRS+=	${TEXMF_DIRS_GENERIC:@dir@tex/generic/${dir}@}
 TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_LATEX:@dir@latex/${dir}@}
 
 TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \

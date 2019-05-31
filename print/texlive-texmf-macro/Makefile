@@ -3,23 +3,11 @@
 COMMENT=	Packages with support for development of (La)TeX macros
 TEXMF_CATEG=	macro
 
-TEXMF_DIRS=	tex/generic/arrayjobx \
-		tex/generic/bitelist \
-		tex/generic/catcodes \
-		tex/generic/commado \
-		tex/generic/dowith \
-		tex/generic/fenixpar \
-		tex/generic/fixjfm \
-		tex/generic/gates \
-		tex/generic/gobble \
-		tex/generic/gtl \
-		tex/generic/midnight \
-		tex/plain/lambda-lists \
-		tex/generic/multido \
-		tex/generic/multiexpand \
-		tex/generic/plainpkg \
-		tex/plain/plipsum \
-		tex/generic/texapi
+TEXMF_DIRS=	tex/plain/lambda-lists \
+		tex/plain/plipsum
+TEXMF_DIRS_GENERIC=	\
+	arrayjbox bitelist catcodes commado dowith fenixpar fixjfm \
+	gates gobble gtl midnight multido multiexpand plainpkg texapi
 TEXMF_DIRS_LATEX=	\
 	arraysort assoccnt authoraftertitle blindtext boolexpr bxbase \
 	catchfilebetweentags catoptions chngcntr cmdstring cntperchap \

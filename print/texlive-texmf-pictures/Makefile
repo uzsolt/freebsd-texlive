@@ -13,31 +13,11 @@ TEXMF_DIRS=	fonts/afm/public/xypic \
 		makeindex/forest \
 		scripts/latex-make \
 		scripts/pgfmolbio \
-		tex/generic/dcpic \
-		tex/generic/dratex \
-		tex/generic/petri-nets \
-		tex/generic/pgfornament \
-		tex/generic/pgfornament/am \
-		tex/generic/pgfornament/vectorian \
-		tex/generic/pgfplots \
-		tex/generic/pgfplots/libs \
-		tex/generic/pgfplots/liststructure \
-		tex/generic/pgfplots/lua \
-		tex/generic/pgfplots/lua/pgfplots \
-		tex/generic/pgfplots/lua/pgfplotsoldpgfsupp \
-		tex/generic/pgfplots/lua/pgfplotsoldpgfsupp/luamath \
-		tex/generic/pgfplots/numtable \
-		tex/generic/pgfplots/oldpgfcompatib \
-		tex/generic/pgfplots/oldpgfplotscompatib \
-		tex/generic/pgfplots/pgfcontrib \
-		tex/generic/pgfplots/sys \
-		tex/generic/pgfplots/test \
-		tex/generic/pgfplots/util \
-		tex/generic/pictex \
-		tex/generic/texdraw \
-		tex/generic/tikz-cd \
-		tex/generic/xypic \
 		tex/plain/knitting
+TEXMF_DIRS_GENERIC=	\
+	dcpic dratex petri-nets \
+	pgfornament pgfplots
+	pictex texdraw tikz-cd xypic
 TEXMF_DIRS_LATEX=	\
 	adigraph aobs-tikz askmaps asyfig asypictureb autoarea bardiag \
 	beamerswitch binarytree blochsphere bloques blox bondgraph bondgraphs \

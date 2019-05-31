@@ -463,109 +463,6 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		tex/fontinst/misc/ \
 		tex/fontinst/smbletx/ \
 		tex/fontinst/smblmtx/ \
-		tex/generic/abbr/ \
-		tex/generic/abstyles/ \
-		tex/generic/apnum/ \
-		tex/generic/autoaligne/ \
-		tex/generic/babel-albanian/ \
-		tex/generic/babel-basque/ \
-		tex/generic/babel-bosnian/ \
-		tex/generic/babel-breton/ \
-		tex/generic/babel-catalan/ \
-		tex/generic/babel-croatian/ \
-		tex/generic/babel-czech/ \
-		tex/generic/babel-danish/ \
-		tex/generic/babel-dutch/ \
-		tex/generic/babel-english/ \
-		tex/generic/babel-estonian/ \
-		tex/generic/babel-finnish/ \
-		tex/generic/babel-french/ \
-		tex/generic/babel-friulan/ \
-		tex/generic/babel-galician/ \
-		tex/generic/babel-german/ \
-		tex/generic/babel-hungarian/ \
-		tex/generic/babel-icelandic/ \
-		tex/generic/babel-irish/ \
-		tex/generic/babel-italian/ \
-		tex/generic/babel-kurmanji/ \
-		tex/generic/babel-latin/ \
-		tex/generic/babel-latvian/ \
-		tex/generic/babel-macedonian/ \
-		tex/generic/babel-norsk/ \
-		tex/generic/babel-occitan/ \
-		tex/generic/babel-piedmontese/ \
-		tex/generic/babel-polish/ \
-		tex/generic/babel-portuges/ \
-		tex/generic/babel-romanian/ \
-		tex/generic/babel-romansh/ \
-		tex/generic/babel-samin/ \
-		tex/generic/babel-scottish/ \
-		tex/generic/babel-slovak/ \
-		tex/generic/babel-slovenian/ \
-		tex/generic/babel-spanglish/ \
-		tex/generic/babel-spanish/ \
-		tex/generic/babel-swedish/ \
-		tex/generic/babel-turkish/ \
-		tex/generic/babel-welsh/ \
-		tex/generic/barr/ \
-		tex/generic/bibtex/ \
-		tex/generic/borceux/ \
-		tex/generic/c-pascal/ \
-		tex/generic/chronosys/ \
-		tex/generic/context/luatex/ \
-		tex/generic/context/ppchtex/ \
-		tex/generic/dirtree/ \
-		tex/generic/docbytex/ \
-		tex/generic/dvips/ \
-		tex/generic/e-french/ \
-		tex/generic/eijkhout/ \
-		tex/generic/enigma/ \
-		tex/generic/epigram/ \
-		tex/generic/epsf/ \
-		tex/generic/fltpoint/ \
-		tex/generic/fntproof/ \
-		tex/generic/genmisc/ \
-		tex/generic/german/ \
-		tex/generic/hyphenex/ \
-		tex/generic/iftex/ \
-		tex/generic/ifxetex/ \
-		tex/generic/insbox/ \
-		tex/generic/kastrup/ \
-		tex/generic/knuth-lib/ \
-		tex/generic/langcode/ \
-		tex/generic/librarian/ \
-		tex/generic/listofitems/ \
-		tex/generic/mathdots/ \
-		tex/generic/metapost/ \
-		tex/generic/mfpic/ \
-		tex/generic/navigator/ \
-		tex/generic/oberdiek/ \
-		tex/generic/ofs/ \
-		tex/generic/olsak-misc/ \
-		tex/generic/path/ \
-		tex/generic/pdf-trans/ \
-		tex/generic/pdftex/ \
-		tex/generic/pgf/ \
-		tex/generic/qpxqtx/ \
-		tex/generic/randomlist/ \
-		tex/generic/schemata/ \
-		tex/generic/shade/ \
-		tex/generic/simplekv/ \
-		tex/generic/systeme/ \
-		tex/generic/tabto-generic/ \
-		tex/generic/termmenu/ \
-		tex/generic/tex-ps/ \
-		tex/generic/tex4ht/ \
-		tex/generic/thumbpdf/ \
-		tex/generic/tracklang/ \
-		tex/generic/trigonometry/ \
-		tex/generic/ulem/ \
-		tex/generic/upca/ \
-		tex/generic/variations/ \
-		tex/generic/xecyr/ \
-		tex/generic/xkeyval/ \
-		tex/generic/xlop/ \
-		tex/generic/yax/ \
 		tex/lualatex/combofont/ \
 		tex/lualatex/cstypo/ \
 		tex/lualatex/lua-check-hyphen/ \
@@ -590,7 +487,6 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		tex/luatex/chickenize/ \
 		tex/luatex/cstypo/ \
 		tex/luatex/ctablestack/ \
-		tex/luatex/fontloader-luaotfload/ \
 		tex/luatex/hyph-utf8/ \
 		tex/luatex/interpreter/ \
 		tex/luatex/lua-visual-debug/ \
@@ -657,6 +553,29 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		tex4ht/xtpipes/ \
 		texdoc/ \
 		texdoctk/
+
+TEXMF_DIRS_GENERIC=	\
+	abbr abstyles apnum autoaligne \
+	babel-albanian babel-basque babel-bosnian babel-breton \
+	babel-catalan babel-croatian babel-czech babel-danish \
+	babel-dutch babel-english babel-estonian babel-finnish \
+	babel-french babel-friulan babel-galician babel-german \
+	babel-hungarian babel-icelandic babel-irish babel-italian \
+	babel-kurmanji babel-latin babel-latvian babel-macedonian \
+	babel-norsk babel-occitan babel-piedmontese babel-polish \
+	babel-portuges babel-romanian babel-romansh babel-samin \
+	babel-scottish babel-slovak babel-slovenian babel-spanglish \
+	babel-spanish babel-swedish babel-turkish babel-welsh \
+	barr bibtex borceux c-pascal chronosys \
+	dirtree docbytex dvips e-french eijkhout enigma epigram \
+	epsf fltpoint fntproof genmisc german hyphenex iftex \
+	ifxetex insbox kastrup knuth-lib langcode librarian \
+	listofitems mathdots metapost mfpic navigator oberdiek \
+	ofs olsak-misc path pdf-trans pdftex pgf qpxqtx randomlist \
+	schemata shade simplekv systeme tabto-generic termmenu \
+	tex-ps tex4ht thumbpdf tracklang trigonometry ulem \
+	upca variations xecyr xkeyval xlop yax
+
 TEXMF_DIRS_LATEX=	\
 	accfonts ae aeguill amscls amsfonts amsmath anysize armenian \
 	asymptote auto-pst-pdf-lua avantgar babelbib basque-book basque-date \
@@ -690,20 +609,21 @@ TEXMF_DIRS_LATEX=	\
 	turkmen txfonts typehtml ucharcat ucs udesoftec \
 	uhrzeit umlaute underscore unicode-math url \
 	wasysym xcjk2uni xcolor xebaposter xkeyval \
-	xltxtra zapfchan zapfding zxjafont
+	zapfchan zapfding zxjafont
 
 TEXMF_DOCDIRS+=	bibtex/abstyles generic/apnum generic/pgf/pgfmanual.pdf \
 	generic/autoaligne generic/barr generic/randomlist/randomlist.pdf \
 	metapost/automata metapost/bbcard
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
+
 .for exc in \
- accfonts ae amsfonts armenian asymptote\
- avantgar babelbib bookman bundledoc cm-super\
- context courier ctable encxvlna enigma eurosym fontinst\
- germbib helvetic ketcindy latex2man latexconfig lm\
- ltxmisc marvosym multido ncntrsbk palatino compatibility\
- pslatex pxfonts seminar symbol tex-gyre tex4ebook texosquery\
- textpath times tipa tracklang txfonts zapfchan zapfding
+	accfonts ae amsfonts armenian asymptote\
+	avantgar babelbib bookman bundledoc cm-super\
+	context courier ctable encxvlna enigma eurosym fontinst\
+	germbib helvetic ketcindy latex2man latexconfig lm\
+	ltxmisc marvosym multido ncntrsbk palatino compatibility\
+	pslatex pxfonts seminar symbol tex-gyre tex4ebook texosquery\
+	textpath times tipa tracklang txfonts zapfchan zapfding
 TEXMF_DOCDIRS_LATEX:=${TEXMF_DOCDIRS_LATEX:N${exc}}
 .endfor
 

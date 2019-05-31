@@ -73,24 +73,14 @@ TEXMF_DIRS=	bibtex/bib/attachfile/ \
 		scripts/shipunov/ \
 		scripts/splitindex/ \
 		tex/context/third/markdown/ \
-		tex/generic/2up/ \
-		tex/generic/filemod/ \
-		tex/generic/formlett/ \
-		tex/generic/markdown/ \
-		tex/generic/minifp/ \
-		tex/generic/poster-mac/ \
-		tex/generic/rlepsf/ \
-		tex/generic/shapepar/ \
-		tex/generic/splitindex/ \
-		tex/generic/textmerg/ \
-		tex/generic/xcomment/ \
-		tex/generic/xint/ \
-		tex/generic/xstring/ \
-		tex/generic/ydoc/\
 		tex/luatex/markdown/ \
 		tex/plain/esint-type1/ \
 		tex/plain/standalone/
 
+TEXMF_DIRS_GENERIC=	\
+	2up filemod formlett markdown minifp poster-mac \
+	rlepsf shapepar splitindex textmerg \
+	xcomment xint xstring ydoc
 TEXMF_DIRS_LATEX=	\
 		ESIEEcv GS1  Tabbing a0poster \
 		abraces abstract achemso \

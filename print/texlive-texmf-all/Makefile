@@ -44,7 +44,7 @@
 #   same as TEXMF_SHEBANG_FILES but only works when option DOCS is set.
 
 PORTNAME=	texlive
-PORTVERSION=	20180414
+PORTVERSION=	20190410
 DISTVERSIONSUFFIX=	-texmf
 CATEGORIES=	print
 MASTER_SITES=	ftp://tug.org/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/

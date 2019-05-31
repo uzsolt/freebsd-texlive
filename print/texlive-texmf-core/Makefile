@@ -24,6 +24,7 @@ TEXMF_DIRS=	fonts/map/dvips \
 		tex/generic/babel \
 		tex/generic/config \
 		tex/generic/context/mptopdf \
+		tex/generic/dehyph \
 		tex/generic/dehyph-exptl \
 		tex/generic/enctex \
 		tex/generic/hyph-utf8 \

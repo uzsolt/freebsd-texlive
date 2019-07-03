@@ -16,7 +16,7 @@ TEXMF_DIRS=	fonts/afm/public/xypic \
 		tex/plain/knitting
 TEXMF_DIRS_GENERIC=	\
 	dcpic dratex petri-nets \
-	pgfornament pgfplots
+	pgfornament pgfplots \
 	pictex texdraw tikz-cd xypic
 TEXMF_DIRS_LATEX=	\
 	adigraph aobs-tikz askmaps asyfig asypictureb autoarea bardiag \

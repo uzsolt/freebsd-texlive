@@ -49,7 +49,9 @@ TEXMF_SHEBANG_FILES=	share/texmf-dist/scripts/latex-make/figdepth.py \
 	share/texmf-dist/scripts/latex-make/gensubfig.py \
 	share/texmf-dist/scripts/latex-make/svg2dev.py \
 	share/texmf-dist/scripts/latex-make/svgdepth.py
-TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/bardiag/example/compile.all
+TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/bardiag/example/compile.all \
+				share/doc/texlive-texmf/hvfloat/runAll.sh \
+				share/doc/texlive-texmf/hvfloat/runEXA.sh
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

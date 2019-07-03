@@ -140,7 +140,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colortab/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colortab/colortab-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colortab/colortab-doc.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/colortbl/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/colortbl/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colortbl/colortbl-DE.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colortbl/colortbl-DE.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colortbl/colortbl.pdf
@@ -231,7 +231,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/miscdoc.sty
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/tabls.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/tabls.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/tabu.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabularborder/tabularborder.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabularcalc/README
@@ -284,6 +284,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-doc.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-example-hyp.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-example.inp
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xtab/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xtab/xtab.pdf
 %%TEXMFDIR%%tex/generic/colortab/colortab.sty

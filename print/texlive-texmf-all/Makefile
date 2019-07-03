@@ -55,7 +55,7 @@ PKGNAMESUFFIX=	-texmf-${TEXMF_CATEG}
 DIST_SUBDIR=	TeX
 EXTRACT_ONLY=
 
-MAINTAINER?=	uzsolt@uzsolt.hu
+MAINTAINER=	uzsolt@uzsolt.hu
 COMMENT?=	TeX Live TeXMF tree
 
 LICENSE=	GPLv2
@@ -122,8 +122,8 @@ do-install-DOCS-on:
 	  ${TEXMF_DOCDIRS:@dir@--include ${PORTNAME}-${PORTVERSION}-texmf/texmf-dist/doc/${dir}@}
 
 post-install:	${POSTINSTALLREQ}
-.for file in ${TEXMF_SHEBANG_FILES}
-	${SED} -i '' ${_SHEBANG_REINPLACE_ARGS} ${STAGEDIR}${LOCALBASE}/${file}
+.for f in ${TEXMF_SHEBANG_FILES}
+	${SED} -i '' ${_SHEBANG_REINPLACE_ARGS} ${STAGEDIR}${LOCALBASE}/${f}
 .endfor
 .for link in ${TEXMF_LINKS}
 	${MKDIR} ${STAGEDIR}${link:C/.*://:H}
@@ -131,8 +131,8 @@ post-install:	${POSTINSTALLREQ}
 .endfor
 
 post-install-DOCS-on:
-.for file in ${TEXMF_SHEBANG_FILES_DOCS}
-	${SED} -i '' ${_SHEBANG_REINPLACE_ARGS} ${STAGEDIR}${LOCALBASE}/${file}
+.for f in ${TEXMF_SHEBANG_FILES_DOCS}
+	${SED} -i '' ${_SHEBANG_REINPLACE_ARGS} ${STAGEDIR}${LOCALBASE}/${f}
 .endfor
 
 .endif

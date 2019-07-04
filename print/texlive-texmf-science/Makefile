@@ -26,7 +26,7 @@ TEXMF_DIRS=	bibtex/bst/computational-complexity \
 		metapost/venn/ \
 		scripts/sympytexpackage/ \
 		tex/amstex/base \
-		tex/context/third/circuitikz \
+		tex/context/third/circuitikz
 TEXMF_DIRS_GENERIC=	\
 	lpform circuitikz \
 	pst-circ pst-cox pst-eucl pst-geometrictools \

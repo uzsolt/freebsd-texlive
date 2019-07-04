@@ -43,7 +43,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aligned-overset/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aligned-overset/aligned-overset.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apxproof/LICENSE
-%%PORTDOCS%%%%DOCSDIR%%-texmf/apxproof/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apxproof/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apxproof/apxproof.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apxproof/apxproof.pdf
@@ -54,10 +53,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/README.TEXLIVE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/axodraw2-man.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/axodraw2-man.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/axohelp.1
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axodraw2/example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/backnaur/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/backnaur/backnaur.pdf
@@ -211,8 +208,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/diffcoeff/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/diffcoeff/diffcoeff.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/diffcoeff/diffcoeff.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/diffcoeff/diffcoeffx.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/diffcoeff/diffcoeffx.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/digiconfigs/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/digiconfigs/digiconfigs.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/digiconfigs/digiconfigs.tex
@@ -359,9 +354,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ladder/ladder.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/logicproof/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/logicproof/logicproof.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/longdivision/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/longdivision/longdivision_example.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/longdivision/longdivision_example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/longdivision/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/longdivision/longdivision_manual.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/longdivision/longdivision_manual.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lplfitch/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lplfitch/lplfitch.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lstbayes/Makefile
@@ -739,8 +734,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-relay/doc/tikz-relay-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-relay/doc/tikz-relay-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-relay/tex/tikzlibrarycircuits.ee.IEC.relay.code.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-sfc/BeamerAnimation.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-sfc/BeamerAnimation.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-sfc/README.txt
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-sfc/pgfmanual-en-macros.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-sfc/tikz-sfc-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-sfc/tikz-sfc-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tkz-base/README
@@ -986,7 +982,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/unitsdef/defedunits.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/unitsdef/unitsdef.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/CHANGES
-%%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/samples/venn-sample.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/samples/venn-sample.tex
@@ -1289,8 +1284,8 @@
 %%TEXMFDIR%%tex/latex/delim/delim.sty
 %%TEXMFDIR%%tex/latex/delimseasy/delimseasy.sty
 %%TEXMFDIR%%tex/latex/delimset/delimset.sty
+%%TEXMFDIR%%tex/latex/diffcoeff/diffcoeff-doc.def
 %%TEXMFDIR%%tex/latex/diffcoeff/diffcoeff.sty
-%%TEXMFDIR%%tex/latex/diffcoeff/diffcoeffx.sty
 %%TEXMFDIR%%tex/latex/digiconfigs/digiconfigs.sty
 %%TEXMFDIR%%tex/latex/dijkstra/dijkstra.sty
 %%TEXMFDIR%%tex/latex/drawmatrix/drawmatrix.sty
@@ -1682,6 +1677,7 @@
 %%TEXMFDIR%%tex/latex/xymtex/xymtxps/chmst-ps.sty
 %%TEXMFDIR%%tex/latex/xymtex/xymtxps/xymtx-ps.sty
 %%TEXMFDIR%%tex/latex/yhmath/OMXyhex.fd
+%%TEXMFDIR%%tex/latex/yhmath/yhcmex10.cmap
 %%TEXMFDIR%%tex/latex/yhmath/yhmath.sty
 %%TEXMFDIR%%tex/latex/youngtab/youngtab.sty
 %%TEXMFDIR%%tex/latex/ytableau/ytableau.sty

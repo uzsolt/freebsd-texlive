@@ -3,7 +3,6 @@
 COMMENT=	Many extra fonts
 TEXMF_CATEG=	extrafonts
 TEXMF_DIRS=	dvips/brushscr/ \
-		dvips/countriesofeurope/ \
 		dvips/initials/ \
 		dvips/mathdesign/ \
 		dvips/yfonts-t1/ \
@@ -74,7 +73,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/afm/public/gfssolomos/ \
 		fonts/afm/public/hfbright/ \
 		fonts/afm/public/initials/ \
-		fonts/afm/public/kpfonts/ \
 		fonts/afm/public/libertinust1math/ \
 		fonts/afm/public/linearA/ \
 		fonts/afm/public/miama/ \
@@ -207,7 +205,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/enc/dvips/universalis/ \
 		fonts/enc/dvips/venturisadf/ \
 		fonts/enc/dvips/xcharter/ \
-		fonts/enc/pdftex/kpfonts/ \
 		fonts/ofm/public/cm-lgc/ \
 		fonts/opentype/adobe/sourcecodepro/ \
 		fonts/opentype/adobe/sourcesanspro/ \
@@ -270,7 +267,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/opentype/public/heuristica/ \
 		fonts/opentype/public/inconsolata/ \
 		fonts/opentype/public/libertine/ \
-		fonts/opentype/public/libertinus/ \
 		fonts/opentype/public/mdsymbol/ \
 		fonts/opentype/public/miama/ \
 		fonts/opentype/public/missaali/ \
@@ -343,7 +339,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/source/public/ifsym/ \
 		fonts/source/public/jablantile/ \
 		fonts/source/public/kixfont/ \
-		fonts/source/public/kpfonts/ \
 		fonts/source/public/lfb/ \
 		fonts/source/public/lxfonts/ \
 		fonts/source/public/mathabx/ \
@@ -366,7 +361,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/source/public/semaphor/ \
 		fonts/source/public/semaphor/metafont/ \
 		fonts/source/public/skull/ \
-		fonts/source/public/stix/ \
 		fonts/source/public/tapir/ \
 		fonts/source/public/universa/ \
 		fonts/source/public/wsuipa/ \
@@ -590,8 +584,6 @@ TEXMF_DIRS=	dvips/brushscr/ \
 		fonts/truetype/bh/gofonts/ \
 		fonts/truetype/google/ \
 		fonts/truetype/google/arimo/ \
-		fonts/truetype/google/noto/ \
-		fonts/truetype/google/roboto/ \
 		fonts/truetype/google/tinos/ \
 		fonts/truetype/huerta/ \
 		fonts/truetype/huerta/caladea/ \

@@ -36,13 +36,11 @@ TEXMF_DIRS=	bibtex/bib/IEEEtran/ \
 		bibtex/bst/ijmart \
 		bibtex/bst/imac \
 		bibtex/bst/kluwer \
-		bibtex/bst/langsci \
 		bibtex/bst/lion-msc \
 		bibtex/bst/lni \
 		bibtex/bst/mnras \
 		bibtex/bst/nature \
 		bibtex/bst/nddiss \
-		bibtex/bst/psu-thesis \
 		bibtex/bst/resphilosophica \
 		bibtex/bst/revtex \
 		bibtex/bst/revtex4 \
@@ -82,7 +80,7 @@ TEXMF_DIRS_LATEX=	\
 	msu-thesis mucproc mugsthesis musuos muthesis nature navydocs nddiss \
 	ndsu-thesis nih nostarch nrc nwejm onrannual opteng \
 	philosophersimprint pittetd pkuthss powerdot-FUBerlin pracjourn \
-	procIAGssymp proposal psu-thesis ptptex resphilosophica revtex revtex4 \
+	procIAGssymp proposal ptptex resphilosophica revtex revtex4 \
 	rutitlepage ryethesis sageep sapthesis scientific-thesis-cover scrjrnl \
 	sduthesis seuthesix sphdthesis spie sr-vorl stellenbosch suftesi \
 	sugconf tabriz-thesis texilikechaps texilikecover thesis-ekf \

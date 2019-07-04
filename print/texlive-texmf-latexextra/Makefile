@@ -365,7 +365,6 @@ TEXMF_DIRS_LATEX=	\
 		mathastext\
 		mathfam256\
 		maybemath\
-		mbenotes\
 		mcaption\
 		mceinleger\
 		mcite\
@@ -765,14 +764,14 @@ TEXMF_DIRS_LATEX=	\
 		ziffer\
 		zwgetfdate
 TEXMF_DOCDIRS=
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nspark-otf:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Ndingbat:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nspark-otf:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm}
 
 USES=	perl5 python
 
 TEXMF_SHEBANG_FILES=	\
-	share/texmf-dist/scripts/changes/delcmdchanges.bash \
 	share/texmf-dist/scripts/shipunov/biokey2html.sh \
-	share/texmf-dist/scripts/mycv/mycv_split_contents.pl
+	share/texmf-dist/scripts/mycv/mycv_split_contents.pl \
+	share/texmf-dist/scripts/changes/pyMergeChanges.py
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/uspace/uspace-ctanify.sh\
 	share/doc/texlive-texmf/pdfreview/pdfreview.sh\

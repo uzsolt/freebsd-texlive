@@ -3,8 +3,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a4wide/a4wide.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a5comb/a5comb.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a5comb/a5comb.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/addlines/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/addlines/addlines-example.ltx
+%%PORTDOCS%%%%DOCSDIR%%-texmf/addlines/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/addlines/addlines.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/canoniclayout/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/canoniclayout/canoniclayout.pdf

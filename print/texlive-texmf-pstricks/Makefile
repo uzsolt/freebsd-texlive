@@ -40,7 +40,7 @@ TEXMF_DIRS=	dvips/pst-3d \
 		dvips/pstricks \
 		makeindex/pst-optexp \
 		metapost/bclogo \
-		scripts/pedigree-perl/Pedigree \
+		scripts/pedigree-perl/Pedigree
 TEXMF_DIRS_GENERIC=	\
 	pst-3d pst-abspos pst-antiprism pst-arrow pst-asr \
 	pst-bar pst-barcode pst-bezier pst-blur pst-bspline \
@@ -53,7 +53,7 @@ TEXMF_DIRS_GENERIC=	\
 	pst-ob3d pst-optic pst-osci pst-ovl \
 	pst-pad pst-pdgr pst-perspective pst-pulley \
 	pst-qtree pst-rputover pst-rubans \
-	pst-shell pst-sigsy pst-slpe pst-solarsystem pst-solides3d \
+	pst-shell pst-slpe pst-solarsystem pst-solides3d \
 	pst-spectra pst-spinner pst-spirograph pst-stru \
 	pst-text pst-thick pst-tools pst-tree pst-tvz pst-vue3d \
 	pstricks-add pstricks vaucanson-g

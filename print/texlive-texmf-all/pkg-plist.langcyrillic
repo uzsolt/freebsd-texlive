@@ -1807,12 +1807,11 @@
 %%TEXMFDIR%%fonts/vf/public/cmcyr/ycmtt9.vf
 %%TEXMFDIR%%fonts/vf/public/cmcyr/ycmu10.vf
 %%TEXMFDIR%%makeindex/disser/dtx.ist
-%%TEXMFDIR%%tex/generic/babel-belarusian/belarusianb.ldf
+%%TEXMFDIR%%tex/generic/babel-belarusian/belarusian.ldf
 %%TEXMFDIR%%tex/generic/babel-bulgarian/bulgarian.ldf
 %%TEXMFDIR%%tex/generic/babel-russian/russianb.ldf
 %%TEXMFDIR%%tex/generic/babel-serbian/serbian.ldf
 %%TEXMFDIR%%tex/generic/babel-serbianc/serbianc.ldf
-%%TEXMFDIR%%tex/generic/babel-serbianc/serbianc.sty
 %%TEXMFDIR%%tex/generic/babel-ukrainian/ukraineb.ldf
 %%TEXMFDIR%%tex/generic/t2/cyrfinst/6r.etx
 %%TEXMFDIR%%tex/generic/t2/cyrfinst/README

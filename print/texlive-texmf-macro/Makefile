@@ -6,7 +6,7 @@ TEXMF_CATEG=	macro
 TEXMF_DIRS=	tex/plain/lambda-lists \
 		tex/plain/plipsum
 TEXMF_DIRS_GENERIC=	\
-	arrayjbox bitelist catcodes commado dowith fenixpar fixjfm \
+	bitelist catcodes commado dowith fenixpar fixjfm \
 	gates gobble gtl midnight multido multiexpand plainpkg texapi
 TEXMF_DIRS_LATEX=	\
 	arraysort assoccnt authoraftertitle blindtext boolexpr bxbase \

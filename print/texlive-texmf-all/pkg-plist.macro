@@ -32,6 +32,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/catcodes/catcodes.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/catoptions/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/catoptions/catoptions-guide.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/chngcntr/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chngcntr/chngcntr.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chngcntr/chngcntr.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cmdstring/README
@@ -66,6 +67,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/drac/drac.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/duckuments/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/duckuments/duckuments.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/duckuments/example-image-duck-portrait.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/duckuments/example-image-duck.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/elocalloc/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/elocalloc/elocalloc.pdf
@@ -138,7 +140,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lambda-lists/lambda-lists.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lhelp/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lhelp/lhelp.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/lipsum/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/lipsum/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lipsum/lipsum.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lmake/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lmake/lmake.pdf
@@ -236,6 +238,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/plipsum/stripc
 %%PORTDOCS%%%%DOCSDIR%%-texmf/properties/readme.de
 %%PORTDOCS%%%%DOCSDIR%%-texmf/properties/testprop.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ptext/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ptext/ptext.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ptext/ptext.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/defaulttext.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/defaulttext.tex
@@ -382,8 +387,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xpeek/xpeek.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xpunctuate/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xpunctuate/xpunctuate.pdf
-%%TEXMFDIR%%tex/generic/arrayjobx/arrayjob.sty
-%%TEXMFDIR%%tex/generic/arrayjobx/arrayjobx.sty
 %%TEXMFDIR%%tex/generic/bitelist/bitedemo.tex
 %%TEXMFDIR%%tex/generic/bitelist/bitelist.sty
 %%TEXMFDIR%%tex/generic/catcodes/actcodes.sty
@@ -445,6 +448,7 @@
 %%TEXMFDIR%%tex/latex/dialogl/menus.sty
 %%TEXMFDIR%%tex/latex/drac/drac.sty
 %%TEXMFDIR%%tex/latex/duckuments/duckuments.sty
+%%TEXMFDIR%%tex/latex/duckuments/example-image-duck-portrait.pdf
 %%TEXMFDIR%%tex/latex/duckuments/example-image-duck.pdf
 %%TEXMFDIR%%tex/latex/elocalloc/elocalloc.sty
 %%TEXMFDIR%%tex/latex/environ/environ.sty
@@ -488,6 +492,8 @@
 %%TEXMFDIR%%tex/latex/inversepath/inversepath.sty
 %%TEXMFDIR%%tex/latex/kantlipsum/kantlipsum.sty
 %%TEXMFDIR%%tex/latex/lhelp/lhelp.sty
+%%TEXMFDIR%%tex/latex/lipsum/cicero.ltd.tex
+%%TEXMFDIR%%tex/latex/lipsum/lipsum.ltd.tex
 %%TEXMFDIR%%tex/latex/lipsum/lipsum.sty
 %%TEXMFDIR%%tex/latex/lmake/lmake.sty
 %%TEXMFDIR%%tex/latex/locality/locality.sty

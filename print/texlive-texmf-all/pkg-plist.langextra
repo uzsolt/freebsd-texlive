@@ -281,8 +281,8 @@
 %%TEXMFDIR%%fonts/enc/dvips/vntex/t5.enc
 %%TEXMFDIR%%fonts/enc/pdftex/vntex/t5d.enc
 %%TEXMFDIR%%fonts/enc/pdftex/vntex/t5uni.enc
-%%TEXMFDIR%%fonts/misc/xetex/fontmapping/xepersian/parsidigits.map
-%%TEXMFDIR%%fonts/misc/xetex/fontmapping/xepersian/parsidigits.tec
+%%TEXMFDIR%%fonts/misc/xetex/fontmapping/xepersian/persian-tex-text.map
+%%TEXMFDIR%%fonts/misc/xetex/fontmapping/xepersian/persian-tex-text.tec
 %%TEXMFDIR%%fonts/misc/xetex/fontmapping/xetex-devanagari/README
 %%TEXMFDIR%%fonts/misc/xetex/fontmapping/xetex-devanagari/devanagarinumerals.map
 %%TEXMFDIR%%fonts/misc/xetex/fontmapping/xetex-devanagari/devanagarinumerals.tec

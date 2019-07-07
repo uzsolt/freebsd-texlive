@@ -39,7 +39,7 @@ TEXMF_DIRS_LATEX=	\
 	bytefield calculation cancel ccfonts chemarrow chemcompounds chemcono \
 	chemformula chemgreek chemmacros chemnum chemschemex chemsec chemstyle \
 	circuitikz clrscode clrscode3e commath complexity \
-	computational-complexity concmath conteq correctmathalign cryptocode \
+	computational-complexity conteq correctmathalign cryptocode \
 	delim delimseasy delimset diffcoeff digiconfigs dijkstra drawmatrix \
 	drawstack duotenzor dyntree ebproof econometrics eltex emf endiagram \
 	engtlc eqnarray eqnnumwarn extarrows extpfeil faktor fnspe fouridx \

@@ -22,12 +22,19 @@
 # TEXMF_DIRS_LATEX:
 #   Similar to TEXMF_DIRS_GENERIC
 #
+# TEXMF_DIRS_FONTS:
+#   Same as TEXMF_DIRS_GENERIC only works inside texmf-dist/fonts
+#   directory.
+#
 # TEXMF_DOCDIRS:
 #   Same as TEXMF_DIRS but they will be installed into ${DOCSDIR}
 #   (and not ${LOCALBASE}/share/texmf-dist/doc).
 #   They well be automatically prefixed with
 #   PORTNAME-${PORTVERSION}${DISTVERSIONSUFFIX}/texmf-dist/doc/
 #   The four directories will be stripped while extracting.
+#
+# TEXMF_DOCDIRS_LATEX, TEXMF_DOCDIRS_FONTS:
+#   Similar to TEXMF_DIRS_LATEX and TEXMF_DIRS_FONTS.
 #
 # TEXMF_LINKS:
 #   create symbolic links. Using RLS but shouldn't add STAGEDIR to files,
@@ -69,7 +76,10 @@ USES+=	shebangfix tar:xz
 
 TEXMFDISTDIR=	${LOCALBASE}/share/texmf-dist/
 TEXMF_CATEGORIES=	\
-	base biblatex-styles boxing core cv database extrafonts games geometry \
+	base biblatex-styles boxing core cv database \
+	fonts-blackletter fonts-calligraphical fonts-extra \
+	fonts-serif fonts-typewriter fonts-uncial \
+	games geometry \
 	humanities latexextra macro music pictures plot presentation \
 	pstricks publishers school science table vc \
 	langchinese langcyrillic langextra langgreek langjapanese langkorean
@@ -93,7 +103,9 @@ PLIST_FILES+=	"@postexec ${LOCALBASE}/bin/texhash" \
 
 TEXMF_DIRS+=	${TEXMF_DIRS_LATEX:@dir@tex/latex/${dir}@}
 TEXMF_DIRS+=	${TEXMF_DIRS_GENERIC:@dir@tex/generic/${dir}@}
+TEXMF_DIRS+=	${TEXMF_DIRS_FONTS:@dir@fonts/${dir}@}
 TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_LATEX:@dir@latex/${dir}@}
+TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_FONTS:@dir@fonts/${dir}@}
 
 TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \
 	-C ${STAGEDIR}${LOCALBASE}/share \

@@ -209,7 +209,6 @@ TEXMF_DIRS_LATEX=	\
 		ftnxtra\
 		fullblck\
 		fullminipage\
-		fundus-calligra\
 		fundus-cyr\
 		fundus-sueterlin\
 		fvextra\

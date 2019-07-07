@@ -1269,15 +1269,6 @@
 %%TEXMFDIR%%tex/latex/computational-complexity/ccthm.sty
 %%TEXMFDIR%%tex/latex/computational-complexity/relabel.sty
 %%TEXMFDIR%%tex/latex/computational-complexity/thcc.sty
-%%TEXMFDIR%%tex/latex/concmath/concmath.sty
-%%TEXMFDIR%%tex/latex/concmath/omlccm.fd
-%%TEXMFDIR%%tex/latex/concmath/omlccr.fd
-%%TEXMFDIR%%tex/latex/concmath/omsccr.fd
-%%TEXMFDIR%%tex/latex/concmath/omsccsy.fd
-%%TEXMFDIR%%tex/latex/concmath/omxccex.fd
-%%TEXMFDIR%%tex/latex/concmath/ot1ccr.fd
-%%TEXMFDIR%%tex/latex/concmath/ucca.fd
-%%TEXMFDIR%%tex/latex/concmath/uccb.fd
 %%TEXMFDIR%%tex/latex/conteq/conteq.sty
 %%TEXMFDIR%%tex/latex/correctmathalign/correctmathalign.sty
 %%TEXMFDIR%%tex/latex/cryptocode/cryptocode.sty

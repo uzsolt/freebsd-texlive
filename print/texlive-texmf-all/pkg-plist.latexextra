@@ -1877,7 +1877,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fullminipage/fullminipage.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fullminipage/fullminipage_test.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fullminipage/fullminipage_test.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/fundus-calligra/calligra.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fundus-sueterlin/suetterl.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fvextra/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fvextra/fvextra.pdf
@@ -6157,7 +6156,6 @@
 %%TEXMFDIR%%tex/latex/ftnxtra/ftnxtra.sty
 %%TEXMFDIR%%tex/latex/fullblck/fullblck.sty
 %%TEXMFDIR%%tex/latex/fullminipage/fullminipage.sty
-%%TEXMFDIR%%tex/latex/fundus-calligra/calligra.sty
 %%TEXMFDIR%%tex/latex/fundus-cyr/cyr.sty
 %%TEXMFDIR%%tex/latex/fundus-sueterlin/suetterl.sty
 %%TEXMFDIR%%tex/latex/fvextra/fvextra.sty

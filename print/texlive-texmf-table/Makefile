@@ -5,7 +5,7 @@ TEXMF_CATEG=	table
 
 TEXMF_DIRS=	tex/lualatex/odsfile
 TEXMF_DIRS_GENERIC=	colortab hlist tap
-TEXMF_DIRS_LATEX=	blkarray booktabs cals cellspace collcell colortbl \
+TEXMF_DIRS_LATEX=	blkarray booktabs cals cellprops cellspace collcell colortbl \
 	ctable diagbox fcolumn ftcap keyvaltable listliketab longfigure \
 	ltablex makecell multirow nox polytable rccol spreadtab supertabular \
 	tablefootnote tablestyles tabls tabu tabularborder tabularcalc \

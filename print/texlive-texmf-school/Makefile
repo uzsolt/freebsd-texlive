@@ -11,9 +11,9 @@ TEXMF_DIRS_LATEX=	\
 	alterqcm answers bangorexam bhcexam cesenaexam chemexec cnltx \
 	courseoutline tasks\
 	esami exam exam-n examdesign exercise exercisebank exercises exsheets \
-	exsol jslectureplanner mafr mathexam mcexam moodle pas-cours pbsheet \
+	exsol jslectureplanner mafr mathexam mcexam moodle musikui pas-cours pbsheet \
 	probsoln qcm schule sesstime translations uantwerpendocs uebungsblatt \
-	xsim
+	webquiz worksheet xsim
 
 TEXMF_DOCDIRS=	lualatex/cloze/ \
 		xelatex/na-box xelatex/sexam/

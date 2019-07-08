@@ -11,7 +11,7 @@ STYLES=	abnt anonymous apa archaeology \
 	oxref philosophy phys publist realauthor sbl science \
 	shortfields source-division subseries swiss-legal \
 	trad true-citepages-omit
-TEXMF_DIRS_LATEX=	${STYLES:S/^/biblatex-/}
+TEXMF_DIRS_LATEX=	${STYLES:S/^/biblatex-/} oscola windycity
 # gbt7714 documentation in doc/bibtex
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX}
 TEXMF_DIRS_LATEX+=	gbt7714

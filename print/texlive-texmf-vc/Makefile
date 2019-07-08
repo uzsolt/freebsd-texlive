@@ -5,7 +5,7 @@ TEXMF_CATEG=	vc
 
 TEXMF_DIRS=
 TEXMF_DIRS_LATEX=	\
-	gitfile-info gitinfo gitinfo2 gitlog latexgit phfsvnwatermark \
+	changelog gitfile-info gitinfo gitinfo2 gitlog latexgit phfsvnwatermark \
 	rcs rcs-multi rcsinfo svn-multi svn-prov svn svninfo vhistory
 TEXMF_DOCDIRS=		support/gitfile-info
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ngitfile-info}

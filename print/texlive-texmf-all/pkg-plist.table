@@ -132,6 +132,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cals/test/visual_tables/test_40_span.chk
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cals/test/visual_tables/test_40_span.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cals/test/visual_tables/test_40_span.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cellprops/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cellprops/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cellprops/cellprops.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cellspace/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cellspace/cellspace.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cellspace/cellspace.tex
@@ -297,6 +300,7 @@
 %%TEXMFDIR%%tex/latex/blkarray/blkarray.sty
 %%TEXMFDIR%%tex/latex/booktabs/booktabs.sty
 %%TEXMFDIR%%tex/latex/cals/cals.sty
+%%TEXMFDIR%%tex/latex/cellprops/cellprops.sty
 %%TEXMFDIR%%tex/latex/cellspace/cellspace.sty
 %%TEXMFDIR%%tex/latex/collcell/collcell.sty
 %%TEXMFDIR%%tex/latex/colortbl/colortbl.sty

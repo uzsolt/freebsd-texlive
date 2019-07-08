@@ -75,7 +75,7 @@ TEXMF_DIRS_LATEX=	\
 	elteikthesis emisa erdc estcpmm fbithesis fcavtex fcltxdoc fei gaceta \
 	gatech-thesis grant gsemthesis gzt h2020proposal hagenberg-thesis \
 	har2nat hecthese hithesis hustthesis icsv ieeepes ijmart ijsra imac \
-	imtekda iscram jacow jmlr jpsj kdgdocs kluwer ksp-thesis ku-template \
+	imtekda invoice-class iodhbwm iscram jacow jmlr jpsj kdgdocs kluwer ksp-thesis ku-template \
 	lion-msc llncsconf lni lps matc3 matc3mem mcmthesis mentis mnras \
 	msu-thesis mucproc mugsthesis musuos muthesis nature navydocs nddiss \
 	ndsu-thesis nih nostarch nrc nwejm onrannual opteng \
@@ -84,12 +84,12 @@ TEXMF_DIRS_LATEX=	\
 	rutitlepage ryethesis sageep sapthesis scientific-thesis-cover scrjrnl \
 	sduthesis seuthesix sphdthesis spie sr-vorl stellenbosch suftesi \
 	sugconf tabriz-thesis texilikechaps texilikecover thesis-ekf \
-	thesis-gwu thesis-titlepage-fhac thucoursework thuthesis timbreicmc \
-	toptesi tudscr tugboat tui turabian uaclasses uafthesis ucbthesis \
+	thesis-gwu thesis-titlepage-fhac thucoursework thuthesis timbreicmc tlc-article \
+	toptesi tudscr tugboat tui turabian turabian-formatting uaclasses uafthesis ucbthesis \
 	ucdavisthesis ucthesis uestcthesis uhhassignment uiucredborder \
 	uiucthesis ulthese umbclegislation umich-thesis umthesis unamthesis \
 	unitn-bimrep univie-ling unswcover uothesis uowthesis \
-	uowthesistitlepage urcls uspatent ut-thesis uwthesis wsemclassic \
+	uowthesistitlepage urcls uspatent utexasthesis ut-thesis uwthesis wsemclassic \
 	xcookybooky xduthesis yathesis york-thesis
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover}

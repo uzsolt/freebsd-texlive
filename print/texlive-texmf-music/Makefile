@@ -29,9 +29,9 @@ TEXMF_DIRS=	dvips/musixtex \
 		tex/lualatex/lilyglyphs/pdfs \
 		tex/luatex/gregoriotex
 TEXMF_DIRS_LATEX=	\
-	abc gchords gtrcrd guitar guitarchordschemes harmony leadsheets \
-	musicography musixguit musixtex octave piano songbook \
-	songs xpiano
+	abc chordbars gchords gtrcrd guitar guitarchordschemes guitartabs \
+	harmony leadsheets musicography musixguit musixtex octave \
+	piano songbook songs xpiano
 
 TEXMF_DOCDIRS=	generic/bagpipe generic/musixtex generic/musixtnt generic/pmx \
 		support/lyluatex \

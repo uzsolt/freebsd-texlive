@@ -30,15 +30,15 @@ TEXMF_DIRS_LATEX=	\
 	lroundrect maker makeshape mathspic miniplot modiagram neuralnetwork \
 	pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd pgf-umlsd \
 	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph \
-	prerex productbox pxpgfmark qrcode randbild randomwalk reotex \
+	prerex productbox pxpgfmark qrcode randbild randomwalk realhats reotex \
 	rviewport sa-tikz schemabloc scratch scsnowman setdeck signchart \
 	smartdiagram spath3 spectralsequences swimgraf table-fct ticollege \
 	tikz-bayesnet tikz-cd tikz-dependency tikz-dimline tikz-feynhand \
 	tikz-feynman tikz-inet tikz-kalender tikz-layers tikz-opm tikz-page \
 	tikz-palattice tikz-qtree tikz-timing tikzcodeblocks tikzducks \
-	tikzinclude tikzmark tikzorbital tikzpagenodes tikzpeople tikzpfeile \
+	tikzinclude tikzlings tikzmark tikzmarmots tikzorbital tikzpagenodes tikzpeople tikzpfeile \
 	tikzposter tikzscale tikzsymbols timing-diagrams tipfr tkz-doc \
-	tkz-linknodes tkz-orm tkz-tab tqft tsemlines tufte-latex xpicture
+	tkz-linknodes tkz-orm tkz-tab tqft tree-dvips tsemlines tufte-latex xpicture
 TEXMF_DOCDIRS=	fonts/knitting support/latex-make
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nknitting:Nlatex-make:Npgfplots/libs:Npictex2:Ntsemlines}
 

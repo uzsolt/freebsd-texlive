@@ -475,19 +475,19 @@ TEXMF_DIRS_LATEX=	accanthis alegreya algolrevived antiqua antt arev arimo \
 			heuristica imfellenglish iwona junicode \
 			kurier \
 			lato librebaskerville librebodoni librecaslon \
-			libertine libertinegc libertinust1math libris \
+			libertine libertinegc libertinus-type1 libertinust1math libris \
 			mathdesign merriweather mintspirit montserrat \
 			newpx newtx newtxsf nimbus15 noto \
 			obnov oldstandard opensans overlock \
 			paratype playfair plex plex-otf poltawski quattrocento \
 			raleway roboto romande rosario \
-			sourcesanspro sourceserifpro stix \
+			sourcesanspro sourceserifpro stickstoo stix stix2 \
 			txfontsb \
 			universalis \
 			venturis venturis2 venturisadf venturisold \
 			venturissans venturissans2 \
 			xcharter 
-TEXMF_DOCDIRS_LATEX=	comicneue raleway sourcesanspro sourceserifpro
+TEXMF_DOCDIRS_LATEX=	comicneue raleway sourcesanspro sourceserifpro stix2
 TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX}
 .for nd in ${TEXMF_DOCDIRS_LATEX} venturis venturis2 venturisadf venturisold \
 	venturissans venturissans2

@@ -740,6 +740,7 @@ TEXMF_DIRS_LATEX=	\
 		wordlike\
 		wrapfig\
 		wtref\
+		xbmks \
 		xcolor-material\
 		xcolor-solarized\
 		xdoc\

@@ -51,11 +51,11 @@ TEXMF_DIRS_LATEX=	\
 	multiobjective mychemistry natded nath nicematrix nuc nucleardata \
 	objectz oplotsymbl ot-tableau oubraces perfectcut physics pm-isomath \
 	polexpr prftree proba prooftrees pseudocode pst-circ pst-cox pst-eucl \
-	pst-geometrictools pst-math pst-ode pst-platon pst-poly pst-vehicle \
-	pythonhighlight qcircuit rec-thy revquantum ribbonproofs rmathbr \
+	pst-geometrictools pst-math pst-moire pst-ode pst-platon pst-poly pst-vehicle \
+	pst-venn pythonhighlight qcircuit rank-2-roots rec-thy revquantum ribbonproofs rmathbr \
 	sasnrdisplay sciposter sclang-prettifier scratchx sesamanuel sfg \
 	shuffle simpler-wick simplewick siunitx skmath spalign stanli statex \
-	statex2 statmath steinmetz stmaryrd struktex substances subsupscripts \
+	statex2 statistics statmath steinmetz stmaryrd struktex substances subsupscripts \
 	susy syllogism sympytexpackage synproof t-angles tablor tensor \
 	textgreek textopo thmbox tikz-karnaugh tikz-ladder tkz-base tkz-berge \
 	tkz-euclide tkz-graph tikz-optics tikz-sfc turnstile ulqda unitsdef \
@@ -63,7 +63,7 @@ TEXMF_DIRS_LATEX=	\
 TEXMF_DOCDIRS=	generic/pst-circ generic/pst-cox generic/pst-eucl \
 		generic/pst-geometrictools \
 		generic/pst-math generic/pst-platon generic/pst-poly
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nchemarrow:Nconcmath:Nhepnames:Nstmaryrd:Nyhmath:Npst-circ:Npst-cox:Npst-eucl:Npst-geometrictools:Npst-math:Npst-ode:Npst-platon:Npst-poly:Npst-vehicle} tikz-relay
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nchemarrow:Nconcmath:Nhepnames:Nstmaryrd:Nyhmath:Npst-circ:Npst-cox:Npst-eucl:Npst-geometrictools:Npst-math:Npst-ode:Npst-platon:Npst-poly:Npst-vehicle:Npst-moire:Npst-venn} tikz-relay
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

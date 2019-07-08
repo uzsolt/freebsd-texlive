@@ -23,8 +23,8 @@ TEXMF_DIRS=	fonts/afm/public/skaknew \
 		tex/plain/hanoi
 TEXMF_DIRS_LATEX=	\
 	chess-problem-diagrams chess chessboard chessfss crossword \
-	crosswrd egameps gamebook go havannah  hexgame horoscop \
-	labyrinth logicpuzzle othello othelloboard pas-crosswords \
+	crosswrd egameps gamebook go havannah  hexgame horoscop jigsaw \
+	labyrinth logicpuzzle onedown othello othelloboard pas-crosswords \
 	psgo rubik schwalbe-chess sgame skak soup sudoku sudokubundle \
 	xq xskak
 

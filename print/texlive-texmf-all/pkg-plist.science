@@ -508,6 +508,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pythonhighlight/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/qcircuit/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/qcircuit/qcircuit.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rank-2-roots/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rank-2-roots/rank-2-roots.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rank-2-roots/rank-2-roots.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rank-2-roots/rank-2-roots.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rec-thy/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rec-thy/rec-thy.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rec-thy/rec-thy.tex
@@ -597,6 +601,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/statex/statex-example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/statex2/statex2-example.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/statex2/statex2-example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/statistics/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/statistics/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/statistics/statistics.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/statmath/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/statmath/statmath.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/steinmetz/README
@@ -1530,12 +1537,15 @@
 %%TEXMFDIR%%tex/latex/pst-eucl/pst-eucl.sty
 %%TEXMFDIR%%tex/latex/pst-geometrictools/pst-geometrictools.sty
 %%TEXMFDIR%%tex/latex/pst-math/pst-math.sty
+%%TEXMFDIR%%tex/latex/pst-moire/pst-moire.sty
 %%TEXMFDIR%%tex/latex/pst-ode/pst-ode.sty
 %%TEXMFDIR%%tex/latex/pst-platon/pst-platon.sty
 %%TEXMFDIR%%tex/latex/pst-poly/pst-poly.sty
 %%TEXMFDIR%%tex/latex/pst-vehicle/pst-vehicle.sty
+%%TEXMFDIR%%tex/latex/pst-venn/pst-venn.sty
 %%TEXMFDIR%%tex/latex/pythonhighlight/pythonhighlight.sty
 %%TEXMFDIR%%tex/latex/qcircuit/qcircuit.sty
+%%TEXMFDIR%%tex/latex/rank-2-roots/rank-2-roots.sty
 %%TEXMFDIR%%tex/latex/rec-thy/rec-thy.sty
 %%TEXMFDIR%%tex/latex/revquantum/revquantum.sty
 %%TEXMFDIR%%tex/latex/ribbonproofs/ribbonproofs.sty
@@ -1570,6 +1580,7 @@
 %%TEXMFDIR%%tex/latex/stanli/stanli.sty
 %%TEXMFDIR%%tex/latex/statex/statex.sty
 %%TEXMFDIR%%tex/latex/statex2/statex2.sty
+%%TEXMFDIR%%tex/latex/statistics/statistics.sty
 %%TEXMFDIR%%tex/latex/statmath/statmath.sty
 %%TEXMFDIR%%tex/latex/steinmetz/steinmetz.sty
 %%TEXMFDIR%%tex/latex/stmaryrd/Ustmry.fd

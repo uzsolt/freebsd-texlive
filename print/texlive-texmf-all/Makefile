@@ -33,7 +33,7 @@
 #   PORTNAME-${PORTVERSION}${DISTVERSIONSUFFIX}/texmf-dist/doc/
 #   The four directories will be stripped while extracting.
 #
-# TEXMF_DOCDIRS_LATEX, TEXMF_DOCDIRS_FONTS:
+# TEXMF_DOCDIRS_LATEX, TEXMF_DOCDIRS_FONTS TEXMF_DOCDIRS_GENERIC:
 #   Similar to TEXMF_DIRS_LATEX and TEXMF_DIRS_FONTS.
 #
 # TEXMF_LINKS:
@@ -106,6 +106,7 @@ TEXMF_DIRS+=	${TEXMF_DIRS_GENERIC:@dir@tex/generic/${dir}@}
 TEXMF_DIRS+=	${TEXMF_DIRS_FONTS:@dir@fonts/${dir}@}
 TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_LATEX:@dir@latex/${dir}@}
 TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_FONTS:@dir@fonts/${dir}@}
+TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_GENERIC:@dir@generic/${dir}@}
 
 TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \
 	-C ${STAGEDIR}${LOCALBASE}/share \

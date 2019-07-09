@@ -19,7 +19,7 @@ TEXMF_DIRS_LATEX=	\
 	lt3graph macroswap makecmds mdwtools memory mfirstuc multidef \
 	multido multienv newenviron nextpage noconflict noindentafter \
 	pagerange parselines patchcmd properties ran_toks rectopma \
-	regexpatch relsize robustcommand rvwrite savesym showlabels \
+	regexpatch relsize rgltxdoc robustcommand rvwrite savesym showlabels \
 	skeycommand sphack stack stackengine stdclsdv storebox storecmd \
 	substr tabstackengine textcase toolbox totcount trimspaces \
 	unravel williams withargs xargs xassoccnt xcntperchap \

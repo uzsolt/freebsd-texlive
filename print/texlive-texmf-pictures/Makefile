@@ -29,7 +29,7 @@ TEXMF_DIRS_LATEX=	\
 	hvfloat istgame knitting knittingpattern lapdf latex-make lpic \
 	lroundrect maker makeshape mathspic miniplot modiagram neuralnetwork \
 	pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd pgf-umlsd \
-	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph \
+	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph postage \
 	prerex productbox pxpgfmark qrcode randbild randomwalk realhats reotex \
 	rviewport sa-tikz schemabloc scratch scsnowman setdeck signchart \
 	smartdiagram spath3 spectralsequences swimgraf table-fct ticollege \

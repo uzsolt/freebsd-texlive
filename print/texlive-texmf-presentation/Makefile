@@ -10,7 +10,8 @@ TEXMF_DIRS=	tex/xelatex/bidipresentation \
 TEXMF_DIRS_LATEX=	\
 	appendixnumberbeamer beamer beamer-verona beamer2thesis beameraudience \
 	beamercolorthemeowl beamerdarkthemes beamerposter beamersubframe \
-	beamertheme-cuerna beamertheme-detlevcm beamertheme-epyt \
+	beamertheme-cuerna beamertheme-detlevcm beamertheme-epyt beamertheme-focus \
+	beamertheme-light beamertheme-npbt \
 	beamertheme-metropolis beamertheme-phnompenh beamertheme-saintpetersburg \
 	beamertheme-upenn-bc beamerthemejltree beamerthemenirma colourchange \
 	dynblocks elpres fancyhandout fancyslides ffslides fibeamer foilhtml \

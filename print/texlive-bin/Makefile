@@ -30,6 +30,7 @@ LIB_DEPENDS=	libicuio.so:devel/icu \
 		libkpathsea.so:print/texlive-kpathsea \
 		libmpfr.so:math/mpfr \
 		libpaper.so:print/libpaper \
+		libpoppler.so:graphics/poppler \
 		libpng.so:graphics/png \
 		libzzip.so:devel/zziplib \
 		libpotrace.so:graphics/libpotrace \
@@ -87,13 +88,10 @@ INSTALL_TARGET=	install-strip
 CONFIGURE_ARGS+=	--enable-${pkg}
 .endfor
 .for lib in cairo freetype2 gd gmp graphite2 harfbuzz \
-	icu kpathsea libpaper libpng mpfr pixman potrace \
-	teckit zlib zziplib
+	icu kpathsea libpaper libpng mpfr pixman poppler \
+	potrace teckit zlib zziplib
 CONFIGURE_ARGS+=	--with-system-${lib}
 .endfor
-# There is an old, incompatible version in ports tree.
-# After update of graphics/poppler maybe can use the system's version.
-CONFIGURE_ARGS+=	--without-system-poppler --without-system-xpdf
 # Xindy requires lang/clisp which is deprecated in 2014.
 CONFIGURE_ARGS+=	--disable-xindy --disable-docs --disable-xindy-rules
 # Exists print/psutils port

@@ -97,6 +97,7 @@ TEXMF_DIRS_FONTS=	\
 		enc/dvips/lato/ \
 		enc/dvips/libertine/ \
 		enc/dvips/libertinegc/ \
+		enc/dvips/libertinus-type1/ \
 		enc/dvips/libertinust1math/ \
 		enc/dvips/librebaskerville/ \
 		enc/dvips/librebodoni/ \
@@ -243,6 +244,7 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/inriafonts \
 		tfm/public/libertine/ \
 		tfm/public/libertinegc/ \
+		tfm/public/libertinus-type1/ \
 		tfm/public/libertinust1math/ \
 		tfm/public/mathdesign/ \
 		tfm/public/mathdesign/mdbch/ \
@@ -356,6 +358,7 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/heuristica/ \
 		type1/public/inriafonts \
 		type1/public/libertine/ \
+		type1/public/libertinus-type1/ \
 		type1/public/libertinust1math/ \
 		type1/public/mathdesign/ \
 		type1/public/mathdesign/mdbch/ \
@@ -444,6 +447,7 @@ TEXMF_DIRS_FONTS=	\
 		vf/public/heuristica/ \
 		vf/public/inriafonts \
 		vf/public/libertine/ \
+		vf/public/libertinus-type1/ \
 		vf/public/libertinust1math/ \
 		vf/public/mathdesign/ \
 		vf/public/mathdesign/mdbch/ \
@@ -499,7 +503,7 @@ TEXMF_DIRS_LATEX=	accanthis alegreya algolrevived antiqua antt arev arimo \
 			venturissans venturissans2 \
 			xcharter 
 TEXMF_DOCDIRS_LATEX=	comicneue raleway sourcesanspro sourceserifpro stix2
-TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX} stickstoo
+TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX} stickstoo libertinus-type1
 .for nd in ${TEXMF_DOCDIRS_LATEX} venturis venturis2 venturisadf venturisold \
 	venturissans venturissans2
 TEXMF_DOCDIRS_FONTS:=${TEXMF_DOCDIRS_FONTS:N${nd}}

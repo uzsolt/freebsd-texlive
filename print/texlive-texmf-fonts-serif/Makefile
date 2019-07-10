@@ -9,6 +9,12 @@ TEXMF_DIRS=	dvips/mathdesign/ \
 		tex/plain/iwona/ \
 		tex/plain/kurier/
 TEXMF_DIRS_FONTS=	\
+		enc/dvips/inriafonts \
+		opentype/public/inriafonts \
+		tfm/public/inriafonts \
+		truetype/public/inriafonts \
+		type1/public/inriafonts \
+		vf/public/inriafonts \
 		afm/arkandis/baskervald/ \
 		afm/arkandis/berenisadf/ \
 		afm/arkandis/electrum/ \
@@ -472,7 +478,7 @@ TEXMF_DIRS_LATEX=	accanthis alegreya algolrevived antiqua antt arev arimo \
 			fbb fetamont fira fourier fouriernc \
 			gfsartemisia gfsbodoni gfsdidot gfsneohellenic \
 			gfsneohellenicmath gillius gofonts grotesq \
-			heuristica imfellenglish iwona junicode \
+			heuristica imfellenglish inriafonts iwona junicode \
 			kurier \
 			lato librebaskerville librebodoni librecaslon \
 			libertine libertinegc libertinus-type1 libertinust1math libris \

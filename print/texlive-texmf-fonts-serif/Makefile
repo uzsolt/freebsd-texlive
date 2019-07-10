@@ -1,4 +1,4 @@
-# $FreeBSD
+# $FreeBSD$
 
 COMMENT=	Serif and Sans Serif fonts
 TEXMF_CATEG=	fonts-serif
@@ -9,12 +9,6 @@ TEXMF_DIRS=	dvips/mathdesign/ \
 		tex/plain/iwona/ \
 		tex/plain/kurier/
 TEXMF_DIRS_FONTS=	\
-		enc/dvips/inriafonts \
-		opentype/public/inriafonts \
-		tfm/public/inriafonts \
-		truetype/public/inriafonts \
-		type1/public/inriafonts \
-		vf/public/inriafonts \
 		afm/arkandis/baskervald/ \
 		afm/arkandis/berenisadf/ \
 		afm/arkandis/electrum/ \
@@ -49,10 +43,12 @@ TEXMF_DIRS_FONTS=	\
 		afm/public/gfsbodoni/ \
 		afm/public/gfsdidot/ \
 		afm/public/gfsneohellenic/ \
+		afm/public/libertinust1math/ \
 		afm/public/newpx/ \
 		afm/public/newtx/ \
 		afm/public/nimbus15/ \
 		afm/public/opensans/ \
+		afm/public/stickstoo \
 		afm/public/txfontsb/ \
 		afm/public/xcharter/ \
 		afm/urw/antiqua/ \
@@ -95,14 +91,13 @@ TEXMF_DIRS_FONTS=	\
 		enc/dvips/gofonts/ \
 		enc/dvips/heuristica/ \
 		enc/dvips/imfellenglish/ \
+		enc/dvips/inriafonts \
 		enc/dvips/iwona/ \
 		enc/dvips/kurier/ \
 		enc/dvips/lato/ \
 		enc/dvips/libertine/ \
 		enc/dvips/libertinegc/ \
 		enc/dvips/libertinust1math/ \
-		afm/public/libertinust1math/ \
-		type1/public/libertinust1math/ \
 		enc/dvips/librebaskerville/ \
 		enc/dvips/librebodoni/ \
 		enc/dvips/librecaslon/ \
@@ -129,6 +124,7 @@ TEXMF_DIRS_FONTS=	\
 		enc/dvips/rosario/ \
 		enc/dvips/sourcesanspro/ \
 		enc/dvips/sourceserifpro/ \
+		enc/dvips/stickstoo \
 		enc/dvips/stix/ \
 		enc/dvips/txfontsb/ \
 		enc/dvips/universalis/ \
@@ -176,6 +172,7 @@ TEXMF_DIRS_FONTS=	\
 		opentype/public/gfsneohellenic/ \
 		opentype/public/gfsneohellenicmath/ \
 		opentype/public/heuristica/ \
+		opentype/public/inriafonts \
 		opentype/public/libertine/ \
 		opentype/public/montserrat/ \
 		opentype/public/newpx/ \
@@ -243,6 +240,7 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/gfsdidot/ \
 		tfm/public/gfsneohellenic/ \
 		tfm/public/heuristica/ \
+		tfm/public/inriafonts \
 		tfm/public/libertine/ \
 		tfm/public/libertinegc/ \
 		tfm/public/libertinust1math/ \
@@ -265,6 +263,7 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/opensans/ \
 		tfm/public/playfair/ \
 		tfm/public/rosario/ \
+		tfm/public/stickstoo \
 		tfm/public/stix/ \
 		tfm/public/txfontsb/ \
 		tfm/public/xcharter/ \
@@ -284,6 +283,7 @@ TEXMF_DIRS_FONTS=	\
 		truetype/public/comfortaa/ \
 		truetype/public/dejavu/ \
 		truetype/public/droid/ \
+		truetype/public/inriafonts \
 		truetype/public/junicode/ \
 		truetype/public/opensans/ \
 		truetype/sorkin/merriweather/ \
@@ -354,7 +354,9 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/gfsdidot/ \
 		type1/public/gfsneohellenic/ \
 		type1/public/heuristica/ \
+		type1/public/inriafonts \
 		type1/public/libertine/ \
+		type1/public/libertinust1math/ \
 		type1/public/mathdesign/ \
 		type1/public/mathdesign/mdbch/ \
 		type1/public/mathdesign/mdici/ \
@@ -371,6 +373,7 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/opensans/ \
 		type1/public/playfair/ \
 		type1/public/rosario/ \
+		type1/public/stickstoo \
 		type1/public/stix/ \
 		type1/public/tapir/ \
 		type1/public/txfontsb/ \
@@ -439,6 +442,7 @@ TEXMF_DIRS_FONTS=	\
 		vf/public/gfsdidot/ \
 		vf/public/gfsneohellenic/ \
 		vf/public/heuristica/ \
+		vf/public/inriafonts \
 		vf/public/libertine/ \
 		vf/public/libertinust1math/ \
 		vf/public/mathdesign/ \
@@ -458,6 +462,7 @@ TEXMF_DIRS_FONTS=	\
 		vf/public/opensans/ \
 		vf/public/playfair/ \
 		vf/public/rosario/ \
+		vf/public/stickstoo \
 		vf/public/stix/ \
 		vf/public/txfontsb/ \
 		vf/public/xcharter/ \
@@ -494,7 +499,7 @@ TEXMF_DIRS_LATEX=	accanthis alegreya algolrevived antiqua antt arev arimo \
 			venturissans venturissans2 \
 			xcharter 
 TEXMF_DOCDIRS_LATEX=	comicneue raleway sourcesanspro sourceserifpro stix2
-TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX}
+TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX} stickstoo
 .for nd in ${TEXMF_DOCDIRS_LATEX} venturis venturis2 venturisadf venturisold \
 	venturissans venturissans2
 TEXMF_DOCDIRS_FONTS:=${TEXMF_DOCDIRS_FONTS:N${nd}}

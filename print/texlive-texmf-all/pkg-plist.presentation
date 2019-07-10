@@ -381,6 +381,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfslide/manual.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfslide/meta.mp
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfslide/mpgraph.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot-tuliplab/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot-tuliplab/tuliplab-P00.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot-tuliplab/tuliplab-P01.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot-tuliplab/tuliplab-P02.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot/manifest.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/powerdot/pdpream.ble
@@ -904,6 +908,16 @@
 %%TEXMFDIR%%tex/latex/pdfslide/pdfslide.cfg
 %%TEXMFDIR%%tex/latex/pdfslide/pdfslide.sty
 %%TEXMFDIR%%tex/latex/pdfslide/slide.clo
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip-logo.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip-wordmark.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip/tulip-wordmark0.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip/tulip-wordmark1.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip/tulip0.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip/tulip1.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip/tulip2.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/logos/tulip/tulip3.eps
+%%TEXMFDIR%%tex/latex/powerdot-tuliplab/powerdot-tuliplab.sty
 %%TEXMFDIR%%tex/latex/powerdot/powerdot-aggie.sty
 %%TEXMFDIR%%tex/latex/powerdot/powerdot-bframe.sty
 %%TEXMFDIR%%tex/latex/powerdot/powerdot-ciment.sty

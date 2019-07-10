@@ -16,8 +16,9 @@ TEXMF_DIRS_LATEX=	\
 	beamertheme-upenn-bc beamerthemejltree beamerthemenirma colourchange \
 	dynblocks elpres fancyhandout fancyslides ffslides fibeamer foilhtml \
 	gridslides HA-prosper hackthefootline handout hobete ifmslide \
-	medstarbeamer overlays pdfscreen pdfslide powerdot ppr-prv prosper \
-	seminar soton spot sslides studenthandouts talk texpower uwmslide
+	medstarbeamer overlays pdfscreen pdfslide powerdot powerdot-tuliplab \
+	ppr-prv prosper seminar soton spot sslides studenthandouts talk \
+	texpower uwmslide
 
 TEXMF_DOCDIRS=	xelatex/bidipresentation generic/lecturer plain/present \
 	metapost/slideshow

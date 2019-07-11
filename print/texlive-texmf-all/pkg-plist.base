@@ -1003,12 +1003,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/parskip/parskip-code.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/parskip/parskip.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/parskip/parskip.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/dummy-l.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/dummy.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/pdf-ex.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/pdf-hyp.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/pdf-toc.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/pdfpages.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pfarrei/pfarrei.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pgf/pgfmanual.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/polski/README
@@ -15433,14 +15427,6 @@
 %%TEXMFDIR%%tex/latex/palatino/ts1upl.fd
 %%TEXMFDIR%%tex/latex/parskip/parskip-2001-04-09.sty
 %%TEXMFDIR%%tex/latex/parskip/parskip.sty
-%%TEXMFDIR%%tex/latex/pdfpages/pdfpages.sty
-%%TEXMFDIR%%tex/latex/pdfpages/ppdvipdfmx.def
-%%TEXMFDIR%%tex/latex/pdfpages/ppdvips.def
-%%TEXMFDIR%%tex/latex/pdfpages/ppluatex.def
-%%TEXMFDIR%%tex/latex/pdfpages/ppnull.def
-%%TEXMFDIR%%tex/latex/pdfpages/pppdftex.def
-%%TEXMFDIR%%tex/latex/pdfpages/ppvtex.def
-%%TEXMFDIR%%tex/latex/pdfpages/ppxetex.def
 %%TEXMFDIR%%tex/latex/pfarrei/a5toa4.tex
 %%TEXMFDIR%%tex/latex/pfarrei/pfarrei.sty
 %%TEXMFDIR%%tex/latex/pgf/basiclayer/pgf.sty

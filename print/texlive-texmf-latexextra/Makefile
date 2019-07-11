@@ -92,7 +92,7 @@ TEXMF_DIRS_LATEX=	\
 		appendix apptools arcs \
 		arydshln asciilist assignment \
 		attachfile aurl \
-		authorarchive authorindex autonum autopdf \
+		authorarchive authorindex autonum \
 		avremu background bankstatement bashful \
 		basicarith bchart \
 		beton bez123 bezos bibletext \
@@ -101,7 +101,7 @@ TEXMF_DIRS_LATEX=	\
 		bookcover bookest booklet bophook \
 		boxhandler bracketkey breakurl \
 		bullcntr bussproofs bxcalc bxdpx-beamer bxdvidriver \
-		bxenclose bxnewfont bxpapersize bxpdfver bxtexlogo \
+		bxenclose bxnewfont bxpapersize bxtexlogo \
 		calcage calctab calculator calrsfs calxxxx-yyyy \
 		capt-of captcont captdef carbohydrates \
 		cases casyl catechis \
@@ -180,7 +180,6 @@ TEXMF_DIRS_LATEX=	\
 		flashcards\
 		flashmovie\
 		flipbook\
-		flippdf\
 		floatflt\
 		floatrow\
 		flowfram\
@@ -281,7 +280,6 @@ TEXMF_DIRS_LATEX=	\
 		inputtrc\
 		interactiveworkbook\
 		interfaces\
-		intopdf\
 		invoice\
 		invoice2\
 		iso\
@@ -482,16 +480,6 @@ TEXMF_DIRS_LATEX=	\
 		pauldoc\
 		pawpict\
 		pax\
-		pdf14\
-		pdfcomment\
-		pdfcprot\
-		pdfmarginpar\
-		pdfpagediff\
-		pdfprivacy\
-		pdfreview\
-		pdfsync\
-		pdfwin\
-		pdfx\
 		pecha\
 		perltex\
 		permute\
@@ -774,8 +762,6 @@ TEXMF_SHEBANG_FILES=	\
 	share/texmf-dist/scripts/changes/pyMergeChanges.py
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/uspace/uspace-ctanify.sh\
-	share/doc/texlive-texmf/pdfreview/pdfreview.sh\
-	share/doc/texlive-texmf/pdfreview/pdfshrink.sh\
 	share/doc/texlive-texmf/shdoc/shreformat.sh\
 	share/doc/texlive-texmf/scanpages/replicate.py
 

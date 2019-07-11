@@ -595,7 +595,7 @@ TEXMF_DIRS_LATEX=	\
 	mflogo mfnfss mfpic4ode \
 	microtype milog mpgraphics ms mwcls natbib\
 	ncntrsbk nevelok ntgclass numprint oberdiek ordinalpt \
-	palatino parskip pdfpages pfarrei \
+	palatino parskip pfarrei \
 	pgfopts pgf/basiclayer pgf/compatibility \
 	pgf/frontendlayer pgf/math pgf/systemlayer pgf/utilities \
 	polski polyglossia przechlewski-book \

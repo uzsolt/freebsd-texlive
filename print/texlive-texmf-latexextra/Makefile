@@ -83,46 +83,43 @@ TEXMF_DIRS_GENERIC=	\
 	xcomment xint xstring ydoc
 TEXMF_DIRS_LATEX=	\
 		ESIEEcv GS1  Tabbing a0poster \
-		abraces abstract achemso \
-		acro acronym acroterm actuarialangle \
-		actuarialsymbol addfont adjmulticol \
-		adjustbox adrconv advdate akktex akletter \
-		alnumsec altfont \
-		amsaddr animate anonchap anyfontsize \
+		acro acronym acroterm \
+		addfont \
+		advdate akktex akletter \
+		altfont \
+		amsaddr anonchap anyfontsize \
 		appendix apptools arcs \
-		arydshln asciilist assignment \
-		attachfile aurl \
-		authorarchive authorindex autonum \
-		avremu background bankstatement bashful \
-		basicarith bchart \
-		beton bez123 bezos bibletext \
-		bigfoot bigints biochemistry-colors bizcard \
-		block blowup bnumexpr bold-extra \
-		bookcover bookest booklet bophook \
-		boxhandler bracketkey breakurl \
-		bullcntr bussproofs bxcalc bxdpx-beamer bxdvidriver \
-		bxenclose bxnewfont bxpapersize bxtexlogo \
-		calcage calctab calculator calrsfs calxxxx-yyyy \
-		capt-of captcont captdef carbohydrates \
+		aurl \
+		authorindex autonum \
+		avremu bankstatement \
+		beton bezos bibletext \
+		bigfoot \
+		block bold-extra \
+		bookest \
+		bracketkey breakurl \
+		bxcalc bxdvidriver \
+		bxnewfont bxtexlogo \
+		calrsfs calxxxx-yyyy \
+		captcont captdef \
 		cases casyl catechis \
-		cbcoptic ccaption cclicenses cd-cover cd cdpbundl \
-		censor changebar changelayout changepage \
-		changes chappg chapterfolder cheatsheet chet chextras \
-		childdoc chkfloat chletter chronology circ \
-		classics classpack clefval cleveref clipboard clock \
-		cmdtrack cmsd \
-		codedoc codepage codesection \
-		colordoc colorinfo coloring colorspace colorwav \
-		colorweb combelow combine comma \
-		comment concepts concprog constants continue \
-		contour contracard cooking-units cooking \
-		cool coollist coolstr coolthms cooltooltips \
-		coordsys copyedit copyrightbox coseoul counttexruns \
-		coursepaper coverpage cprotect \
-		crossreference crossreftools csquotes css-colors \
-		cuisine currency currfile \
+		ccaption cclicenses cd-cover cd cdpbundl \
+		censor changebar \
+		changes chappg chapterfolder chet chextras \
+		childdoc chkfloat chletter \
+		classics cleveref \
+		cmsd \
+		codepage \
+		colorinfo \
+		colorweb combelow combine \
+		concprog constants continue \
+		contracard cooking-units cooking \
+		coolthms \
+		coseoul counttexruns \
+		coursepaper \
+		crossreference crossreftools csquotes \
+		cuisine \
 		cutwin cweb-latex cyber cybercic \
-		dashrule dashundergaps dataref dateiliste \
+		dashrule dashundergaps dateiliste \
 		datenumber datetime datetime2-bahasai datetime2-basque \
 		datetime2-breton datetime2-bulgarian datetime2-catalan \
 		datetime2-croatian datetime2-czech datetime2-danish \
@@ -137,8 +134,8 @@ TEXMF_DIRS_LATEX=	\
 		datetime2-scottish datetime2-serbian datetime2-slovak \
 		datetime2-slovene datetime2-spanish datetime2-swedish \
 		datetime2-turkish datetime2-ukrainian datetime2-usorbian \
-		datetime2-welsh datetime2 dblfloatfix decimal decorule \
-		delimtxt denisbdoc diagnose dichokey \
+		datetime2-welsh datetime2 dblfloatfix \
+		delimtxt dichokey \
 		dingbat dinbrief directory dirtytalk dlfltxb dnaseq doclicense \
 		docmfp docmute doctools documentation doi dotarrow dotseqn \
 		download dox dpfloat dprogress draftcopy draftfigure \

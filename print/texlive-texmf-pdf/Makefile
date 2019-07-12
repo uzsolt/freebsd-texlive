@@ -3,7 +3,7 @@
 COMMENT=	PDF-specific packages
 TEXMF_CATEG=	pdf
 
-TEXMF_DIRS_LATEX=	autopdf bxpdfver pdfoverlay pdfpages pdfpc-movie \
+TEXMF_DIRS_LATEX=	animate attachfile autopdf bxpdfver colorspace cooltooltips pdfoverlay pdfpages pdfpc-movie \
 		tagpdf xcpdftips flippdf intopdf pdf14 pdfcomment pdfcprot \
 		pdfmarginpar pdfpagediff pdfprivacy pdfreview pdfsync pdfwin \
 		pdfx

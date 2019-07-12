@@ -6,8 +6,8 @@ TEXMF_CATEG=	boxing
 TEXMF_DIRS=	tex/generic/frame \
 		metapost/roundrect
 TEXMF_DIRS_LATEX=	\
-	alertmessage awesomebox boites boxedminipage boxedminipage2e \
-	collectbox crbox dashbox efbox eqparbox fancybox framed genmpage \
+	adjustbox alertmessage awesomebox boites boxedminipage boxedminipage2e \
+	boxhandler capt-of collectbox crbox dashbox efbox eqparbox fancybox framed genmpage \
 	ghab graphicxbox longfbox makebox mdframed minibox minipage-marginpar \
 	pbox realboxes roundbox tcolorbox tram varwidth verbatimbox xsavebox
 

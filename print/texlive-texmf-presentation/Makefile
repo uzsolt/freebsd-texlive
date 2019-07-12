@@ -13,7 +13,7 @@ TEXMF_DIRS_LATEX=	\
 	beamertheme-cuerna beamertheme-detlevcm beamertheme-epyt beamertheme-focus \
 	beamertheme-light beamertheme-npbt \
 	beamertheme-metropolis beamertheme-phnompenh beamertheme-saintpetersburg \
-	beamertheme-upenn-bc beamerthemejltree beamerthemenirma colourchange \
+	beamertheme-upenn-bc beamerthemejltree beamerthemenirma bxdpx-beamer colourchange \
 	dynblocks elpres fancyhandout fancyslides ffslides fibeamer foilhtml \
 	gridslides HA-prosper hackthefootline handout hobete ifmslide \
 	medstarbeamer overlays pdfscreen pdfslide powerdot powerdot-tuliplab \

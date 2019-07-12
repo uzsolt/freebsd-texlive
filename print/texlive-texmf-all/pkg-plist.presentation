@@ -214,6 +214,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bidipresentation/fig-1.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bidipresentation/sample.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bidipresentation/sample.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxdpx-beamer/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxdpx-beamer/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxdpx-beamer/sample/test-framezoom.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxdpx-beamer/sample/test-navisymbol.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colourchange/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colourchange/colourchangedoc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colourchange/colourchangedoc.tex
@@ -790,6 +794,7 @@
 %%TEXMFDIR%%tex/latex/beamertheme-upenn-bc/beamercolorthemepenn.sty
 %%TEXMFDIR%%tex/latex/beamerthemejltree/beamerthemeJLTree.sty
 %%TEXMFDIR%%tex/latex/beamerthemenirma/beamerthemenirma.sty
+%%TEXMFDIR%%tex/latex/bxdpx-beamer/bxdpx-beamer.sty
 %%TEXMFDIR%%tex/latex/colourchange/colourchange.sty
 %%TEXMFDIR%%tex/latex/dynblocks/dynblocks.sty
 %%TEXMFDIR%%tex/latex/elpres/elpres.cls

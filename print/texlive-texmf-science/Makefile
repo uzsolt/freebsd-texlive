@@ -34,14 +34,14 @@ TEXMF_DIRS_GENERIC=	\
 	pst-math pst-ode pst-poly pst-vehicle \
 	tex-ewd
 TEXMF_DIRS_LATEX=	\
-	12many SIstyle SIunits alg algobox algorithm2e algorithmicx algorithms \
-	aligned-overset apxproof autobreak axodraw2 backnaur begriff binomexp \
-	biocon bitpattern bohr boldtensors bosisio bpchem bropd braids braket \
-	bytefield calculation cancel cascade ccfonts chemarrow chemcompounds chemcono \
-	chemformula chemgreek chemmacros chemnum chemschemex chemsec chemstyle \
-	circuitikz clrscode clrscode3e commath complexity \
-	computational-complexity conteq correctmathalign cryptocode \
-	delim delimseasy delimset diffcoeff digiconfigs dijkstra drawmatrix \
+	12many SIstyle SIunits abraces alg algobox algorithm2e algorithmicx algorithms \
+	aligned-overset apxproof autobreak axodraw2 backnaur basicarith begriff bez123 bigints binomexp \
+	biochemistry-colors biocon bitpattern bohr boldtensors bosisio bpchem bropd braids braket bussproofs \
+	bytefield calculation cancel carbohydrates cascade ccfonts chemarrow chemcompounds chemcono \
+	chemformula chemgreek chemmacros chemnum chemschemex chemsec chemstyle circ \
+	circuitikz clrscode clrscode3e colorwav comma commath complexity \
+	computational-complexity concepts conteq cool coollist coordsys correctmathalign cryptocode \
+	decimal delim delimseasy delimset diffcoeff digiconfigs dijkstra drawmatrix \
 	drawstack duotenzor dyntree ebproof econometrics eltex emf endiagram \
 	engtlc eqnarray eqnnumwarn extarrows extpfeil faktor fnspe fouridx \
 	functan galois gastex gene-logic ghsystem gotoh grundgesetze gu hep \

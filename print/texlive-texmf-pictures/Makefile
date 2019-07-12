@@ -19,9 +19,10 @@ TEXMF_DIRS_GENERIC=	\
 	pgfornament pgfplots \
 	pictex texdraw tikz-cd xypic
 TEXMF_DIRS_LATEX=	\
-	adigraph aobs-tikz askmaps asyfig asypictureb autoarea bardiag \
+	adigraph aobs-tikz askmaps asyfig asypictureb autoarea background bardiag \
+	bchart \
 	beamerswitch binarytree blochsphere bloques blox bondgraph bondgraphs \
-	bxeepic cachepic callouts celtic combinedgraphics curve2e curves \
+	bxeepic cachepic callouts celtic clock combinedgraphics contour copyrightbox css-colors curve2e curves decorule \
 	diagmac2 dot2texi dottex drs dynkin-diagrams ecgdraw eepic ellipse \
 	endofproofwd epspdfconversion esk fast-diagram fitbox flowchart forest \
 	genealogytree getmap gincltex gnuplottex gradientframe grafcet graph35 \

@@ -8,7 +8,7 @@ TEXMF_DIRS=	bibtex/bib/cnltx/ \
 		tex/xelatex/na-box/ \
 		tex/xelatex/sexam/
 TEXMF_DIRS_LATEX=	\
-	alterqcm answers bangorexam bhcexam cesenaexam chemexec cnltx \
+	alterqcm answers assignment bangorexam bhcexam cesenaexam chemexec cnltx \
 	courseoutline tasks\
 	esami exam exam-n examdesign exercise exercisebank exercises exsheets \
 	exsol jslectureplanner mafr mathexam mcexam moodle musikui pas-cours pbsheet \

@@ -1,4 +1,19 @@
 @rmtry %%TEXMFDIR%%ls-R 
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/2latex.vim
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrconv.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrconv.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrconv_pages08.pages/Contents/PkgInfo
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrconv_pages08.pages/QuickLook/Thumbnail.jpg
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrconv_pages08.pages/index.xml.gz
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrdir.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrfax.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrguide.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrguide.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrmontage1.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrmontage2.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/birthday.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/example.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apacite/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apacite/apa5ex.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apacite/apacite.pdf
@@ -466,6 +481,9 @@
 %%TEXMFDIR%%bibtex/bst/chicago/chicago.bst
 %%TEXMFDIR%%bibtex/bst/gbt7714/gbt7714-plain.bst
 %%TEXMFDIR%%bibtex/bst/gbt7714/gbt7714-unsrt.bst
+%%TEXMFDIR%%tex/latex/adrconv/adrdir.cfg
+%%TEXMFDIR%%tex/latex/adrconv/adrplaner.cfg
+%%TEXMFDIR%%tex/latex/adrconv/adrsmall.cfg
 %%TEXMFDIR%%tex/latex/apacite/apacdoc.sty
 %%TEXMFDIR%%tex/latex/apacite/apacite.sty
 %%TEXMFDIR%%tex/latex/apacite/dutch.apc

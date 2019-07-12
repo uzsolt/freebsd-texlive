@@ -1,10 +1,21 @@
 @rmtry %%TEXMFDIR%%ls-R 
+%%PORTDOCS%%%%DOCSDIR%%-texmf/animate/ChangeLog
+%%PORTDOCS%%%%DOCSDIR%%-texmf/animate/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/animate/animate.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/attachfile/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/attachfile/attachfile.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/autopdf/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/autopdf/autopdf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/README-ja.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/sample-bxpdfver.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/colorspace/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/colorspace/colorspace.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/colorspace/colorspace.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/colorspace/colorspaceshade.png
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cooltooltips/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/cooltooltips/cooltooltips.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/flippdf/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/flippdf/flippdf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/intopdf/README.md
@@ -148,8 +159,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/tagpdf.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xcpdftips/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xcpdftips/xcpdftips.pdf
+%%TEXMFDIR%%tex/latex/animate/animate.sty
+%%TEXMFDIR%%tex/latex/attachfile/attachfile.sty
 %%TEXMFDIR%%tex/latex/autopdf/autopdf.sty
 %%TEXMFDIR%%tex/latex/bxpdfver/bxpdfver.sty
+%%TEXMFDIR%%tex/latex/colorspace/colorspace.sty
+%%TEXMFDIR%%tex/latex/cooltooltips/cooltooltips.sty
 %%TEXMFDIR%%tex/latex/flippdf/flippdf.sty
 %%TEXMFDIR%%tex/latex/intopdf/intopdf.sty
 %%TEXMFDIR%%tex/latex/pdf14/pdf14.sty

@@ -41,6 +41,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alterqcm/latex/doc-aq-problem.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alterqcm/latex/doc_aq-main.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/answers/answers.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/Changelog
+%%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/assignment.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/assignment.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bangorexam/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bangorexam/bangorexam.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bhcexam/Makefile
@@ -654,6 +659,7 @@
 %%TEXMFDIR%%makeindex/cnltx/cnltx.ist
 %%TEXMFDIR%%tex/latex/alterqcm/alterqcm.sty
 %%TEXMFDIR%%tex/latex/answers/answers.sty
+%%TEXMFDIR%%tex/latex/assignment/assignment.cls
 %%TEXMFDIR%%tex/latex/bangorexam/bangorexam.cls
 %%TEXMFDIR%%tex/latex/bhcexam/BHCexam.cfg
 %%TEXMFDIR%%tex/latex/bhcexam/BHCexam.cls

@@ -66,11 +66,11 @@ TEXMF_DIRS=	bibtex/bib/IEEEtran/ \
 		tex/xelatex/langsci \
 		tex/xelatex/mynsfc
 TEXMF_DIRS_LATEX=	\
-	IEEEconf IEEEtran aastex abnt abntex2 acmart acmconf active-conf \
+	IEEEconf IEEEtran aastex abnt abntex2 abstract achemso acmart acmconf active-conf actuarialangle actuarialsymbol \
 	adfathesis afparticle afthesis aguplus aiaa ametsoc aomart apa apa6 \
-	apa6e arsclassica articleingud asaetr ascelike aucklandthesis \
+	apa6e arsclassica articleingud asaetr ascelike aucklandthesis authorarchive \
 	bangorcsthesis beilstein bgteubner br-lex brandeis-dissertation \
-	cascadilla cje classicthesis cleanthesis cmpj confproc cquthesis \
+	cascadilla cje classicthesis cleanthesis cmpj confproc coverpage cquthesis \
 	dccpaper dithesis ebook ebsthesis ejpecp ekaia elbioimp elsarticle \
 	elteikthesis emisa erdc estcpmm fbithesis fcavtex fcltxdoc fei gaceta \
 	gatech-thesis grant gsemthesis gzt h2020proposal hagenberg-thesis \

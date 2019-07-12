@@ -1,4 +1,8 @@
 @rmtry %%TEXMFDIR%%ls-R
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/adjcalc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/adjustbox.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/trimclip.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alertmessage/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alertmessage/alertmessage.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/awesomebox/LICENSE
@@ -16,6 +20,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/boxedminipage/boxedminipage.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/boxedminipage2e/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/boxedminipage2e/boxedminipage2e.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/boxhandler/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/boxhandler/boxhandler.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/capt-of/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/capt-of/capt-of.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/collectbox/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/collectbox/collectbox.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/crbox/README
@@ -105,6 +113,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox-tutorial-poster.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox-tutorial-poster.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox.doc.abstract.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox.doc.beamer.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox.doc.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox.doc.breakable.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/tcolorbox.doc.coremacros.tex
@@ -152,6 +161,13 @@
 %%TEXMFDIR%%metapost/roundrect/roundrect.mp
 %%TEXMFDIR%%tex/generic/frame/frame.sty
 %%TEXMFDIR%%tex/generic/frame/frame.tex
+%%TEXMFDIR%%tex/latex/adjustbox/adjcalc.sty
+%%TEXMFDIR%%tex/latex/adjustbox/adjustbox.sty
+%%TEXMFDIR%%tex/latex/adjustbox/tc-dvips.def
+%%TEXMFDIR%%tex/latex/adjustbox/tc-pdftex.def
+%%TEXMFDIR%%tex/latex/adjustbox/tc-pgf.def
+%%TEXMFDIR%%tex/latex/adjustbox/tc-xetex.def
+%%TEXMFDIR%%tex/latex/adjustbox/trimclip.sty
 %%TEXMFDIR%%tex/latex/alertmessage/alertmessage.sty
 %%TEXMFDIR%%tex/latex/alertmessage/img/alertmessage-error.png
 %%TEXMFDIR%%tex/latex/alertmessage/img/alertmessage-info.png
@@ -162,6 +178,8 @@
 %%TEXMFDIR%%tex/latex/boites/boites_exemples.sty
 %%TEXMFDIR%%tex/latex/boxedminipage/boxedminipage.sty
 %%TEXMFDIR%%tex/latex/boxedminipage2e/boxedminipage2e.sty
+%%TEXMFDIR%%tex/latex/boxhandler/boxhandler.sty
+%%TEXMFDIR%%tex/latex/capt-of/capt-of.sty
 %%TEXMFDIR%%tex/latex/collectbox/collectbox.sty
 %%TEXMFDIR%%tex/latex/crbox/crbox.sty
 %%TEXMFDIR%%tex/latex/dashbox/dashbox.sty

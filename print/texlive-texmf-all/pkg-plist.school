@@ -171,6 +171,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exsol/example-solutionbook.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exsol/example.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exsol/exsol.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/handin/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/handin/example.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/handin/example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/handin/handin-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/handin/handin-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/handin/layout.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jslectureplanner/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jslectureplanner/examples/English/lecpresbody-english.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jslectureplanner/examples/English/lecturebib-english.pdf
@@ -690,6 +696,7 @@
 %%TEXMFDIR%%tex/latex/exam-n/exam-n.cls
 %%TEXMFDIR%%tex/latex/exam/exam.cls
 %%TEXMFDIR%%tex/latex/examdesign/examdesign.cls
+%%TEXMFDIR%%tex/latex/example/example.sty
 %%TEXMFDIR%%tex/latex/exercise/exercise.sty
 %%TEXMFDIR%%tex/latex/exercisebank/exercisebank.sty
 %%TEXMFDIR%%tex/latex/exercises/exercises.sty
@@ -699,6 +706,7 @@
 %%TEXMFDIR%%tex/latex/exsheets/exsheets_headings.cfg
 %%TEXMFDIR%%tex/latex/exsheets/exsheets_headings.def
 %%TEXMFDIR%%tex/latex/exsol/exsol.sty
+%%TEXMFDIR%%tex/latex/handin/handin.sty
 %%TEXMFDIR%%tex/latex/jslectureplanner/cologne.lps
 %%TEXMFDIR%%tex/latex/jslectureplanner/english.lps
 %%TEXMFDIR%%tex/latex/jslectureplanner/german-default.lps

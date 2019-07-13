@@ -209,6 +209,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/drs/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/drs/drsdoc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/drs/drsdoc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ducksay/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ducksay/ducksay.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/dynkin-diagrams/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/dynkin-diagrams/dynkin-diagrams.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/dynkin-diagrams/dynkin-diagrams.pdf
@@ -245,6 +247,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/esk/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/esk/esk.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/esk/eskman.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/fancypar/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/fancypar/fancypar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fast-diagram/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fast-diagram/help.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fast-diagram/help.tex
@@ -455,6 +459,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/istgame/istgame-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/istgame/istgame-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/istgame/istgame.ist
+%%PORTDOCS%%%%DOCSDIR%%-texmf/keystroke/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/keystroke/key-test.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/keystroke/key-test.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knitting/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knitting/knitexamples.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knitting/knitexamples.tex
@@ -1702,6 +1709,10 @@
 %%TEXMFDIR%%tex/latex/dot2texi/dot2texi.sty
 %%TEXMFDIR%%tex/latex/dottex/dottex.sty
 %%TEXMFDIR%%tex/latex/drs/drs.sty
+%%TEXMFDIR%%tex/latex/ducksay/ducksay.animals.tex
+%%TEXMFDIR%%tex/latex/ducksay/ducksay.code.v1.tex
+%%TEXMFDIR%%tex/latex/ducksay/ducksay.code.v2.tex
+%%TEXMFDIR%%tex/latex/ducksay/ducksay.sty
 %%TEXMFDIR%%tex/latex/dynkin-diagrams/dynkin-diagrams.sty
 %%TEXMFDIR%%tex/latex/ecgdraw/ecgdraw.sty
 %%TEXMFDIR%%tex/latex/eepic/eepic.sty
@@ -1711,6 +1722,7 @@
 %%TEXMFDIR%%tex/latex/endofproofwd/endofproofwd.sty
 %%TEXMFDIR%%tex/latex/epspdfconversion/epspdfconversion.sty
 %%TEXMFDIR%%tex/latex/esk/esk.sty
+%%TEXMFDIR%%tex/latex/fancypar/fancypar.sty
 %%TEXMFDIR%%tex/latex/fast-diagram/fast-diagram.sty
 %%TEXMFDIR%%tex/latex/fitbox/fitbox.sty
 %%TEXMFDIR%%tex/latex/flowchart/flowchart.sty
@@ -1761,6 +1773,13 @@
 %%TEXMFDIR%%tex/latex/hvfloat/hvfloat-fps.sty
 %%TEXMFDIR%%tex/latex/hvfloat/hvfloat.sty
 %%TEXMFDIR%%tex/latex/istgame/istgame.sty
+%%TEXMFDIR%%tex/latex/keystroke/keystroke.sty
+%%TEXMFDIR%%tex/latex/keystroke/keystroke_left.eps
+%%TEXMFDIR%%tex/latex/keystroke/keystroke_left.pdf
+%%TEXMFDIR%%tex/latex/keystroke/keystroke_middle.eps
+%%TEXMFDIR%%tex/latex/keystroke/keystroke_middle.pdf
+%%TEXMFDIR%%tex/latex/keystroke/keystroke_right.eps
+%%TEXMFDIR%%tex/latex/keystroke/keystroke_right.pdf
 %%TEXMFDIR%%tex/latex/knitting/knitting.sty
 %%TEXMFDIR%%tex/latex/knitting/uknit.fd
 %%TEXMFDIR%%tex/latex/knittingpattern/knittingpattern.cls

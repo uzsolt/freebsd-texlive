@@ -20,14 +20,14 @@ TEXMF_DIRS_GENERIC=	\
 	pictex texdraw tikz-cd xypic
 TEXMF_DIRS_LATEX=	\
 	adigraph aobs-tikz askmaps asyfig asypictureb autoarea background bardiag \
-	bchart \
-	beamerswitch binarytree blochsphere bloques blox bondgraph bondgraphs \
-	bxeepic cachepic callouts celtic clock combinedgraphics contour copyrightbox css-colors curve2e curves decorule \
-	diagmac2 dot2texi dottex drs dynkin-diagrams ecgdraw eepic ellipse \
-	endofproofwd epspdfconversion esk fast-diagram fitbox flowchart forest \
-	genealogytree getmap gincltex gnuplottex gradientframe grafcet graph35 \
-	graphicxpsd graphviz gtrlib-largetrees harveyballs here hf-tikz hobby \
-	hvfloat istgame knitting knittingpattern lapdf latex-make lpic \
+	bchart beamerswitch binarytree blochsphere bloques blox bondgraph \
+	bondgraphs bxeepic cachepic callouts celtic clock combinedgraphics \
+	contour copyrightbox css-colors curve2e curves decorule diagmac2 \
+	dot2texi dottex drs ducksay dynkin-diagrams ecgdraw eepic ellipse \
+	endofproofwd epspdfconversion esk fancypar fast-diagram fitbox flowchart \
+	forest genealogytree getmap gincltex gnuplottex gradientframe grafcet \
+	graph35 graphicxpsd graphviz gtrlib-largetrees harveyballs here hf-tikz \
+	hobby hvfloat istgame keystroke knitting knittingpattern lapdf latex-make lpic \
 	lroundrect maker makeshape mathspic miniplot modiagram neuralnetwork \
 	pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd pgf-umlsd \
 	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph postage \

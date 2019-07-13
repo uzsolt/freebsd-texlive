@@ -9,15 +9,15 @@ TEXMF_DIRS=	bibtex/bib/cnltx/ \
 		tex/xelatex/sexam/
 TEXMF_DIRS_LATEX=	\
 	alterqcm answers assignment bangorexam bhcexam cesenaexam chemexec cnltx \
-	courseoutline tasks\
-	esami exam exam-n examdesign exercise exercisebank exercises exsheets \
-	exsol jslectureplanner mafr mathexam mcexam moodle musikui pas-cours pbsheet \
+	courseoutline tasks esami exam exam-n examdesign example exercise \
+	exercisebank exercises exsheets exsol handin jslectureplanner mafr \
+	mathexam mcexam moodle musikui pas-cours pbsheet \
 	probsoln qcm schule sesstime translations uantwerpendocs uebungsblatt \
 	webquiz worksheet xsim
 
 TEXMF_DOCDIRS=	lualatex/cloze/ \
 		xelatex/na-box xelatex/sexam/
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nexample}
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

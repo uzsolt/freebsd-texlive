@@ -5,9 +5,12 @@ TEXMF_CATEG=	table
 
 TEXMF_DIRS=	tex/lualatex/odsfile
 TEXMF_DIRS_GENERIC=	colortab hlist tap
-TEXMF_DIRS_LATEX=	alnumsec arydshln asciilist blkarray booktabs bullcntr calctab cals cellprops cellspace collcell colortbl \
-	ctable diagbox fcolumn ftcap keyvaltable listliketab longfigure \
-	ltablex makecell multirow nox polytable rccol spreadtab supertabular \
+TEXMF_DIRS_LATEX=	\
+	alnumsec arydshln asciilist blkarray booktabs bullcntr calctab \
+	cals cellprops cellspace collcell colortbl ctable diagbox \
+	enumitem-zref eqlist etaremune expdlist fcolumn ftcap grid-system \
+	grid iitem keyvaltable listliketab longfigure ltablex ltabptch \
+	makecell multirow nox polytable rccol spreadtab supertabular \
 	tablefootnote tablestyles tabls tabu tabularborder tabularcalc \
 	tabularew tabulary threeparttable threeparttablex warpcol \
 	xltabular xtab

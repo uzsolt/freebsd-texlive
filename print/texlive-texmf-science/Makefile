@@ -41,12 +41,14 @@ TEXMF_DIRS_LATEX=	\
 	chemformula chemgreek chemmacros chemnum chemschemex chemsec chemstyle circ \
 	circuitikz clrscode clrscode3e colorwav comma commath complexity \
 	computational-complexity concepts conteq cool coollist coordsys correctmathalign cryptocode \
-	decimal delim delimseasy delimset diffcoeff digiconfigs dijkstra drawmatrix \
-	drawstack duotenzor dyntree ebproof econometrics eltex emf endiagram \
-	engtlc eqnarray eqnnumwarn extarrows extpfeil faktor fnspe fouridx \
-	functan galois gastex gene-logic ghsystem gotoh grundgesetze gu hep \
-	hepnames hepparticles hepthesis hepunits interval ionumbers isomath \
-	jkmath karnaugh-map karnaugh karnaughmap ladder logicproof \
+	decimal delim delimseasy delimset diffcoeff digiconfigs dijkstra dotseqn drawmatrix \
+	drawstack duotenzor dyntree ebproof econometrics elements eltex emf endiagram \
+	engtlc eqnarray eqnnumwarn esdiff esint extarrows extpfeil faktor flagderiv fnspe fouridx \
+	functan galois gastex gauss gene-logic ghsystem gotoh grundgesetze gu hep \
+	hepnames hepparticles hepthesis hepunits hhtensor interval ionumbers \
+	isomath isotope \
+	jkmath karnaugh-map karnaugh karnaughmap leftidx ladder lewis linop \
+	logicproof logpap \
 	longdivision lplfitch lstbayes mathcomp mathfixs mathpartir \
 	mathpunctspace matlab-prettifier mattens mhchem mhequ miller \
 	multiobjective mychemistry natded nath nicematrix nuc nucleardata \
@@ -56,7 +58,7 @@ TEXMF_DIRS_LATEX=	\
 	pst-geometrictools pst-lsystem pst-math pst-moire pst-ode pst-platon pst-poly pst-vehicle \
 	pst-venn ptolemaicastronomy pythonhighlight qcircuit quantikz rank-2-roots rec-thy revquantum \
 	ribbonproofs rmathbr \
-	sasnrdisplay sciposter sclang-prettifier scratch3 scratchx sesamanuel sfg \
+	sasnrdisplay sclang-prettifier scratch3 scratchx sesamanuel sfg \
 	shuffle simpler-wick simplewick siunitx skmath spalign stanli statex \
 	statex2 statistics statmath steinmetz stmaryrd struktex substances subsupscripts \
 	susy syllogism sympytexpackage synproof t-angles tablor tensor \

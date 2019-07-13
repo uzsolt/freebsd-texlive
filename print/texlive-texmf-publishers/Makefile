@@ -71,11 +71,12 @@ TEXMF_DIRS_LATEX=	\
 	apa6e arsclassica articleingud asaetr ascelike aucklandthesis authorarchive \
 	bangorcsthesis beilstein bgteubner br-lex brandeis-dissertation \
 	cascadilla cje classicthesis cleanthesis cmpj confproc coverpage cquthesis \
-	dccpaper dithesis ebook ebsthesis ejpecp ekaia elbioimp elsarticle \
-	elteikthesis emisa erdc estcpmm fbithesis fcavtex fcltxdoc fei gaceta \
+	dccpaper dithesis dtk ebook ebsthesis ejpecp ekaia elbioimp elsarticle \
+	elteikthesis emisa emulateapj erdc estcpmm fbithesis fcavtex fcltxdoc fei fithesis gaceta \
 	gatech-thesis grant gsemthesis gzt h2020proposal hagenberg-thesis \
-	har2nat hecthese hithesis hustthesis icsv ieeepes ijmart ijsra imac \
-	imtekda invoice-class iodhbwm iscram jacow jmlr jpsj kdgdocs kluwer ksp-thesis ku-template \
+	har2nat hecthese hithesis hpsdiss hustthesis icsv ieeepes ijmart ijsra imac \
+	imtekda iodhbwm iscram iwhdp jacow jmlr jpsj kdgdocs kluwer ksp-thesis \
+	ku-template labbook \
 	lion-msc llncsconf lni lps matc3 matc3mem mcmthesis mentis mnras \
 	msu-thesis mucproc mugsthesis musuos muthesis nature navydocs nddiss \
 	ndsu-thesis nih nostarch nrc nwejm onrannual opteng \

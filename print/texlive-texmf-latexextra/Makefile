@@ -82,7 +82,7 @@ TEXMF_DIRS_GENERIC=	\
 	rlepsf shapepar splitindex textmerg \
 	xcomment xint xstring ydoc
 TEXMF_DIRS_LATEX=	\
-		ESIEEcv GS1  Tabbing a0poster \
+		ESIEEcv GS1 Tabbing \
 		acro acronym acroterm \
 		addfont \
 		advdate akktex akletter \
@@ -137,51 +137,27 @@ TEXMF_DIRS_LATEX=	\
 		datetime2-welsh datetime2 dblfloatfix \
 		delimtxt dichokey \
 		dingbat dinbrief directory dirtytalk dlfltxb dnaseq doclicense \
-		docmfp docmute doctools documentation doi dotarrow dotseqn \
-		download dox dpfloat dprogress draftcopy draftfigure \
-		draftwatermark dtk dtxdescribe ducksay dvdcoll \
-		dynamicnumber ean13isbn easy-todo easy \
+		docmfp documentation doi dotarrow \
+		dox dpfloat draftfigure \
+		dynamicnumber easy \
 		easyfig easyformat easylist easyreview ebezier ecclesiastic \
-		ed edmargin eemeir egplot elements ellipsis elmath \
-		elzcards emarks embedall embrac emptypage \
-		emulateapj endfloat endheads endnotes engpron engrec enotez \
-		enumitem-zref envbig envlab epigraph \
-		epiolmec eqell eqlist eqnalign eqname errata \
-		esdiff esint etaremune etextools etoc eukdate \
-		eulerpx everypage \
-		example examplep exceltex excludeonly \
-		expdlist\
-		extract\
-		facsimile\
-		factura\
-		fancylabel\
+		eemeir egplot ellipsis elmath \
+		emarks embrac \
+		endfloat endheads endnotes \
+		envbig envlab \
+		epiolmec eqell eqnalign eqname \
+		etextools eukdate \
+		eulerpx \
+		examplep excludeonly \
 		fancynum\
-		fancypar\
-		fancytabs\
-		fancytooltips\
-		fgruler\
 		figsize\
 		filecontentsdef\
-		filedate\
-		fileinfo\
-		filemod\
-		fink\
-		fithesis\
 		fixcmex\
 		fixfoot\
-		fixme\
-		fixmetodonotes\
 		flabels\
-		flacards\
-		flagderiv\
-		flashcards\
-		flashmovie\
-		flipbook\
 		floatflt\
 		floatrow\
-		flowfram\
 		fmp\
-		fmtcount\
 		fn2end\
 		fnbreak\
 		fncychap\
@@ -190,15 +166,12 @@ TEXMF_DIRS_LATEX=	\
 		fnpct\
 		fnumprint\
 		fontaxes\
-		fonttable\
 		footmisc\
 		footmisx\
 		footnotebackref\
 		footnoterange\
 		footnpag\
-		foreign\
 		forms16be\
-		formular\
 		fragments\
 		frankenstein\
 		frege\
@@ -208,13 +181,8 @@ TEXMF_DIRS_LATEX=	\
 		fundus-cyr\
 		fundus-sueterlin\
 		fvextra\
-		fwlw\
-		g-brief\
-		gauss\
-		gcard\
 		gcite\
 		gender\
-		getfiledate\
 		ginpenc\
 		gloss\
 		glossaries-danish\
@@ -232,115 +200,69 @@ TEXMF_DIRS_LATEX=	\
 		glossaries-serbian\
 		glossaries-spanish\
 		glossaries\
-		gmdoc-enhance\
-		gmdoc\
 		gmiflink\
 		gmverb\
 		graphbox\
 		graphicx-psmin\
-		grayhints\
 		grfpaste\
-		grid-system\
-		grid\
 		gridset\
 		guitlogo\
-		halloweenmath\
-		handin\
 		hang\
 		hanging\
-		hardwrap\
 		harpoon\
 		hc\
 		he-she\
-		hhtensor\
 		hitec\
 		hletter\
-		hpsdiss\
 		hrefhide\
 		hvindex\
 		hypdvips\
 		hyper\
 		hypernat\
 		hyperxmp\
-		hyphenat\
 		idxcmds\
 		idxlayout\
 		iffont\
-		ifplatform\
-		iitem\
-		image-gallery\
 		imakeidx\
-		import\
-		incgraph\
 		indextools\
-		inlinedef\
-		inputtrc\
-		interactiveworkbook\
 		interfaces\
-		invoice\
-		invoice2\
 		iso\
 		iso10303\
 		isodate\
-		isodoc\
 		isonums\
 		isopt\
 		isorot\
-		isotope\
 		issuulinks\
-		iwhdp\
 		jlabels\
 		jumplines\
 		jvlisting\
 		kerntest\
-		keycommand\
 		keyfloat\
 		keyreader\
-		keystroke\
-		keyval2e\
 		kix\
 		knowledge\
 		koma-script-sfs\
-		ktv-texdata\
 		l3build\
-		labbook\
 		labels\
 		labelschanged\
-		lastpackage\
-		lastpage\
 		latexdemo\
 		lazylist\
 		lccaps\
-		lcd\
-		lcg\
 		leading\
-		leaflet\
-		leftidx\
-		leipzig\
 		lengthconvert\
-		lettre\
 		lettrine\
-		lewis\
 		libgreek\
-		limap\
 		linegoal\
-		linop\
 		lisp-on-tex\
 		listing\
 		listlbls\
 		listofsymbols\
-		lkproof\
 		logical-markup-utils\
-		logpap\
 		longnamefilelist\
 		lsc\
 		lstaddons\
-		ltabptch\
 		ltxdockit\
 		ltxindex\
-		ltxkeys\
-		ltxnew\
-		ltxtools\
 		magaz\
 		mailing\
 		mailmerge\

@@ -390,8 +390,7 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		scripts/latexindent/LatexIndent/ \
 		scripts/lua-alt-getopt/ \
 		scripts/luaindex/ \
-		scripts/make4ht/domfilters/ \
-		scripts/make4ht/filters/ \
+		scripts/make4ht/ \
 		scripts/mflua/ \
 		scripts/placeat/ \
 		scripts/spelling/ \
@@ -634,5 +633,9 @@ TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/ucs/makeunidef.pl
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
+
+post-install-texmf:
+	# texlive-bin contains make4ht script
+	${RM} ${STAGEDIR}${LOCALBASE}${TEXMFDIR}/scripts/make4ht/make4ht
 
 .include "${MASTERDIR}/Makefile"

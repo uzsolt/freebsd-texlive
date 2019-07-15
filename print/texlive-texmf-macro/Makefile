@@ -24,7 +24,7 @@ TEXMF_DIRS_LATEX=	\
 	inputtrc inversepath \
 	kantlipsum keycommand keyval2e lastpackage lcg lhelp lipsum lmake \
 	locality localloc logbox loops ltxkeys ltxnew ltxtools \
-	lt3graph macroswap makecmds mdwtools memory mfirstuc multidef \
+	lt3graph macroswap makecmds markdown mdwtools memory mfirstuc multidef \
 	multido multienv newenviron nextpage noconflict noindentafter \
 	pagerange parselines patchcmd properties ran_toks rectopma \
 	regexpatch relsize rgltxdoc robustcommand rvwrite savesym showlabels \

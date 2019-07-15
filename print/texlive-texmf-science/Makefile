@@ -35,6 +35,8 @@ TEXMF_DIRS_GENERIC=	\
 	tex-ewd
 TEXMF_DIRS_LATEX=	\
 	12many SIstyle SIunits abraces alg algobox algorithm2e algorithmicx algorithms \
+		minted\
+		mlist\
 	aligned-overset apxproof autobreak axodraw2 backnaur basicarith begriff bez123 bigints binomexp \
 	biochemistry-colors biocon bitpattern bohr boldtensors bosisio bpchem bropd braids braket bussproofs \
 	bytefield calculation cancel carbohydrates cascade ccfonts chemarrow chemcompounds chemcono \
@@ -49,7 +51,7 @@ TEXMF_DIRS_LATEX=	\
 	isomath isotope \
 	jkmath karnaugh-map karnaugh karnaughmap leftidx ladder lewis linop \
 	logicproof logpap \
-	longdivision lplfitch lstbayes mathcomp mathfixs mathpartir \
+	longdivision lplfitch lstbayes mandi mathcomp mathfixs mathpartir \
 	mathpunctspace matlab-prettifier mattens mhchem mhequ miller \
 	multiobjective mychemistry natded nath nicematrix nuc nucleardata \
 	objectz oplotsymbl ot-tableau oubraces perfectcut physics pm-isomath \

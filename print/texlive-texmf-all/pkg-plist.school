@@ -243,6 +243,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mcexam/mcexam.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mcexam/mcexam_example.r
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mcexam/mcexam_example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mensa-tex/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mensa-tex/doc/cafe-logo.png
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mensa-tex/doc/mensa-tex-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mensa-tex/doc/mensa-tex-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mensa-tex/doc/mensa-tex-example.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mensa-tex/doc/mensa-tex-example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/moodle/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/moodle/moodle.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/musikui/README.txt
@@ -717,6 +723,7 @@
 %%TEXMFDIR%%tex/latex/mafr/mafr.sty
 %%TEXMFDIR%%tex/latex/mathexam/mathexam.sty
 %%TEXMFDIR%%tex/latex/mcexam/mcexam.sty
+%%TEXMFDIR%%tex/latex/mensa-tex/mensa-tex.cls
 %%TEXMFDIR%%tex/latex/moodle/moodle.sty
 %%TEXMFDIR%%tex/latex/musikui/musikui.sty
 %%TEXMFDIR%%tex/latex/pas-cours/pas-cours.sty

@@ -27,8 +27,8 @@ TEXMF_DIRS_LATEX=	\
 	endofproofwd epspdfconversion esk fancypar fast-diagram fitbox flowchart \
 	forest genealogytree getmap gincltex gnuplottex gradientframe grafcet \
 	graph35 graphicxpsd graphviz gtrlib-largetrees harveyballs here hf-tikz \
-	hobby hvfloat istgame keystroke knitting knittingpattern lapdf latex-make lpic \
-	lroundrect maker makeshape mathspic miniplot modiagram neuralnetwork \
+	hobby hvfloat istgame knitting knittingpattern lapdf latex-make lpic \
+	lroundrect makebarcode maker makeshape mathspic miniplot modiagram neuralnetwork \
 	pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd pgf-umlsd \
 	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph postage \
 	prerex productbox pxpgfmark qrcode randbild randomwalk realhats reotex \

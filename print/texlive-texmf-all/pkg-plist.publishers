@@ -1205,6 +1205,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mcmthesis/mcmthesis.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mentis/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mentis/mentis.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mla-paper/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mnras/example.eps
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mnras/example.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mnras/example.ps
@@ -1215,6 +1216,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mnras/mnras_guide.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mnras/mnras_template.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mnras/readme.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mslapa/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mslapa/bibfile.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mslapa/examp.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mslapa/mslapa.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mslapa/mslapa.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/msu-thesis/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/msu-thesis/msu-thesis.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/msu-thesis/msu-thesis.tex
@@ -2620,7 +2626,9 @@
 %%TEXMFDIR%%tex/latex/matc3mem/matc3mem.cls
 %%TEXMFDIR%%tex/latex/mcmthesis/mcmthesis.cls
 %%TEXMFDIR%%tex/latex/mentis/mentis.cls
+%%TEXMFDIR%%tex/latex/mla-paper/mla.sty
 %%TEXMFDIR%%tex/latex/mnras/mnras.cls
+%%TEXMFDIR%%tex/latex/mslapa/mslapa.sty
 %%TEXMFDIR%%tex/latex/msu-thesis/msu-thesis.cls
 %%TEXMFDIR%%tex/latex/mucproc/mucfontsize10pt.clo
 %%TEXMFDIR%%tex/latex/mucproc/mucproc.cls

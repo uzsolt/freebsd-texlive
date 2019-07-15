@@ -465,6 +465,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lstbayes/examples.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lstbayes/examples.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lstbayes/lstbayes.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mandi/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mandi/mandi.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mandi/vdemo.py
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mathcomp/mathcomp.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mathfixs/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mathfixs/mafxsamp.tex
@@ -499,6 +502,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/miller/miller-v.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/miller/miller.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/miller/millertest.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/minted/Makefile
+%%PORTDOCS%%%%DOCSDIR%%-texmf/minted/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/minted/minted.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mlist/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/mlist/mlist.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/multiobjective/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/multiobjective/multiobjective.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mychemistry/README
@@ -1657,6 +1665,7 @@
 %%TEXMFDIR%%tex/latex/longdivision/longdivision.sty
 %%TEXMFDIR%%tex/latex/lplfitch/lplfitch.sty
 %%TEXMFDIR%%tex/latex/lstbayes/lstbayes.sty
+%%TEXMFDIR%%tex/latex/mandi/mandi.sty
 %%TEXMFDIR%%tex/latex/mathcomp/mathcomp.sty
 %%TEXMFDIR%%tex/latex/mathfixs/mathfixs.sty
 %%TEXMFDIR%%tex/latex/mathpartir/mathpartir.sty
@@ -1668,6 +1677,10 @@
 %%TEXMFDIR%%tex/latex/mhchem/rsphrase.sty
 %%TEXMFDIR%%tex/latex/mhequ/mhequ.sty
 %%TEXMFDIR%%tex/latex/miller/miller.sty
+%%TEXMFDIR%%tex/latex/minted/minted.sty
+%%TEXMFDIR%%tex/latex/minted/minted1.sty
+%%TEXMFDIR%%tex/latex/mlist/mlist.cfg
+%%TEXMFDIR%%tex/latex/mlist/mlist.sty
 %%TEXMFDIR%%tex/latex/multiobjective/multiobjective.sty
 %%TEXMFDIR%%tex/latex/mychemistry/mychemistry.sty
 %%TEXMFDIR%%tex/latex/natded/natded.sty

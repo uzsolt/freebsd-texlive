@@ -71,6 +71,8 @@ TEXMF_DIRS_LATEX=	\
 	apa6e arsclassica articleingud asaetr ascelike aucklandthesis authorarchive \
 	bangorcsthesis beilstein bgteubner br-lex brandeis-dissertation \
 	cascadilla cje classicthesis cleanthesis cmpj confproc coverpage cquthesis \
+	mla-paper\
+	mslapa\
 	dccpaper dithesis dtk ebook ebsthesis ejpecp ekaia elbioimp elsarticle \
 	elteikthesis emisa emulateapj erdc estcpmm fbithesis fcavtex fcltxdoc fei fithesis gaceta \
 	gatech-thesis grant gsemthesis gzt h2020proposal hagenberg-thesis \

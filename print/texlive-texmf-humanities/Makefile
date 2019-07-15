@@ -13,6 +13,8 @@ TEXMF_DIRS_LATEX= \
 	gmverse jura juraabbrev juramisc jurarsp ledmac leipzig lexikon lexref \
 	ling-macros linguex liturg metrix parallel parrun phonrule plari play \
 	poemscol poetry poetrytex qobitree qtree reledmac rrgtrees rtklage \
+	metre\
+	msc\
 	screenplay-pkg screenplay sides stage textglos thalie verse xyling
 
 TEXMF_DOCDIRS=	generic/expex

@@ -459,9 +459,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/istgame/istgame-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/istgame/istgame-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/istgame/istgame.ist
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keystroke/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keystroke/key-test.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keystroke/key-test.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knitting/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knitting/knitexamples.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knitting/knitexamples.tex
@@ -566,6 +563,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lroundrect/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lroundrect/lppl.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lroundrect/lroundrect.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makebarcode/License.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makebarcode/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makebarcode/makebarcode.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makebarcode/makebarcode.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/maker/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/maker/README.TEXLIVE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makeshape/README
@@ -1773,13 +1774,6 @@
 %%TEXMFDIR%%tex/latex/hvfloat/hvfloat-fps.sty
 %%TEXMFDIR%%tex/latex/hvfloat/hvfloat.sty
 %%TEXMFDIR%%tex/latex/istgame/istgame.sty
-%%TEXMFDIR%%tex/latex/keystroke/keystroke.sty
-%%TEXMFDIR%%tex/latex/keystroke/keystroke_left.eps
-%%TEXMFDIR%%tex/latex/keystroke/keystroke_left.pdf
-%%TEXMFDIR%%tex/latex/keystroke/keystroke_middle.eps
-%%TEXMFDIR%%tex/latex/keystroke/keystroke_middle.pdf
-%%TEXMFDIR%%tex/latex/keystroke/keystroke_right.eps
-%%TEXMFDIR%%tex/latex/keystroke/keystroke_right.pdf
 %%TEXMFDIR%%tex/latex/knitting/knitting.sty
 %%TEXMFDIR%%tex/latex/knitting/uknit.fd
 %%TEXMFDIR%%tex/latex/knittingpattern/knittingpattern.cls
@@ -1791,6 +1785,7 @@
 %%TEXMFDIR%%tex/latex/latex-make/texgraphicx.sty
 %%TEXMFDIR%%tex/latex/lpic/lpic.sty
 %%TEXMFDIR%%tex/latex/lroundrect/lroundrect.sty
+%%TEXMFDIR%%tex/latex/makebarcode/makebarcode.sty
 %%TEXMFDIR%%tex/latex/maker/maker.sty
 %%TEXMFDIR%%tex/latex/makeshape/makeshape.sty
 %%TEXMFDIR%%tex/latex/mathspic/mathspic.sty

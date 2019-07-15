@@ -8,7 +8,16 @@ TEXMF_DIRS_LATEX=	\
 	enotez epigraph errata etoc everypage exceltex extract fancylabel \
 	fancytabs fgruler fixme fixmetodonotes flipbook flowfram fonttable \
 	formular fwlw halloweenmath hardwrap hyphenat import ktv-texdata \
-	lastpage lcd limap lkproof
+	lastpage lcd limap lkproof mailmerge makebase manuscript marginfit \
+	marginfix marginnote mathastext maybemath mcaption \
+	keystroke \
+	minidocument\
+		multiaudience\
+		mnotes\
+		minitoc\
+		menu\
+		menukeys\
+		meetingmins\
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

@@ -13,7 +13,7 @@ TEXMF_DIRS_LATEX=	\
 	exercisebank exercises exsheets exsol handin jslectureplanner mafr \
 	mathexam mcexam moodle musikui pas-cours pbsheet \
 	probsoln qcm schule sesstime translations uantwerpendocs uebungsblatt \
-	webquiz worksheet xsim
+	webquiz worksheet xsim mensa-tex
 
 TEXMF_DOCDIRS=	lualatex/cloze/ \
 		xelatex/na-box xelatex/sexam/

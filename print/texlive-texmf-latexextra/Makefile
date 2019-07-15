@@ -263,67 +263,31 @@ TEXMF_DIRS_LATEX=	\
 		lstaddons\
 		ltxdockit\
 		ltxindex\
-		magaz\
 		mailing\
-		mailmerge\
-		makebarcode\
-		makebase\
 		makedtx\
 		makeglos\
-		mandi\
 		manfnt\
-		manuscript\
-		marginfit\
-		marginfix\
-		marginnote\
-		markdown\
 		mathalfa\
-		mathastext\
 		mathfam256\
-		maybemath\
-		mcaption\
-		mceinleger\
 		mcite\
 		mciteplus\
-		media9\
-		meetingmins\
 		memexsupp\
-		mensa-tex\
-		menu\
-		menukeys\
 		method\
-		metre\
 		mftinc\
-		midpage\
-		minidocument\
-		minitoc\
 		minorrevision\
-		minted\
 		minutes\
-		mla-paper\
-		mlist\
-		mmap\
-		mnotes\
-		modernposter\
 		modref\
-		modroman\
 		modular\
 		monofill\
-		moreenum\
 		morefloats\
 		morehype\
 		moresize\
 		moreverb\
 		morewrites\
-		movie15\
 		mparhack\
 		mpostinl\
-		msc\
 		msg\
-		mslapa\
 		mtgreek\
-		multenum\
-		multiaudience\
 		multibbl\
 		multicap\
 		multilang\

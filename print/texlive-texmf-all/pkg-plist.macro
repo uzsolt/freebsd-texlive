@@ -372,6 +372,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/macroswap/macroswap.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecmds/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecmds/makecmds.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/markdown/examples/example.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/markdown/examples/latex.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/markdown/examples/scientists.csv
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mdwtools/COPYING
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mdwtools/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mdwtools/at.pdf
@@ -795,6 +798,7 @@
 %%TEXMFDIR%%tex/latex/ltxtools/ltxtools.sty
 %%TEXMFDIR%%tex/latex/macroswap/macroswap.sty
 %%TEXMFDIR%%tex/latex/makecmds/makecmds.sty
+%%TEXMFDIR%%tex/latex/markdown/markdown.sty
 %%TEXMFDIR%%tex/latex/mdwtools/at.sty
 %%TEXMFDIR%%tex/latex/mdwtools/cmtt.sty
 %%TEXMFDIR%%tex/latex/mdwtools/doafter.sty

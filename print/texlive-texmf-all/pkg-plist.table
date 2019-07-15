@@ -248,6 +248,13 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecell/makecell-rus.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecell/makecell-rus.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecell/makecell.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/moreenum/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/moreenum/moreenum-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/moreenum/moreenum-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/multenum/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/multenum/multienum.article
+%%PORTDOCS%%%%DOCSDIR%%-texmf/multenum/multienum.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/multenum/multienum.sample
 %%PORTDOCS%%%%DOCSDIR%%-texmf/multirow/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/multirow/multirow.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/nox/README
@@ -373,6 +380,8 @@
 %%TEXMFDIR%%tex/latex/ltablex/ltablex.sty
 %%TEXMFDIR%%tex/latex/ltabptch/ltabptch.sty
 %%TEXMFDIR%%tex/latex/makecell/makecell.sty
+%%TEXMFDIR%%tex/latex/moreenum/moreenum.sty
+%%TEXMFDIR%%tex/latex/multenum/multienum.sty
 %%TEXMFDIR%%tex/latex/multirow/bigdelim.sty
 %%TEXMFDIR%%tex/latex/multirow/bigstrut.sty
 %%TEXMFDIR%%tex/latex/multirow/multirow.sty

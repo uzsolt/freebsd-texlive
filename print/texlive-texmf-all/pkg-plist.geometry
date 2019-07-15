@@ -49,6 +49,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/layouts/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/layouts/layman.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/layouts/layouts.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/midpage/midpage.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/midpage/midpage.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rmpage/readme
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rmpage/rmpage-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rmpage/rmpage-doc.tex
@@ -85,6 +87,7 @@
 %%TEXMFDIR%%tex/latex/fjodor/fjodor.sty
 %%TEXMFDIR%%tex/latex/fullwidth/fullwidth.sty
 %%TEXMFDIR%%tex/latex/layouts/layouts.sty
+%%TEXMFDIR%%tex/latex/midpage/midpage.sty
 %%TEXMFDIR%%tex/latex/rmpage/rmpage.sty
 %%TEXMFDIR%%tex/latex/rmpage/rmpgen.cfg
 %%TEXMFDIR%%tex/latex/scale/scale.sty

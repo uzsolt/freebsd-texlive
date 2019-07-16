@@ -392,6 +392,7 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		scripts/luaindex/ \
 		scripts/make4ht/ \
 		scripts/mflua/ \
+		scripts/oberdiek \
 		scripts/placeat/ \
 		scripts/spelling/ \
 		scripts/texlive/lua/ \

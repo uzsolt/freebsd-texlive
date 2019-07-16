@@ -10331,6 +10331,13 @@
 %%TEXMFDIR%%scripts/mflua/mflua.lua
 %%TEXMFDIR%%scripts/mflua/mflua_svg_backend.lua
 %%TEXMFDIR%%scripts/mflua/mflua_ttx_backend.lua
+%%TEXMFDIR%%scripts/oberdiek/luacolor.lua
+%%TEXMFDIR%%scripts/oberdiek/magicnum.lua
+%%TEXMFDIR%%scripts/oberdiek/oberdiek.luatex.lua
+%%TEXMFDIR%%scripts/oberdiek/oberdiek.magicnum.lua
+%%TEXMFDIR%%scripts/oberdiek/oberdiek.pdftexcmds.lua
+%%TEXMFDIR%%scripts/oberdiek/pdfatfi.pl
+%%TEXMFDIR%%scripts/oberdiek/pdftexcmds.lua
 %%TEXMFDIR%%scripts/placeat/placeat.lua
 %%TEXMFDIR%%scripts/spelling/spelling-main.lua
 %%TEXMFDIR%%scripts/spelling/spelling-recurse.lua

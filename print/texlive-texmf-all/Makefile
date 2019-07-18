@@ -115,7 +115,7 @@ TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \
 	--no-same-permission --no-same-owner
 
 .if target(post-install-texmf)
-POSTINSTALLREQ=	post-install-texmf
+POSTINSTALLREQ+=	post-install-texmf
 .PHONY:	post-install-texmf
 .endif
 

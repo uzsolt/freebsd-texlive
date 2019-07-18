@@ -616,6 +616,8 @@ TEXMF_DOCDIRS+=	bibtex/abstyles generic/apnum generic/pgf/pgfmanual.pdf \
 	metapost/automata metapost/bbcard
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
 
+# RUN_DEPENDS=	tex:print/texlive-bin
+
 .for exc in \
 	accfonts ae amsfonts armenian asymptote\
 	avantgar babelbib bookman bundledoc cm-super\
@@ -633,10 +635,11 @@ TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/ucs/discovermacro.pl\
 	share/doc/texlive-texmf/ucs/makeunidef.pl
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
 post-install-texmf:
 	# texlive-bin contains make4ht script
-	${RM} ${STAGEDIR}${LOCALBASE}${TEXMFDIR}/scripts/make4ht/make4ht
+	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/make4ht/make4ht
+	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/oberdiek/pdfatfi.pl
+
+MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 
 .include "${MASTERDIR}/Makefile"

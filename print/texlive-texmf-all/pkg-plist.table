@@ -264,6 +264,15 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/odsfile/odsfile.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/odsfile/odsfile.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/odsfile/pokus.ods
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outline/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outline/outline-sample.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outline/outline.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outline/outline.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outlines/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outlines/outlines.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/outlines/outlines.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paralist/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paralist/paralist.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/polytable/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/polytable/polytable.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/rccol/README
@@ -386,6 +395,9 @@
 %%TEXMFDIR%%tex/latex/multirow/bigstrut.sty
 %%TEXMFDIR%%tex/latex/multirow/multirow.sty
 %%TEXMFDIR%%tex/latex/nox/nox.sty
+%%TEXMFDIR%%tex/latex/outline/outline.sty
+%%TEXMFDIR%%tex/latex/outlines/outlines.sty
+%%TEXMFDIR%%tex/latex/paralist/paralist.sty
 %%TEXMFDIR%%tex/latex/polytable/polytable.sty
 %%TEXMFDIR%%tex/latex/rccol/rccol.sty
 %%TEXMFDIR%%tex/latex/spreadtab/spreadtab.sty

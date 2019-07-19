@@ -88,6 +88,7 @@ TEXMF_DIRS_LATEX=	\
 	sduthesis seuthesix sphdthesis spie sr-vorl stellenbosch suftesi \
 	sugconf tabriz-thesis texilikechaps texilikecover thesis-ekf \
 	thesis-gwu thesis-titlepage-fhac thucoursework thuthesis timbreicmc tlc-article \
+		paper\
 	toptesi tudscr tugboat tui turabian turabian-formatting uaclasses uafthesis ucbthesis \
 	ucdavisthesis ucthesis uestcthesis uhhassignment uiucredborder \
 	uiucthesis ulthese umbclegislation umich-thesis umthesis unamthesis \

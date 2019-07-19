@@ -1311,6 +1311,14 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/opteng/OptEngInstruct.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/opteng/OptEngInstruct.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/opteng/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/install
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/journal1.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/journal2.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/local.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/paper.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/testj.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/paper/testp.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/philosophersimprint/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/philosophersimprint/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/philosophersimprint/philosophersimprint.bib
@@ -2671,6 +2679,10 @@
 %%TEXMFDIR%%tex/latex/nwejm/nwejmart.cls
 %%TEXMFDIR%%tex/latex/onrannual/onrannual.cls
 %%TEXMFDIR%%tex/latex/opteng/opteng.sty
+%%TEXMFDIR%%tex/latex/paper/journal.cls
+%%TEXMFDIR%%tex/latex/paper/journal.sty
+%%TEXMFDIR%%tex/latex/paper/paper.cls
+%%TEXMFDIR%%tex/latex/paper/paper.sty
 %%TEXMFDIR%%tex/latex/philosophersimprint/philosophersimprint.cls
 %%TEXMFDIR%%tex/latex/pittetd/pitetd10.clo
 %%TEXMFDIR%%tex/latex/pittetd/pitetd11.clo

@@ -31,6 +31,8 @@ TEXMF_DIRS_LATEX=	\
 	lroundrect makebarcode maker makeshape mathspic miniplot modiagram neuralnetwork \
 	pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd pgf-umlsd \
 	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph postage \
+		progressbar\
+		psfragx\
 	prerex productbox pxpgfmark qrcode randbild randomwalk realhats reotex \
 	rviewport sa-tikz schemabloc scratch scsnowman setdeck signchart \
 	smartdiagram spath3 spectralsequences swimgraf table-fct ticollege \
@@ -38,6 +40,8 @@ TEXMF_DIRS_LATEX=	\
 	tikz-feynman tikz-inet tikz-kalender tikz-layers tikz-opm tikz-page \
 	tikz-palattice tikz-qtree tikz-timing tikzcodeblocks tikzducks \
 	tikzinclude tikzlings tikzmark tikzmarmots tikzorbital tikzpagenodes tikzpeople tikzpfeile \
+		overpic\
+		pawpict\
 	tikzposter tikzscale tikzsymbols timing-diagrams tipfr tkz-doc \
 	tkz-linknodes tkz-orm tkz-tab tqft tree-dvips tsemlines tufte-latex xpicture
 TEXMF_DOCDIRS=	fonts/knitting support/latex-make

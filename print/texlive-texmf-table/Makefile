@@ -15,6 +15,9 @@ TEXMF_DIRS_LATEX=	\
 	tabularew tabulary threeparttable threeparttablex warpcol \
 		moreenum\
 		multenum\
+		outline\
+		outlines\
+		paralist\
 	xltabular xtab
 
 TEXMF_DOCDIRS=	generic/colortab generic/hlist lualatex/odsfile generic/tap

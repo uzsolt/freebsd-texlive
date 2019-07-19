@@ -258,7 +258,6 @@ TEXMF_DIRS_LATEX=	\
 		listlbls\
 		listofsymbols\
 		logical-markup-utils\
-		longnamefilelist\
 		lsc\
 		lstaddons\
 		ltxdockit\
@@ -294,116 +293,65 @@ TEXMF_DIRS_LATEX=	\
 		mversion\
 		mwe\
 		mylatexformat\
-		nag\
 		nameauth\
-		namespc\
 		ncclatex\
 		ncctools\
-		needspace\
 		nestquot\
-		newfile\
-		newlfm\
-		newspaper\
 		newunicodechar\
 		newvbtm\
 		newverbs\
 		nfssext-cfr\
-		nicefilelist\
 		niceframe\
 		nicetext\
 		nidanfloat\
 		nlctdoc\
-		noitcrul\
 		nolbreaks\
 		nomencl\
 		nomentbl\
 		nonfloat\
-		nonumonpart\
 		nopageno\
 		normalcolor\
 		notes\
 		notespages\
-		notestex\
 		notoccite\
-		nowidow\
 		ntheorem\
 		numberedblock\
-		numname\
-		numspell\
-		ocg-p\
-		ocgx\
-		ocgx2\
 		ocr-latex\
-		octavo\
 		oldstyle\
 		onlyamsmath\
 		opcit\
-		optidef\
 		optional\
-		options\
-		outline\
 		outliner\
-		outlines\
 		outlining\
-		overpic\
 		pagecolor\
 		pagecont\
 		pagenote\
 		pageslts\
-		paper\
-		papercdcase\
 		papermas\
-		papertex\
-		paracol\
 		parades\
-		paralist\
 		paresse\
 		parnotes\
-		pas-tableur\
 		pauldoc\
-		pawpict\
-		pax\
 		pecha\
-		perltex\
-		permute\
-		petiteannonce\
 		phffullpagefigure\
 		phfnote\
-		phfparen\
-		phfqit\
 		phfquotetext\
 		phfthm\
 		philex\
-		phonenumbers\
 		photo\
 		piff\
-		pkgloader\
 		placeins\
 		plantslabels\
 		plates\
 		plweb\
-		polynom\
-		polynomial\
-		postcards\
 		preprint\
-		pressrelease\
 		prettyref\
 		preview\
 		printlen\
-		program\
-		progress\
-		progressbar\
-		proofread\
 		protex\
 		protocol\
-		psfragx\
-		pstool\
-		pstring\
 		pxgreeks\
-		pygmentex\
-		python\
 		qstest\
-		qsymbols\
 		quicktype\
 		quotchap\
 		quoting\

@@ -266,6 +266,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/na-box/na-box_doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/na-box/naammoh.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/na-box/nabox.png
+%%PORTDOCS%%%%DOCSDIR%%-texmf/notestex/NotesTeX.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/notestex/NotesTeX.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/notestex/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pas-cours/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pas-cours/README.TEXLIVE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pas-cours/attention.png
@@ -726,6 +729,7 @@
 %%TEXMFDIR%%tex/latex/mensa-tex/mensa-tex.cls
 %%TEXMFDIR%%tex/latex/moodle/moodle.sty
 %%TEXMFDIR%%tex/latex/musikui/musikui.sty
+%%TEXMFDIR%%tex/latex/notestex/NotesTeX.sty
 %%TEXMFDIR%%tex/latex/pas-cours/pas-cours.sty
 %%TEXMFDIR%%tex/latex/pbsheet/pbsheet.cls
 %%TEXMFDIR%%tex/latex/probsoln/probsoln.sty

@@ -18,6 +18,15 @@ TEXMF_DIRS_LATEX=	\
 		menu\
 		menukeys\
 		meetingmins\
+		needspace\
+		nonumonpart\
+		nowidow\
+		numname\
+		numspell\
+		paracol\
+		pas-tableur\
+		phonenumbers\
+		progress\
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

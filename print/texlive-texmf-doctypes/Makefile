@@ -9,6 +9,14 @@ TEXMF_DIRS_LATEX=	\
 	invoice2 isodoc leaflet lettre magaz mceinleger\
 		modernposter\
 		modroman\
+		newlfm\
+		newspaper\
+		papertex\
+		octavo\
+		papercdcase\
+		petiteannonce\
+		postcards\
+		pressrelease\
 	sciposter 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

@@ -13,6 +13,11 @@ TEXMF_DIRS_LATEX=	\
 	pdfpc-movie \
 	flippdf grayhints intopdf pdf14 pdfcomment pdfcprot pdfmarginpar \
 	pdfpagediff pdfprivacy pdfreview pdfsync pdfwin pdfx \
+		ocg-p\
+		ocgx2\
+		pax\
+		pstool\
+		ocgx\
 	tagpdf xcpdftips
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

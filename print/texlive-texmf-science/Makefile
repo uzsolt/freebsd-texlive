@@ -51,6 +51,14 @@ TEXMF_DIRS_LATEX=	\
 	isomath isotope \
 	jkmath karnaugh-map karnaugh karnaughmap leftidx ladder lewis linop \
 	logicproof logpap \
+		noitcrul\
+		optidef\
+		permute\
+		phfparen\
+		phfqit\
+		program\
+		pstring\
+		pygmentex\
 	longdivision lplfitch lstbayes mandi mathcomp mathfixs mathpartir \
 	mathpunctspace matlab-prettifier mattens mhchem mhequ miller \
 	multiobjective mychemistry natded nath nicematrix nuc nucleardata \

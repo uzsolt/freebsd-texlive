@@ -11,7 +11,15 @@ TEXMF_DIRS_LATEX=	\
 	lastpage lcd limap lkproof mailmerge makebase manuscript marginfit \
 	marginfix marginnote mathastext maybemath mcaption \
 	keystroke \
+		romanbar\
+		romanbarpagenumber\
+		romannum\
+		rterface\
+		savetrees\
+		seealso\
 	minidocument\
+		refcheck\
+		repeatindex\
 		multiaudience\
 		mnotes\
 		minitoc\
@@ -27,6 +35,17 @@ TEXMF_DIRS_LATEX=	\
 		pas-tableur\
 		phonenumbers\
 		progress\
+		shadow\
+		shadowtext\
+		silence\
+		standalone\
+		subfiles\
+		templatetools\
+		textfit\
+		texvc\
+		titling\
+		totpages\
+		tagging\
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

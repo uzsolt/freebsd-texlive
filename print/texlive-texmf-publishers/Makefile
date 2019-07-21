@@ -66,6 +66,7 @@ TEXMF_DIRS=	bibtex/bib/IEEEtran/ \
 		tex/xelatex/langsci \
 		tex/xelatex/mynsfc
 TEXMF_DIRS_LATEX=	\
+		sf298\
 	IEEEconf IEEEtran aastex abnt abntex2 abstract achemso acmart acmconf active-conf actuarialangle actuarialsymbol \
 	adfathesis afparticle afthesis aguplus aiaa ametsoc aomart apa apa6 \
 	apa6e arsclassica articleingud asaetr ascelike aucklandthesis authorarchive \

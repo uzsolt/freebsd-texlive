@@ -26,6 +26,7 @@ TEXMF_DIRS_LATEX=	\
 	crosswrd egameps gamebook go havannah  hexgame horoscop jigsaw \
 	labyrinth logicpuzzle onedown othello othelloboard pas-crosswords \
 	psgo rubik schwalbe-chess sgame skak soup sudoku sudokubundle \
+		texmate\
 	xq xskak
 
 TEXMF_DOCDIRS=	fonts/chess fonts/xq

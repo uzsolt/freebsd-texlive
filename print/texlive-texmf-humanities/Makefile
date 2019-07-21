@@ -10,6 +10,10 @@ TEXMF_DIRS_LATEX= \
 	chronology covington currency \
 	diadia dramatist dvgloss ean13isbn ecltree edfnotes eledform eledmac \
 	engpron foreign gb4e \
+		sdrt\
+		semantic-markup\
+		syntrace\
+		synttree\
 	gmverse jura juraabbrev juramisc jurarsp ledmac leipzig lexikon lexref \
 	ling-macros linguex liturg metrix parallel parrun phonrule plari play \
 	poemscol poetry poetrytex qobitree qtree reledmac rrgtrees rtklage \

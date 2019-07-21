@@ -8,6 +8,10 @@ TEXMF_DIRS_LATEX=	\
 	embedall fancytooltips flashmovie incgraph interactiveworkbook \
 	media9\
 		movie15\
+		repltext\
+		spotcolor\
+		tdclock\
+		threadcol\
 	mmap\
 	pdfoverlay pdfpages \
 	pdfpc-movie \

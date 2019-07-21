@@ -68,6 +68,20 @@ TEXMF_DIRS_LATEX=	\
 	pst-geometrictools pst-lsystem pst-math pst-moire pst-ode pst-platon pst-poly pst-vehicle \
 	pst-venn ptolemaicastronomy pythonhighlight qcircuit quantikz rank-2-roots rec-thy revquantum \
 	ribbonproofs rmathbr \
+		register\
+		semantic\
+		shdoc\
+		smartunits\
+		sseq\
+		subdepth\
+		subeqn\
+		subeqnarray\
+		texments\
+		texshade\
+		textualicomma\
+		was\
+		trfsigns\
+		truncate\
 	sasnrdisplay sclang-prettifier scratch3 scratchx sesamanuel sfg \
 	shuffle simpler-wick simplewick siunitx skmath spalign stanli statex \
 	statex2 statistics statmath steinmetz stmaryrd struktex substances subsupscripts \
@@ -82,6 +96,8 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
   pst-platon pst-poly pst-vehicle pst-moire pst-venn pst-contourplot pst-feyn pst-lsystem stmaryrd
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${nd}}
 .endfor
+
+TEXMF_SHEBANG_FILES_DOCS+=	share/doc/texlive-texmf/shdoc/shreformat.sh
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

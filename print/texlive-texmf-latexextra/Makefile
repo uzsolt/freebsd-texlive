@@ -358,59 +358,32 @@ TEXMF_DIRS_LATEX=	\
 		quotmark\
 		randtext\
 		readarray\
-		recipe\
-		recipebook\
-		recipecard\
-		refcheck\
 		refenums\
-		reflectgraphics\
 		refman\
 		refstyle\
-		regcount\
-		register\
-		regstats\
 		relenc\
-		repeatindex\
-		repltext\
 		rjlparshap\
 		robustindex\
-		romanbar\
-		romanbarpagenumber\
 		romanneg\
-		romannum\
 		rotfloat\
 		rotpages\
-		rterface\
 		rtkinenc\
-		rulercompass\
 		sanitize-umlaut\
 		sauerj\
 		savefnmark\
-		savetrees\
 		scalebar\
 		scalerel\
 		scanpages\
-		scrlttr2copy\
-		sdrt\
 		secdot\
 		sectionbox\
 		sectionbreak\
 		sectsty\
-		seealso\
 		selectp\
-		semantic-markup\
-		semantic\
-		semioneside\
 		semproc\
 		sepfootnotes\
 		seqsplit\
-		sf298\
-		sffms\
 		sfmath\
 		shadethm\
-		shadow\
-		shadowtext\
-		shdoc\
 		shipunov\
 		shorttoc\
 		show2e\
@@ -419,107 +392,57 @@ TEXMF_DIRS_LATEX=	\
 		showexpl\
 		sidecap\
 		sidenotes\
-		silence\
-		simplecd\
-		simpleinvoice\
-		sitem\
-		skb\
-		skdoc\
-		skeyval\
 		skrapport\
 		slantsc\
 		smalltableof\
 		smartref\
-		smartunits\
 		snapshot\
 		snotez\
 		soul\
 		spark-otf\
-		sparklines\
 		splitindex\
-		spotcolor\
 		spverbatim\
 		srbook-mem\
 		srcltx\
-		sseq\
-		standalone\
 		statistik\
 		stealcaps\
 		stex\
-		stringstrings\
 		sttools\
-		stubs\
-		subdepth\
-		subeqn\
-		subeqnarray\
-		subfigmat\
-		subfigure\
-		subfiles\
-		subfloat\
 		substitutefont\
-		svg\
-		svgcolor\
 		syntax\
-		syntrace\
-		synttree\
-		tabfigures\
-		tableaux\
 		tableof\
-		tablists\
 		tabto-ltx\
-		tagging\
 		tagpair\
 		tamefloats\
 		tcldoc\
-		tdclock\
 		technics\
-		ted\
-		templatetools\
-		termcal\
 		termlist\
 		testhyphens\
-		testidx\
 		tex-label\
 		texlogos\
-		texmate\
-		texments\
-		texshade\
-		textfit\
 		textpos\
-		textualicomma\
-		texvc\
 		theoremref\
 		thinsp\
 		thmtools\
-		threadcol\
 		thumb\
 		thumbs\
 		thumby\
-		ticket\
 		titlecaps\
 		titlefoot\
 		titlepic\
 		titleref\
-		titling\
 		tocbibind\
 		tocdata\
 		tocloft\
 		tocvsec2\
-		todo\
-		todonotes\
 		tokenizer\
 		topfloat\
-		totpages\
-		trfsigns\
 		trivfloat\
 		trsym\
-		truncate\
 		turnthepage\
-		twoinone\
 		twoup\
 		txgreeks\
 		type1cm\
-		typed-checklist\
 		typeface\
 		typoaid\
 		typogrid\
@@ -553,7 +476,6 @@ TEXMF_DIRS_LATEX=	\
 		vwcol\
 		wallpaper\
 		warning\
-		was\
 		widetable\
 		wordcount\
 		wordlike\
@@ -593,7 +515,6 @@ TEXMF_SHEBANG_FILES=	\
 	share/texmf-dist/scripts/changes/pyMergeChanges.py
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/uspace/uspace-ctanify.sh\
-	share/doc/texlive-texmf/shdoc/shreformat.sh\
 	share/doc/texlive-texmf/scanpages/replicate.py
 
 post-install-texmf:

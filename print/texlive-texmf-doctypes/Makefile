@@ -7,6 +7,8 @@ TEXMF_DIRS_LATEX=	\
 	a0poster bookcover booklet cheatsheet dvdcoll elzcards facsimile factura \
 	flacards flashcards g-brief gcard image-gallery invoice-class invoice \
 	invoice2 isodoc leaflet lettre magaz mceinleger\
+		scrlttr2copy\
+		sffms\
 		modernposter\
 		modroman\
 		newlfm\
@@ -17,6 +19,13 @@ TEXMF_DIRS_LATEX=	\
 		petiteannonce\
 		postcards\
 		pressrelease\
+		recipe\
+		recipebook\
+		simplecd\
+		simpleinvoice\
+		stubs\
+		ticket\
+		recipecard\
 	sciposter 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

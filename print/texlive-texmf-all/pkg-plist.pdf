@@ -335,6 +335,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pstool/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pstool/pstool.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pstool/pstool.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/repltext/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/repltext/repltext.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/spotcolor/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/spotcolor/readme.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/spotcolor/readme.tcp
+%%PORTDOCS%%%%DOCSDIR%%-texmf/spotcolor/readme.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-alt-actualtext-luatex.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-alt-actualtext.pdf
@@ -366,6 +372,14 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/tagpdf.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/tagpdf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/tagpdf.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tdclock/Changelog
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tdclock/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tdclock/tdclock-beamer-example.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tdclock/tdclock-beamer-example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tdclock/tdclock-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tdclock/tdclock-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/threadcol/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/threadcol/threadcol.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xcpdftips/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xcpdftips/xcpdftips.pdf
 %%TEXMFDIR%%tex/latex/animate/animate.sty
@@ -501,6 +515,10 @@
 %%TEXMFDIR%%tex/latex/pdfx/pdfx.xmp
 %%TEXMFDIR%%tex/latex/pdfx/text89.def
 %%TEXMFDIR%%tex/latex/pstool/pstool.sty
+%%TEXMFDIR%%tex/latex/repltext/repltext.sty
+%%TEXMFDIR%%tex/latex/spotcolor/spotcolor.sty
+%%TEXMFDIR%%tex/latex/spotcolor/spotcolorhks.tex
+%%TEXMFDIR%%tex/latex/spotcolor/spotcolorpantone.tex
 %%TEXMFDIR%%tex/latex/tagpdf/tagpdf-attr-code.sty
 %%TEXMFDIR%%tex/latex/tagpdf/tagpdf-checks-code.sty
 %%TEXMFDIR%%tex/latex/tagpdf/tagpdf-luatex.def
@@ -516,4 +534,6 @@
 %%TEXMFDIR%%tex/latex/tagpdf/tagpdf.lua
 %%TEXMFDIR%%tex/latex/tagpdf/tagpdf.sty
 %%TEXMFDIR%%tex/latex/tagpdf/tagpdfdocu-patches.sty
+%%TEXMFDIR%%tex/latex/tdclock/tdclock.sty
+%%TEXMFDIR%%tex/latex/threadcol/threadcol.sty
 %%TEXMFDIR%%tex/latex/xcpdftips/xcpdftips.sty

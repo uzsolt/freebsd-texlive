@@ -18,6 +18,10 @@ TEXMF_DIRS_LATEX=	\
 		outline\
 		outlines\
 		paralist\
+		sitem\
+		tableaux\
+		tablists\
+		typed-checklist\
 	xltabular xtab
 
 TEXMF_DOCDIRS=	generic/colortab generic/hlist lualatex/odsfile generic/tap

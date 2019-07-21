@@ -18,6 +18,13 @@ TEXMF_DIRS_LATEX=	\
 	duckuments elocalloc environ everyhook export exp-testopt fetchcls \
 	fifo-stack filehook \
 	nag\
+		regcount\
+		regstats\
+		skdoc\
+		skeyval\
+		stringstrings\
+		testidx\
+		ted\
 		newfile\
 		namespc\
 		options\

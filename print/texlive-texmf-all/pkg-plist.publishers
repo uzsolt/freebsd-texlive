@@ -1574,6 +1574,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/seuthesix/seuthesix.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/seuthesix/seuthesix.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/seuthesix/seuthesix.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/sf298/Makefile
+%%PORTDOCS%%%%DOCSDIR%%-texmf/sf298/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/sf298/sample298.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/sf298/sf298.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sphdthesis/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sphdthesis/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sphdthesis/SPhdThesis.pdf
@@ -2763,6 +2767,7 @@
 %%TEXMFDIR%%tex/latex/sduthesis/sduthesis.cls
 %%TEXMFDIR%%tex/latex/seuthesix/seuthesix.cfg
 %%TEXMFDIR%%tex/latex/seuthesix/seuthesix.cls
+%%TEXMFDIR%%tex/latex/sf298/sf298.sty
 %%TEXMFDIR%%tex/latex/sphdthesis/SPhdThesis.cls
 %%TEXMFDIR%%tex/latex/spie/spie.cls
 %%TEXMFDIR%%tex/latex/sr-vorl/sr-vorl.cls

@@ -462,6 +462,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/tasks_en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tasks/tasks_en.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/termcal/Contents
+%%PORTDOCS%%%%DOCSDIR%%-texmf/termcal/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/termcal/termcal.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/translations/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/translations/translations_en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/translations/translations_en.tex
@@ -2489,6 +2492,7 @@
 %%TEXMFDIR%%tex/latex/sesstime/sesstime.sty
 %%TEXMFDIR%%tex/latex/tasks/tasks.cfg
 %%TEXMFDIR%%tex/latex/tasks/tasks.sty
+%%TEXMFDIR%%tex/latex/termcal/termcal.sty
 %%TEXMFDIR%%tex/latex/translations/translations-basic-dictionary-catalan.trsl
 %%TEXMFDIR%%tex/latex/translations/translations-basic-dictionary-dutch.trsl
 %%TEXMFDIR%%tex/latex/translations/translations-basic-dictionary-english.trsl

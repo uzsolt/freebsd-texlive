@@ -168,6 +168,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sudokubundle/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sudokubundle/somesudoku.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/sudokubundle/sudokubundle.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/texmate/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/texmate/texmate2manual.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/texmate/texmate2manual.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xq/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xq/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xq/README
@@ -456,6 +459,7 @@
 %%TEXMFDIR%%tex/latex/sudokubundle/createsudoku.sty
 %%TEXMFDIR%%tex/latex/sudokubundle/printsudoku.sty
 %%TEXMFDIR%%tex/latex/sudokubundle/solvesudoku.sty
+%%TEXMFDIR%%tex/latex/texmate/texmate.sty
 %%TEXMFDIR%%tex/latex/xq/xq.sty
 %%TEXMFDIR%%tex/latex/xskak/xskak-keys.sty
 %%TEXMFDIR%%tex/latex/xskak/xskak-nagdef.sty

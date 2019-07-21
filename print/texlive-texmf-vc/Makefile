@@ -9,6 +9,9 @@ TEXMF_DIRS_LATEX=	\
 	nicefilelist\
 		proofread\
 	longnamefilelist\
+		skb\
+		todo\
+		todonotes\
 	rcs rcs-multi rcsinfo svn-multi svn-prov svn svninfo vhistory
 TEXMF_DOCDIRS=		support/gitfile-info
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ngitfile-info}

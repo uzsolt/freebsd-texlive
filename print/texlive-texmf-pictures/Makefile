@@ -35,13 +35,19 @@ TEXMF_DIRS_LATEX=	\
 		psfragx\
 	prerex productbox pxpgfmark qrcode randbild randomwalk realhats reotex \
 	rviewport sa-tikz schemabloc scratch scsnowman setdeck signchart \
+		rulercompass\
+		sparklines\
 	smartdiagram spath3 spectralsequences swimgraf table-fct ticollege \
+		svg\
+		svgcolor\
+		tabfigures\
 	tikz-bayesnet tikz-cd tikz-dependency tikz-dimline tikz-feynhand \
 	tikz-feynman tikz-inet tikz-kalender tikz-layers tikz-opm tikz-page \
 	tikz-palattice tikz-qtree tikz-timing tikzcodeblocks tikzducks \
 	tikzinclude tikzlings tikzmark tikzmarmots tikzorbital tikzpagenodes tikzpeople tikzpfeile \
 		overpic\
 		pawpict\
+		reflectgraphics\
 	tikzposter tikzscale tikzsymbols timing-diagrams tipfr tkz-doc \
 	tkz-linknodes tkz-orm tkz-tab tqft tree-dvips tsemlines tufte-latex xpicture
 TEXMF_DOCDIRS=	fonts/knitting support/latex-make

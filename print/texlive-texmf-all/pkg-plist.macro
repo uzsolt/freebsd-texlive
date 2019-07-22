@@ -283,6 +283,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/getfiledate/getfiledate-guide.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/getitems/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/getitems/getitems.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/globalvals/COPYING
+%%PORTDOCS%%%%DOCSDIR%%-texmf/globalvals/ChangeLog
+%%PORTDOCS%%%%DOCSDIR%%-texmf/globalvals/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/globalvals/globalvals.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/globalvals/globalvals.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gmdoc-enhance/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gmdoc-enhance/gmdoc-enhance.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gmdoc/README
@@ -295,6 +300,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gobble/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gobble/gobble-user.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gobble/gobble.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/grabbox/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/grabbox/grabbox.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gtl/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gtl/gtl.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hulipsum/README
@@ -863,6 +870,7 @@
 %%TEXMFDIR%%tex/latex/forloop/forloop.sty
 %%TEXMFDIR%%tex/latex/getfiledate/getfiledate.sty
 %%TEXMFDIR%%tex/latex/getitems/getitems.sty
+%%TEXMFDIR%%tex/latex/globalvals/globalvals.sty
 %%TEXMFDIR%%tex/latex/gmdoc-enhance/gmdoc-enhance.sty
 %%TEXMFDIR%%tex/latex/gmdoc/gmdoc.sty
 %%TEXMFDIR%%tex/latex/gmdoc/gmdocc.cls
@@ -881,6 +889,7 @@
 %%TEXMFDIR%%tex/latex/gmutils/gmtypos.sty
 %%TEXMFDIR%%tex/latex/gmutils/gmurl.sty
 %%TEXMFDIR%%tex/latex/gmutils/gmutils.sty
+%%TEXMFDIR%%tex/latex/grabbox/grabbox.sty
 %%TEXMFDIR%%tex/latex/hulipsum/hulipsum.sty
 %%TEXMFDIR%%tex/latex/ifmtarg/ifmtarg.sty
 %%TEXMFDIR%%tex/latex/ifnextok/ifnextok.sty

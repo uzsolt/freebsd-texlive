@@ -7,6 +7,7 @@ TEXMF_DIRS=	tex/lualatex/odsfile
 TEXMF_DIRS_GENERIC=	colortab hlist tap
 TEXMF_DIRS_LATEX=	\
 	alnumsec arydshln asciilist blkarray booktabs bullcntr calctab \
+	gatherenum \
 	cals cellprops cellspace collcell colortbl ctable diagbox \
 	enumitem-zref eqlist etaremune expdlist fcolumn ftcap grid-system \
 	grid iitem keyvaltable listliketab longfigure ltablex ltabptch \
@@ -22,6 +23,7 @@ TEXMF_DIRS_LATEX=	\
 		sitem\
 		tableaux\
 		tablists\
+		tablvar\
 		typed-checklist\
 	xltabular xtab
 

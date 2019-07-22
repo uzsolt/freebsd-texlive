@@ -134,6 +134,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/engpron/engpron-fr.ltx
 %%PORTDOCS%%%%DOCSDIR%%-texmf/engpron/engpron-fr.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/engpron/engpron.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/euflag/MANIFEST
+%%PORTDOCS%%%%DOCSDIR%%-texmf/euflag/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/euflag/VERSION
+%%PORTDOCS%%%%DOCSDIR%%-texmf/euflag/classpack.sty
+%%PORTDOCS%%%%DOCSDIR%%-texmf/euflag/euflag.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/expex/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/expex/doc-source.zip
 %%PORTDOCS%%%%DOCSDIR%%-texmf/expex/expex-doc.pdf
@@ -161,6 +166,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jurarsp/jurarsp.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jurarsp/rsptest.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jurarsp/rsptest.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/kalendarium/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/kalendarium/kalendarium.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ledmac/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ledmac/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ledmac/djd17nov.tex
@@ -453,6 +460,7 @@
 %%TEXMFDIR%%tex/latex/eledmac/eledpar.sty
 %%TEXMFDIR%%tex/latex/engpron/engpron-tools.sty
 %%TEXMFDIR%%tex/latex/engpron/engpron.sty
+%%TEXMFDIR%%tex/latex/euflag/euflag.sty
 %%TEXMFDIR%%tex/latex/foreign/foreign.sty
 %%TEXMFDIR%%tex/latex/gb4e/cgloss4e.sty
 %%TEXMFDIR%%tex/latex/gb4e/gb4e.sty
@@ -470,6 +478,7 @@
 %%TEXMFDIR%%tex/latex/juramisc/juraurtl.cls
 %%TEXMFDIR%%tex/latex/jurarsp/jurarsp.cfg
 %%TEXMFDIR%%tex/latex/jurarsp/jurarsp.sty
+%%TEXMFDIR%%tex/latex/kalendarium/kalendarium.sty
 %%TEXMFDIR%%tex/latex/ledmac/afoot.sty
 %%TEXMFDIR%%tex/latex/ledmac/ledarab.sty
 %%TEXMFDIR%%tex/latex/ledmac/ledmac.sty

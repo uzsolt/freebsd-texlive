@@ -1413,6 +1413,15 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hypernat/hypernat.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hyperxmp/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hyperxmp/hyperxmp.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/icite.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/bibsample.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/icite-biblatex.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/icite-biblatex.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/icite-minimal.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/icite-minimal.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/icite-nobiblatex.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/icite/samples/icite-nobiblatex.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/idxcmds/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/idxcmds/idxcmds_en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/idxcmds/idxcmds_en.tex
@@ -3507,6 +3516,7 @@
 %%TEXMFDIR%%tex/latex/hyper/xr.hyp
 %%TEXMFDIR%%tex/latex/hypernat/hypernat.sty
 %%TEXMFDIR%%tex/latex/hyperxmp/hyperxmp.sty
+%%TEXMFDIR%%tex/latex/icite/icite.sty
 %%TEXMFDIR%%tex/latex/idxcmds/idxcmds.sty
 %%TEXMFDIR%%tex/latex/idxlayout/idxlayout.sty
 %%TEXMFDIR%%tex/latex/iffont/iffont.sty

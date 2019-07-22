@@ -472,6 +472,7 @@ TEXMF_DIRS_LATEX=	\
 		xurl\
 		yafoot\
 		ycbook\
+		icite\
 		yplan\
 		zed-csp
 TEXMF_DOCDIRS=

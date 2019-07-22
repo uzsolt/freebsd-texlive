@@ -74,6 +74,20 @@ TEXMF_DIRS_LATEX=	\
 	cascadilla cje classicthesis cleanthesis cmpj confproc coverpage cquthesis \
 	mla-paper\
 	mslapa\
+	topletter \
+	srdp-mathematik \
+	jneurosci \
+	harvard \
+	geschichtsfrkl \
+	gammas \
+	ftc-notebook \
+	etsvthor \
+	els-cas-templates \
+	economic \
+	chs-physics-report \
+	chicago \
+	cell \
+	brandeis-problemset \
 	dccpaper dithesis dtk ebook ebsthesis ejpecp ekaia elbioimp elsarticle \
 	elteikthesis emisa emulateapj erdc estcpmm fbithesis fcavtex fcltxdoc fei fithesis gaceta \
 	gatech-thesis grant gsemthesis gzt h2020proposal hagenberg-thesis \
@@ -91,14 +105,17 @@ TEXMF_DIRS_LATEX=	\
 	sugconf tabriz-thesis texilikechaps texilikecover thesis-ekf \
 	thesis-gwu thesis-titlepage-fhac thucoursework thuthesis timbreicmc tlc-article \
 		paper\
+	ucalgmthesis \
+	ucsmonograph \
 	toptesi tudscr tugboat tui turabian turabian-formatting uaclasses uafthesis ucbthesis \
 	ucdavisthesis ucthesis uestcthesis uhhassignment uiucredborder \
 	uiucthesis ulthese umbclegislation umich-thesis umthesis unamthesis \
 	unitn-bimrep univie-ling unswcover uothesis uowthesis \
 	uowthesistitlepage urcls uspatent utexasthesis ut-thesis uwthesis wsemclassic \
+	uni-wtal-ger uni-wtal-lin \
 	xcookybooky xduthesis yathesis york-thesis
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover:Neconomic:Nchicago}
 
 TEXMF_SHEBANG_FILES=	share/doc/texlive-texmf/ejpecp/mgetmref.py
 

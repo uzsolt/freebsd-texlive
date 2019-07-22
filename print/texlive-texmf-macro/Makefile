@@ -12,6 +12,8 @@ TEXMF_DIRS_LATEX=	\
 	arraysort assoccnt authoraftertitle bashful blindtext boolexpr \
 	bophook bxbase bxenclose calcage calculator catchfilebetweentags \
 	catoptions chngcntr classpack clefval clipboard cmdstring cmdtrack \
+	grabbox \
+	globalvals \
 	cntperchap codedoc codesection colordoc coloring comment \
 	conv-xkv coolstr copyedit cprotect currfile dataref denisbdoc \
 	diagnose dialogl doctools docmute download dprogress drac dtxdescribe \

@@ -70,6 +70,7 @@ TEXMF_DIRS_LATEX=	\
 	pst-qtree pst-rputover pst-rubans pst-shell pst-sigsys pst-slpe \
 	pst-solarsystem pst-solides3d pst-soroban pst-spectra pst-spinner \
 	pst-spirograph pst-stru pst-text pst-thick pst-tools pst-tree pst-tvz \
+	pst-marble \
 	pst-uml pst-vectorian pst-vowel pst-vue3d pstricks-add pstricks uml \
 	vocaltract
 

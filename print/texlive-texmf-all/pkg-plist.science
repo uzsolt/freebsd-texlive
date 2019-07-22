@@ -94,6 +94,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/biocon/source.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bitpattern/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bitpattern/bitpattern.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bnumexpr/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bnumexpr/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bnumexpr/bnumexpr.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bnumexpr/bnumexpr.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bnumexpr/bnumexprchanges.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bohr/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bohr/bohr_en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bohr/bohr_en.tex
@@ -319,6 +324,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/engtlc/engtlc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/engtlc/itengtlc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/engtlc/itengtlc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/eqexpl/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/eqexpl/README.ru.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/eqexpl/eqexpl.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/eqexpl/eqexpl.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/eqnarray/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/eqnarray/eqnarray.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/eqnnumwarn/README.md
@@ -408,6 +417,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hhtensor/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hhtensor/getversion.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hhtensor/hhtensor.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/identkey/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/interval/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/interval/interval.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/interval/interval.tex
@@ -436,6 +446,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/karnaugh/kvdoc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/karnaughmap/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/karnaughmap/karnaughmap.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/kvmap/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/kvmap/kvmap.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ladder/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ladder/ladder.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ladder/ladder.tex
@@ -488,6 +500,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mattens/mattens.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mattens/mattens_sample.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mattens/mattens_sample_src.zip
+%%PORTDOCS%%%%DOCSDIR%%-texmf/memorygraphs/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/memorygraphs/memorygraphs.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/memorygraphs/memorygraphs.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mhchem/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mhchem/lppl-1-3c.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/mhchem/manifest.txt
@@ -553,6 +568,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ot-tableau/ot-tableau.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/oubraces/oubraces.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/oubraces/oubraces.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/penrose/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/penrose/penrose.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/penrose/penrose.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/penrose/penrose_code.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/perfectcut/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/perfectcut/perfectcut.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/perfectcut/perfectcut.tex
@@ -676,6 +695,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pythonhighlight/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/qcircuit/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/qcircuit/qcircuit.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/qsharp/Install.ps1
+%%PORTDOCS%%%%DOCSDIR%%-texmf/qsharp/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/qsharp/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quantikz/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quantikz/quantikz.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quantikz/quantikz.tex
@@ -1417,6 +1439,7 @@
 %%TEXMFDIR%%tex/latex/biocon/biocon-old.sty
 %%TEXMFDIR%%tex/latex/biocon/biocon.sty
 %%TEXMFDIR%%tex/latex/bitpattern/bitpattern.sty
+%%TEXMFDIR%%tex/latex/bnumexpr/bnumexpr.sty
 %%TEXMFDIR%%tex/latex/bohr/bohr.sty
 %%TEXMFDIR%%tex/latex/boldtensors/boldtensors.sty
 %%TEXMFDIR%%tex/latex/bosisio/accenti.sty
@@ -1563,6 +1586,7 @@
 %%TEXMFDIR%%tex/latex/emf/emf.sty
 %%TEXMFDIR%%tex/latex/endiagram/endiagram.sty
 %%TEXMFDIR%%tex/latex/engtlc/engtlc.sty
+%%TEXMFDIR%%tex/latex/eqexpl/eqexpl.sty
 %%TEXMFDIR%%tex/latex/eqnarray/eqnarray.sty
 %%TEXMFDIR%%tex/latex/eqnnumwarn/eqnnumwarn.sty
 %%TEXMFDIR%%tex/latex/esdiff/esdiff.sty
@@ -1752,6 +1776,7 @@
 %%TEXMFDIR%%tex/latex/hepthesis/hepthesis.cls
 %%TEXMFDIR%%tex/latex/hepunits/hepunits.sty
 %%TEXMFDIR%%tex/latex/hhtensor/hhtensor.sty
+%%TEXMFDIR%%tex/latex/identkey/identkey.sty
 %%TEXMFDIR%%tex/latex/interval/interval.sty
 %%TEXMFDIR%%tex/latex/ionumbers/ionumbers.sty
 %%TEXMFDIR%%tex/latex/isomath/isomath.sty
@@ -1760,6 +1785,7 @@
 %%TEXMFDIR%%tex/latex/karnaugh-map/karnaugh-map.sty
 %%TEXMFDIR%%tex/latex/karnaugh/kvmacros.tex
 %%TEXMFDIR%%tex/latex/karnaughmap/karnaughmap.sty
+%%TEXMFDIR%%tex/latex/kvmap/kvmap.sty
 %%TEXMFDIR%%tex/latex/ladder/ladder.sty
 %%TEXMFDIR%%tex/latex/leftidx/leftidx.sty
 %%TEXMFDIR%%tex/latex/lewis/lewis.sty
@@ -1776,6 +1802,7 @@
 %%TEXMFDIR%%tex/latex/mathpunctspace/mathpunctspace.sty
 %%TEXMFDIR%%tex/latex/matlab-prettifier/matlab-prettifier.sty
 %%TEXMFDIR%%tex/latex/mattens/mattens.sty
+%%TEXMFDIR%%tex/latex/memorygraphs/memorygraphs.sty
 %%TEXMFDIR%%tex/latex/mhchem/hpstatement.sty
 %%TEXMFDIR%%tex/latex/mhchem/mhchem.sty
 %%TEXMFDIR%%tex/latex/mhchem/rsphrase.sty
@@ -1802,6 +1829,7 @@
 %%TEXMFDIR%%tex/latex/optidef/optidef.sty
 %%TEXMFDIR%%tex/latex/ot-tableau/ot-tableau.sty
 %%TEXMFDIR%%tex/latex/oubraces/oubraces.sty
+%%TEXMFDIR%%tex/latex/penrose/tikzlibrarypenrose.code.tex
 %%TEXMFDIR%%tex/latex/perfectcut/perfectcut.sty
 %%TEXMFDIR%%tex/latex/permute/permute.sty
 %%TEXMFDIR%%tex/latex/phfparen/phfparen.sty
@@ -1834,6 +1862,7 @@
 %%TEXMFDIR%%tex/latex/pygmentex/pygmentex.sty
 %%TEXMFDIR%%tex/latex/pythonhighlight/pythonhighlight.sty
 %%TEXMFDIR%%tex/latex/qcircuit/qcircuit.sty
+%%TEXMFDIR%%tex/latex/qsharp/qsharp.sty
 %%TEXMFDIR%%tex/latex/quantikz/tikzlibraryquantikz.code.tex
 %%TEXMFDIR%%tex/latex/rank-2-roots/rank-2-roots.sty
 %%TEXMFDIR%%tex/latex/rec-thy/rec-thy.sty

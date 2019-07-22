@@ -739,6 +739,7 @@
 %%TEXMFDIR%%tex/latex/leadsheets/leadsheets.library.translations.code.tex
 %%TEXMFDIR%%tex/latex/leadsheets/leadsheets.library.transposing.code.tex
 %%TEXMFDIR%%tex/latex/leadsheets/leadsheets.sty
+%%TEXMFDIR%%tex/latex/m-tx/mtxlatex.sty
 %%TEXMFDIR%%tex/latex/musicography/musicography.sty
 %%TEXMFDIR%%tex/latex/musixguit/musixguit.sty
 %%TEXMFDIR%%tex/latex/musixtex/musixcpt.sty

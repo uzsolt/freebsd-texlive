@@ -31,13 +31,14 @@ TEXMF_DIRS=	dvips/musixtex \
 TEXMF_DIRS_LATEX=	\
 	abc chordbars gchords gtrcrd guitar guitarchordschemes guitartabs \
 	harmony leadsheets musicography musixguit musixtex octave \
+	m-tx \
 	piano songbook songs xpiano
 
 TEXMF_DOCDIRS=	generic/bagpipe generic/musixtex generic/musixtnt generic/pmx \
 		support/lyluatex \
 		generic/musixtex \
 		lualatex/lilyglyphs luatex/gregoriotex
-TEXMF_DOCDIRS_LATEX=${TEXMF_DIRS_LATEX:Nlyluatex:Nmusixtex}
+TEXMF_DOCDIRS_LATEX=${TEXMF_DIRS_LATEX:Nlyluatex:Nmusixtex:Nm-tx}
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

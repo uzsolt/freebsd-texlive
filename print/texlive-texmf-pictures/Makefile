@@ -20,7 +20,9 @@ TEXMF_DIRS_GENERIC=	\
 	pictex texdraw tikz-cd xypic
 TEXMF_DIRS_LATEX=	\
 	adigraph aobs-tikz askmaps asyfig asypictureb autoarea background bardiag \
+	milsymb \
 	bchart beamerswitch binarytree blochsphere bloques blox bondgraph \
+	inline-images \
 	bondgraphs bxeepic cachepic callouts celtic clock combinedgraphics \
 	contour copyrightbox css-colors curve2e curves decorule diagmac2 \
 	dot2texi dottex drs ducksay dynkin-diagrams ecgdraw eepic ellipse \

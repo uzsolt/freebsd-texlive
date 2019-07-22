@@ -217,6 +217,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fcolumn/fcolumn.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ftcap/ftcap.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ftcap/ftcap.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/gatherenum/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/gatherenum/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/gatherenum/gatherenum.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grid-system/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grid-system/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grid-system/grid-system.pdf
@@ -305,6 +308,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/miscdoc.sty
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/tabls.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/tabls.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tablvar/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tablvar/tablvar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/tabu.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabularborder/tabularborder.pdf
@@ -394,6 +399,7 @@
 %%TEXMFDIR%%tex/latex/expdlist/expdlist.sty
 %%TEXMFDIR%%tex/latex/fcolumn/fcolumn.sty
 %%TEXMFDIR%%tex/latex/ftcap/ftcap.sty
+%%TEXMFDIR%%tex/latex/gatherenum/gatherenum.sty
 %%TEXMFDIR%%tex/latex/grid-system/grid-system.sty
 %%TEXMFDIR%%tex/latex/grid/grid.sty
 %%TEXMFDIR%%tex/latex/iitem/iitem.sty
@@ -423,6 +429,7 @@
 %%TEXMFDIR%%tex/latex/tablestyles/tablestyles.sty
 %%TEXMFDIR%%tex/latex/tablists/tablists.sty
 %%TEXMFDIR%%tex/latex/tabls/tabls.sty
+%%TEXMFDIR%%tex/latex/tablvar/tablvar.sty
 %%TEXMFDIR%%tex/latex/tabu/tabu.sty
 %%TEXMFDIR%%tex/latex/tabularborder/tabularborder.sty
 %%TEXMFDIR%%tex/latex/tabularcalc/tabularcalc.sty

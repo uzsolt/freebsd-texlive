@@ -59,6 +59,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grayhints/examples/gh-fmts-eforms.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grayhints/examples/gh-fmts-hyperref.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grayhints/examples/gh-hyperref.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hyperbar/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hyperbar/example.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hyperbar/example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hyperbar/hyperbar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/incgraph/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%-texmf/incgraph/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/incgraph/exaimage-0001.png
@@ -400,6 +404,7 @@
 %%TEXMFDIR%%tex/latex/flashmovie/player_flv_maxi.swf
 %%TEXMFDIR%%tex/latex/flippdf/flippdf.sty
 %%TEXMFDIR%%tex/latex/grayhints/grayhints.sty
+%%TEXMFDIR%%tex/latex/hyperbar/hyperbar.sty
 %%TEXMFDIR%%tex/latex/incgraph/incgraph.sty
 %%TEXMFDIR%%tex/latex/interactiveworkbook/interactiveworkbook-web.sty
 %%TEXMFDIR%%tex/latex/interactiveworkbook/interactiveworkbook.sty

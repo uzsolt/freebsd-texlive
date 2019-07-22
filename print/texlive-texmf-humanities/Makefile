@@ -10,6 +10,8 @@ TEXMF_DIRS_LATEX= \
 	chronology covington currency \
 	diadia dramatist dvgloss ean13isbn ecltree edfnotes eledform eledmac \
 	engpron foreign gb4e \
+	kalendarium \
+	euflag \
 		sdrt\
 		semantic-markup\
 		syntrace\

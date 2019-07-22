@@ -68,6 +68,13 @@ TEXMF_DIRS_LATEX=	\
 	pst-geometrictools pst-lsystem pst-math pst-moire pst-ode pst-platon pst-poly pst-vehicle \
 	pst-venn ptolemaicastronomy pythonhighlight qcircuit quantikz rank-2-roots rec-thy revquantum \
 	ribbonproofs rmathbr \
+	qsharp\
+	penrose \
+	memorygraphs \
+	kvmap \
+	identkey \
+	eqexpl \
+	bnumexpr \
 		register\
 		semantic\
 		shdoc\

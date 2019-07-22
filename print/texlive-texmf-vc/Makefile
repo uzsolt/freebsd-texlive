@@ -7,6 +7,9 @@ TEXMF_DIRS=
 TEXMF_DIRS_LATEX=	\
 	changelog gitfile-info gitinfo gitinfo2 gitlog latexgit phfsvnwatermark \
 	nicefilelist\
+	gitver \
+	ednotes \
+	commedit \
 		proofread\
 	longnamefilelist\
 		skb\

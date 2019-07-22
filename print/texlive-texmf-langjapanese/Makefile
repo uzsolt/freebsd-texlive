@@ -56,6 +56,11 @@ TEXMF_DIRS=	fonts/afm/wadalab/dgj/ \
 TEXMF_DIRS_LATEX=	\
 	ascmac bxcjkjatype bxjalipsum bxjaprnind bxjscls bxorigcapt \
 	gentombow jlreq morisawa platex-tools pxcjkcat pxufont zxjafbfont \
+	pxjodel \
+	plautopatch \
+	endnotesj\
+	bxwareki \
+	bxjaholiday \
 	zxjatype
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nmorisawa}

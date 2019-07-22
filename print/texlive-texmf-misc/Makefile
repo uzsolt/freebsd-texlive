@@ -11,6 +11,18 @@ TEXMF_DIRS_LATEX=	\
 	lastpage lcd limap lkproof mailmerge makebase manuscript marginfit \
 	marginfix marginnote mathastext maybemath mcaption \
 	keystroke \
+	pgf-cmykshadings \
+	padcount \
+	multicolrule \
+	logreq \
+	latexcolors \
+	latex-uni8 \
+	keyindex \
+	includernw \
+	fbox \
+	ditaa \
+	colophon \
+	clrstrip \
 		romanbar\
 		romanbarpagenumber\
 		romannum\
@@ -50,6 +62,7 @@ TEXMF_DIRS_LATEX=	\
 		undolabl\
 		uri\
 		ushort\
+		usebib\
 		varsfromjobname\
 		vwcol\
 		wordcount\
@@ -59,8 +72,9 @@ TEXMF_DIRS_LATEX=	\
 		xwatermark\
 		zebra-goodies\
 		yagusylo\
+		tex-locale
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntex-locale}
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

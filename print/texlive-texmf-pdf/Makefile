@@ -6,6 +6,7 @@ TEXMF_CATEG=	pdf
 TEXMF_DIRS_LATEX=	\
 	animate attachfile autopdf bxpdfver colorspace cooltooltips \
 	embedall fancytooltips flashmovie incgraph interactiveworkbook \
+	hyperbar \
 	media9\
 		movie15\
 		repltext\

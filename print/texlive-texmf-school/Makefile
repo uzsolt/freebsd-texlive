@@ -15,6 +15,7 @@ TEXMF_DIRS_LATEX=	\
 	probsoln qcm schule sesstime translations uantwerpendocs uebungsblatt \
 		notestex\
 		termcal\
+		uassign\
 	webquiz worksheet xsim mensa-tex
 
 TEXMF_DOCDIRS=	lualatex/cloze/ \

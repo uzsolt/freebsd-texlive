@@ -13,6 +13,7 @@ TEXMF_DIRS_LATEX=	\
 	makecell multirow nox polytable rccol spreadtab supertabular \
 	tablefootnote tablestyles tabls tabu tabularborder tabularcalc \
 	tabularew tabulary threeparttable threeparttablex warpcol \
+		widetable\
 		moreenum\
 		multenum\
 		outline\

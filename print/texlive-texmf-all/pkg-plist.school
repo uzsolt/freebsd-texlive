@@ -487,6 +487,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uantwerpendocs/uantwerpenphdthesis-example1.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uantwerpendocs/uantwerpenphdthesis-example2.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uantwerpendocs/uantwerpenphdthesis-example2.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/uassign/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/uassign/uassign.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/uassign/uassign.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uebungsblatt/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uebungsblatt/history.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uebungsblatt/uebungsblatt-doc.pdf
@@ -2521,6 +2524,7 @@
 %%TEXMFDIR%%tex/latex/uantwerpendocs/uantwerpenletter.cls
 %%TEXMFDIR%%tex/latex/uantwerpendocs/uantwerpenmasterthesis.cls
 %%TEXMFDIR%%tex/latex/uantwerpendocs/uantwerpenphdthesis.cls
+%%TEXMFDIR%%tex/latex/uassign/uassign.sty
 %%TEXMFDIR%%tex/latex/uebungsblatt/uebungsblatt.cls
 %%TEXMFDIR%%tex/latex/uebungsblatt/uebungsblatt.sty
 %%TEXMFDIR%%tex/latex/webquiz/pgfsys-dvisvgm4ht.def

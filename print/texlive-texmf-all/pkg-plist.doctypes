@@ -356,6 +356,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ticket/manual.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ticket/manual.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ticket/words.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/yaletter/CHANGES
+%%PORTDOCS%%%%DOCSDIR%%-texmf/yaletter/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/yaletter/lppl.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/yaletter/yaletter.pdf
 %%TEXMFDIR%%tex/latex/a0poster/a0poster.cls
 %%TEXMFDIR%%tex/latex/a0poster/a0size.sty
 %%TEXMFDIR%%tex/latex/bookcover/bookcover.cls
@@ -477,3 +481,4 @@
 %%TEXMFDIR%%tex/latex/ticket/zw32010.tdf
 %%TEXMFDIR%%tex/latex/ticket/zw3424.tdf
 %%TEXMFDIR%%tex/latex/ticket/zw4752.tdf
+%%TEXMFDIR%%tex/latex/yaletter/yaletter.cls

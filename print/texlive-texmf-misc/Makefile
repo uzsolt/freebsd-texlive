@@ -46,6 +46,19 @@ TEXMF_DIRS_LATEX=	\
 		titling\
 		totpages\
 		tagging\
+		umoline\
+		undolabl\
+		uri\
+		ushort\
+		varsfromjobname\
+		vwcol\
+		wordcount\
+		wordlike\
+		xellipsis\
+		xhfill\
+		xwatermark\
+		zebra-goodies\
+		yagusylo\
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

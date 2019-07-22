@@ -32,6 +32,8 @@ TEXMF_DIRS_LATEX=	\
 	pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd pgf-umlsd \
 	pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart pmgraph postage \
 		progressbar\
+		wallpaper\
+		wrapfig\
 		psfragx\
 	prerex productbox pxpgfmark qrcode randbild randomwalk realhats reotex \
 	rviewport sa-tikz schemabloc scratch scsnowman setdeck signchart \

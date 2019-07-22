@@ -1192,6 +1192,15 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/turnstile/turnstile_artigo.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ulqda/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ulqda/ulqda.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/underoverlap/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/underoverlap/dry.sty
+%%PORTDOCS%%%%DOCSDIR%%-texmf/underoverlap/packagedoc.cls
+%%PORTDOCS%%%%DOCSDIR%%-texmf/underoverlap/underoverlap.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/underoverlap/underoverlap.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/underoverlap/with.sty
+%%PORTDOCS%%%%DOCSDIR%%-texmf/units/COPYING
+%%PORTDOCS%%%%DOCSDIR%%-texmf/units/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/units/units.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/unitsdef/README.1st
 %%PORTDOCS%%%%DOCSDIR%%-texmf/unitsdef/defedpraef.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/unitsdef/defedunits.tex
@@ -1201,6 +1210,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/samples/venn-sample.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/samples/venn-sample.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/venndiagram/venndiagram.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/verbments/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/verbments/verbments.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/verbments/verbments.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vertbars/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vertbars/vertbars.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vertbars/vertbars.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/was/fixmath.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/was/gensymb.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/was/icomma.pdf
@@ -1249,6 +1264,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/youngtab/youngtab.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ytableau/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ytableau/ytableau.pdf 
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ziffer/README
 %%TEXMFDIR%%bibtex/bst/computational-complexity/cc.bst
 %%TEXMFDIR%%bibtex/bst/computational-complexity/cc2.bst
 %%TEXMFDIR%%dvips/gastex/gastex.pro
@@ -1926,6 +1942,9 @@
 %%TEXMFDIR%%tex/latex/truncate/truncate.sty
 %%TEXMFDIR%%tex/latex/turnstile/turnstile.sty
 %%TEXMFDIR%%tex/latex/ulqda/ulqda.sty
+%%TEXMFDIR%%tex/latex/underoverlap/underoverlap.sty
+%%TEXMFDIR%%tex/latex/units/nicefrac.sty
+%%TEXMFDIR%%tex/latex/units/units.sty
 %%TEXMFDIR%%tex/latex/unitsdef/ampabbrv.cfg
 %%TEXMFDIR%%tex/latex/unitsdef/enerabbr.cfg
 %%TEXMFDIR%%tex/latex/unitsdef/freqabbr.cfg
@@ -1937,6 +1956,8 @@
 %%TEXMFDIR%%tex/latex/unitsdef/voltabbr.cfg
 %%TEXMFDIR%%tex/latex/unitsdef/weigabbr.cfg
 %%TEXMFDIR%%tex/latex/venndiagram/venndiagram.sty
+%%TEXMFDIR%%tex/latex/verbments/verbments.sty
+%%TEXMFDIR%%tex/latex/vertbars/vertbars.sty
 %%TEXMFDIR%%tex/latex/was/fixmath.sty
 %%TEXMFDIR%%tex/latex/was/gensymb.sty
 %%TEXMFDIR%%tex/latex/was/icomma.sty
@@ -1974,3 +1995,4 @@
 %%TEXMFDIR%%tex/latex/yhmath/yhmath.sty
 %%TEXMFDIR%%tex/latex/youngtab/youngtab.sty
 %%TEXMFDIR%%tex/latex/ytableau/ytableau.sty
+%%TEXMFDIR%%tex/latex/ziffer/ziffer.sty

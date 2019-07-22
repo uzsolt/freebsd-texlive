@@ -415,6 +415,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xyling/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xyling/xyli-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xyling/xyli-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xytree/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xytree/xytree-doc-en.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xytree/xytree-doc-en.tex
 %%TEXMFDIR%%bibtex/bst/jurarsp/jurarsp.bst
 %%TEXMFDIR%%makeindex/juraabbrev/laws.ist
 %%TEXMFDIR%%tex/generic/expex/epltxchapno.sty
@@ -515,3 +518,4 @@
 %%TEXMFDIR%%tex/latex/thalie/thalie.sty
 %%TEXMFDIR%%tex/latex/verse/verse.sty
 %%TEXMFDIR%%tex/latex/xyling/xyling.sty
+%%TEXMFDIR%%tex/latex/xytree/xytree.sty

@@ -17,8 +17,11 @@ TEXMF_DIRS_LATEX=	\
 	diagnose dialogl doctools docmute download dprogress drac dtxdescribe \
 	duckuments elocalloc environ everyhook export exp-testopt fetchcls \
 	fifo-stack filehook \
+		ydoc\
 	nag\
 		regcount\
+		xnewcommand\
+		xoptarg\
 		regstats\
 		skdoc\
 		skeyval\
@@ -34,6 +37,7 @@ TEXMF_DIRS_LATEX=	\
 		qsymbols\
 		polynom\
 		polynomial\
+		zwgetfdate \
 	filedate fileinfo filemod fink \
 	finstrut fix2col fmtcount footnotehyper forarray forloop getfiledate \
 	getitems gmdoc gmdoc-enhance \

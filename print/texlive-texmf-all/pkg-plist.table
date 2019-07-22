@@ -355,6 +355,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/typed-checklist/typed-checklist.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/warpcol.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/manifest.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/widetable.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/Changes
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/xltabular-doc.bib
@@ -430,6 +433,7 @@
 %%TEXMFDIR%%tex/latex/threeparttablex/threeparttablex.sty
 %%TEXMFDIR%%tex/latex/typed-checklist/typed-checklist.sty
 %%TEXMFDIR%%tex/latex/warpcol/warpcol.sty
+%%TEXMFDIR%%tex/latex/widetable/widetable.sty
 %%TEXMFDIR%%tex/latex/xltabular/xltabular.sty
 %%TEXMFDIR%%tex/latex/xtab/xtab.sty
 %%TEXMFDIR%%tex/lualatex/odsfile/odsfile.lua

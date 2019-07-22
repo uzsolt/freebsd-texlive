@@ -1105,6 +1105,15 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tufte-latex/sample-handout.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tufte-latex/sample-handout.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tufte-latex/sample-handout.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wallpaper/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wallpaper/example/TGTamber.png
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wallpaper/example/auto/example.el
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wallpaper/example/example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wallpaper/example/hya.png
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wallpaper/wallpapermanual.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wrapfig/multiple-span.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wrapfig/wrapfig-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/wrapfig/wrapfig-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xpicture/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xpicture/xpicture-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xpicture/xpicture-doc.tex
@@ -2046,5 +2055,7 @@
 %%TEXMFDIR%%tex/latex/tufte-latex/tufte-book.cls
 %%TEXMFDIR%%tex/latex/tufte-latex/tufte-common.def
 %%TEXMFDIR%%tex/latex/tufte-latex/tufte-handout.cls
+%%TEXMFDIR%%tex/latex/wallpaper/wallpaper.sty
+%%TEXMFDIR%%tex/latex/wrapfig/wrapfig.sty
 %%TEXMFDIR%%tex/latex/xpicture/xpicture.sty
 %%TEXMFDIR%%tex/plain/knitting/knitting.tex

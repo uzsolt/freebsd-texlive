@@ -22,6 +22,7 @@ TEXMF_DIRS_LATEX=	\
 		pax\
 		pstool\
 		ocgx\
+		xmpincl\
 	tagpdf xcpdftips
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

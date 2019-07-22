@@ -26,6 +26,7 @@ TEXMF_DIRS_LATEX=	\
 		stubs\
 		ticket\
 		recipecard\
+		yaletter\
 	sciposter 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 

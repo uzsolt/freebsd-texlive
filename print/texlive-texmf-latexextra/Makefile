@@ -446,64 +446,34 @@ TEXMF_DIRS_LATEX=	\
 		typeface\
 		typoaid\
 		typogrid\
-		uassign\
-		umoline\
 		underlin\
-		underoverlap\
-		undolabl\
-		units\
-		upmethodology\
 		upquote\
-		uri\
-		ushort\
 		uspace\
 		variablelm\
 		varindex\
-		varsfromjobname\
 		vdmlisting\
 		verbasef\
 		verbatimcopy\
 		verbdef\
-		verbments\
 		version\
 		versions\
 		versonotes\
-		vertbars\
 		vgrid\
 		volumes\
 		vpe\
 		vruler\
-		vwcol\
-		wallpaper\
 		warning\
-		widetable\
-		wordcount\
-		wordlike\
-		wrapfig\
 		wtref\
 		xbmks \
 		xcolor-material\
 		xcolor-solarized\
 		xdoc\
-		xellipsis\
-		xhfill\
-		xmpincl\
-		xnewcommand\
-		xoptarg\
 		xprintlen\
 		xurl\
-		xwatermark\
-		xytree\
 		yafoot\
-		yagusylo\
-		yaletter\
 		ycbook\
-		ydoc\
 		yplan\
-		zebra-goodies\
-		zed-csp\
-		ziffer\
-		zwgetfdate
+		zed-csp
 TEXMF_DOCDIRS=
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Ndingbat:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nspark-otf:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm}
 

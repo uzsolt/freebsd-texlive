@@ -81,6 +81,7 @@ TEXMF_DIRS_LATEX=	\
 	imtekda iodhbwm iscram iwhdp jacow jmlr jpsj kdgdocs kluwer ksp-thesis \
 	ku-template labbook \
 	lion-msc llncsconf lni lps matc3 matc3mem mcmthesis mentis mnras \
+		upmethodology\
 	msu-thesis mucproc mugsthesis musuos muthesis nature navydocs nddiss \
 	ndsu-thesis nih nostarch nrc nwejm onrannual opteng \
 	philosophersimprint pittetd pkuthss powerdot-FUBerlin pracjourn \

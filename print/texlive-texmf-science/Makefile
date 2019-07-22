@@ -88,6 +88,11 @@ TEXMF_DIRS_LATEX=	\
 	susy syllogism sympytexpackage synproof t-angles tablor tensor \
 	textgreek textopo thmbox tikz-karnaugh tikz-ladder tikz-nef tikz-network tkz-base tkz-berge \
 	tkz-euclide tkz-graph tikz-optics tikz-sfc turnstile ulqda unitsdef \
+		underoverlap\
+		units\
+		verbments\
+		vertbars\
+		ziffer\
 	witharrows xymtex yhmath youngtab ytableau venndiagram
 TEXMF_DOCDIRS_FONTS=	chemarrow stmaryrd
 TEXMF_DOCDIRS_GENERIC=	${TEXMF_DIRS_GENERIC} pst-platon

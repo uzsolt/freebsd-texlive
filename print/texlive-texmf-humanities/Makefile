@@ -19,6 +19,7 @@ TEXMF_DIRS_LATEX= \
 	poemscol poetry poetrytex qobitree qtree reledmac rrgtrees rtklage \
 	metre\
 	msc\
+		xytree\
 	screenplay-pkg screenplay sides stage textglos thalie verse xyling
 
 TEXMF_DOCDIRS=	generic/expex

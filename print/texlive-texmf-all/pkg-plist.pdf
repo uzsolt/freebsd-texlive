@@ -382,6 +382,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/threadcol/threadcol.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xcpdftips/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xcpdftips/xcpdftips.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/license.xmp
+%%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/xmpincl.pdf
 %%TEXMFDIR%%tex/latex/animate/animate.sty
 %%TEXMFDIR%%tex/latex/attachfile/attachfile.sty
 %%TEXMFDIR%%tex/latex/autopdf/autopdf.sty
@@ -537,3 +540,4 @@
 %%TEXMFDIR%%tex/latex/tdclock/tdclock.sty
 %%TEXMFDIR%%tex/latex/threadcol/threadcol.sty
 %%TEXMFDIR%%tex/latex/xcpdftips/xcpdftips.sty
+%%TEXMFDIR%%tex/latex/xmpincl/xmpincl.sty

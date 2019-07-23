@@ -748,7 +748,6 @@
 %%TEXMFDIR%%scripts/webquiz/README-scripts
 %%TEXMFDIR%%scripts/webquiz/webquiz
 %%TEXMFDIR%%scripts/webquiz/webquiz.bat
-%%TEXMFDIR%%scripts/webquiz/webquiz.py
 %%TEXMFDIR%%scripts/webquiz/webquiz_layout.py
 %%TEXMFDIR%%scripts/webquiz/webquiz_makequiz.py
 %%TEXMFDIR%%scripts/webquiz/webquiz_templates.py

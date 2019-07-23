@@ -33,9 +33,12 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nexample}
 
 TEXMF_SHEBANG_FILES+=	\
 	share/texmf-dist/scripts/webquiz/webquiz \
-	share/texmf-dist/scripts/webquiz/webquiz.py \
 	share/texmf-dist/scripts/webquiz/webquiz_makequiz.py \
 	share/texmf-dist/scripts/webquiz/webquiz_util.py
+
+post-install-texmf:
+	# print/texlive-bin contains it
+	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/webquiz/webquiz.py
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

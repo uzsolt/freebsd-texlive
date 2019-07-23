@@ -1,3 +1,5 @@
+@dir share/texmf-var
+@rmtry share/texmf-var/ls-R
 %%ALEPH%%bin/aleph
 %%ALEPH%%man/man1/aleph.1.gz
 %%ALEPH%%man/man1/lamed.1.gz
@@ -145,9 +147,6 @@
 %%XETEX%%share/texmf-var/web2c/xetex/xelatex.log
 %%XETEX%%share/texmf-var/web2c/xetex/xetex.fmt
 %%XETEX%%share/texmf-var/web2c/xetex/xetex.log
-@dir share/texmf-dist/web2c
-@dir share/texmf-var
-@rmtry share/texmf-var/ls-R
 bin/a2ping
 bin/a5toa4
 bin/adhocfilelist

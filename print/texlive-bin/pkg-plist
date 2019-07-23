@@ -1,3 +1,4 @@
+@dir share/texmf-dist/web2c
 @dir share/texmf-var
 @rmtry share/texmf-var/ls-R
 %%ALEPH%%bin/aleph

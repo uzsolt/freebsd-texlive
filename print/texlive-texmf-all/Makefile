@@ -94,7 +94,11 @@ OPTIONS_DEFINE+=	DOCS
 RUN_DEPENDS+=	${TEXMFDISTDIR}/pkg-${texmfpackage}:print/texlive-texmf-${texmfpackage}
 .endfor
 .else
-RUN_DEPENDS+=	${LOCALBASE}/bin/texhash:print/texlive-kpathsea
+RUN_DEPENDS+=	texhash:print/texlive-kpathsea
+.if ${TEXMF_CATEG:Ncore}
+RUN_DEPENDS+=	tex:print/texlive-bin
+.endif
+
 DESCR=	${PKGDIR}/pkg-descr.${TEXMF_CATEG}
 PLIST=	${PKGDIR}/pkg-plist.${TEXMF_CATEG}
 PLIST_FILES+=	share/texmf-dist/pkg-${TEXMF_CATEG}

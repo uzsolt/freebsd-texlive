@@ -74,7 +74,7 @@ INSTALL_TARGET=	install-strip
 # Don't build dvisvgm, see http://anthesphoria.net/FreeBSD/TeXLive-2018/#technical_details
 .for pkg in autosp axodraw2 devnag lacheck m-tx pmx ps2eps t1utils \
 	texdoctk tpic2pdftex vlna xpdfopen web2c ipc tex etex ptex \
-	eptex uptex euptex mp pmp upmp mf web-progs synctex \
+	eptex uptex euptex mp pmp upmp mf web-progs tex-synctex \
 	afm2pl bibtex-x bibtex8 bibtexu detex dtl \
 	dvi2tty dvidvi dviljk dvidpfm-x dvipng dvipos dvipsk \
 	gregorio gsftopk cfftot1 mmafm mmpfb otfinfo otftotfm \

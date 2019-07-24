@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R 
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a0poster/a0.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a0poster/a0.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a0poster/a0_eng.pdf

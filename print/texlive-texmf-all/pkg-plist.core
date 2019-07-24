@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%SITE_PERL%%/mktexlsr.pl
 %%PORTDOCS%%%%DOCSDIR%%-texmf/base/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/base/TEMPLATE-IncludeInRelease.txt

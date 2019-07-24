@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/academicons/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/academicons/academicons.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/academicons/academicons.tex

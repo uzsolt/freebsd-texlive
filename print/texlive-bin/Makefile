@@ -104,6 +104,8 @@ OPTIONS_SUB=		yes
 # jadetex mflua
 TEXFORMATS=	eptex etex euptex lollipop \
 		mf mptopdf platex tex uplatex uptex
+# We install *.fmt files and need catalog them.
+PKGINSTALL=	${.CURDIR}/../texlive-texmf-all/pkg-install
 
 ALEPH_DESC=	Enable Aleph
 ALEPH_CONFIGURE_ENABLE=	aleph

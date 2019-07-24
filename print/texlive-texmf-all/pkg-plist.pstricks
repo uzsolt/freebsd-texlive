@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/auto-pst-pdf/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/auto-pst-pdf/auto-pst-pdf-DE.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/auto-pst-pdf/auto-pst-pdf-DE.tex
@@ -774,6 +773,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uml/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uml/example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/uml/uml.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vaucanson-g/CHANGES
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vaucanson-g/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vaucanson-g/VCManual-src/TwoStates.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vaucanson-g/VCManual-src/VCManual.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vaucanson-g/VCManual.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/vocaltract/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/vocaltract/vtLatex_AnimationDemo.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/vocaltract/vtLatex_AnimationLauncher.tex

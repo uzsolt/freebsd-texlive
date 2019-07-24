@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/anonymouspro/AnonymousPro-01.etx
 %%PORTDOCS%%%%DOCSDIR%%-texmf/anonymouspro/AnonymousPro-02.etx
 %%PORTDOCS%%%%DOCSDIR%%-texmf/anonymouspro/AnonymousPro-03.etx

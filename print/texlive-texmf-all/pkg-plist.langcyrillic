@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/churchslavonic/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/churchslavonic/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/churchslavonic/churchslavonic-en.pdf

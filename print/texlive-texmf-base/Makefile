@@ -616,8 +616,6 @@ TEXMF_DOCDIRS+=	bibtex/abstyles generic/apnum generic/pgf/pgfmanual.pdf \
 	metapost/automata metapost/bbcard
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
 
-# RUN_DEPENDS=	tex:print/texlive-bin
-
 .for exc in \
 	accfonts ae amsfonts armenian asymptote\
 	avantgar babelbib bookman bundledoc cm-super\

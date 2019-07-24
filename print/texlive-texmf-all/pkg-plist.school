@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alterqcm/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alterqcm/README.doc
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alterqcm/doc_aq-screen.pdf

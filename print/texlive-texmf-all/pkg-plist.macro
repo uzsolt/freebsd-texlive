@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arrayjobx/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arrayjobx/arrayjob.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arrayjobx/arrayjob.tex

@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/missaali/MANIFEST-Missaali.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/missaali/Missaali.glyphs
 %%PORTDOCS%%%%DOCSDIR%%-texmf/missaali/OFL.txt

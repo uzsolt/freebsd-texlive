@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bewerbung/Foto.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bewerbung/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bewerbung/README_DE

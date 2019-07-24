@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adigraph/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adigraph/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adigraph/adigraph-large.png

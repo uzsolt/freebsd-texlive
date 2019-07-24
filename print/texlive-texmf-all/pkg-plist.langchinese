@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ctex/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ctex/ctex.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fduthesis/README.md

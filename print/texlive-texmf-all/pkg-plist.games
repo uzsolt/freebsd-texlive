@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chess-problem-diagrams/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chess-problem-diagrams/diagram.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chess/board.epsf

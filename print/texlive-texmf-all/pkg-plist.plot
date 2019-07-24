@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bodegraph/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bodegraph/bodegraph.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bodegraph/bodegraph.tex

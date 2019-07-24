@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R 
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/animate.pdf

@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a4wide/a4wide.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a4wide/a4wide.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a5comb/a5comb.pdf

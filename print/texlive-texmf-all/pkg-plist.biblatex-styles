@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R 
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/2latex.vim
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adrconv/adrconv.pdf

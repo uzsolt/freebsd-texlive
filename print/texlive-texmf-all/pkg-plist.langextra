@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arabi-add/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arabi-add/arabi-add-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arabi-add/arabi-add-example.pdf

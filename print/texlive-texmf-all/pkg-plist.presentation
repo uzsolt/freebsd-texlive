@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/HA-prosper/HA-prosper.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/HA-prosper/HAPBigtest.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/HA-prosper/HAPDualslide.tex

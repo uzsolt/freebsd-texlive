@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/eiad-ltx/README
 %%TEXMFDIR%%fonts/afm/public/auncial-new/auncl10.afm
 %%TEXMFDIR%%fonts/afm/public/auncial-new/aunclb10.afm

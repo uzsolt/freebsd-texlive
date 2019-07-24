@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/IEEEconf/IEEEconf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/IEEEconf/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/IEEEtran/IEEEtran_HOWTO.pdf

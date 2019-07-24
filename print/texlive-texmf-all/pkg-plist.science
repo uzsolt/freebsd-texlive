@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/12many/12many.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/12many/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/SIstyle/README

@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adtrees/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adtrees/adtreesdoc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adtrees/adtreesdoc.tex

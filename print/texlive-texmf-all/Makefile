@@ -101,16 +101,24 @@ RUN_DEPENDS+=	tex:print/texlive-bin
 
 DESCR=	${PKGDIR}/pkg-descr.${TEXMF_CATEG}
 PLIST=	${PKGDIR}/pkg-plist.${TEXMF_CATEG}
+# The texmf-core is dependency of texlive-bin which contains
+# the `texhash'.
+# The texhash is unneeded by texmf-core because the texmf-core
+# contains packages which are in good (sub)directories.
+.if ${TEXMF_CATEG} != core
+PKGINSTALL=	${PKGDIR}/pkg-install
+.endif
+PKGDEINSTALL=	${PKGINSTALL}
 PLIST_FILES+=	share/texmf-dist/pkg-${TEXMF_CATEG}
-PLIST_FILES+=	"@postexec ${LOCALBASE}/bin/texhash" \
-		"@postunexec ${LOCALBASE}/bin/texhash"
 
-TEXMF_DIRS+=	${TEXMF_DIRS_LATEX:@dir@tex/latex/${dir}@}
-TEXMF_DIRS+=	${TEXMF_DIRS_GENERIC:@dir@tex/generic/${dir}@}
-TEXMF_DIRS+=	${TEXMF_DIRS_FONTS:@dir@fonts/${dir}@}
-TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_LATEX:@dir@latex/${dir}@}
-TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_FONTS:@dir@fonts/${dir}@}
-TEXMF_DOCDIRS+=	${TEXMF_DOCDIRS_GENERIC:@dir@generic/${dir}@}
+TEXMF_DIRS_gen=		${TEXMF_DIRS}
+TEXMF_DIRS_gen+=	${TEXMF_DIRS_LATEX:@dir@tex/latex/${dir}@}
+TEXMF_DIRS_gen+=	${TEXMF_DIRS_GENERIC:@dir@tex/generic/${dir}@}
+TEXMF_DIRS_gen+=	${TEXMF_DIRS_FONTS:@dir@fonts/${dir}@}
+TEXMF_DOCDIRS_gen=	${TEXMF_DOCDIRS}
+TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS_LATEX:@dir@latex/${dir}@}
+TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS_FONTS:@dir@fonts/${dir}@}
+TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS_GENERIC:@dir@generic/${dir}@}
 
 TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \
 	-C ${STAGEDIR}${LOCALBASE}/share \
@@ -131,12 +139,12 @@ do-install:
 # We want to read only once so it takes less (about half) time.
 do-install-DOCS-off:
 	${TEXMF_TARXF} \
-	  ${TEXMF_DIRS:@dir@--include ${PORTNAME}-${PORTVERSION}${DISTVERSIONSUFFIX}/texmf-dist/${dir}@}
+	  ${TEXMF_DIRS_gen:@dir@--include ${PORTNAME}-${PORTVERSION}${DISTVERSIONSUFFIX}/texmf-dist/${dir}@}
 
 do-install-DOCS-on:
 	${TEXMF_TARXF} \
-	  ${TEXMF_DIRS:@dir@--include ${PORTNAME}-${PORTVERSION}${DISTVERSIONSUFFIX}/texmf-dist/${dir}@} \
-	  ${TEXMF_DOCDIRS:@dir@--include ${PORTNAME}-${PORTVERSION}-texmf/texmf-dist/doc/${dir}@}
+	  ${TEXMF_DIRS_gen:@dir@--include ${PORTNAME}-${PORTVERSION}${DISTVERSIONSUFFIX}/texmf-dist/${dir}@} \
+	  ${TEXMF_DOCDIRS_gen:@dir@--include ${PORTNAME}-${PORTVERSION}-texmf/texmf-dist/doc/${dir}@}
 
 post-install:	${POSTINSTALLREQ}
 .for f in ${TEXMF_SHEBANG_FILES}

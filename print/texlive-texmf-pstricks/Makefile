@@ -76,11 +76,12 @@ TEXMF_DIRS_LATEX=	\
 
 USES+=	python
 
-TEXMF_DOCDIRS+=		${TEXMF_DIRS:M*generic/pst*:C,tex/,,:N*pst-intersect}
+TEXMF_DOCDIRS_GENERIC+=	${TEXMF_DIRS_GENERIC:Npst-intersect}
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Npst*} pst-intersect
 
-TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/pst-spirograph/animation/runall.sh \
-				share/doc/texlive-texmf/pst-mirror/createEPS/scripts/filtre.pl
+TEXMF_SHEBANG_FILES_DOCS=	\
+	share/doc/texlive-texmf/pst-spirograph/animation/runall.sh \
+	share/doc/texlive-texmf/pst-mirror/createEPS/scripts/filtre.pl
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

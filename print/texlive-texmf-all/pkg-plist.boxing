@@ -1,4 +1,3 @@
-@rmtry %%TEXMFDIR%%ls-R
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/adjcalc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adjustbox/adjustbox.pdf

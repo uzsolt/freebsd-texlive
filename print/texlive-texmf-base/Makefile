@@ -81,7 +81,6 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		fonts/afm/public/cm-super/ \
 		fonts/afm/public/fpl/ \
 		fonts/afm/public/lm/ \
-		fonts/afm/public/marvosym/ \
 		fonts/afm/public/mathpazo/ \
 		fonts/afm/public/pl/ \
 		fonts/afm/public/pxfonts/ \
@@ -197,7 +196,6 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		fonts/tfm/public/knuth-local/ \
 		fonts/tfm/public/lithuanian/ \
 		fonts/tfm/public/lm/ \
-		fonts/tfm/public/marvosym/ \
 		fonts/tfm/public/mathpazo/ \
 		fonts/tfm/public/mflogo/ \
 		fonts/tfm/public/norasi-c90/ \
@@ -222,7 +220,6 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		fonts/tfm/urw35vf/times/ \
 		fonts/tfm/urw35vf/zapfchan/ \
 		fonts/tfm/urw35vf/zapfding/ \
-		fonts/truetype/public/marvosym/ \
 		fonts/type1/adobe/courier/ \
 		fonts/type1/adobe/utopia/ \
 		fonts/type1/bitstrea/charter/ \
@@ -244,7 +241,6 @@ TEXMF_DIRS=	bibtex/bib/abstyles/ \
 		fonts/type1/public/eurosym/ \
 		fonts/type1/public/fpl/ \
 		fonts/type1/public/lm/ \
-		fonts/type1/public/marvosym/ \
 		fonts/type1/public/mathpazo/ \
 		fonts/type1/public/pdftex/ \
 		fonts/type1/public/pl/ \
@@ -591,7 +587,7 @@ TEXMF_DIRS_LATEX=	\
 	impnattypo index itnumpar jknapltx ketcindy koma-script \
 	l3experimental l3kernel l3packages latex2man latexbug \
 	latexfileinfo-pkgs layaureo lineno listings-ext listings lithuanian \
-	lm ltxmisc lwarp macros2e marvosym mathtools memoir metalogo \
+	lm ltxmisc lwarp macros2e mathtools memoir metalogo \
 	mflogo mfnfss mfpic4ode \
 	microtype milog mpgraphics ms mwcls natbib\
 	ncntrsbk nevelok ntgclass numprint oberdiek ordinalpt \
@@ -621,7 +617,7 @@ TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
 	avantgar babelbib bookman bundledoc cm-super\
 	context courier ctable encxvlna enigma eurosym fontinst\
 	germbib helvetic ketcindy latex2man latexconfig lm\
-	ltxmisc marvosym multido ncntrsbk palatino compatibility\
+	ltxmisc multido ncntrsbk palatino compatibility\
 	pslatex pxfonts seminar symbol tex-gyre tex4ebook texosquery\
 	textpath times tipa tracklang txfonts zapfchan zapfding
 TEXMF_DOCDIRS_LATEX:=${TEXMF_DOCDIRS_LATEX:N${exc}}

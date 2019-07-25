@@ -1,6 +1,5 @@
 @dir share/texmf-dist/web2c
 @dir share/texmf-var
-@rmtry share/texmf-var/ls-R
 %%ALEPH%%bin/aleph
 %%ALEPH%%man/man1/aleph.1.gz
 %%ALEPH%%man/man1/lamed.1.gz

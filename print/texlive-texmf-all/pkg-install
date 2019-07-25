@@ -1,3 +1,0 @@
-if [ "$2" = "POST-INSTALL" -o "$2" = "POST-DEINSTALL" ]; then
-  ${PKG_PREFIX}/bin/texhash
-fi

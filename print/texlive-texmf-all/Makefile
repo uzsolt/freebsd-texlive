@@ -78,7 +78,7 @@ TEXMFDISTDIR=	${LOCALBASE}/share/texmf-dist/
 TEXMF_CATEGORIES=	\
 	base biblatex-styles boxing core cv database doctypes \
 	fonts-blackletter fonts-calligraphical fonts-extra \
-	fonts-serif fonts-typewriter fonts-uncial \
+	fonts-serif fonts-symbols fonts-typewriter fonts-uncial \
 	games geometry \
 	humanities latexextra macro misc music pdf pictures plot presentation \
 	pstricks publishers school science table vc \
@@ -96,6 +96,7 @@ RUN_DEPENDS+=	${TEXMFDISTDIR}/pkg-${texmfpackage}:print/texlive-texmf-${texmfpac
 .else
 RUN_DEPENDS+=	texhash:print/texlive-kpathsea
 .if ${TEXMF_CATEG:Ncore}
+USE=	texhash
 RUN_DEPENDS+=	tex:print/texlive-bin
 .endif
 
@@ -105,10 +106,10 @@ PLIST=	${PKGDIR}/pkg-plist.${TEXMF_CATEG}
 # the `texhash'.
 # The texhash is unneeded by texmf-core because the texmf-core
 # contains packages which are in good (sub)directories.
-.if ${TEXMF_CATEG} != core
-PKGINSTALL=	${PKGDIR}/pkg-install
-.endif
-PKGDEINSTALL=	${PKGINSTALL}
+#.if ${TEXMF_CATEG} != core
+#PKGINSTALL=	${PKGDIR}/pkg-install
+#.endif
+#PKGDEINSTALL=	${PKGINSTALL}
 PLIST_FILES+=	share/texmf-dist/pkg-${TEXMF_CATEG}
 
 TEXMF_DIRS_gen=		${TEXMF_DIRS}

@@ -2487,9 +2487,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/topfloat/topfloat.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/trivfloat/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/trivfloat/trivfloat.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/trsym/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/trsym/manifest.txt
-%%PORTDOCS%%%%DOCSDIR%%-texmf/trsym/trsym.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/turnthepage/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/turnthepage/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/turnthepage/perso.ist
@@ -2687,8 +2684,6 @@
 %%TEXMFDIR%%fonts/source/public/circ/csym.mf
 %%TEXMFDIR%%fonts/source/public/circ/defcirc.mf
 %%TEXMFDIR%%fonts/source/public/clock/clock.mf
-%%TEXMFDIR%%fonts/source/public/dingbat/ark10.mf
-%%TEXMFDIR%%fonts/source/public/dingbat/dingbat.mf
 %%TEXMFDIR%%fonts/source/public/esint/bigint.mf
 %%TEXMFDIR%%fonts/source/public/esint/esint10.mf
 %%TEXMFDIR%%fonts/source/public/esint/mathint.mf
@@ -2697,16 +2692,11 @@
 %%TEXMFDIR%%fonts/source/public/niceframe/umrand.mf
 %%TEXMFDIR%%fonts/source/public/niceframe/umranda.mf
 %%TEXMFDIR%%fonts/source/public/niceframe/umrandb.mf
-%%TEXMFDIR%%fonts/source/public/trsym/trsy.mf
-%%TEXMFDIR%%fonts/source/public/trsym/trsy10.mf
-%%TEXMFDIR%%fonts/source/public/trsym/trsy12.mf
 %%TEXMFDIR%%fonts/tfm/public/casyl/casyll10.tfm
 %%TEXMFDIR%%fonts/tfm/public/cbcoptic/copti.tfm
 %%TEXMFDIR%%fonts/tfm/public/cbcoptic/copto.tfm
 %%TEXMFDIR%%fonts/tfm/public/circ/cioptic.tfm
 %%TEXMFDIR%%fonts/tfm/public/clock/clock.tfm
-%%TEXMFDIR%%fonts/tfm/public/dingbat/ark10.tfm
-%%TEXMFDIR%%fonts/tfm/public/dingbat/dingbat.tfm
 %%TEXMFDIR%%fonts/tfm/public/epiolmec/EpiOlmec.tfm
 %%TEXMFDIR%%fonts/tfm/public/esint/esint10.tfm
 %%TEXMFDIR%%fonts/tfm/public/niceframe/karta15.tfm
@@ -2715,8 +2705,6 @@
 %%TEXMFDIR%%fonts/tfm/public/relenc/zcmr8d.tfm
 %%TEXMFDIR%%fonts/tfm/public/relenc/zcmra.tfm
 %%TEXMFDIR%%fonts/tfm/public/scanpages/scanwipe.tfm
-%%TEXMFDIR%%fonts/tfm/public/trsym/trsy10.tfm
-%%TEXMFDIR%%fonts/tfm/public/trsym/trsy12.tfm
 %%TEXMFDIR%%fonts/type1/public/cbcoptic/copti.pfb
 %%TEXMFDIR%%fonts/type1/public/cbcoptic/copto.pfb
 %%TEXMFDIR%%fonts/type1/public/epiolmec/Epi-Olmec.pfb
@@ -3184,9 +3172,6 @@
 %%TEXMFDIR%%tex/latex/dinbrief/dinbrief.cfg
 %%TEXMFDIR%%tex/latex/dinbrief/dinbrief.cls
 %%TEXMFDIR%%tex/latex/dinbrief/dinbrief.sty
-%%TEXMFDIR%%tex/latex/dingbat/dingbat.sty
-%%TEXMFDIR%%tex/latex/dingbat/uark.fd
-%%TEXMFDIR%%tex/latex/dingbat/udingbat.fd
 %%TEXMFDIR%%tex/latex/directory/directory.sty
 %%TEXMFDIR%%tex/latex/dirtytalk/dirtytalk.sty
 %%TEXMFDIR%%tex/latex/dlfltxb/dlfltxbcodetips.sty
@@ -4106,7 +4091,6 @@
 %%TEXMFDIR%%tex/latex/snapshot/snapshot.sty
 %%TEXMFDIR%%tex/latex/snotez/snotez.sty
 %%TEXMFDIR%%tex/latex/soul/soul.sty
-%%TEXMFDIR%%tex/latex/spark-otf/spark-otf.sty
 %%TEXMFDIR%%tex/latex/splitindex/splitidx.sty
 %%TEXMFDIR%%tex/latex/spverbatim/spverbatim.sty
 %%TEXMFDIR%%tex/latex/srbook-mem/srbook-mem.sty
@@ -4198,8 +4182,6 @@
 %%TEXMFDIR%%tex/latex/tokenizer/tokenizer.sty
 %%TEXMFDIR%%tex/latex/topfloat/topfloat.sty
 %%TEXMFDIR%%tex/latex/trivfloat/trivfloat.sty
-%%TEXMFDIR%%tex/latex/trsym/trsym.sty
-%%TEXMFDIR%%tex/latex/trsym/utrsy.fd
 %%TEXMFDIR%%tex/latex/turnthepage/turnpageetex.sty
 %%TEXMFDIR%%tex/latex/turnthepage/turnpagewoetex.sty
 %%TEXMFDIR%%tex/latex/turnthepage/turnthepage.sty

@@ -2297,7 +2297,6 @@
 %%TEXMFDIR%%fonts/afm/public/lm/lmvtlo10.afm
 %%TEXMFDIR%%fonts/afm/public/lm/lmvtt10.afm
 %%TEXMFDIR%%fonts/afm/public/lm/lmvtto10.afm
-%%TEXMFDIR%%fonts/afm/public/marvosym/marvosym.afm
 %%TEXMFDIR%%fonts/afm/public/mathpazo/fplmb.afm
 %%TEXMFDIR%%fonts/afm/public/mathpazo/fplmbb.afm
 %%TEXMFDIR%%fonts/afm/public/mathpazo/fplmbi.afm
@@ -6559,7 +6558,6 @@
 %%TEXMFDIR%%fonts/tfm/public/lm/ts1-lmvtlo10.tfm
 %%TEXMFDIR%%fonts/tfm/public/lm/ts1-lmvtt10.tfm
 %%TEXMFDIR%%fonts/tfm/public/lm/ts1-lmvtto10.tfm
-%%TEXMFDIR%%fonts/tfm/public/marvosym/umvs.tfm
 %%TEXMFDIR%%fonts/tfm/public/mathpazo/fplmb.tfm
 %%TEXMFDIR%%fonts/tfm/public/mathpazo/fplmbb.tfm
 %%TEXMFDIR%%fonts/tfm/public/mathpazo/fplmbi.tfm
@@ -7612,7 +7610,6 @@
 %%TEXMFDIR%%fonts/tfm/urw35vf/zapfchan/uzcmi8r.tfm
 %%TEXMFDIR%%fonts/tfm/urw35vf/zapfchan/uzcmi8t.tfm
 %%TEXMFDIR%%fonts/tfm/urw35vf/zapfding/uzdr.tfm
-%%TEXMFDIR%%fonts/truetype/public/marvosym/marvosym.ttf
 %%TEXMFDIR%%fonts/type1/adobe/courier/pcrb8a.pfb
 %%TEXMFDIR%%fonts/type1/adobe/courier/pcrbi8a.pfb
 %%TEXMFDIR%%fonts/type1/adobe/courier/pcrbo8a.pfb
@@ -8631,7 +8628,6 @@
 %%TEXMFDIR%%fonts/type1/public/lm/lmvtt10.pfm
 %%TEXMFDIR%%fonts/type1/public/lm/lmvtto10.pfb
 %%TEXMFDIR%%fonts/type1/public/lm/lmvtto10.pfm
-%%TEXMFDIR%%fonts/type1/public/marvosym/marvosym.pfb
 %%TEXMFDIR%%fonts/type1/public/mathpazo/fplmb.pfb
 %%TEXMFDIR%%fonts/type1/public/mathpazo/fplmbb.pfb
 %%TEXMFDIR%%fonts/type1/public/mathpazo/fplmbi.pfb
@@ -15210,8 +15206,6 @@
 %%TEXMFDIR%%tex/latex/lwarp/lwarp_baseline_marker.eps
 %%TEXMFDIR%%tex/latex/lwarp/lwarp_baseline_marker.png
 %%TEXMFDIR%%tex/latex/macros2e/extlabels.sty
-%%TEXMFDIR%%tex/latex/marvosym/marvosym.sty
-%%TEXMFDIR%%tex/latex/marvosym/umvs.fd
 %%TEXMFDIR%%tex/latex/mathtools/empheq.sty
 %%TEXMFDIR%%tex/latex/mathtools/mathtools.sty
 %%TEXMFDIR%%tex/latex/mathtools/mhsetup.sty

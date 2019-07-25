@@ -4,18 +4,14 @@ COMMENT=	Many extra fonts
 TEXMF_CATEG=	fonts-extra
 TEXMF_DIRS=	\
 		dvips/initials/ \
-		metapost/nkarta/ \
 		tex/context/third/gentium-tug/ \
 		tex/context/third/semaphor/ \
-		tex/generic/asapsym/ \
 		tex/generic/ean/ \
 		tex/generic/mathabx/ \
-		tex/plain/asapsym/ \
 		tex/plain/ly1/ \
 		tex/plain/semaphor/
 TEXMF_DIRS_FONTS=	\
 		afm/arkandis/adforn/ \
-		afm/arkandis/adfsymbols/ \
 		afm/esstix/ \
 		afm/public/archaic/ \
 		afm/public/augie/ \
@@ -25,8 +21,6 @@ TEXMF_DIRS_FONTS=	\
 		afm/public/cm-unicode/ \
 		afm/public/cmsrb/ \
 		afm/public/countriesofeurope/ \
-		afm/public/cryst/ \
-		afm/public/dictsym/ \
 		afm/public/dozenal/ \
 		afm/public/dutchcal/ \
 		afm/public/fonetika/ \
@@ -46,9 +40,7 @@ TEXMF_DIRS_FONTS=	\
 		afm/public/tfrupee/ \
 		afm/public/trajan/ \
 		enc/dvips/adforn/ \
-		enc/dvips/adfsymbols/ \
 		enc/dvips/b1encoding/ \
-		enc/dvips/ccicons/ \
 		enc/dvips/cfr-lm/ \
 		enc/dvips/cinzel/ \
 		enc/dvips/cm-lgc/ \
@@ -58,39 +50,27 @@ TEXMF_DIRS_FONTS=	\
 		enc/dvips/dantelogo/ \
 		enc/dvips/ebgaramond-maths/ \
 		enc/dvips/ebgaramond/ \
-		enc/dvips/fdsymbol/ \
-		enc/dvips/fontawesome/ \
-		enc/dvips/fontawesome5/ \
 		enc/dvips/gentium-tug/ \
 		enc/dvips/gfscomplutum/ \
 		enc/dvips/gfssolomos/ \
 		enc/dvips/hfbright/ \
 		enc/dvips/ly1/ \
-		enc/dvips/mdsymbol/ \
 		enc/dvips/mnsymbol/ \
 		enc/dvips/old-arrows/ \
 		enc/dvips/semaphor/ \
-		enc/dvips/superiors/ \
 		enc/dvips/tempora/ \
 		enc/dvips/tengwarscript/ \
 		enc/dvips/tinos/ \
 		ofm/public/cm-lgc/ \
-		opentype/omnibus-type/ \
-		opentype/omnibus-type/asapsym/ \
 		opentype/public/almfixed/ \
 		opentype/public/beuron/ \
-		opentype/public/ccicons/ \
 		opentype/public/cm-unicode/ \
 		opentype/public/dantelogo/ \
 		opentype/public/ebgaramond/ \
-		opentype/public/fdsymbol/ \
-		opentype/public/fontawesome/ \
-		opentype/public/fontawesome5/ \
 		opentype/public/fonts-churchslavonic/ \
 		opentype/public/gfscomplutum/ \
 		opentype/public/gfssolomos/ \
 		opentype/public/gnu-freefont/ \
-		opentype/public/mdsymbol/ \
 		opentype/public/mnsymbol/ \
 		opentype/public/ocr-b-outline/ \
 		opentype/public/phaistos/ \
@@ -105,7 +85,6 @@ TEXMF_DIRS_FONTS=	\
 		source/public/aspectratio/ \
 		source/public/astro/ \
 		source/public/barcodes/ \
-		source/public/bbding/ \
 		source/public/bbm/ \
 		source/public/bbold/ \
 		source/public/beuron/ \
@@ -115,8 +94,6 @@ TEXMF_DIRS_FONTS=	\
 		source/public/cmbright/ \
 		source/public/cmll/ \
 		source/public/cmtiup/ \
-		source/public/cookingsymbols/ \
-		source/public/cryst/ \
 		source/public/dancers/ \
 		source/public/dice/ \
 		source/public/doublestroke/ \
@@ -125,24 +102,17 @@ TEXMF_DIRS_FONTS=	\
 		source/public/ecc/ \
 		source/public/elvish/ \
 		source/public/esrelation/ \
-		source/public/esvect/ \
 		source/public/euxm/ \
-		source/public/fdsymbol/ \
 		source/public/feyn/ \
 		source/public/fge/ \
-		source/public/genealogy/ \
 		source/public/gothic/ \
 		source/public/greenpoint/ \
-		source/public/hands/ \
-		source/public/ifsym/ \
 		source/public/jablantile/ \
 		source/public/kixfont/ \
 		source/public/lfb/ \
 		source/public/lxfonts/ \
 		source/public/mathabx/ \
-		source/public/mdsymbol/ \
 		source/public/mnsymbol/ \
-		source/public/nkarta/ \
 		source/public/ocr-b/ \
 		source/public/ogham/ \
 		source/public/orkhun/ \
@@ -160,7 +130,6 @@ TEXMF_DIRS_FONTS=	\
 		source/public/wsuipa/ \
 		tfm/adobe/ly1/ \
 		tfm/arkandis/adforn/ \
-		tfm/arkandis/adfsymbols/ \
 		tfm/ndiscovered/ \
 		tfm/public/aecc/ \
 		tfm/public/archaic/ \
@@ -168,14 +137,12 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/astro/ \
 		tfm/public/augie/ \
 		tfm/public/barcodes/ \
-		tfm/public/bbding/ \
 		tfm/public/bbm/ \
 		tfm/public/bbold/ \
 		tfm/public/beuron/ \
 		tfm/public/bguq/ \
 		tfm/public/blacklettert1/ \
 		tfm/public/boondox/ \
-		tfm/public/ccicons/ \
 		tfm/public/cfr-lm/ \
 		tfm/public/cherokee/ \
 		tfm/public/cm-lgc/ \
@@ -185,13 +152,10 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/cmll/ \
 		tfm/public/cmsrb/ \
 		tfm/public/cmtiup/ \
-		tfm/public/cookingsymbols/ \
 		tfm/public/countriesofeurope/ \
-		tfm/public/cryst/ \
 		tfm/public/dancers/ \
 		tfm/public/dantelogo/ \
 		tfm/public/dice/ \
-		tfm/public/dictsym/ \
 		tfm/public/doublestroke/ \
 		tfm/public/dozenal/ \
 		tfm/public/duerer/ \
@@ -203,17 +167,12 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/elvish/ \
 		tfm/public/esrelation/ \
 		tfm/public/esstix/ \
-		tfm/public/esvect/ \
 		tfm/public/eulervm/ \
 		tfm/public/euxm/ \
-		tfm/public/fdsymbol/ \
 		tfm/public/feyn/ \
 		tfm/public/fge/ \
 		tfm/public/foekfont/ \
 		tfm/public/fonetika/ \
-		tfm/public/fontawesome/ \
-		tfm/public/fontawesome5/ \
-		tfm/public/genealogy/ \
 		tfm/public/gentium-tug/ \
 		tfm/public/gfscomplutum/ \
 		tfm/public/gfssolomos/ \
@@ -221,9 +180,7 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/gothic/ \
 		tfm/public/greenpoint/ \
 		tfm/public/hacm/ \
-		tfm/public/hands/ \
 		tfm/public/hfoldsty/ \
-		tfm/public/ifsym/ \
 		tfm/public/initials/ \
 		tfm/public/ipaex-type1/ \
 		tfm/public/jamtimes/ \
@@ -233,9 +190,7 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/lxfonts/ \
 		tfm/public/mathabx/ \
 		tfm/public/mdputu/ \
-		tfm/public/mdsymbol/ \
 		tfm/public/mnsymbol/ \
-		tfm/public/nkarta/ \
 		tfm/public/ocr-b/ \
 		tfm/public/ogham/ \
 		tfm/public/old-arrows/ \
@@ -254,7 +209,6 @@ TEXMF_DIRS_FONTS=	\
 		tfm/public/semaphor/ \
 		tfm/public/starfont/ \
 		tfm/public/staves/ \
-		tfm/public/superiors/ \
 		tfm/public/svrsymbols/ \
 		tfm/public/tempora/ \
 		tfm/public/tengwarscript/ \
@@ -269,17 +223,13 @@ TEXMF_DIRS_FONTS=	\
 		truetype/google/tinos/ \
 		truetype/ndiscovered/ \
 		truetype/ndiscovered/cinzel/ \
-		truetype/public/academicons/ \
 		truetype/public/almfixed/ \
 		truetype/public/belleek/ \
 		truetype/public/fonetika/ \
-		truetype/public/fontmfizz/ \
 		truetype/public/fonts-churchslavonic/ \
 		truetype/public/gentium-tug/ \
 		truetype/public/gnu-freefont/ \
-		truetype/public/typicons/ \
 		type1/arkandis/adforn/ \
-		type1/arkandis/adfsymbols/ \
 		type1/google/tinos/ \
 		type1/ndiscovered/cinzel/ \
 		type1/public/allrunes/ \
@@ -292,29 +242,22 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/bguq/ \
 		type1/public/boondox/ \
 		type1/public/carolmin-ps/ \
-		type1/public/ccicons/ \
 		type1/public/cm-lgc/ \
 		type1/public/cm-unicode/ \
 		type1/public/cmexb/ \
 		type1/public/cmll/ \
 		type1/public/cmsrb/ \
 		type1/public/countriesofeurope/ \
-		type1/public/cryst/ \
 		type1/public/dantelogo/ \
-		type1/public/dictsym/ \
 		type1/public/doublestroke/ \
 		type1/public/dozenal/ \
 		type1/public/dutchcal/ \
 		type1/public/ebgaramond/ \
 		type1/public/esrelation/ \
 		type1/public/esstix/ \
-		type1/public/esvect/ \
-		type1/public/fdsymbol/ \
 		type1/public/fge/ \
 		type1/public/foekfont/ \
 		type1/public/fonetika/ \
-		type1/public/fontawesome/ \
-		type1/public/fontawesome5/ \
 		type1/public/gentium-tug/ \
 		type1/public/gfscomplutum/ \
 		type1/public/gfssolomos/ \
@@ -325,7 +268,6 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/linearA/ \
 		type1/public/lxfonts/ \
 		type1/public/mathabx-type1/ \
-		type1/public/mdsymbol/ \
 		type1/public/mnsymbol/ \
 		type1/public/ocr-b-outline/ \
 		type1/public/old-arrows/ \
@@ -337,7 +279,6 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/semaphor/ \
 		type1/public/starfont/ \
 		type1/public/staves/ \
-		type1/public/superiors/ \
 		type1/public/svrsymbols/ \
 		type1/public/tempora/ \
 		type1/public/tfrupee/ \
@@ -376,37 +317,36 @@ TEXMF_DIRS_FONTS=	\
 		vf/public/uppunctlm/ \
 		vf/urw/urwchancal/
 TEXMF_DIRS_LATEX=	\
-		academicons adforn adfsymbols aecc allrunes \
-		archaic asapsym aspectratio augie \
-		b1encoding barcodes bbding bbm-macros bbold beuron bguq \
+		adforn aecc allrunes \
+		archaic aspectratio augie \
+		b1encoding barcodes bbm-macros bbold beuron bguq \
 		blacklettert1 boondox braille \
-		ccicons cfr-initials cfr-lm cherokee cinzel \
-		cm-lgc cmbright cmll cmsrb cmtiup cookingsymbols \
+		cfr-initials cfr-lm cherokee cinzel \
+		cm-lgc cmbright cmll cmsrb cmtiup \
 		countriesofeurope courier-scaled \
-		dantelogo dictsym doublestroke dozenal duerer-latex dutchcal \
+		dantelogo doublestroke dozenal duerer-latex dutchcal \
 		ebgaramond-maths ebgaramond eco epsdice esrelation \
-		esstix esvect eulervm \
-		fdsymbol feyn fge foekfont fonetika fontawesome fontawesome5 \
-		fontmfizz \
+		esstix eulervm \
+		feyn fge foekfont fonetika \
 		gentium-tug gfscomplutum gfssolomos gillcm \
 		hacm hfoldsty \
-		ifsym initials ipaex-type1 \
+		initials ipaex-type1 \
 		jamtimes \
 		linearA lxfonts ly1 \
-		mdputu mdsymbol mnsymbol mweights \
+		mdputu mnsymbol mweights \
 		old-arrows \
 		pacioli phaistos phonetic pigpen prodint punk-latex pxtxalfa \
 		recycle rsfso \
 		sansmathaccent sansmathfonts sauterfonts semaphor \
-		skull starfont staves superiors svrsymbols \
+		skull starfont staves svrsymbols \
 		tempora tengwarscript tfrupee tinos tpslifonts \
-		trajan txuprcal typicons \
+		trajan txuprcal \
 		universa uppunctlm urwchancal \
 		wsuipa zlmtt
 TEXMF_DOCDIRS_LATEX=	\
-	aspectratio augie b1encoding barcodes bbding bbm-macros \
+	aspectratio augie b1encoding barcodes bbm-macros \
 	bbm-macros bbold braille cfr-initials cmtiup \
-	cookingsymbols duerer-latex epsdice esvect eulervm \
+	duerer-latex epsdice eulervm \
 	foekfont gillcm jamtimes mdputu mnsymbol mweights \
 	pigpen punk-latex sauterfonts tengwarscript tpslifonts trajan
 TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX:Nskull}

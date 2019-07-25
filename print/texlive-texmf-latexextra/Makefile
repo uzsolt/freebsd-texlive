@@ -35,20 +35,16 @@ TEXMF_DIRS=	bibtex/bib/attachfile/ \
 		fonts/source/public/esint/ \
 		fonts/source/public/niceframe/ \
 		fonts/afm/public/niceframe-type1/ \
-		fonts/source/public/trsym/ \
 		fonts/tfm/public/casyl/ \
 		fonts/tfm/public/cbcoptic/ \
 		fonts/tfm/public/circ/ \
 		fonts/tfm/public/clock/ \
-		fonts/source/public/dingbat/ \
-		fonts/tfm/public/dingbat/ \
 		fonts/tfm/public/epiolmec/ \
 		fonts/tfm/public/esint/ \
 		fonts/tfm/public/niceframe/ \
 		fonts/type1/public/niceframe-type1/ \
 		fonts/tfm/public/relenc/ \
 		fonts/tfm/public/scanpages/ \
-		fonts/tfm/public/trsym/ \
 		fonts/type1/public/cbcoptic/ \
 		fonts/type1/public/epiolmec/ \
 		fonts/type1/public/esint-type1/ \
@@ -136,7 +132,7 @@ TEXMF_DIRS_LATEX=	\
 		datetime2-turkish datetime2-ukrainian datetime2-usorbian \
 		datetime2-welsh datetime2 dblfloatfix \
 		delimtxt dichokey \
-		dingbat dinbrief directory dirtytalk dlfltxb dnaseq doclicense \
+		dinbrief directory dirtytalk dlfltxb dnaseq doclicense \
 		docmfp documentation doi dotarrow \
 		dox dpfloat draftfigure \
 		dynamicnumber easy \
@@ -399,7 +395,6 @@ TEXMF_DIRS_LATEX=	\
 		snapshot\
 		snotez\
 		soul\
-		spark-otf\
 		splitindex\
 		spverbatim\
 		srbook-mem\
@@ -438,7 +433,6 @@ TEXMF_DIRS_LATEX=	\
 		tokenizer\
 		topfloat\
 		trivfloat\
-		trsym\
 		turnthepage\
 		twoup\
 		txgreeks\
@@ -476,7 +470,7 @@ TEXMF_DIRS_LATEX=	\
 		yplan\
 		zed-csp
 TEXMF_DOCDIRS=
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Ndingbat:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nspark-otf:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm}
 
 USES=	perl5 python
 

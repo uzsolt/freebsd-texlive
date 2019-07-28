@@ -95,21 +95,14 @@ RUN_DEPENDS+=	${TEXMFDISTDIR}/pkg-${texmfpackage}:print/texlive-texmf-${texmfpac
 .endfor
 .else
 RUN_DEPENDS+=	texhash:print/texlive-kpathsea
+USE_TEX=	texhash
 .if ${TEXMF_CATEG:Ncore}
-USE=	texhash
 RUN_DEPENDS+=	tex:print/texlive-bin
 .endif
 
 DESCR=	${PKGDIR}/pkg-descr.${TEXMF_CATEG}
 PLIST=	${PKGDIR}/pkg-plist.${TEXMF_CATEG}
-# The texmf-core is dependency of texlive-bin which contains
-# the `texhash'.
-# The texhash is unneeded by texmf-core because the texmf-core
-# contains packages which are in good (sub)directories.
-#.if ${TEXMF_CATEG} != core
-#PKGINSTALL=	${PKGDIR}/pkg-install
-#.endif
-#PKGDEINSTALL=	${PKGINSTALL}
+PKGINSTALL=	${PKGDIR}/pkg-install
 PLIST_FILES+=	share/texmf-dist/pkg-${TEXMF_CATEG}
 
 TEXMF_DIRS_gen=		${TEXMF_DIRS}

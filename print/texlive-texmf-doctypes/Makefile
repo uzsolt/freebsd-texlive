@@ -7,7 +7,11 @@ TEXMF_DIRS_LATEX=	\
 	a0poster bookcover booklet cheatsheet dvdcoll elzcards facsimile factura \
 	flacards flashcards g-brief gcard image-gallery invoice-class invoice \
 	invoice2 isodoc leaflet lettre magaz mceinleger\
+	cooking-units cooking \
 	modeles-factures-belges-assocs \
+		contracard \
+		cuisine \
+	xcookybooky \
 	elegantpaper \
 	elegantnote \
 	elegantbook \

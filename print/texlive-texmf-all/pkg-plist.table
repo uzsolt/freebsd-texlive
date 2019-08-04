@@ -239,6 +239,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/listliketab/listliketab.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/longfigure/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/longfigure/longfigure.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/lstfiracode/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/lstfiracode/lstfiracode.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/lstfiracode/lstfiracode.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ltablex/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ltablex/ltablex.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ltablex/ltablex.tex
@@ -355,6 +358,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/threeparttablex/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/threeparttablex/threeparttablex.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/threeparttablex/threeparttablex.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/topiclongtable/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/topiclongtable/topiclongtable-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/topiclongtable/topiclongtable-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/typed-checklist/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/typed-checklist/typed-checklist.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/README
@@ -405,6 +411,7 @@
 %%TEXMFDIR%%tex/latex/keyvaltable/keyvaltable.sty
 %%TEXMFDIR%%tex/latex/listliketab/listliketab.sty
 %%TEXMFDIR%%tex/latex/longfigure/longfigure.sty
+%%TEXMFDIR%%tex/latex/lstfiracode/lstfiracode.sty
 %%TEXMFDIR%%tex/latex/ltablex/ltablex.sty
 %%TEXMFDIR%%tex/latex/ltabptch/ltabptch.sty
 %%TEXMFDIR%%tex/latex/makecell/makecell.sty
@@ -437,6 +444,7 @@
 %%TEXMFDIR%%tex/latex/threeparttable/3parttable.sty
 %%TEXMFDIR%%tex/latex/threeparttable/threeparttable.sty
 %%TEXMFDIR%%tex/latex/threeparttablex/threeparttablex.sty
+%%TEXMFDIR%%tex/latex/topiclongtable/topiclongtable.sty
 %%TEXMFDIR%%tex/latex/typed-checklist/typed-checklist.sty
 %%TEXMFDIR%%tex/latex/warpcol/warpcol.sty
 %%TEXMFDIR%%tex/latex/widetable/widetable.sty

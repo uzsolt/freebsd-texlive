@@ -955,6 +955,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-feynman/references.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-feynman/tikz-feynman.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-feynman/tikz-feynman.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-imagelabels/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-imagelabels/pleiades.jpg
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-imagelabels/tikz-imagelabels.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-inet/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-inet/tikz-inet-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-inet/tikz-inet-doc.tex
@@ -993,6 +996,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-qtree/tikz-qtree-manual.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-timing/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-timing/tikz-timing.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-truchet/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tikz-truchet/tikz-truchet.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikzcodeblocks/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikzcodeblocks/examples/bsp-einruecken.tikz
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tikzcodeblocks/examples/bsp-english.tikz
@@ -1981,6 +1986,7 @@
 %%TEXMFDIR%%tex/latex/tikz-feynman/tikzfeynman.patch.3.0.0.lua
 %%TEXMFDIR%%tex/latex/tikz-feynman/tikzfeynman.patch.3.0.1.lua
 %%TEXMFDIR%%tex/latex/tikz-feynman/tikzlibraryfeynman.code.tex
+%%TEXMFDIR%%tex/latex/tikz-imagelabels/tikz-imagelabels.sty
 %%TEXMFDIR%%tex/latex/tikz-inet/tikz-inet.sty
 %%TEXMFDIR%%tex/latex/tikz-kalender/tikz-kalender-translation.clo
 %%TEXMFDIR%%tex/latex/tikz-kalender/tikz-kalender.cls
@@ -2007,6 +2013,7 @@
 %%TEXMFDIR%%tex/latex/tikz-timing/tikz-timing-nicetabs.sty
 %%TEXMFDIR%%tex/latex/tikz-timing/tikz-timing-overlays.sty
 %%TEXMFDIR%%tex/latex/tikz-timing/tikz-timing.sty
+%%TEXMFDIR%%tex/latex/tikz-truchet/tikz-truchet.sty
 %%TEXMFDIR%%tex/latex/tikzcodeblocks/tikzcodeblocks.sty
 %%TEXMFDIR%%tex/latex/tikzducks/tikzducks.sty
 %%TEXMFDIR%%tex/latex/tikzducks/tikzlibraryducks.code.tex

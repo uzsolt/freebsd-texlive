@@ -82,6 +82,10 @@ TEXMF_DIRS_LATEX=	\
 	gammas \
 	ftc-notebook \
 	etsvthor \
+	asmeconf \
+	chscite \
+	ecobiblatex \
+	historische-zeitschrift \
 	els-cas-templates \
 	economic \
 	chs-physics-report \
@@ -113,7 +117,7 @@ TEXMF_DIRS_LATEX=	\
 	unitn-bimrep univie-ling unswcover uothesis uowthesis \
 	uowthesistitlepage urcls uspatent utexasthesis ut-thesis uwthesis wsemclassic \
 	uni-wtal-ger uni-wtal-lin \
-	xcookybooky xduthesis yathesis york-thesis
+	xduthesis yathesis york-thesis
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover:Neconomic:Nchicago}
 

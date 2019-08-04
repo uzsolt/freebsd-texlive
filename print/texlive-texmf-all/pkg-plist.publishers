@@ -250,6 +250,13 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ascelike/ascexmpl.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ascelike/ascexmpl.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ascelike/ascexmpl.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/asmeconf-sample.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/asmeconf-template.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/asmeconf-template.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/sample-figure-1.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/sample-figure-2a.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/sample-figure-2b.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aucklandthesis/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aucklandthesis/aucklandthesis_userguide.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aucklandthesis/template.tex
@@ -392,6 +399,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chs-physics-report/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chs-physics-report/chs-physics-report.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chs-physics-report/chs-physics-report.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/chscite/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/chscite/chscite.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cje/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cje/ageingbib.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cje/canadian-flag.pdf
@@ -613,6 +622,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ebook/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ebsthesis/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ebsthesis/ebsthesis.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ecobiblatex/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ecobiblatex/ecobiblatex.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ecobiblatex/ecobiblatex.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ecobiblatex/ecobiblatex.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ejpecp/LPPL
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ejpecp/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ejpecp/ejpecp.pdf
@@ -995,6 +1008,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hecthese/template-phd-articles.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hecthese/template-phd-classic.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hecthese/theoretical-framework.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/historische-zeitschrift/CHANGES
+%%PORTDOCS%%%%DOCSDIR%%-texmf/historische-zeitschrift/LIESMICH
+%%PORTDOCS%%%%DOCSDIR%%-texmf/historische-zeitschrift/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hithesis/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hithesis/back/acknowledgements.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hithesis/back/appA.tex
@@ -2186,15 +2202,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/wsemclassic/wsemclassic-test.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/wsemclassic/wsemclassic-test.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/wsemclassic/wsemclassic.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/example.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/example.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/pic/background.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/pic/glass.jpg
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/pic/ingredients.jpg
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/tex/Complete_Recipe.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/example/tex/Mousse_au_Chocolat.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/xcookybooky/xcookybooky.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xduthesis/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xduthesis/examples/abstract.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xduthesis/examples/achievements.tex
@@ -2501,6 +2508,7 @@
 %%TEXMFDIR%%tex/latex/asaetr/asaetr.cls
 %%TEXMFDIR%%tex/latex/asaetr/asaetr.sty
 %%TEXMFDIR%%tex/latex/ascelike/ascelike.cls
+%%TEXMFDIR%%tex/latex/asmeconf/asmeconf.cls
 %%TEXMFDIR%%tex/latex/aucklandthesis/aucklandthesis.cls
 %%TEXMFDIR%%tex/latex/authorarchive/authorarchive.sty
 %%TEXMFDIR%%tex/latex/bangorcsthesis/bangorcsthesis.cls
@@ -2517,6 +2525,7 @@
 %%TEXMFDIR%%tex/latex/cell/cell.sty
 %%TEXMFDIR%%tex/latex/chicago/chicago.sty
 %%TEXMFDIR%%tex/latex/chs-physics-report/chs-physics-report.sty
+%%TEXMFDIR%%tex/latex/chscite/chscite.sty
 %%TEXMFDIR%%tex/latex/cje/cje.cls
 %%TEXMFDIR%%tex/latex/cje/cjenatbib.sty
 %%TEXMFDIR%%tex/latex/cje/cjeupmath.sty
@@ -2556,6 +2565,8 @@
 %%TEXMFDIR%%tex/latex/dtk/dtk.cls
 %%TEXMFDIR%%tex/latex/ebook/ebook.sty
 %%TEXMFDIR%%tex/latex/ebsthesis/ebsthesis.cls
+%%TEXMFDIR%%tex/latex/ecobiblatex/ecobiblatex.bbx
+%%TEXMFDIR%%tex/latex/ecobiblatex/ecobiblatex.cbx
 %%TEXMFDIR%%tex/latex/economic/aer.sty
 %%TEXMFDIR%%tex/latex/economic/aertt.sty
 %%TEXMFDIR%%tex/latex/economic/agecon.cls
@@ -2724,6 +2735,9 @@
 %%TEXMFDIR%%tex/latex/har2nat/har2nat.sty
 %%TEXMFDIR%%tex/latex/harvard/harvard.sty
 %%TEXMFDIR%%tex/latex/hecthese/hecthese.cls
+%%TEXMFDIR%%tex/latex/historische-zeitschrift/historische-zeitschrift.bbx
+%%TEXMFDIR%%tex/latex/historische-zeitschrift/historische-zeitschrift.cbx
+%%TEXMFDIR%%tex/latex/historische-zeitschrift/historische-zeitschrift.lbx
 %%TEXMFDIR%%tex/latex/hithesis/ctex-fontset-siyuan.def
 %%TEXMFDIR%%tex/latex/hithesis/hithesis.cfg
 %%TEXMFDIR%%tex/latex/hithesis/hithesis.cls
@@ -3144,8 +3158,6 @@
 %%TEXMFDIR%%tex/latex/utexasthesis/utexasthesis.cls
 %%TEXMFDIR%%tex/latex/uwthesis/uwthesis.cls
 %%TEXMFDIR%%tex/latex/wsemclassic/wsemclassic.cls
-%%TEXMFDIR%%tex/latex/xcookybooky/xcookybooky.cfg
-%%TEXMFDIR%%tex/latex/xcookybooky/xcookybooky.sty
 %%TEXMFDIR%%tex/latex/xduthesis/xdubadge-gr.eps
 %%TEXMFDIR%%tex/latex/xduthesis/xdubadge.eps
 %%TEXMFDIR%%tex/latex/xduthesis/xdulogo.eps

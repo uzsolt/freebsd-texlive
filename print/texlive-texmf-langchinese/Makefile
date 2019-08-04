@@ -37,7 +37,8 @@ TEXMF_DIRS=	\
 	tex/xelatex/zhspacing
 TEXMF_DIRS_LATEX=	\
 	ctex fduthesis pgfornament-han xpinyin \
-	xtuthesis zhlipsum zhmetrics zhnumber
+	xtuthesis zhlipsum zhmetrics zhnumber \
+	zhlineskip
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nzhmetrics}
 

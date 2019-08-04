@@ -10,6 +10,17 @@ TEXMF_DIRS_LATEX=	\
 	formular fwlw halloweenmath hardwrap hyphenat import ktv-texdata \
 	lastpage lcd limap lkproof mailmerge makebase manuscript marginfit \
 	marginfix marginnote mathastext maybemath mcaption \
+	manyind \
+	mathfont \
+	metalogox \
+	widows-and-orphans \
+	xcite \
+	xindex \
+	frenchmath \
+	dsserif \
+	doipubmed \
+	collref \
+	citeall\
 	keystroke \
 	pgf-cmykshadings \
 	padcount \
@@ -74,7 +85,7 @@ TEXMF_DIRS_LATEX=	\
 		yagusylo\
 		tex-locale
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntex-locale}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntex-locale:Nxindex:Ndsserif}
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

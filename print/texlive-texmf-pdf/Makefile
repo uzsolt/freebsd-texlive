@@ -8,6 +8,8 @@ TEXMF_DIRS_LATEX=	\
 	embedall fancytooltips flashmovie incgraph interactiveworkbook \
 	hyperbar \
 	media9\
+	xfakebold \
+	axessibility \
 		movie15\
 		repltext\
 		spotcolor\

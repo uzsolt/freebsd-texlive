@@ -168,6 +168,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exercisepoints/exercisepoints.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exercises/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exercises/exercises.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/exframe/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/exframe/exframe.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/exframe/exfsmp1.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exsheets/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exsheets/exsheets_en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/exsheets/exsheets_en.tex
@@ -792,6 +795,7 @@
 %%TEXMFDIR%%tex/latex/exercisebank/exercisebank.sty
 %%TEXMFDIR%%tex/latex/exercisepoints/exercisepoints.sty
 %%TEXMFDIR%%tex/latex/exercises/exercises.sty
+%%TEXMFDIR%%tex/latex/exframe/exframe.sty
 %%TEXMFDIR%%tex/latex/exsheets/exsheets-listings.sty
 %%TEXMFDIR%%tex/latex/exsheets/exsheets.sty
 %%TEXMFDIR%%tex/latex/exsheets/exsheets_configurations.cfg

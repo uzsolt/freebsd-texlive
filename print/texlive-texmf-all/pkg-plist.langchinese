@@ -39,6 +39,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xtuthesis/xtu.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xtuthesis/xtuthesis.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xtuthesis/xtuthesis.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/CJKmetrics.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/Latinmetrics.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip-man.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip-man.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip-test.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlipsum/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlipsum/zhlipsum-en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlipsum/zhlipsum-en.tex
@@ -7006,6 +7012,7 @@
 %%TEXMFDIR%%tex/latex/xpinyin/xpinyin-database.def
 %%TEXMFDIR%%tex/latex/xpinyin/xpinyin.sty
 %%TEXMFDIR%%tex/latex/xtuthesis/xtuformat.sty
+%%TEXMFDIR%%tex/latex/zhlineskip/zhlineskip.sty
 %%TEXMFDIR%%tex/latex/zhlipsum/zhlipsum-big5.def
 %%TEXMFDIR%%tex/latex/zhlipsum/zhlipsum-gbk.def
 %%TEXMFDIR%%tex/latex/zhlipsum/zhlipsum-utf8.def

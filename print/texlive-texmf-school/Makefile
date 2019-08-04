@@ -14,6 +14,7 @@ TEXMF_DIRS_LATEX=	\
 	courseoutline tasks esami exam exam-n examdesign example exercise \
 	exercisebank exercises exsheets exsol handin jslectureplanner mafr \
 	mathexam mcexam moodle musikui pas-cours pbsheet \
+	exframe \
 	mi-solns \
 	lectures \
 	jnuexam \

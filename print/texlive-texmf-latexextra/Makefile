@@ -108,12 +108,11 @@ TEXMF_DIRS_LATEX=	\
 		colorinfo \
 		colorweb combelow combine \
 		concprog constants continue \
-		contracard cooking-units cooking \
+		crossrefware \
 		coolthms \
 		coseoul counttexruns \
 		coursepaper \
 		crossreference crossreftools csquotes \
-		cuisine \
 		cutwin cweb-latex cyber cybercic \
 		dashrule dashundergaps dateiliste \
 		datenumber datetime datetime2-bahasai datetime2-basque \
@@ -470,7 +469,7 @@ TEXMF_DIRS_LATEX=	\
 		yplan\
 		zed-csp
 TEXMF_DOCDIRS=
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm}
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm:Ncrossrefware}
 
 USES=	perl5 python
 

@@ -36,7 +36,7 @@ LIB_DEPENDS=	libicuio.so:devel/icu \
 		libpotrace.so:graphics/libpotrace \
 		libXaw.so:x11-toolkits/libXaw
 # Required to create format files
-DEPENDS=	${LOCALBASE}/share/texmf-dist/pkg-core:print/texlive-texmf-core
+DEPENDS=	texlive-texmf-core>0:print/texlive-texmf-core
 BUILD_DEPENDS=	${DEPENDS}
 # p5-* are required by latexindent
 RUN_DEPENDS=	${DEPENDS} \

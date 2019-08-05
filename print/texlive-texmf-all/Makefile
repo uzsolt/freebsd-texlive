@@ -91,7 +91,7 @@ OPTIONS_DEFINE+=	DOCS
 
 .if ${TEXMF_CATEG} == all
 .for texmfpackage in ${TEXMF_CATEGORIES}
-RUN_DEPENDS+=	${TEXMFDISTDIR}/pkg-${texmfpackage}:print/texlive-texmf-${texmfpackage}
+RUN_DEPENDS+=	texlive-texmf-${texmfpackage}>=${PORTVERSION}:print/texlive-texmf-${texmfpackage}
 .endfor
 .else
 RUN_DEPENDS+=	texhash:print/texlive-kpathsea
@@ -100,10 +100,9 @@ USE_TEX=	texhash
 RUN_DEPENDS+=	tex:print/texlive-bin
 .endif
 
-DESCR=	${PKGDIR}/pkg-descr.${TEXMF_CATEG}
-PLIST=	${PKGDIR}/pkg-plist.${TEXMF_CATEG}
+DESCR=	${.CURDIR}/pkg-descr
+PLIST=	${.CURDIR}/pkg-plist
 PKGINSTALL=	${PKGDIR}/pkg-install
-PLIST_FILES+=	share/texmf-dist/pkg-${TEXMF_CATEG}
 
 TEXMF_DIRS_gen=		${TEXMF_DIRS}
 TEXMF_DIRS_gen+=	${TEXMF_DIRS_LATEX:@dir@tex/latex/${dir}@}
@@ -127,7 +126,6 @@ POSTINSTALLREQ+=	post-install-texmf
 
 do-install:
 	${MKDIR} ${STAGEDIR}${TEXMFDISTDIR}
-	${TOUCH} ${STAGEDIR}${TEXMFDISTDIR}pkg-${TEXMF_CATEG}
 
 # The reading of the huge texlive-texmf.tar.xz takes many time.
 # We want to read only once so it takes less (about half) time.

@@ -6,7 +6,7 @@ usage() {
   cat << EOF
 Usage: $0 directory
 
-List and format TEXMF_DIRS_LATEX variable
+List and format ${VARIABLES} variable(s).
 EOF
   exit 1
 }

@@ -35,7 +35,8 @@ TEXMF_DIRS_FONTS=	\
 		vf/public/bera/ \
 		vf/public/kpfonts/ \
 
-TEXMF_DIRS_LATEX=	anonymouspro ascii-font bera inconsolata \
+TEXMF_DIRS_LATEX=	\
+	anonymouspro ascii-font bera inconsolata \
 	kpfonts newtxtt sourcecodepro
 TEXMF_DOCDIRS_LATEX=	sourcecodepro
 TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX}

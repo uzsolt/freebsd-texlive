@@ -4,29 +4,13 @@ COMMENT=	PDF-specific packages
 TEXMF_CATEG=	pdf
 
 TEXMF_DIRS_LATEX=	\
-	animate attachfile autopdf bxpdfver colorspace cooltooltips \
-	embedall fancytooltips flashmovie incgraph interactiveworkbook \
-	hyperbar \
-	media9\
-	xfakebold \
-	axessibility \
-		movie15\
-		repltext\
-		spotcolor\
-		tdclock\
-		threadcol\
-	mmap\
-	pdfoverlay pdfpages \
-	pdfpc-movie \
-	flippdf grayhints intopdf pdf14 pdfcomment pdfcprot pdfmarginpar \
-	pdfpagediff pdfprivacy pdfreview pdfsync pdfwin pdfx \
-		ocg-p\
-		ocgx2\
-		pax\
-		pstool\
-		ocgx\
-		xmpincl\
-	tagpdf xcpdftips
+	animate attachfile autopdf axessibility bxpdfver colorspace \
+	cooltooltips embedall fancytooltips flashmovie flippdf grayhints \
+	hyperbar incgraph interactiveworkbook intopdf media9 mmap movie15 \
+	ocg-p ocgx ocgx2 pax pdf14 pdfcomment pdfcprot pdfmarginpar \
+	pdfoverlay pdfpagediff pdfpages pdfpc-movie pdfprivacy pdfreview \
+	pdfsync pdfwin pdfx pstool repltext spotcolor tagpdf tdclock \
+	threadcol xcpdftips xfakebold xmpincl
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 TEXMF_SHEBANG_FILES_DOCS=	\

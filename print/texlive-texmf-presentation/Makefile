@@ -3,22 +3,22 @@
 COMMENT=	Packages for slides, beamers, handouts
 TEXMF_CATEG=	presentation
 
-TEXMF_DIRS=	tex/xelatex/bidipresentation \
-		tex/generic/lecturer \
-		tex/plain/present \
-		metapost/slideshow
+TEXMF_DIRS=	\
+	metapost/slideshow tex/generic/lecturer tex/plain/present \
+	tex/xelatex/bidipresentation
 TEXMF_DIRS_LATEX=	\
-	appendixnumberbeamer beamer beamer-verona beamer2thesis beameraudience \
-	beamercolorthemeowl beamerdarkthemes beamerposter beamersubframe \
-	beamertheme-cuerna beamertheme-detlevcm beamertheme-epyt beamertheme-focus \
-	beamertheme-light beamertheme-npbt \
-	beamertheme-metropolis beamertheme-phnompenh beamertheme-saintpetersburg \
-	beamertheme-upenn-bc beamerthemejltree beamerthemenirma bxdpx-beamer colourchange \
-	dynblocks elpres fancyhandout fancyslides ffslides fibeamer foilhtml \
-	gridslides HA-prosper hackthefootline handout hobete ifmslide \
-	medstarbeamer overlays pdfscreen pdfslide powerdot powerdot-tuliplab \
-	ppr-prv prosper seminar soton spot sslides studenthandouts talk \
-	texpower uwmslide
+	appendixnumberbeamer beamer beamer-verona beamer2thesis \
+	beameraudience beamercolorthemeowl beamerdarkthemes beamerposter \
+	beamersubframe beamertheme-cuerna beamertheme-detlevcm \
+	beamertheme-epyt beamertheme-focus beamertheme-light \
+	beamertheme-metropolis beamertheme-npbt beamertheme-phnompenh \
+	beamertheme-saintpetersburg beamertheme-upenn-bc beamerthemejltree \
+	beamerthemenirma bxdpx-beamer colourchange dynblocks elpres \
+	fancyhandout fancyslides ffslides fibeamer foilhtml gridslides \
+	HA-prosper hackthefootline handout hobete ifmslide medstarbeamer \
+	overlays pdfscreen pdfslide powerdot powerdot-tuliplab ppr-prv \
+	prosper seminar soton spot sslides studenthandouts talk texpower \
+	uwmslide
 
 TEXMF_DOCDIRS=	xelatex/bidipresentation generic/lecturer plain/present \
 	metapost/slideshow

@@ -6,7 +6,7 @@ TEXMF_CATEG=	fonts-symbols
 TEXMF_DIRS=	\
 		tex/generic/asapsym/ \
 		tex/plain/asapsym/ \
-		metapost/nkarta/ \
+		metapost/nkarta/
 
 TEXMF_DIRS_FONTS=	\
 		opentype/omnibus-type/asapsym/ \
@@ -71,19 +71,20 @@ TEXMF_DIRS_FONTS=	\
 		type1/public/superiors/ \
 		source/public/trsym/ \
 		tfm/public/trsym/ \
-		truetype/public/typicons/ \
+		truetype/public/typicons/
 
 TEXMF_DIRS_LATEX=	\
 		mdsymbol ifsym fontmfizz \
 	academicons adfsymbols asapsym bbding \
 	fontawesome fontawesome5 dingbat ccicons cookingsymbols dictsym \
-	esvect marvosym fdsymbol spark-otf superiors trsym typicons \
+	esvect marvosym fdsymbol spark-otf superiors trsym typicons
 
 TEXMF_DOCDIRS_FONTS+=	\
 	academicons adfsymbols asapsym dictsym dingbat fontawesome fontawesome5 \
 	fontmfizz genealogy \
 	ifsym marvosym superiors typicons \
 	nkarta spark-otf
+
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX} cryst
 .for fn in ${TEXMF_DOCDIRS_FONTS}
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${fn}}

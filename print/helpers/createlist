@@ -13,23 +13,26 @@ EOF
 
 [ -z "$1" ] && usage
 
-for var in ${VARIABLES}; do
-  leader="^${var}=.*\\\\$"
-  tailer="[^\\]$"
-  TMPFILE=`mktemp`
-  (
-    printf '%s=\t\\\n' "${var}"
-    make -V${var} -C $1 | \
-      tr ' ' '\n' |  grep -v '^$' | sort | \
-      tr '\n' ' ' | \
-      fold -w 70 -s | sed 's,^,        ,' | sed 's,$,\\,' | sed '$s, \\,,'
-    echo
-  ) > ${TMPFILE}
+for dir in $*; do
+  for var in ${VARIABLES}; do
+    leader="^${var}=.*\\\\$"
+    tailer="[^\\]$"
+    TMPFILE=`mktemp`
+    (
+      printf '%s=\t\\\n' "${var}"
+      make -V${var} -C ${dir} | \
+        tr ' ' '\n' |  grep -v '^$' | sort | \
+        tr '\n' ' ' | \
+        fold -w 70 -s | sed "s,^,`printf '\t'`," | sed 's,$,\\,' | sed '$s, \\,,'
+      echo
+    ) > ${TMPFILE}
+    cat ${TMPFILE}
 
-  sed -i "" "/$leader/,/$tailer/{
-    /$leader/{
-      r $TMPFILE
-    };d
-  }" $1/Makefile
-  rm ${TMPFILE}
+    sed -i "" "/$leader/,/$tailer/{
+      /$leader/{
+        r $TMPFILE
+      };d
+    }" ${dir}/Makefile
+    rm ${TMPFILE}
+  done
 done

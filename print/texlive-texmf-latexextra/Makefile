@@ -12,17 +12,17 @@ TEXMF_DIRS=	\
 	bibtex/bst/gloss/ bibtex/bst/hc/ bibtex/bst/mciteplus/ \
 	bibtex/bst/mslapa/ bibtex/bst/opcit/ bibtex/bst/phfnote/ \
 	bibtex/bst/savetrees/ bibtex/bst/shipunov/ bibtex/bst/upmethodology/ \
-	dvips/esint-type1/ fonts/afm/public/niceframe-type1/ \
+	dvips/esint-type1/ \
 	fonts/source/public/casyl/ fonts/source/public/cbcoptic/ \
 	fonts/source/public/circ/ fonts/source/public/clock/ \
-	fonts/source/public/esint/ fonts/source/public/niceframe/ \
+	fonts/source/public/esint/ \
 	fonts/tfm/public/casyl/ fonts/tfm/public/cbcoptic/ \
 	fonts/tfm/public/circ/ fonts/tfm/public/clock/ \
 	fonts/tfm/public/epiolmec/ fonts/tfm/public/esint/ \
-	fonts/tfm/public/niceframe/ fonts/tfm/public/relenc/ \
+	 fonts/tfm/public/relenc/ \
 	fonts/tfm/public/scanpages/ fonts/type1/public/cbcoptic/ \
 	fonts/type1/public/epiolmec/ fonts/type1/public/esint-type1/ \
-	fonts/type1/public/niceframe-type1/ fonts/type1/public/scanpages/ \
+	 fonts/type1/public/scanpages/ \
 	fonts/vf/public/relenc/ makeindex/gmdoc/ makeindex/iso/ \
 	makeindex/leipzig/ makeindex/nomencl/ makeindex/nomentbl/ \
 	makeindex/repeatindex/ makeindex/xdoc/ metapost/makecirc/ \

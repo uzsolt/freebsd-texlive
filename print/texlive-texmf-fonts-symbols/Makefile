@@ -11,6 +11,9 @@ TEXMF_DIRS_FONTS=	\
 	afm/public/marvosym/ enc/dvips/adfsymbols/ enc/dvips/ccicons/ \
 	enc/dvips/fdsymbol/ enc/dvips/fontawesome/ enc/dvips/fontawesome5/ \
 	enc/dvips/mdsymbol/ enc/dvips/superiors/ \
+	afm/public/niceframe-type1/ \
+	tfm/public/niceframe/ \
+	type1/public/niceframe-type1/ source/public/niceframe/ \
 	opentype/omnibus-type/asapsym/ opentype/public/ccicons/ \
 	opentype/public/fdsymbol/ opentype/public/fontawesome/ \
 	opentype/public/fontawesome5/ opentype/public/mdsymbol/ \

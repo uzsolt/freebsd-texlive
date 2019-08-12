@@ -2653,11 +2653,6 @@
 %%TEXMFDIR%%bibtex/bst/shipunov/rusnat.bst
 %%TEXMFDIR%%bibtex/bst/upmethodology/upmplainnat.bst
 %%TEXMFDIR%%dvips/esint-type1/config.esint
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/bbding10.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/dingbat.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/karta15.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/umranda.afm
-%%TEXMFDIR%%fonts/afm/public/niceframe-type1/umrandb.afm
 %%TEXMFDIR%%fonts/source/public/casyl/casyll10.mf
 %%TEXMFDIR%%fonts/source/public/cbcoptic/coptbase.mf
 %%TEXMFDIR%%fonts/source/public/cbcoptic/copti.mf
@@ -2676,11 +2671,6 @@
 %%TEXMFDIR%%fonts/source/public/esint/bigint.mf
 %%TEXMFDIR%%fonts/source/public/esint/esint10.mf
 %%TEXMFDIR%%fonts/source/public/esint/mathint.mf
-%%TEXMFDIR%%fonts/source/public/niceframe/karta.mf
-%%TEXMFDIR%%fonts/source/public/niceframe/karta15.mf
-%%TEXMFDIR%%fonts/source/public/niceframe/umrand.mf
-%%TEXMFDIR%%fonts/source/public/niceframe/umranda.mf
-%%TEXMFDIR%%fonts/source/public/niceframe/umrandb.mf
 %%TEXMFDIR%%fonts/tfm/public/casyl/casyll10.tfm
 %%TEXMFDIR%%fonts/tfm/public/cbcoptic/copti.tfm
 %%TEXMFDIR%%fonts/tfm/public/cbcoptic/copto.tfm
@@ -2688,9 +2678,6 @@
 %%TEXMFDIR%%fonts/tfm/public/clock/clock.tfm
 %%TEXMFDIR%%fonts/tfm/public/epiolmec/EpiOlmec.tfm
 %%TEXMFDIR%%fonts/tfm/public/esint/esint10.tfm
-%%TEXMFDIR%%fonts/tfm/public/niceframe/karta15.tfm
-%%TEXMFDIR%%fonts/tfm/public/niceframe/umranda.tfm
-%%TEXMFDIR%%fonts/tfm/public/niceframe/umrandb.tfm
 %%TEXMFDIR%%fonts/tfm/public/relenc/zcmr8d.tfm
 %%TEXMFDIR%%fonts/tfm/public/relenc/zcmra.tfm
 %%TEXMFDIR%%fonts/tfm/public/scanpages/scanwipe.tfm
@@ -2698,11 +2685,6 @@
 %%TEXMFDIR%%fonts/type1/public/cbcoptic/copto.pfb
 %%TEXMFDIR%%fonts/type1/public/epiolmec/Epi-Olmec.pfb
 %%TEXMFDIR%%fonts/type1/public/esint-type1/esint10.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/bbding10.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/dingbat.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/karta15.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/umranda.pfb
-%%TEXMFDIR%%fonts/type1/public/niceframe-type1/umrandb.pfb
 %%TEXMFDIR%%fonts/type1/public/scanpages/scanwipe.pfb
 %%TEXMFDIR%%fonts/vf/public/relenc/zcmr8d.vf
 %%TEXMFDIR%%fonts/vf/public/relenc/zcmra.vf

@@ -79,6 +79,11 @@
 %%TEXMFDIR%%fonts/afm/public/cryst/cryst.afm
 %%TEXMFDIR%%fonts/afm/public/dictsym/dictsym.afm
 %%TEXMFDIR%%fonts/afm/public/marvosym/marvosym.afm
+%%TEXMFDIR%%fonts/afm/public/niceframe-type1/bbding10.afm
+%%TEXMFDIR%%fonts/afm/public/niceframe-type1/dingbat.afm
+%%TEXMFDIR%%fonts/afm/public/niceframe-type1/karta15.afm
+%%TEXMFDIR%%fonts/afm/public/niceframe-type1/umranda.afm
+%%TEXMFDIR%%fonts/afm/public/niceframe-type1/umrandb.afm
 %%TEXMFDIR%%fonts/enc/dvips/adfsymbols/SymbolsADF.enc
 %%TEXMFDIR%%fonts/enc/dvips/ccicons/ccicons-u.enc
 %%TEXMFDIR%%fonts/enc/dvips/fdsymbol/fdsymbol-a.enc
@@ -232,6 +237,11 @@
 %%TEXMFDIR%%fonts/source/public/mdsymbol/mdoperators.mf
 %%TEXMFDIR%%fonts/source/public/mdsymbol/mdrelations.mf
 %%TEXMFDIR%%fonts/source/public/mdsymbol/mdturnstile.mf
+%%TEXMFDIR%%fonts/source/public/niceframe/karta.mf
+%%TEXMFDIR%%fonts/source/public/niceframe/karta15.mf
+%%TEXMFDIR%%fonts/source/public/niceframe/umrand.mf
+%%TEXMFDIR%%fonts/source/public/niceframe/umranda.mf
+%%TEXMFDIR%%fonts/source/public/niceframe/umrandb.mf
 %%TEXMFDIR%%fonts/source/public/nkarta/nkarta.mf
 %%TEXMFDIR%%fonts/source/public/nkarta/nkarta15.mf
 %%TEXMFDIR%%fonts/source/public/nkarta/nkchars.mf
@@ -330,6 +340,9 @@
 %%TEXMFDIR%%fonts/tfm/public/mdsymbol/MdSymbolF-Light.tfm
 %%TEXMFDIR%%fonts/tfm/public/mdsymbol/MdSymbolF-Regular.tfm
 %%TEXMFDIR%%fonts/tfm/public/mdsymbol/MdSymbolF-Semibold.tfm
+%%TEXMFDIR%%fonts/tfm/public/niceframe/karta15.tfm
+%%TEXMFDIR%%fonts/tfm/public/niceframe/umranda.tfm
+%%TEXMFDIR%%fonts/tfm/public/niceframe/umrandb.tfm
 %%TEXMFDIR%%fonts/tfm/public/nkarta/nkarta15.tfm
 %%TEXMFDIR%%fonts/tfm/public/superiors/libertinesups.tfm
 %%TEXMFDIR%%fonts/tfm/public/trsym/trsy10.tfm
@@ -403,6 +416,11 @@
 %%TEXMFDIR%%fonts/type1/public/mdsymbol/MdSymbolF-Light.pfb
 %%TEXMFDIR%%fonts/type1/public/mdsymbol/MdSymbolF-Regular.pfb
 %%TEXMFDIR%%fonts/type1/public/mdsymbol/MdSymbolF-Semibold.pfb
+%%TEXMFDIR%%fonts/type1/public/niceframe-type1/bbding10.pfb
+%%TEXMFDIR%%fonts/type1/public/niceframe-type1/dingbat.pfb
+%%TEXMFDIR%%fonts/type1/public/niceframe-type1/karta15.pfb
+%%TEXMFDIR%%fonts/type1/public/niceframe-type1/umranda.pfb
+%%TEXMFDIR%%fonts/type1/public/niceframe-type1/umrandb.pfb
 %%TEXMFDIR%%fonts/type1/public/superiors/libertinesups.pfb
 %%TEXMFDIR%%metapost/nkarta/nkarta.mp
 %%TEXMFDIR%%metapost/nkarta/nkchars.mp

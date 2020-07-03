@@ -54,7 +54,7 @@
 #   same as TEXMF_SHEBANG_FILES but only works when option DOCS is set.
 
 PORTNAME=	texlive
-PORTVERSION=	20190410
+PORTVERSION=	20200406
 DISTVERSIONSUFFIX=	-texmf
 CATEGORIES=	print
 MASTER_SITES=	ftp://tug.org/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/
@@ -94,8 +94,7 @@ OPTIONS_DEFINE+=	DOCS
 RUN_DEPENDS+=	texlive-texmf-${texmfpackage}>=${PORTVERSION}:print/texlive-texmf-${texmfpackage}
 .endfor
 .else
-RUN_DEPENDS+=	texhash:print/texlive-kpathsea
-USE_TEX=	texhash
+RUN_DEPENDS+=	mktexlsr:print/texlive-kpathsea
 .if ${TEXMF_CATEG:Ncore}
 RUN_DEPENDS+=	tex:print/texlive-bin
 .endif

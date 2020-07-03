@@ -29,7 +29,7 @@ USES=	perl5
 post-install-texmf:
 	${MKDIR} ${STAGEDIR}${SITE_PERL}
 	${RLN} ${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive/mktexlsr.pl ${STAGEDIR}${SITE_PERL}
-.for confl in mktex.opt mktexdir mktexdir.opt mktexnam mktexnam.opt mktexupd texmf.cnf
+.for confl in mktexdir mktexdir.opt mktexnam mktexnam.opt mktexupd texmf.cnf
 	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/${confl}
 .endfor
 

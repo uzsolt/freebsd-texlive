@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	texlive
-PORTVERSION=	20190410
+PORTVERSION=	20200406
 DISTVERSIONSUFFIX=	-source
 CATEGORIES=	print
 MASTER_SITES=	http://mirrors.nxthost.com/ctan/systems/texlive/Source/ \
@@ -46,8 +46,8 @@ RUN_DEPENDS=	${DEPENDS} \
 		p5-Unicode-LineBreak>=0:textproc/p5-Unicode-LineBreak \
 		p5-YAML-Tiny>=0:textproc/p5-YAML-Tiny
 
-USES=		compiler:c++11-lang gmake iconv libtool localbase \
-		perl5 pkgconfig python:run shebangfix tar:xz
+USES=		compiler:c++11-lang gmake gnome iconv libtool localbase \
+		perl5 pkgconfig python:run shebangfix tar:xz xorg
 USE_GNOME+=	cairo
 USE_LDCONFIG=	yes
 USE_XORG+=	ice pixman sm x11 xext xmu xpm xt

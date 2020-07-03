@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	texlive
-PORTVERSION=	20190410
+PORTVERSION=	20200406
 DISTVERSIONSUFFIX=	-source
 CATEGORIES=	print
 MASTER_SITES=	http://mirrors.nxthost.com/ctan/systems/texlive/Source/ \
@@ -19,7 +19,6 @@ USE_LDCONFIG=	yes
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/texk/kpathsea
 GNU_CONFIGURE=	yes
-INSTALL_TARGET=	install-strip
 
 INFO=		kpathsea
 
@@ -28,5 +27,8 @@ post-patch:
 	  's,^TEXMFROOT.*=.*,TEXMFROOT = $$SELFAUTODIR/share, ;\
 	  s,^TEXMFLOCAL.*=.*,TEXMFLOCAL = $$TEXMFROOT/texmf-local,' \
 	  ${WRKSRC}/texmf.cnf
+
+post-install:
+	${INSTALL_SCRIPT} ${WRKSRC}/../texlive/linked_scripts/texlive/mktexlsr ${STAGEDIR}${PREFIX}/bin
 
 .include <bsd.port.mk>

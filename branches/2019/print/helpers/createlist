@@ -1,0 +1,38 @@
+#!/bin/sh
+
+VARIABLES="TEXMF_DIRS TEXMF_DIRS_FONTS TEXMF_DIRS_GENERIC TEXMF_DIRS_LATEX"
+
+usage() {
+  cat << EOF
+Usage: $0 directory
+
+List and format ${VARIABLES} variable(s).
+EOF
+  exit 1
+}
+
+[ -z "$1" ] && usage
+
+for dir in $*; do
+  for var in ${VARIABLES}; do
+    leader="^${var}=.*\\\\$"
+    tailer="[^\\]$"
+    TMPFILE=`mktemp`
+    (
+      printf '%s=\t\\\n' "${var}"
+      make -V${var} -C ${dir} | \
+        tr ' ' '\n' |  grep -v '^$' | sort | \
+        tr '\n' ' ' | \
+        fold -w 70 -s | sed "s,^,`printf '\t'`," | sed 's,$,\\,' | sed '$s, \\,,'
+      echo
+    ) > ${TMPFILE}
+    cat ${TMPFILE}
+
+    sed -i "" "/$leader/,/$tailer/{
+      /$leader/{
+        r $TMPFILE
+      };d
+    }" ${dir}/Makefile
+    rm ${TMPFILE}
+  done
+done

@@ -1,0 +1,5 @@
+TIMESTAMP = 1556953674
+SHA256 (TeX/texlive-20190410-source.tar.xz) = d2a29fef04e34dc3d2d2296c18995fc357aa7625e7a6bbf40fb92d83d3d0d7b5
+SIZE (TeX/texlive-20190410-source.tar.xz) = 53783408
+SHA256 (TeX/texlive-20190410-extra.tar.xz) = 488233d728b274952f7770e24f4a0cfa6976cd15dec44951d8985a629570cc8e
+SIZE (TeX/texlive-20190410-extra.tar.xz) = 1595928

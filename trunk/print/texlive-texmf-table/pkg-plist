@@ -214,6 +214,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/expdlist/readme.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fcolumn/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fcolumn/fcolumn.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/fcolumn/makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ftcap/ftcap.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ftcap/ftcap.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gatherenum/LICENSE
@@ -310,7 +311,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/miscdoc.sty
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/tabls.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabls/tabls.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tablvar/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tablvar/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tablvar/tablvar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tabu/tabu.pdf
@@ -365,7 +366,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/typed-checklist/typed-checklist.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/warpcol.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/manifest.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/widetable.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xltabular/Changes

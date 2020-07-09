@@ -13,14 +13,14 @@ TEXMF_DIRS_FONTS=	\
 	afm/arkandis/venturisold/ afm/arkandis/venturissans/ \
 	afm/arkandis/venturissans2/ afm/gust/poltawski/ afm/nowacki/iwona/ \
 	afm/nowacki/kurier/ afm/paratype/ afm/public/antt/ afm/public/arev/ \
-	afm/public/baskervaldx/ afm/public/cantarell/ afm/public/cantarell/ \
-	afm/public/cochineal/ afm/public/comfortaa/ afm/public/cyklop/ \
-	afm/public/dejavu/ afm/public/drm/ afm/public/droid/ \
+	afm/public/baskervaldx/ \
+	afm/public/cochineal/ afm/public/cyklop/ \
+	afm/public/dejavu/ afm/public/drm/ \
 	afm/public/epigrafica/ afm/public/erewhon/ afm/public/fetamont/ \
 	afm/public/fourier/ afm/public/fouriernc/ afm/public/gfsartemisia/ \
 	afm/public/gfsbodoni/ afm/public/gfsdidot/ afm/public/gfsneohellenic/ \
 	afm/public/libertinust1math/ afm/public/newpx/ afm/public/newtx/ \
-	afm/public/nimbus15/ afm/public/opensans/ afm/public/stickstoo \
+	afm/public/nimbus15/ afm/public/stickstoo \
 	afm/public/txfontsb/ afm/public/xcharter/ afm/urw/antiqua/ \
 	afm/urw/grotesq/ enc/dvips/accanthis/ enc/dvips/alegreya/ \
 	enc/dvips/algolrevived/ enc/dvips/antt/ enc/dvips/arev/ \
@@ -52,8 +52,8 @@ TEXMF_DIRS_FONTS=	\
 	opentype/adobe/sourcesanspro/ opentype/adobe/sourceserifpro/ \
 	opentype/arkandis/accanthis/ opentype/arkandis/berenisadf/ \
 	opentype/arkandis/gillius/ opentype/arkandis/mintspirit/ \
-	opentype/arkandis/universalis/ opentype/catharsis/cormorantgaramond/ \
-	opentype/google/noto/ opentype/gust/poltawski/ \
+	opentype/arkandis/universalis/ \
+	opentype/gust/poltawski/ \
 	opentype/huerta/alegreya/ opentype/ibm/plex/ \
 	opentype/iginomarini/imfellenglish/ opentype/impallari/cabin/ \
 	opentype/impallari/librebaskerville/ opentype/impallari/librebodoni/ \
@@ -88,10 +88,10 @@ TEXMF_DIRS_FONTS=	\
 	tfm/catharsis/cormorantgaramond/ tfm/intel/clearsans/ \
 	tfm/kosch/crimson/ tfm/paratype/ tfm/public/algolrevived/ \
 	tfm/public/antt/ tfm/public/arev/ tfm/public/baskervaldx/ \
-	tfm/public/baskervillef/ tfm/public/boisik/ tfm/public/cantarell/ \
+	tfm/public/baskervillef/ tfm/public/boisik/ \
 	tfm/public/chivo/ tfm/public/cochineal/ tfm/public/coelacanth/ \
-	tfm/public/comfortaa/ tfm/public/concmath-fonts/ tfm/public/cyklop/ \
-	tfm/public/dejavu/ tfm/public/drm/ tfm/public/droid/ \
+	tfm/public/concmath-fonts/ tfm/public/cyklop/ \
+	tfm/public/dejavu/ tfm/public/drm/ \
 	tfm/public/epigrafica/ tfm/public/erewhon/ tfm/public/fbb/ \
 	tfm/public/fetamont/ tfm/public/fira/ tfm/public/fourier/ \
 	tfm/public/fouriernc/ tfm/public/gfsartemisia/ tfm/public/gfsbodoni/ \
@@ -105,17 +105,17 @@ TEXMF_DIRS_FONTS=	\
 	tfm/public/mathdesign/mdugm/ tfm/public/montserrat/ tfm/public/newpx/ \
 	tfm/public/newtx/ tfm/public/newtxsf/ tfm/public/nimbus15/ \
 	tfm/public/obnov/ tfm/public/oldlatin/ tfm/public/oldstandard/ \
-	tfm/public/opensans/ tfm/public/playfair/ tfm/public/rosario/ \
+	tfm/public/playfair/ tfm/public/rosario/ \
 	tfm/public/stickstoo tfm/public/stix/ tfm/public/txfontsb/ \
 	tfm/public/xcharter/ tfm/rozynski/comicneue/ tfm/sorkin/merriweather/ \
 	tfm/typoland/carlito/ tfm/typoland/lato/ tfm/urw/antiqua/ \
 	tfm/urw/grotesq/ truetype/bh/gofonts/ truetype/google/arimo/ \
 	truetype/huerta/caladea/ truetype/intel/clearsans/ \
 	truetype/muhafara/overlock/ truetype/paratype/ \
-	truetype/public/Asana-Math/ truetype/public/comfortaa/ \
-	truetype/public/dejavu/ truetype/public/droid/ \
+	truetype/public/Asana-Math/ \
+	truetype/public/dejavu/ \
 	truetype/public/inriafonts truetype/public/junicode/ \
-	truetype/public/opensans/ truetype/sorkin/merriweather/ \
+	truetype/sorkin/merriweather/ \
 	truetype/typoland/carlito/ truetype/typoland/lato/ \
 	type1/adobe/sourcesanspro/ type1/adobe/sourceserifpro/ \
 	type1/arkandis/accanthis/ type1/arkandis/baskervald/ \
@@ -137,9 +137,9 @@ TEXMF_DIRS_FONTS=	\
 	type1/paratype/ptsans/ type1/paratype/ptserif/ \
 	type1/public/algolrevived/ type1/public/antt/ type1/public/arev/ \
 	type1/public/baskervaldx/ type1/public/baskervillef/ \
-	type1/public/cantarell/ type1/public/chivo/ type1/public/cochineal/ \
-	type1/public/coelacanth/ type1/public/comfortaa/ type1/public/cyklop/ \
-	type1/public/dejavu/ type1/public/drm/ type1/public/droid/ \
+	type1/public/chivo/ type1/public/cochineal/ \
+	type1/public/coelacanth/ type1/public/cyklop/ \
+	type1/public/dejavu/ type1/public/drm/ \
 	type1/public/epigrafica/ type1/public/erewhon/ type1/public/fbb/ \
 	type1/public/fetamont/ type1/public/fira/ type1/public/fourier/ \
 	type1/public/gfsartemisia/ type1/public/gfsbodoni/ \
@@ -152,7 +152,7 @@ TEXMF_DIRS_FONTS=	\
 	type1/public/mathdesign/mdput/ type1/public/mathdesign/mdugm/ \
 	type1/public/montserrat/ type1/public/newpx/ type1/public/newtx/ \
 	type1/public/newtxsf/ type1/public/nimbus15/ \
-	type1/public/oldstandard/ type1/public/opensans/ \
+	type1/public/oldstandard/ \
 	type1/public/playfair/ type1/public/rosario/ type1/public/stickstoo \
 	type1/public/stix/ type1/public/tapir/ type1/public/txfontsb/ \
 	type1/public/xcharter/ type1/rozynski/comicneue/ \
@@ -172,9 +172,9 @@ TEXMF_DIRS_FONTS=	\
 	vf/impallari/raleway/ vf/intel/clearsans/ vf/kosch/crimson/ \
 	vf/muhafara/overlock/ vf/paratype/ptmono/ vf/paratype/ptsans/ \
 	vf/paratype/ptserif/ vf/public/algolrevived/ vf/public/arev/ \
-	vf/public/baskervaldx/ vf/public/baskervillef/ vf/public/cantarell/ \
+	vf/public/baskervaldx/ vf/public/baskervillef/ \
 	vf/public/chivo/ vf/public/cochineal/ vf/public/coelacanth/ \
-	vf/public/comfortaa/ vf/public/dejavu/ vf/public/droid/ \
+	vf/public/dejavu/ \
 	vf/public/epigrafica/ vf/public/erewhon/ vf/public/fbb/ \
 	vf/public/fira/ vf/public/fourier/ vf/public/fouriernc/ \
 	vf/public/gfsartemisia/ vf/public/gfsbodoni/ vf/public/gfsdidot/ \
@@ -186,7 +186,7 @@ TEXMF_DIRS_FONTS=	\
 	vf/public/mathdesign/mdpus/ vf/public/mathdesign/mdput/ \
 	vf/public/mathdesign/mdugm/ vf/public/montserrat/ vf/public/newpx/ \
 	vf/public/newtx/ vf/public/newtxsf/ vf/public/nimbus15/ \
-	vf/public/oldstandard/ vf/public/opensans/ vf/public/playfair/ \
+	vf/public/oldstandard/ vf/public/playfair/ \
 	vf/public/rosario/ vf/public/stickstoo vf/public/stix/ \
 	vf/public/txfontsb/ vf/public/xcharter/ vf/rozynski/comicneue/ \
 	vf/sorkin/merriweather/ vf/typoland/carlito/ vf/typoland/lato/ \

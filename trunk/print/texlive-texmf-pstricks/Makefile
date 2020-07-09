@@ -11,8 +11,8 @@ TEXMF_DIRS=	\
 	dvips/pst-magneticfield dvips/pst-mirror dvips/pst-node \
 	dvips/pst-optexp dvips/pst-ovl dvips/pst-shell dvips/pst-slpe \
 	dvips/pst-solarsystem dvips/pst-solides3d dvips/pst-spectra \
-	dvips/pst-spinner dvips/pst-spirograph dvips/pst-text dvips/pst-tools \
-	dvips/pst-vectorian dvips/pst-vue3d dvips/pstricks dvips/pstricks-add \
+	dvips/pst-spinner dvips/pst-text dvips/pst-tools \
+	dvips/pst-vectorian dvips/pstricks dvips/pstricks-add \
 	makeindex/pst-optexp metapost/bclogo scripts/pedigree-perl/Pedigree
 TEXMF_DIRS_GENERIC=	\
 	pst-3d pst-abspos pst-antiprism pst-arrow pst-asr pst-bar pst-barcode \
@@ -23,8 +23,8 @@ TEXMF_DIRS_GENERIC=	\
 	pst-light3d pst-magneticfield pst-mirror pst-node pst-ob3d pst-optic \
 	pst-osci pst-ovl pst-pad pst-pdgr pst-perspective pst-pulley \
 	pst-qtree pst-rputover pst-rubans pst-shell pst-slpe pst-solarsystem \
-	pst-solides3d pst-spectra pst-spinner pst-spirograph pst-stru \
-	pst-text pst-thick pst-tools pst-tree pst-tvz pst-vue3d pstricks \
+	pst-solides3d pst-spectra pst-spinner pst-stru \
+	pst-text pst-thick pst-tools pst-tree pst-tvz pstricks \
 	pstricks-add vaucanson-g
 TEXMF_DIRS_LATEX=	\
 	auto-pst-pdf bclogo dsptricks pdftricks pdftricks2 psbao pst-3d \
@@ -38,8 +38,8 @@ TEXMF_DIRS_LATEX=	\
 	pst-ovl pst-pad pst-pdf pst-pdgr pst-perspective pst-poker pst-pulley \
 	pst-qtree pst-rputover pst-rubans pst-shell pst-sigsys pst-slpe \
 	pst-solarsystem pst-solides3d pst-soroban pst-spectra pst-spinner \
-	pst-spirograph pst-stru pst-text pst-thick pst-tools pst-tree pst-tvz \
-	pst-uml pst-vectorian pst-vowel pst-vue3d pstricks pstricks-add uml \
+	pst-stru pst-text pst-thick pst-tools pst-tree pst-tvz \
+	pst-uml pst-vectorian pst-vowel pstricks pstricks-add uml \
 	vocaltract
 
 USES+=	python
@@ -48,7 +48,6 @@ TEXMF_DOCDIRS_GENERIC+=	${TEXMF_DIRS_GENERIC:Npst-intersect}
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Npst*} pst-intersect
 
 TEXMF_SHEBANG_FILES_DOCS=	\
-	share/doc/texlive-texmf/pst-spirograph/animation/runall.sh \
 	share/doc/texlive-texmf/pst-mirror/createEPS/scripts/filtre.pl
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all

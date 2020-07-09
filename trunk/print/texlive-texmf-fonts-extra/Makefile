@@ -53,7 +53,7 @@ TEXMF_DIRS_FONTS=	\
 	source/public/semaphor/ source/public/semaphor/metafont/ \
 	source/public/skull/ source/public/universa/ source/public/wsuipa/ \
 	tfm/adobe/ly1/ tfm/arkandis/adforn/ tfm/google/tinos tfm/ndiscovered/ \
-	tfm/public/aecc/ tfm/public/archaic/ tfm/public/aspectratio/ \
+	tfm/public/archaic/ tfm/public/aspectratio/ \
 	tfm/public/astro/ tfm/public/augie/ tfm/public/barcodes/ \
 	tfm/public/bbm/ tfm/public/bbold/ tfm/public/beuron/ tfm/public/bguq/ \
 	tfm/public/blacklettert1/ tfm/public/boondox/ tfm/public/cfr-lm/ \
@@ -109,7 +109,7 @@ TEXMF_DIRS_FONTS=	\
 	type1/public/semaphor/ type1/public/starfont/ type1/public/staves/ \
 	type1/public/svrsymbols/ type1/public/tempora/ type1/public/tfrupee/ \
 	type1/public/trajan/ type1/public/txuprcal/ vf/adobe/ly1/ \
-	vf/google/tinos/ vf/ndiscovered/cinzel/ vf/public/aecc/ \
+	vf/google/tinos/ vf/ndiscovered/cinzel/ \
 	vf/public/augie/ vf/public/blacklettert1/ vf/public/boondox/ \
 	vf/public/cfr-lm/ vf/public/cm-lgc/ vf/public/cmsrb/ \
 	vf/public/cmtiup/ vf/public/dantelogo/ vf/public/dutchcal/ \
@@ -121,7 +121,7 @@ TEXMF_DIRS_FONTS=	\
 	vf/public/tempora/ vf/public/tengwarscript/ vf/public/uppunctlm/ \
 	vf/urw/urwchancal/
 TEXMF_DIRS_LATEX=	\
-	adforn aecc allrunes archaic aspectratio augie b1encoding barcodes \
+	adforn allrunes archaic aspectratio augie b1encoding barcodes \
 	bbm-macros bbold beuron bguq blacklettert1 boondox braille \
 	cfr-initials cfr-lm cherokee cinzel cm-lgc cmbright cmll cmsrb cmtiup \
 	countriesofeurope courier-scaled dantelogo doublestroke dozenal \

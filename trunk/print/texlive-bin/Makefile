@@ -5,6 +5,7 @@ PORTVERSION=	20200406
 DISTVERSIONSUFFIX=	-source
 CATEGORIES=	print
 MASTER_SITES=	http://mirrors.nxthost.com/ctan/systems/texlive/Source/ \
+		http://ftp.math.utah.edu/pub/tex/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/ \
 		ftp://tug.org/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/
 PKGNAMESUFFIX=	-bin
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
@@ -40,11 +41,13 @@ DEPENDS=	texlive-texmf-core>0:print/texlive-texmf-core
 BUILD_DEPENDS=	${DEPENDS}
 # p5-* are required by latexindent
 RUN_DEPENDS=	${DEPENDS} \
+		p5-Module-CoreList>=0:devel/p5-Module-CoreList \
 		p5-File-HomeDir>=0:devel/p5-File-HomeDir \
 		p5-Log-Log4perl>=0:devel/p5-Log-Log4perl \
 		p5-Log-Dispatch>=0:devel/p5-Log-Dispatch \
 		p5-Unicode-LineBreak>=0:textproc/p5-Unicode-LineBreak \
 		p5-YAML-Tiny>=0:textproc/p5-YAML-Tiny
+TEST_TARGET=	check
 
 USES=		compiler:c++11-lang gmake gnome iconv libtool localbase \
 		perl5 pkgconfig python:run shebangfix tar:xz xorg
@@ -70,55 +73,43 @@ CONFIGURE_ARGS+=	--disable-native-texlive-build \
 INSTALL_TARGET=	install-strip
 
 # We disable the packages with --disable-all-pkgs so we shoud list them.
-# The order is from ./configure --help
 # Don't build dvisvgm, see http://anthesphoria.net/FreeBSD/TeXLive-2018/#technical_details
-.for pkg in autosp axodraw2 devnag lacheck m-tx pmx ps2eps t1utils \
-	texdoctk tpic2pdftex vlna xpdfopen web2c ipc tex etex ptex \
-	eptex uptex euptex mp pmp upmp mf web-progs tex-synctex \
-	afm2pl bibtex-x bibtex8 bibtexu detex dtl \
-	dvi2tty dvidvi dviljk dvidpfm-x dvipng dvipos dvipsk \
-	gregorio gsftopk cfftot1 mmafm mmpfb otfinfo otftotfm \
-	t1dotlessj t1lint t1rawafm t1reencode t1testpage \
-	ttftotype42 auto-cfftot1 auto-t1dotlessj \
-	auto-ttftotype42 auto-updmap makeindexk makejvf \
-	mendexk musxtnt ps2pk seetexk tex4htk \
-	ttf2pk2 ttfdump upmendex xdvik texlive linked-scripts \
-	mktexmf-default mktexpk-default mktextfm-default \
-	mkocp-default mkofm-default mktexfmt-default
-CONFIGURE_ARGS+=	--enable-${pkg}
-.endfor
-.for lib in cairo freetype2 gd gmp graphite2 harfbuzz \
-	icu kpathsea libpaper libpng mpfr pixman poppler \
-	potrace teckit zlib zziplib
-CONFIGURE_ARGS+=	--with-system-${lib}
-.endfor
+_PACKAGES+=	aleph autosp axodraw2 cfftot1 devnag lacheck m-tx pmx ps2eps t1utils
+_PACKAGES+=	texdoctk tpic2pdftex vlna xpdfopen web2c ipc tex etex ptex
+_PACKAGES+=	eptex uptex euptex mp pmp upmp mf web-progs tex-synctex
+_PACKAGES+=	afm2pl bibtex-x bibtex8 bibtexu detex dtl
+_PACKAGES+=	dvi2tty dvidvi dviljk dvidpfm-x dvipng dvipos dvipsk
+_PACKAGES+=	gregorio gsftopk
+_PACKAGES+=	luajittex luatex luatex53 mfluajit mflua
+_PACKAGES+=	mmafm mmpfb otfinfo otftotfm pdftex
+_PACKAGES+=	t1dotlessj t1lint t1rawafm t1reencode t1testpage
+_PACKAGES+=	ttftotype42 auto-cfftot1 auto-t1dotlessj
+_PACKAGES+=	auto-ttftotype42 auto-updmap makeindexk makejvf
+_PACKAGES+=	mendexk musxtnt ps2pk seetexk tex4htk
+_PACKAGES+=	ttf2pk2 ttfdump upmendex xdvik texlive linked-scripts
+_PACKAGES+=	mktexmf-default mktexpk-default mktextfm-default
+_PACKAGES+=	mkocp-default mkofm-default mktexfmt-default
+_PACKAGES+=	xetex xetex-synctex
+_SYSTEM_LIBS+=	cairo freetype2 gd gmp graphite2 harfbuzz \
+		icu kpathsea libpaper libpng mpfr pixman poppler \
+		potrace teckit zlib zziplib
+CONFIGURE_ARGS+=	${_PACKAGES:@p@--enable-${p}@}
+CONFIGURE_ARGS+=	${_SYSTEM_LIBS:@sl@--with-system-${sl}@}
 # Xindy requires lang/clisp which is deprecated in 2014.
 CONFIGURE_ARGS+=	--disable-xindy --disable-docs --disable-xindy-rules
 # Exists print/psutils port
 CONFIGURE_ARGS+=	--disable-psutils
 
-OPTIONS_DEFINE=		ALEPH LUATEX PDFTEX XETEX
-OPTIONS_DEFAULT=	LUATEX PDFTEX XETEX
 OPTIONS_SUB=		yes
 
-# jadetex mflua
-TEXFORMATS=	eptex etex euptex lollipop \
-		mf mptopdf platex tex uplatex uptex
+TEXFORMATS=	aleph cslatex csplain dvilualatex dviluatex \
+		eplain eptex etex euptex \
+		lamed latex lollipop luajittex lualatex luatex luatexmf \
+		mf mex mllatex mptopdf \
+		pdfcslatex pdfcsplain pdfetex pdflatex pdfmex pdftex pdfxmltex \
+		platex tex texsis uplatex uptex utf8mex xelatex xetex xmltex
 # We install *.fmt files and need catalog them.
 # PKGINSTALL=	${.CURDIR}/../texlive-texmf-all/pkg-install
-
-ALEPH_DESC=	Enable Aleph
-ALEPH_CONFIGURE_ENABLE=	aleph
-ALEPH_VARS=	TEXFORMATS+="aleph lamed"
-LUATEX_DESC=	Enable LuaTeX
-LUATEX_CONFIGURE_ENABLE=	luajittex luatex luatex53 mfluajit mflua
-LUATEX_VARS=	TEXFORMATS+="dvilualatex dviluatex luajittex lualatex luatex"
-PDFTEX_DESC=	Enable pdfTeX (needed to create LaTeX and XmlTeX)
-PDFTEX_CONFIGURE_ENABLE=	pdftex
-PDFTEX_VARS=	TEXFORMATS+="cslatex csplain eplain latex mex mllatex pdfcslatex pdfcsplain pdfetex pdflatex pdfmex pdftex pdfxmltex texsis utf8mex xmltex"
-XETEX_DESC=	Enable XeTeX (Unicode and Modern Font Technologies)
-XETEX_CONFIGURE_ENABLE=	xetex xetex-synctex
-XETEX_VARS=	TEXFORMATS+="xelatex xetex"
 INFO=	dvipng dvips tlbuild web2c
 
 .include <bsd.port.options.mk>
@@ -128,6 +119,18 @@ post-install: install-create-links install-copy-data install-formats
 	  -C ${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive \
 	  --include texlive-${PORTVERSION}-extra/tlpkg/TeXLive \
 	  --strip-components 2
+# luatex
+.for link in dvilualatex dviluatex lualatex
+	${RLN} ${STAGEDIR}${PREFIX}/bin/luatex ${STAGEDIR}${PREFIX}/bin/${link}
+.endfor
+# pdftex
+.for link in amstex cslatex csplain eplain jadetex latex mex mllatex mltex \
+	pdfetex pdfcslatex pdfcsplain pdfjadetex pdflatex pdfmex pdfxmltex \
+	texsis utf8mex xmltex
+	${RLN} ${STAGEDIR}${PREFIX}/bin/pdftex ${STAGEDIR}${PREFIX}/bin/${link}
+.endfor
+# xetex
+	${RLN} ${STAGEDIR}${PREFIX}/bin/xetex ${STAGEDIR}${PREFIX}/bin/xelatex
 
 install-copy-data:
 	${MKDIR} ${STAGEDIR}${PREFIX}/share/texmf-dist/scripts/texlive/TeXLive
@@ -155,21 +158,7 @@ install-formats:
 	# This file is part of print/texlive-kpathsea
 	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/fmtutil.cnf
 	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/texmf.cnf
+	${RM} ${STAGEDIR}${PREFIX}/bin/mktexlsr
 	${RM} ${STAGEDIR}${PREFIX}/ls-R
-
-post-install-LUATEX-on:
-.for link in dvilualatex dviluatex lualatex
-	${RLN} ${STAGEDIR}${PREFIX}/bin/luatex ${STAGEDIR}${PREFIX}/bin/${link}
-.endfor
-
-post-install-PDFTEX-on:
-.for link in amstex cslatex csplain eplain jadetex latex mex mllatex mltex \
-	pdfetex pdfcslatex pdfcsplain pdfjadetex pdflatex pdfmex pdfxmltex \
-	texsis utf8mex xmltex
-	${RLN} ${STAGEDIR}${PREFIX}/bin/pdftex ${STAGEDIR}${PREFIX}/bin/${link}
-.endfor
-
-post-install-XETEX-on:
-	${RLN} ${STAGEDIR}${PREFIX}/bin/xetex ${STAGEDIR}${PREFIX}/bin/xelatex
 
 .include <bsd.port.mk>

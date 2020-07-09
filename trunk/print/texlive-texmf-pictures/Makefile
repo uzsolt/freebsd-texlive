@@ -9,7 +9,7 @@ TEXMF_DIRS=	\
 	fonts/type1/public/knitting fonts/type1/public/xypic makeindex/forest \
 	scripts/latex-make scripts/pgfmolbio tex/plain/knitting
 TEXMF_DIRS_GENERIC=	\
-	dcpic dratex petri-nets pgfornament pgfplots pictex texdraw tikz-cd \
+	dcpic dratex petri-nets pgfplots pictex texdraw tikz-cd \
 	xypic
 TEXMF_DIRS_LATEX=	\
 	adigraph aobs-tikz askmaps asyfig asypictureb autoarea background \
@@ -35,8 +35,8 @@ TEXMF_DIRS_LATEX=	\
 	tikz-page tikz-palattice tikz-qtree tikz-timing tikz-truchet \
 	tikzcodeblocks tikzducks tikzinclude tikzlings tikzmark tikzmarmots \
 	tikzorbital tikzpagenodes tikzpeople tikzpfeile tikzposter tikzscale \
-	tikzsymbols timing-diagrams tipfr tkz-doc tkz-linknodes tkz-orm \
-	tkz-tab tqft tree-dvips tsemlines tufte-latex wallpaper wrapfig \
+	tikzsymbols timing-diagrams tipfr tkz-doc tkz-orm \
+	tqft tree-dvips tsemlines tufte-latex wallpaper wrapfig \
 	xpicture
 TEXMF_DOCDIRS=	fonts/knitting support/latex-make
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nknitting:Nlatex-make:Npgfplots/libs:Npictex2:Ntsemlines}

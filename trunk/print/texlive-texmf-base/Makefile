@@ -34,7 +34,7 @@ TEXMF_DIRS=	\
 	fonts/afm/public/mathpazo/ fonts/afm/public/pl/ \
 	fonts/afm/public/pxfonts/ fonts/afm/public/rsfs/ \
 	fonts/afm/public/tabvar/ fonts/afm/public/tex-gyre/ \
-	fonts/afm/public/txfonts/ fonts/afm/public/wasy2-ps/ \
+	fonts/afm/public/txfonts/ \
 	fonts/afm/urw/avantgar/ fonts/afm/urw/bookman/ fonts/afm/urw/courier/ \
 	fonts/afm/urw/helvetic/ fonts/afm/urw/ncntrsbk/ \
 	fonts/afm/urw/palatino/ fonts/afm/urw/symbol/ fonts/afm/urw/times/ \
@@ -112,7 +112,7 @@ TEXMF_DIRS=	\
 	fonts/type1/public/pl/ fonts/type1/public/pxfonts/ \
 	fonts/type1/public/rsfs/ fonts/type1/public/tabvar/ \
 	fonts/type1/public/tex-gyre/ fonts/type1/public/tipa/ \
-	fonts/type1/public/txfonts/ fonts/type1/public/wasy2-ps/ \
+	fonts/type1/public/txfonts/ \
 	fonts/type1/urw/avantgar/ fonts/type1/urw/bookman/ \
 	fonts/type1/urw/courier/ fonts/type1/urw/helvetic/ \
 	fonts/type1/urw/ncntrsbk/ fonts/type1/urw/palatino/ \
@@ -167,8 +167,8 @@ TEXMF_DIRS=	\
 	scripts/ketcindy/ketlib/maximaL/ scripts/ketcindy/ketlib/oshima/ \
 	scripts/ketcindy/ketlibC/ scripts/latexindent/LatexIndent/ \
 	scripts/lua-alt-getopt/ scripts/luaindex/ scripts/make4ht/ \
-	scripts/mflua/ scripts/oberdiek scripts/placeat/ scripts/spelling/ \
-	scripts/texlive/lua/ scripts/texlive/var/ tex/context/base/mkiv/ \
+	scripts/mflua/ scripts/placeat/ scripts/spelling/ \
+	tex/context/base/mkiv/ \
 	tex/context/bib/ tex/context/colors/ tex/context/fonts/ \
 	tex/context/interface/ tex/context/modules/common/ \
 	tex/context/modules/mkii/ tex/context/modules/mkiv/ \
@@ -221,7 +221,7 @@ TEXMF_DIRS=	\
 	tex/plain/graphics-pln/ tex/plain/gustlib/ \
 	tex/plain/gustlib/biblotex/ tex/plain/gustlib/licz/ \
 	tex/plain/gustlib/map/ tex/plain/gustlib/plbtx993/ \
-	tex/plain/gustlib/plmac218/ tex/plain/hyplain/ tex/plain/ifetex/ \
+	tex/plain/gustlib/plmac218/ tex/plain/hyplain/ \
 	tex/plain/js-misc/ tex/plain/knuth-lib/ tex/plain/knuth-local/ \
 	tex/plain/makeindex/ tex/plain/metatex/ tex/plain/mkpattern/ \
 	tex/plain/newsletr/ tex/plain/pgf/ tex/plain/pitex/ \
@@ -243,15 +243,15 @@ TEXMF_DIRS_GENERIC=	\
 	babel-kurmanji babel-latin babel-latvian babel-macedonian babel-norsk \
 	babel-occitan babel-piedmontese babel-polish babel-portuges \
 	babel-romanian babel-romansh babel-samin babel-scottish babel-slovak \
-	babel-slovenian babel-spanglish babel-spanish babel-swedish \
+	babel-slovenian babel-spanish babel-swedish \
 	babel-turkish babel-welsh barr bibtex borceux c-pascal chronosys \
 	dirtree docbytex dvips e-french eijkhout enigma epigram epsf fltpoint \
-	fntproof genmisc german hyphenex iftex ifxetex insbox kastrup \
+	fntproof german hyphenex iftex insbox kastrup \
 	knuth-lib langcode librarian listofitems mathdots metapost mfpic \
 	navigator oberdiek ofs olsak-misc path pdf-trans pdftex pgf qpxqtx \
 	randomlist schemata shade simplekv systeme tabto-generic termmenu \
 	tex-ps tex4ht thumbpdf tracklang trigonometry ulem upca variations \
-	xecyr xkeyval xlop yax
+	xkeyval xlop yax
 
 TEXMF_DIRS_LATEX=	\
 	accfonts ae aeguill amscls amsfonts amsmath anysize armenian \
@@ -263,8 +263,8 @@ TEXMF_DIRS_LATEX=	\
 	etex-pkg etoolbox euenc euler euro eurosym extsizes fancyhdr fancyref \
 	fancyvrb feupphdteses feynmf feynmp-auto filecontents fixltxhyph \
 	float fontinst fontspec fp frletter frontespizio geometry germbib \
-	germkorr gloss-occitan gmp graphics-cfg graphics-def hausarbeit-jura \
-	helvetic hrlatex hyperref ifetex impnattypo index itnumpar jknapltx \
+	germkorr gmp graphics-cfg graphics-def hausarbeit-jura \
+	helvetic hrlatex hyperref impnattypo index itnumpar jknapltx \
 	ketcindy koma-script l3experimental l3kernel l3packages latex2man \
 	latexbug latexfileinfo-pkgs layaureo lineno listings listings-ext \
 	lithuanian lm ltxmisc lwarp macros2e mathtools memoir metalogo mflogo \
@@ -274,7 +274,7 @@ TEXMF_DIRS_LATEX=	\
 	pgf/systemlayer pgf/utilities pgfopts polski polyglossia \
 	przechlewski-book psfrag pslatex psnfss pspicture pxfonts pxtatescale \
 	pythontex r_und_s realscripts sansmath section sepnum setspace \
-	spanish-mx subfig symbol tabvar tdsfrmath termcal-de tex-gyre \
+	subfig symbol tabvar tdsfrmath termcal-de tex-gyre \
 	tex4ebook texosquery textpath times tipa titlesec tracklang \
 	translator turkmen txfonts typehtml ucharcat ucs udesoftec uhrzeit \
 	umlaute underscore unicode-math url wasysym xcjk2uni xcolor \
@@ -306,6 +306,9 @@ post-install-texmf:
 	# texlive-bin contains make4ht script
 	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/make4ht/make4ht
 	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/oberdiek/pdfatfi.pl
+	# texlive-bin contains dvips-all.enc
+	${RM} ${STAGEDIR}${TEXMFDISTDIR}/fonts/enc/dvips/base/dvips-all.enc
+	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/ketcindy/ketcindy.pl
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

@@ -280,8 +280,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/doc-more/makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/doc-more/page-typesetting-columns.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/doc-more/page-typesetting-columns.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-criticalendotes.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-criticalendotes.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-criticalendnotes.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-criticalendnotes.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-criticalnotes.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-criticalnotes.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/reledmac/examples/1-sidenotes.pdf

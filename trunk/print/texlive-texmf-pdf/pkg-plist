@@ -6,8 +6,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/autopdf/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/autopdf/autopdf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibility.lua
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibility.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibilityExampleGoldenMean.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibilityExampleAlignA.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibilityExampleAlignT.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibilityExampleSingleLineA.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/axessibilityExampleSingleLineT.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/README-ja.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpdfver/README.md
@@ -18,6 +22,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/colorspace/colorspaceshade.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cooltooltips/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cooltooltips/cooltooltips.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/embedall/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/embedall/embedall.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/cite.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/examples/fancy-preview-demo.pdf
@@ -349,7 +354,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/spotcolor/readme.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-alt-actualtext-luatex.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-alt-actualtext.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-alt-actualtext.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-attribute.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-attribute.tex
@@ -358,7 +362,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-mc-manual-para-split.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-mc-manual-para-split.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-patch-list-luatex.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-patch-list.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-patch-list.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-patch-sectioning-koma-luatex.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-patch-sectioning-koma.pdf
@@ -369,7 +372,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-softhyphen.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-spaceglyph-listings.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-spaceglyph-listings.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-structure.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-structure-luatex.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-structure.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-tagpdf-template.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tagpdf/ex-tagpdf-template.tex

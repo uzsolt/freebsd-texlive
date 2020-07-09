@@ -3,18 +3,20 @@
 COMMENT=	The core texmf
 TEXMF_CATEG=	core
 TEXMF_DIRS_FONTS=	\
-	map/dvips map/pdftex map/vtex tfm/ptex-fonts tfm/public/cm \
+	map/dvips map/pdftex map/vtex source/public/modes/ \
+	tfm/ptex-fonts tfm/public/cm \
 	tfm/public/cs tfm/public/knuth-lib tfm/public/latex-fonts \
 	tfm/public/pl tfm/uptex-fonts
 TEXMF_DIRS=	\
 	metafont/base metafont/config metafont/misc \
+	omega/ocp \
 	scripts/texlive/mktexlsr.pl tex/amstex/config tex/context/base/mkii \
 	tex/cslatex/base tex/csplain/base tex/eplain tex/generic/babel \
 	tex/generic/config tex/generic/context/mptopdf tex/generic/dehyph \
 	tex/generic/dehyph-exptl tex/generic/enctex tex/generic/hyph-utf8 \
 	tex/generic/hyphen tex/generic/luatex85 tex/generic/ruhyphen \
 	tex/generic/tex-ini-files tex/generic/ukrhyph \
-	tex/generic/unicode-data tex/jadetex/base tex/lambda/config \
+	tex/generic/unicode-data tex/jadetex/base tex/lambda/base tex/lambda/config \
 	tex/latex/base tex/latex/graphics tex/latex/latexconfig \
 	tex/latex/tools tex/lollipop tex/mex/base tex/mex/config \
 	tex/mex/utf8mex tex/mltex/config tex/plain/base tex/plain/config \

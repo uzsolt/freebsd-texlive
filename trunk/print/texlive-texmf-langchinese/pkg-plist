@@ -42,9 +42,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/CJKmetrics.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/Latinmetrics.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/README.md
-%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip-man.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip-man.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip-test.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/zhlineskip/zhlineskip.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlipsum/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlipsum/zhlipsum-en.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zhlipsum/zhlipsum-en.tex
@@ -7005,6 +7005,7 @@
 %%TEXMFDIR%%tex/latex/pgfornament-han/han/han75.pgf
 %%TEXMFDIR%%tex/latex/pgfornament-han/han/han76.pgf
 %%TEXMFDIR%%tex/latex/pgfornament-han/han/han77.pgf
+%%TEXMFDIR%%tex/latex/pgfornament-han/han/han78.pgf
 %%TEXMFDIR%%tex/latex/pgfornament-han/han/han8.pgf
 %%TEXMFDIR%%tex/latex/pgfornament-han/han/han9.pgf
 %%TEXMFDIR%%tex/latex/pgfornament-han/pgflibraryhan.code.tex

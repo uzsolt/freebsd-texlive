@@ -43,7 +43,7 @@ TEXMF_DIRS_LATEX=	\
 	lion-msc llncsconf lni lps matc3 matc3mem mcmthesis mentis mla-paper \
 	mnras mslapa msu-thesis mucproc mugsthesis musuos muthesis nature \
 	navydocs nddiss ndsu-thesis nih nostarch nrc nwejm onrannual opteng \
-	paper philosophersimprint pittetd pkuthss powerdot-FUBerlin pracjourn \
+	paper philosophersimprint pittetd pkuthss pracjourn \
 	procIAGssymp proposal ptptex resphilosophica revtex revtex4 \
 	rutitlepage ryethesis sageep sapthesis scientific-thesis-cover \
 	scrjrnl sduthesis seuthesix sf298 sphdthesis spie sr-vorl \
@@ -60,7 +60,9 @@ TEXMF_DIRS_LATEX=	\
 
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover:Neconomic:Nchicago}
 
-TEXMF_SHEBANG_FILES=	share/doc/texlive-texmf/ejpecp/mgetmref.py
+TEXMF_SHEBANG_FILES_DOCS=	\
+			share/doc/texlive-texmf/ejpecp/mgetmref.py \
+			share/doc/texlive-texmf/tlc-article/bin/deploy
 
 USES+=	python
 

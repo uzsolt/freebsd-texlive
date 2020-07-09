@@ -28,7 +28,7 @@ TEXMF_DIRS=	\
 	makeindex/repeatindex/ makeindex/xdoc/ metapost/makecirc/ \
 	scripts/changes/ scripts/flowfram/ scripts/fmtcount/ scripts/l3build/ \
 	scripts/markdown/ scripts/mfirstuc/ scripts/mycv/ scripts/pax/ \
-	scripts/shipunov/ scripts/splitindex/ tex/context/third/markdown/ \
+	scripts/splitindex/ tex/context/third/markdown/ \
 	tex/luatex/markdown/ tex/plain/esint-type1/ tex/plain/standalone/
 
 TEXMF_DIRS_GENERIC=	\
@@ -37,7 +37,7 @@ TEXMF_DIRS_GENERIC=	\
 TEXMF_DIRS_LATEX=	\
 	acro acronym acroterm addfont advdate akktex akletter altfont amsaddr \
 	anonchap anyfontsize appendix apptools arcs aurl authorindex autonum \
-	avremu bankstatement beton bezos bibletext bigfoot block bold-extra \
+	avremu bankstatement beton bibletext bigfoot block bold-extra \
 	bookest bracketkey breakurl bxcalc bxdvidriver bxnewfont bxtexlogo \
 	calrsfs calxxxx-yyyy captcont captdef cases casyl catechis ccaption \
 	cclicenses cd cd-cover cdpbundl censor changebar changes chappg \
@@ -83,7 +83,7 @@ TEXMF_DIRS_LATEX=	\
 	kix knowledge koma-script-sfs l3build labels labelschanged latexdemo \
 	lazylist lccaps leading lengthconvert lettrine libgreek linegoal \
 	lisp-on-tex listing listlbls listofsymbols logical-markup-utils lsc \
-	lstaddons ltxdockit ltxindex mailing makedtx makeglos manfnt mathalfa \
+	lstaddons ltxdockit mailing makedtx makeglos manfnt mathalpha \
 	mathfam256 mcite mciteplus memexsupp method mftinc minorrevision \
 	minutes modref modular monofill morefloats morehype moresize moreverb \
 	morewrites mparhack mpostinl msg mtgreek multibbl multicap multilang \
@@ -119,12 +119,17 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Ne
 USES=	perl5 python
 
 TEXMF_SHEBANG_FILES=	\
-	share/texmf-dist/scripts/shipunov/biokey2html.sh \
 	share/texmf-dist/scripts/mycv/mycv_split_contents.pl \
 	share/texmf-dist/scripts/changes/pyMergeChanges.py
 TEXMF_SHEBANG_FILES_DOCS=	\
-	share/doc/texlive-texmf/uspace/uspace-ctanify.sh\
-	share/doc/texlive-texmf/scanpages/replicate.py
+	share/doc/texlive-texmf/scanpages/replicate.py \
+	share/doc/texlive-texmf/shipunov/scripts/abs2rel.pl \
+	share/doc/texlive-texmf/shipunov/scripts/biokey2html.sh \
+	share/doc/texlive-texmf/shipunov/scripts/biokey2html1.pl \
+	share/doc/texlive-texmf/shipunov/scripts/biokey2html2.pl \
+	share/doc/texlive-texmf/shipunov/scripts/biokey2html3.pl \
+	share/doc/texlive-texmf/shipunov/scripts/txt2qq.pl \
+	share/doc/texlive-texmf/uspace/uspace-ctanify.sh
 
 post-install-texmf:
 	# Part of texlive-bin

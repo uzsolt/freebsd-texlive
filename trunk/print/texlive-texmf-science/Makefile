@@ -36,7 +36,7 @@ TEXMF_DIRS_LATEX=	\
 	kvmap ladder leftidx lewis linop logicproof logpap longdivision \
 	lplfitch lstbayes mandi mathcomp mathfixs mathpartir mathpunctspace \
 	matlab-prettifier mattens memorygraphs mhchem mhequ miller minted \
-	mlist multiobjective mychemistry natded nath nicematrix noitcrul nuc \
+	mlist multiobjective natded nath nicematrix noitcrul nuc \
 	nucleardata objectz oplotsymbl optidef ot-tableau oubraces penrose \
 	perfectcut permute phfparen phfqit physics pm-isomath polexpr prftree \
 	proba program prooftrees pseudocode pst-circ pst-contourplot pst-cox \
@@ -51,9 +51,9 @@ TEXMF_DIRS_LATEX=	\
 	substances subsupscripts susy syllogism sympytexpackage synproof \
 	t-angles tablor tensor texments texshade textgreek textopo \
 	textualicomma thmbox tikz-karnaugh tikz-ladder tikz-nef tikz-network \
-	tikz-optics tikz-sfc tkz-base tkz-berge tkz-euclide tkz-graph \
+	tikz-optics tikz-sfc tkz-base tkz-euclide \
 	trfsigns truncate turnstile ulqda underoverlap units unitsdef \
-	venndiagram verbments vertbars was witharrows xymtex yhmath youngtab \
+	venndiagram verbments vertbars was xymtex yhmath youngtab \
 	ytableau ziffer
 TEXMF_DOCDIRS_FONTS=	chemarrow stmaryrd
 TEXMF_DOCDIRS_GENERIC=	${TEXMF_DIRS_GENERIC} pst-platon

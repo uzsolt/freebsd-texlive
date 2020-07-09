@@ -33,6 +33,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fontawesome5/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fontawesome5/fontawesome5.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fontawesome5/fontawesome5.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/fontawesome5/fulllist.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fontmfizz/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fontmfizz/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fontmfizz/fontmfizz.pdf
@@ -298,6 +299,7 @@
 %%TEXMFDIR%%fonts/tfm/public/fontawesome5/fa5free1solid.tfm
 %%TEXMFDIR%%fonts/tfm/public/fontawesome5/fa5free2regular.tfm
 %%TEXMFDIR%%fonts/tfm/public/fontawesome5/fa5free2solid.tfm
+%%TEXMFDIR%%fonts/tfm/public/fontawesome5/fa5free3regular.tfm
 %%TEXMFDIR%%fonts/tfm/public/fontawesome5/fa5free3solid.tfm
 %%TEXMFDIR%%fonts/tfm/public/genealogy/drgen10.tfm
 %%TEXMFDIR%%fonts/tfm/public/hands/hands.tfm

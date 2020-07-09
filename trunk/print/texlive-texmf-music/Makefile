@@ -8,7 +8,7 @@ TEXMF_DIRS=	\
 	fonts/source/public/musixtex-fonts fonts/tfm/public/figbas \
 	fonts/tfm/public/musixtex-fonts fonts/truetype/public/gregoriotex \
 	fonts/type1/public/figbas fonts/type1/public/musixtex-fonts \
-	makeindex/songbook scripts/gregoriotex scripts/lyluatex scripts/pmx \
+	makeindex/songbook scripts/gregoriotex scripts/lyluatex \
 	tex/generic/bagpipe tex/generic/m-tx tex/generic/musixtex \
 	tex/generic/musixtnt tex/generic/pmx tex/generic/pmxchords \
 	tex/lualatex/gregoriotex tex/lualatex/lilyglyphs \

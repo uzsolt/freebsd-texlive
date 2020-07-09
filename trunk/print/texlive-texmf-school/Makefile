@@ -7,7 +7,7 @@ TEXMF_DIRS=	\
 	bibtex/bib/cnltx/ makeindex/cnltx/ scripts/webquiz/ \
 	tex/lualatex/cloze/ tex/xelatex/na-box/ tex/xelatex/sexam/
 TEXMF_DIRS_LATEX=	\
-	alterqcm answers assignment bangorexam bhcexam cesenaexam chemexec \
+	answers assignment bangorexam bhcexam cesenaexam chemexec \
 	cnltx competences courseoutline esami exam exam-n \
 	exam-randomizechoices examdesign example exercise exercisebank \
 	exercisepoints exercises exframe exsheets exsol fascicules handin \

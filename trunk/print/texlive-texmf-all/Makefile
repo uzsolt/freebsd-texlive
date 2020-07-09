@@ -57,7 +57,8 @@ PORTNAME=	texlive
 PORTVERSION=	20200406
 DISTVERSIONSUFFIX=	-texmf
 CATEGORIES=	print
-MASTER_SITES=	ftp://tug.org/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/
+MASTER_SITES=	http://ftp.math.utah.edu/pub/tex/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/ \
+		ftp://tug.org/historic/systems/${PORTNAME}/${PORTVERSION:C/(....).*/\1/}/
 PKGNAMESUFFIX=	-texmf-${TEXMF_CATEG}
 DIST_SUBDIR=	TeX
 EXTRACT_ONLY=
@@ -95,9 +96,6 @@ RUN_DEPENDS+=	texlive-texmf-${texmfpackage}>=${PORTVERSION}:print/texlive-texmf-
 .endfor
 .else
 RUN_DEPENDS+=	mktexlsr:print/texlive-kpathsea
-.if ${TEXMF_CATEG:Ncore}
-RUN_DEPENDS+=	tex:print/texlive-bin
-.endif
 
 DESCR=	${.CURDIR}/pkg-descr
 PLIST=	${.CURDIR}/pkg-plist

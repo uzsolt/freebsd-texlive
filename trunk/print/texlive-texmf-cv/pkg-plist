@@ -58,9 +58,16 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/europecv.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/europecv.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/EuropeFlagCMYK-eps-converted-to.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/EuropeFlagCMYK.eps
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/Pythagoras.jpg
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/at.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/bulgarian-koi8-r.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/bulgarian-utf8.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/europass-cv.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/europass-cv.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/europasslogo-eps-converted-to.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/europasslogo.eps
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/greek-utf8.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/greek-utf8.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/europecv/examples/maltese-maltese.tex

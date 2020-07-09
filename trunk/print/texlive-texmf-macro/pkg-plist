@@ -263,7 +263,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fmtcount/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fmtcount/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fmtcount/fc-lang.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/fmtcount/fc-typeout-languages.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fmtcount/fmtcount.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/footnotehyper/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/footnotehyper/footnotehyper.pdf
@@ -490,8 +489,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/qsymbols/qsymbols.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/qsymbols/qsymbols.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/quran/defaulttext.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/quran/defaulttext.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/quran-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/quran-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/quran-test.pdf
@@ -501,11 +498,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/quran-test2.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/quran-test2.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/quran/quran.png
-%%PORTDOCS%%%%DOCSDIR%%-texmf/quran/uthmanitext.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/quran/uthmanitext.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/README.md
-%%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/doc/rantoks_man.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/doc/rantoks_man.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/docs/ran_toks.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/docs/rantoks_man.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/docs/rantoks_man.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/examples/db1.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/examples/db2.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ran_toks/examples/db3.tex
@@ -978,6 +974,7 @@
 %%TEXMFDIR%%tex/latex/properties/properties.sty
 %%TEXMFDIR%%tex/latex/python/python.sty
 %%TEXMFDIR%%tex/latex/qsymbols/qsymbols.sty
+%%TEXMFDIR%%tex/latex/ran_toks/ran-toks.sty
 %%TEXMFDIR%%tex/latex/ran_toks/ran_toks.sty
 %%TEXMFDIR%%tex/latex/rectopma/rectopma.sty
 %%TEXMFDIR%%tex/latex/regcount/regcount.sty

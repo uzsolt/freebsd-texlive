@@ -4,7 +4,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/a5comb/a5comb.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/addlines/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/addlines/addlines.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/adjmulticol/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adjmulticol/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adjmulticol/adjmulticol.bib
 %%PORTDOCS%%%%DOCSDIR%%-texmf/adjmulticol/adjmulticol.pdf
@@ -34,7 +33,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/changelayout/changelayout-guide.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/changepage/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/changepage/changepage.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/fjodor/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/fjodor/Changes.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/fjodor/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fjodor/dostojevski.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fjodor/dostojevski.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fjodor/fjodor.pdf

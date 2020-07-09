@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PORTSDIR=/usr/local/poudriere/ports/head/
+SVNPORTS=${0%/*}/../ports
+
+for dir in $(ls ${SVNPORTS}); do
+  echo ${dir}
+  rsync -az --existing ${PORTSDIR}/${dir}/ ${SVNPORTS}/${dir}/
+done

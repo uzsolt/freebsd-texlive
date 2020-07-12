@@ -25,7 +25,7 @@ TEXMF_DIRS_FONTS=	\
 	enc/dvips/hfbright/ enc/dvips/ly1/ enc/dvips/mnsymbol/ \
 	enc/dvips/old-arrows/ enc/dvips/semaphor/ enc/dvips/tempora/ \
 	enc/dvips/tengwarscript/ enc/dvips/tinos/ ofm/public/cm-lgc/ \
-	opentype/public/almfixed/ opentype/public/beuron/ \
+	opentype/public/beuron/ \
 	opentype/public/cm-unicode/ opentype/public/dantelogo/ \
 	opentype/public/ebgaramond/ opentype/public/fonts-churchslavonic/ \
 	opentype/public/gfscomplutum/ opentype/public/gfssolomos/ \
@@ -83,7 +83,7 @@ TEXMF_DIRS_FONTS=	\
 	tfm/public/tfrupee/ tfm/public/trajan/ tfm/public/txuprcal/ \
 	tfm/public/universa/ tfm/public/uppunctlm/ tfm/public/wsuipa/ \
 	tfm/urw/urwchancal/ truetype/google/tinos/ truetype/ndiscovered/ \
-	truetype/ndiscovered/cinzel/ truetype/public/almfixed/ \
+	truetype/ndiscovered/cinzel/ \
 	truetype/public/belleek/ truetype/public/fonetika/ \
 	truetype/public/fonts-churchslavonic/ truetype/public/gentium-tug/ \
 	truetype/public/gnu-freefont/ type1/arkandis/adforn/ \
@@ -139,7 +139,7 @@ TEXMF_DOCDIRS_LATEX=	\
 	duerer-latex epsdice eulervm \
 	foekfont gillcm jamtimes mdputu mnsymbol mweights \
 	pigpen punk-latex sauterfonts tengwarscript tpslifonts trajan
-TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX:Nskull}
+TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX:Nskull} astro
 .for nd in ${TEXMF_DOCDIRS_LATEX}
 TEXMF_DOCDIRS_FONTS:=	${TEXMF_DOCDIRS_FONTS:N${nd}}
 .endfor

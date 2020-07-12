@@ -1,5 +1,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alnumsec/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/alnumsec/alnumsec.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/arraycols/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/arraycols/arraycols.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arydshln/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arydshln/arydshln-man.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arydshln/arydshln-man.tex
@@ -385,6 +387,7 @@
 %%TEXMFDIR%%tex/generic/hlist/hlist.tex
 %%TEXMFDIR%%tex/generic/tap/tap.tex
 %%TEXMFDIR%%tex/latex/alnumsec/alnumsec.sty
+%%TEXMFDIR%%tex/latex/arraycols/arraycols.sty
 %%TEXMFDIR%%tex/latex/arydshln/arydshln.sty
 %%TEXMFDIR%%tex/latex/asciilist/asciilist.sty
 %%TEXMFDIR%%tex/latex/blkarray/blkarray.sty

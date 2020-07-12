@@ -4,7 +4,7 @@ COMMENT=	PDF-specific packages
 TEXMF_CATEG=	pdf
 
 TEXMF_DIRS_LATEX=	\
-	animate attachfile autopdf axessibility bxpdfver colorspace \
+	accessibility accsupp animate attachfile autopdf axessibility bxpdfver colorspace \
 	cooltooltips embedall fancytooltips flashmovie flippdf grayhints \
 	hyperbar incgraph interactiveworkbook intopdf media9 mmap movie15 \
 	ocg-p ocgx ocgx2 pax pdf14 pdfcomment pdfcprot pdfmarginpar \

@@ -1,4 +1,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/answers/answers.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/anufinalexam/ANUfinalexam.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/anufinalexam/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/around-the-bend/AroundTheBend.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/around-the-bend/AroundTheBend.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/around-the-bend/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/Changelog
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assignment/README

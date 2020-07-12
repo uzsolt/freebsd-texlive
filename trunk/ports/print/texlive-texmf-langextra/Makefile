@@ -4,6 +4,7 @@ COMMENT=	Bundle of all extra language support
 TEXMF_CATEG=	langextra
 
 TEXMF_DIRS=	\
+	bibtex/bst/alpha-persian \
 	bibtex/bst/persian-bib/ bibtex/csf/persian-bib/ fonts/afm/arabi/ \
 	fonts/afm/public/aramaic-serto/ fonts/afm/public/cjhebrew/ \
 	fonts/afm/public/dad/ fonts/afm/public/fonts-tlwg/ \
@@ -42,6 +43,8 @@ TEXMF_DIRS=	\
 	fonts/type1/vntex/txttvn/ fonts/type1/vntex/urwvn/ \
 	fonts/type1/vntex/vnr/ fonts/type1/vntex/vntopia/ \
 	fonts/vf/public/cjhebrew/ fonts/vf/public/fonts-tlwg/ fonts/vf/vntex/ \
+	fonts/truetype/public/amiri/ \
+	fonts/misc/xetex/fontmapping/arabxetex \
 	tex/generic/babel-azerbaijani/ tex/generic/babel-esperanto/ \
 	tex/generic/babel-georgian/ tex/generic/babel-hebrew/ \
 	tex/generic/babel-indonesian/ tex/generic/babel-interlingua/ \
@@ -49,13 +52,15 @@ TEXMF_DIRS=	\
 	tex/generic/babel-thai/ tex/generic/babel-vietnamese/ \
 	tex/generic/velthuis tex/lualatex/arabluatex/ tex/lualatex/dad/ \
 	tex/lualatex/luabidi/ tex/lualatex/simurgh/ tex/plain/velthuis/ \
-	tex/plain/vntex/
+	tex/plain/vntex/ \
+	tex/xelatex/arabxetex
 TEXMF_DIRS_LATEX=	\
-	arabi arabi-add arabtex aramaic-serto bangtex bengali burmese \
+	amiri arabi arabi-add arabtex aramaic-serto bangtex bengali burmese \
 	cjhebrew ctib ethiop fc fonts-tlwg latexbangla sanskrit thaienum \
 	thaispec velthuis vntex wnri-latex
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbengali:Nburmese:Nfc:Nfonts-tlwg:Nvelthuis:Nvntex}
+TEXMF_DOCDIRS=	fonts/alkalami/ fonts/amiri/ bibtex/alpha-persian/ lualatex/arabluatex xelatex/arabxetex
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Namiri:Nbengali:Nburmese:Nfc:Nfonts-tlwg:Nvelthuis:Nvntex}
 
 USES=	python
 

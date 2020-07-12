@@ -73,6 +73,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/archaic/viking-try_vik.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aspectratio/ar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aspectratio/ar.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/astro/astrosym.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/astro/astrosym.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/augie/README.augie
 %%PORTDOCS%%%%DOCSDIR%%-texmf/augie/augie.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/augie/other/Augie___.pfm
@@ -1071,7 +1073,6 @@
 %%TEXMFDIR%%fonts/ofm/public/cm-lgc/fctrout.ofm
 %%TEXMFDIR%%fonts/ofm/public/cm-lgc/fctrut.ofm
 %%TEXMFDIR%%fonts/ofm/public/cm-lgc/fctruut.ofm
-%%TEXMFDIR%%fonts/opentype/public/almfixed/almfixed.otf
 %%TEXMFDIR%%fonts/opentype/public/beuron/Beuron-Regular.otf
 %%TEXMFDIR%%fonts/opentype/public/beuron/BeuronCondensed-Regular.otf
 %%TEXMFDIR%%fonts/opentype/public/beuron/BeuronExtended-Regular.otf
@@ -7248,7 +7249,6 @@
 %%TEXMFDIR%%fonts/truetype/ndiscovered/cinzel/CinzelDecorative-Black.ttf
 %%TEXMFDIR%%fonts/truetype/ndiscovered/cinzel/CinzelDecorative-Bold.ttf
 %%TEXMFDIR%%fonts/truetype/ndiscovered/cinzel/CinzelDecorative-Regular.ttf
-%%TEXMFDIR%%fonts/truetype/public/almfixed/almfixed.ttf
 %%TEXMFDIR%%fonts/truetype/public/belleek/blex.ttf
 %%TEXMFDIR%%fonts/truetype/public/belleek/blsy.ttf
 %%TEXMFDIR%%fonts/truetype/public/belleek/rblmi.ttf

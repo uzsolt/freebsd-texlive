@@ -22,6 +22,7 @@ TEXMF_DIRS_LATEX=	\
 	ctex fduthesis pgfornament-han xpinyin xtuthesis zhlineskip zhlipsum \
 	zhmetrics zhnumber
 
+TEXMF_DOCDIRS+=	fonts/arphic fonts/arphic-ttf
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nzhmetrics}
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all

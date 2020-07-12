@@ -6,11 +6,19 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arraysort/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arraysort/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arraysort/arraysort.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/askinclude/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/askinclude/askinclude.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assoccnt/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assoccnt/assoccnt_doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assoccnt/assoccnt_doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assoccnt/assoccnt_example.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/assoccnt/assoccnt_example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/atbegshi/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/atbegshi/atbegshi-example1.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/atbegshi/atbegshi-example2.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/atbegshi/atbegshi.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/atenddvi/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/atenddvi/atenddvi.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/authoraftertitle/authoraftertitle.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/authoraftertitle/authoraftertitle.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bashful/Makefile
@@ -725,6 +733,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zwgetfdate/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zwgetfdate/zwgetfdate.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zwgetfdate/zwgetfdate.tex
+%%TEXMFDIR%%tex/generic/atbegshi/atbegshi.sty
 %%TEXMFDIR%%tex/generic/bitelist/bitedemo.tex
 %%TEXMFDIR%%tex/generic/bitelist/bitelist.sty
 %%TEXMFDIR%%tex/generic/catcodes/actcodes.sty
@@ -760,7 +769,9 @@
 %%TEXMFDIR%%tex/generic/plainpkg/plainpkg.tex
 %%TEXMFDIR%%tex/generic/texapi/texapi.tex
 %%TEXMFDIR%%tex/latex/arraysort/arraysort.sty
+%%TEXMFDIR%%tex/latex/askinclude/askinclude.sty
 %%TEXMFDIR%%tex/latex/assoccnt/assoccnt.sty
+%%TEXMFDIR%%tex/latex/atenddvi/atenddvi.sty
 %%TEXMFDIR%%tex/latex/authoraftertitle/authoraftertitle.sty
 %%TEXMFDIR%%tex/latex/bashful/bashful.sty
 %%TEXMFDIR%%tex/latex/blindtext/blindtext.sty

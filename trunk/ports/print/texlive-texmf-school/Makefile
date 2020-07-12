@@ -17,8 +17,9 @@ TEXMF_DIRS_LATEX=	\
 	uebungsblatt webquiz worksheet xsim
 
 TEXMF_DOCDIRS=	lualatex/cloze/ \
-		xelatex/na-box xelatex/sexam/
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nexample}
+		xelatex/na-box xelatex/sexam/ \
+		generic/around-the-bend
+TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nexample} anufinalexam
 
 TEXMF_SHEBANG_FILES+=	\
 	share/texmf-dist/scripts/webquiz/webquiz \

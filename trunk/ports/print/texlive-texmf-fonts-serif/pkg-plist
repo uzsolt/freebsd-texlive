@@ -1,3 +1,5 @@
+%%PORTDOCS%%%%DOCSDIR%%-texmf/Asana-Math/FontLog.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/Asana-Math/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/accanthis/Accanthis-Cat.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/accanthis/COPYING
 %%PORTDOCS%%%%DOCSDIR%%-texmf/accanthis/NOTICE.txt
@@ -13,6 +15,22 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/algolrevived/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/algolrevived/algolrevived-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/algolrevived/algolrevived-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_0600.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_0750.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_08A0.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_FB50-1.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_FB50-2.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_FB50-3.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/Unibook_FE70.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/almfixed-dtk.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/almfixed-dtk.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/almmono10-sample-crop.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/aristoteles.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/fawaid-427-crop.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/ilahiyyat-1.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/sc-unipad.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/almfixed/wa.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/antiqua/antiqua.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/antiqua/uaqr8ac.afm.org
 %%PORTDOCS%%%%DOCSDIR%%-texmf/antt/AntykwaTorunska-doc-en-2_03.pdf
@@ -4961,6 +4979,7 @@
 %%TEXMFDIR%%fonts/opentype/public/algolrevived/AlgolRevived-MediumSlanted.otf
 %%TEXMFDIR%%fonts/opentype/public/algolrevived/AlgolRevived-Slanted.otf
 %%TEXMFDIR%%fonts/opentype/public/algolrevived/AlgolRevived.otf
+%%TEXMFDIR%%fonts/opentype/public/almfixed/almfixed.otf
 %%TEXMFDIR%%fonts/opentype/public/antt/AntykwaTorunska-Bold.otf
 %%TEXMFDIR%%fonts/opentype/public/antt/AntykwaTorunska-BoldItalic.otf
 %%TEXMFDIR%%fonts/opentype/public/antt/AntykwaTorunska-Italic.otf
@@ -26631,6 +26650,7 @@
 %%TEXMFDIR%%fonts/truetype/paratype/ptserif/PTZ55F.ttf
 %%TEXMFDIR%%fonts/truetype/paratype/ptserif/PTZ56F.ttf
 %%TEXMFDIR%%fonts/truetype/public/Asana-Math/ASANA.TTC
+%%TEXMFDIR%%fonts/truetype/public/almfixed/almfixed.ttf
 %%TEXMFDIR%%fonts/truetype/public/dejavu/DejaVuSans-Bold.ttf
 %%TEXMFDIR%%fonts/truetype/public/dejavu/DejaVuSans-BoldOblique.ttf
 %%TEXMFDIR%%fonts/truetype/public/dejavu/DejaVuSans-ExtraLight.ttf

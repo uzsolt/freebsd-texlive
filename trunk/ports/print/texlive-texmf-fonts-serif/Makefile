@@ -190,7 +190,8 @@ TEXMF_DIRS_FONTS=	\
 	vf/public/rosario/ vf/public/stickstoo vf/public/stix/ \
 	vf/public/txfontsb/ vf/public/xcharter/ vf/rozynski/comicneue/ \
 	vf/sorkin/merriweather/ vf/typoland/carlito/ vf/typoland/lato/ \
-	vf/urw/antiqua/ vf/urw/grotesq/
+	vf/urw/antiqua/ vf/urw/grotesq/ \
+	truetype/public/almfixed/ opentype/public/almfixed
 
 TEXMF_DIRS_LATEX=	\
 	accanthis alegreya algolrevived antiqua antt arev arimo baskervald \
@@ -209,7 +210,7 @@ TEXMF_DIRS_LATEX=	\
 	universalis venturis venturis2 venturisadf venturisold venturissans \
 	venturissans2 xcharter
 TEXMF_DOCDIRS_LATEX=	comicneue raleway sourcesanspro sourceserifpro stix2
-TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX} stickstoo libertinus-type1
+TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX} almfixed stickstoo libertinus-type1 Asana-Math
 .for nd in ${TEXMF_DOCDIRS_LATEX} venturis venturis2 venturisadf venturisold \
 	venturissans venturissans2
 TEXMF_DOCDIRS_FONTS:=${TEXMF_DOCDIRS_FONTS:N${nd}}

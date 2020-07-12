@@ -21,8 +21,10 @@ TEXMF_DIRS_LATEX=	\
 	tex-locale textfit texvc titling totpages umoline undolabl uri usebib \
 	ushort varsfromjobname vwcol widows-and-orphans wordcount wordlike \
 	xcite xellipsis xhfill xindex xwatermark yagusylo zebra-goodies
+TEXMF_DIRS_GENERIC=	\
+	alphalph
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntex-locale:Nxindex:Ndsserif}
+TEXMF_DOCDIRS_LATEX=	alphalph ${TEXMF_DIRS_LATEX:Ntex-locale:Nxindex:Ndsserif}
 
 MASTERDIR=	${.CURDIR}/../texlive-texmf-all
 

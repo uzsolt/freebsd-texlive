@@ -19,11 +19,12 @@ TEXMF_DIRS=	\
 	fonts/tfm/public/casyl/ fonts/tfm/public/cbcoptic/ \
 	fonts/tfm/public/circ/ fonts/tfm/public/clock/ \
 	fonts/tfm/public/epiolmec/ fonts/tfm/public/esint/ \
-	 fonts/tfm/public/relenc/ \
+	fonts/tfm/public/relenc/ \
 	fonts/tfm/public/scanpages/ fonts/type1/public/cbcoptic/ \
 	fonts/type1/public/epiolmec/ fonts/type1/public/esint-type1/ \
-	 fonts/type1/public/scanpages/ \
+	fonts/type1/public/scanpages/ \
 	fonts/vf/public/relenc/ makeindex/gmdoc/ makeindex/iso/ \
+	tex/lualatex/addliga/ \
 	makeindex/leipzig/ makeindex/nomencl/ makeindex/nomentbl/ \
 	makeindex/repeatindex/ makeindex/xdoc/ metapost/makecirc/ \
 	scripts/changes/ scripts/flowfram/ scripts/fmtcount/ scripts/l3build/ \
@@ -113,7 +114,7 @@ TEXMF_DIRS_LATEX=	\
 	version versions versonotes vgrid volumes vpe vruler warning wtref \
 	xbmks xcolor-material xcolor-solarized xdoc xprintlen xurl yafoot \
 	ycbook yplan zed-csp
-TEXMF_DOCDIRS=
+TEXMF_DOCDIRS=	lualatex/addliga/
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm:Ncrossrefware}
 
 USES=	perl5 python

@@ -6,7 +6,7 @@ TEXMF_CATEG=	table
 TEXMF_DIRS=	tex/lualatex/odsfile
 TEXMF_DIRS_GENERIC=	colortab hlist tap
 TEXMF_DIRS_LATEX=	\
-        alnumsec arydshln asciilist blkarray booktabs bullcntr calctab cals \
+        alnumsec arraycols arydshln asciilist blkarray booktabs bullcntr calctab cals \
         cellprops cellspace collcell colortbl ctable diagbox enumitem-zref \
         eqlist etaremune expdlist fcolumn ftcap gatherenum grid grid-system \
         iitem keyvaltable listliketab longfigure ltablex ltabptch makecell \

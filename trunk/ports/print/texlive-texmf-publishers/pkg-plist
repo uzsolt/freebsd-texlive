@@ -224,6 +224,15 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apa6/samples/shortsample.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apa6e/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/apa6e/apa6e.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/apa7.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/samples/Figure1.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/samples/bibliography.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/samples/longsample.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/samples/longsample.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/samples/shortsample.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/samples/shortsample.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/apa7/y.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arsclassica/ArsClassica.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arsclassica/ArsClassica.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/arsclassica/Bibliography.bib
@@ -262,6 +271,13 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/sample-figure-1.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/sample-figure-2a.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/asmeconf/sample-figure-2b.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/asmejour-sample.bib
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/asmejour-template.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/asmejour-template.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/sample-figure-1.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/sample-figure-2a.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/asmejour/sample-figure-2b.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aucklandthesis/README.TEXLIVE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aucklandthesis/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/aucklandthesis/template.tex
@@ -2433,6 +2449,7 @@
 %%TEXMFDIR%%bibtex/bst/aomart/aomplain.bst
 %%TEXMFDIR%%bibtex/bst/asaetr/asaetr.bst
 %%TEXMFDIR%%bibtex/bst/ascelike/ascelike.bst
+%%TEXMFDIR%%bibtex/bst/asmejour/asmejour.bst
 %%TEXMFDIR%%bibtex/bst/beilstein/bjnano.bst
 %%TEXMFDIR%%bibtex/bst/bgteubner/bgteuabbr.bst
 %%TEXMFDIR%%bibtex/bst/bgteubner/bgteuabbr2.bst
@@ -2612,6 +2629,7 @@
 %%TEXMFDIR%%tex/latex/apa6/config/APAngerman.txt
 %%TEXMFDIR%%tex/latex/apa6/config/APAturkish.txt
 %%TEXMFDIR%%tex/latex/apa6e/apa6e.cls
+%%TEXMFDIR%%tex/latex/apa7/apa7.cls
 %%TEXMFDIR%%tex/latex/arsclassica/arsclassica.sty
 %%TEXMFDIR%%tex/latex/articleingud/articleingud.cls
 %%TEXMFDIR%%tex/latex/asaetr/asaesub.sty
@@ -2619,6 +2637,7 @@
 %%TEXMFDIR%%tex/latex/asaetr/asaetr.sty
 %%TEXMFDIR%%tex/latex/ascelike/ascelike.cls
 %%TEXMFDIR%%tex/latex/asmeconf/asmeconf.cls
+%%TEXMFDIR%%tex/latex/asmejour/asmejour.cls
 %%TEXMFDIR%%tex/latex/aucklandthesis/aucklandthesis.cls
 %%TEXMFDIR%%tex/latex/authorarchive/authorarchive.sty
 %%TEXMFDIR%%tex/latex/bangorcsthesis/bangorcsthesis.cls

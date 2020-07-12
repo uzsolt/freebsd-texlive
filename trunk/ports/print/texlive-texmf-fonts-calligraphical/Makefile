@@ -15,13 +15,14 @@ TEXMF_DIRS_FONTS=	\
 	truetype/impallari/lobster2/ type1/impallari/lobster2/ \
 	type1/public/aurical/ type1/public/brushscr/ \
 	type1/public/calligra-type1/ type1/public/frcursive/ \
-	type1/public/miama/ vf/impallari/lobster2/ vf/public/brushscr/
+	type1/public/miama/ vf/impallari/lobster2/ vf/public/brushscr/ \
+	enc/dvips/almendra tfm/public/almendra vf/public/almendra truetype/public/almendra type1/public/almendra
 
 TEXMF_DIRS_LATEX=	\
-	aurical brushscr frcursive fundus-calligra lobster2 miama \
+	almendra aurical brushscr frcursive fundus-calligra lobster2 miama \
 	schulschriften
 
-TEXMF_DOCDIRS_FONTS=	brushscr schulschriften frcursive lobster2 miama
+TEXMF_DOCDIRS_FONTS=	almendra brushscr schulschriften frcursive lobster2 miama
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 .for nd in ${TEXMF_DOCDIRS_FONTS}
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${nd}}

@@ -36,6 +36,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/addfont/addfont.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/addfont/addfont.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/addfont/license
+%%PORTDOCS%%%%DOCSDIR%%-texmf/addliga/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/addliga/addliga.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/addliga/addliga.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/advdate/advdate.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/advdate/advdate.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/advdate/manifest.txt
@@ -4244,6 +4247,7 @@
 %%TEXMFDIR%%tex/latex/ycbook/ycbook.cls
 %%TEXMFDIR%%tex/latex/yplan/yplan.sty
 %%TEXMFDIR%%tex/latex/zed-csp/zed-csp.sty
+%%TEXMFDIR%%tex/lualatex/addliga/addliga.sty
 %%TEXMFDIR%%tex/luatex/markdown/markdown.lua
 %%TEXMFDIR%%tex/plain/esint-type1/esint.tex
 %%TEXMFDIR%%tex/plain/standalone/standalone.tex

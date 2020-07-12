@@ -17,8 +17,9 @@ TEXMF_DIRS_GENERIC=	\
 	circuitikz lpform pst-circ pst-cox pst-eucl pst-feyn \
 	pst-geometrictools pst-math pst-ode pst-poly pst-vehicle tex-ewd
 TEXMF_DIRS_LATEX=	\
-	12many abraces alg algobox algorithm2e algorithmicx algorithms \
+	12many abraces accents alg algobox algorithm2e algorithmicx algorithms algxpar \
 	aligned-overset apxproof autobreak axodraw2 backnaur basicarith \
+	amscdx \
 	begriff bez123 bigints binomexp biochemistry-colors biocon bitpattern \
 	bnumexpr bohr boldtensors bosisio bpchem braids braket bropd \
 	bussproofs bytefield calculation cancel carbohydrates cascade ccfonts \
@@ -57,7 +58,7 @@ TEXMF_DIRS_LATEX=	\
 	ytableau ziffer
 TEXMF_DOCDIRS_FONTS=	chemarrow stmaryrd
 TEXMF_DOCDIRS_GENERIC=	${TEXMF_DIRS_GENERIC} pst-platon
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
+TEXMF_DOCDIRS_LATEX=	amscls-doc ${TEXMF_DIRS_LATEX}
 .for nd in chemarrow hepnames stmaryrd yhmath pst-circ pst-cox pst-eucl pst-geometrictools pst-math pst-ode \
   pst-platon pst-poly pst-vehicle pst-moire pst-venn pst-contourplot pst-feyn pst-lsystem stmaryrd
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${nd}}

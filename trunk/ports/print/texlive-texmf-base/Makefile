@@ -280,10 +280,12 @@ TEXMF_DIRS_LATEX=	\
 	umlaute underscore unicode-math url wasysym xcjk2uni xcolor \
 	xebaposter xkeyval zapfchan zapfding zxjafont
 
-TEXMF_DOCDIRS+=	bibtex/abstyles generic/apnum generic/pgf/pgfmanual.pdf \
+TEXMF_DOCDIRS+=	bibtex/abstyles bibtex/apalike-german fonts/accfonts generic/abbr generic/apnum generic/pgf/pgfmanual.pdf \
 	generic/autoaligne generic/barr generic/randomlist/randomlist.pdf \
-	metapost/automata metapost/bbcard
-TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*}
+	metapost/automata metapost/bbcard \
+	support/adhocfilelist \
+	fonts/amsfonts generic/armenian
+TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*} amslatex-primer amsldoc-it amsldoc-vn amsmath-it
 
 .for exc in \
 	accfonts ae amsfonts armenian asymptote\

@@ -23,7 +23,7 @@ TEXMF_DIRS=	\
 	tex/plain/etex tex/platex/base tex/platex/config tex/ptex/ptex-base \
 	tex/texsis/base tex/texsis/config tex/uplatex/base tex/uplatex/config \
 	tex/uptex/uptex-base tex/xmltex/base tex/xmltex/xmltexconfig web2c
-TEXMF_DOCDIRS+=	latex/base latex/graphics latex/tools
+TEXMF_DOCDIRS+=	latex/base latex/graphics latex/tools omega/antomega
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 USES=	perl5

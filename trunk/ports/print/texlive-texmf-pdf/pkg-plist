@@ -1,3 +1,11 @@
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accessibility/CHANGELOG.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accessibility/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accessibility/accessibility-Anleitung-DE.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accessibility/accessibility.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accsupp/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accsupp/accsupp-example1.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accsupp/accsupp-example2.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/accsupp/accsupp.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/ChangeLog
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/animate.pdf
@@ -398,6 +406,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/license.xmp
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/xmpincl.pdf
+%%TEXMFDIR%%tex/latex/accessibility/accessibility.sty
+%%TEXMFDIR%%tex/latex/accsupp/accsupp-dvipdfm.def
+%%TEXMFDIR%%tex/latex/accsupp/accsupp-dvips.def
+%%TEXMFDIR%%tex/latex/accsupp/accsupp-luatex.def
+%%TEXMFDIR%%tex/latex/accsupp/accsupp-pdftex.def
+%%TEXMFDIR%%tex/latex/accsupp/accsupp.sty
 %%TEXMFDIR%%tex/latex/animate/animate.sty
 %%TEXMFDIR%%tex/latex/attachfile/attachfile.sty
 %%TEXMFDIR%%tex/latex/autopdf/autopdf.sty

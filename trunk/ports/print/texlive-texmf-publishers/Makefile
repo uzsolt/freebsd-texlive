@@ -23,12 +23,13 @@ TEXMF_DIRS=	\
 	bibtex/bst/vancouver fonts/opentype/novel makeindex/bgteubner \
 	makeindex/confproc makeindex/gatech-thesis makeindex/hithesis \
 	makeindex/nostarch scripts/jmlr tex/plain/tugboat-plain \
-	tex/xelatex/langsci tex/xelatex/mynsfc
+	tex/xelatex/langsci tex/xelatex/mynsfc \
+	bibtex/bst/asmejour
 TEXMF_DIRS_LATEX=	\
 	aastex abnt abntex2 abstract achemso acmart acmconf active-conf \
 	actuarialangle actuarialsymbol adfathesis afparticle afthesis aguplus \
-	aiaa ametsoc aomart apa apa6 apa6e arsclassica articleingud asaetr \
-	ascelike asmeconf aucklandthesis authorarchive bangorcsthesis \
+	aiaa ametsoc aomart apa apa6 apa6e apa7 arsclassica articleingud asaetr \
+	ascelike asmeconf asmejour aucklandthesis authorarchive bangorcsthesis \
 	beilstein bgteubner br-lex brandeis-dissertation brandeis-problemset \
 	cascadilla cell chicago chs-physics-report chscite cje classicthesis \
 	cleanthesis cmpj confproc coverpage cquthesis dccpaper dithesis dtk \

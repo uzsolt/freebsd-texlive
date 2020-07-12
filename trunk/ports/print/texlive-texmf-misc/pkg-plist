@@ -1,3 +1,5 @@
+%%PORTDOCS%%%%DOCSDIR%%-texmf/alphalph/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/alphalph/alphalph.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/citeall/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/citeall/citeall.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/citeall/citeall.tex
@@ -735,6 +737,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/yagusylo/yagusylo.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zebra-goodies/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/zebra-goodies/zebra-goodies.pdf
+%%TEXMFDIR%%tex/generic/alphalph/alphalph.sty
 %%TEXMFDIR%%tex/latex/citeall/citeall.sty
 %%TEXMFDIR%%tex/latex/clrstrip/clrstrip.sty
 %%TEXMFDIR%%tex/latex/collref/collref.sty

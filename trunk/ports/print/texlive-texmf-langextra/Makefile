@@ -66,6 +66,4 @@ USES=	python
 
 TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/aramaic-serto/serto.py
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

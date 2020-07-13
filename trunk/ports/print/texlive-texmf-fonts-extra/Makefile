@@ -146,6 +146,4 @@ TEXMF_DOCDIRS_FONTS:=	${TEXMF_DOCDIRS_FONTS:N${nd}}
 
 TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/phaistos/getglyphs
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

@@ -25,6 +25,4 @@ TEXMF_DIRS_LATEX=	\
 TEXMF_DOCDIRS+=	fonts/arphic fonts/arphic-ttf
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nzhmetrics}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

@@ -23,6 +23,4 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nchess:Ngo:Nxq}
 TEXMF_SHEBANG_FILES=	share/texmf-dist/scripts/logicpuzzle/createlpsudoku \
 			share/texmf-dist/scripts/logicpuzzle/lpsmag
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

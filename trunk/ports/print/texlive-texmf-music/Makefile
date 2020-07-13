@@ -25,8 +25,6 @@ TEXMF_DOCDIRS=	generic/bagpipe generic/musixtex generic/musixtnt generic/pmx \
 		lualatex/lilyglyphs luatex/gregoriotex
 TEXMF_DOCDIRS_LATEX=${TEXMF_DIRS_LATEX:Nlyluatex:Nmusixtex:Nm-tx}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
 USES+=	python
 
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

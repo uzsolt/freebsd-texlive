@@ -13,6 +13,4 @@ TEXMF_DIRS=	\
 TEXMF_DIRS_LATEX=	cjk-ko kotex-oblivoir kotex-utf nanumtype1
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nnanumtype1}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

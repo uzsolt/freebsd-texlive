@@ -28,6 +28,4 @@ TEXMF_DIRS_LATEX=	\
 	greek-fontenc greek-inputenc greekdates greektex greektonoi \
 	ibycus-babel kerkis lgreek teubner
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

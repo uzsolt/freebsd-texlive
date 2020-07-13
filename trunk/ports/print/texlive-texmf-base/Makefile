@@ -312,6 +312,4 @@ post-install-texmf:
 	${RM} ${STAGEDIR}${TEXMFDISTDIR}/fonts/enc/dvips/base/dvips-all.enc
 	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/ketcindy/ketcindy.pl
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

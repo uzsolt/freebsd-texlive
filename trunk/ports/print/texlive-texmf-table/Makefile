@@ -21,6 +21,4 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/ctable/inst
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

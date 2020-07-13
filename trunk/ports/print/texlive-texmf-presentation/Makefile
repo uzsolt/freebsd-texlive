@@ -29,6 +29,4 @@ USES+=	perl5
 TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/gridslides/compile.pl \
 				share/doc/texlive-texmf/seminar/run.sh
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

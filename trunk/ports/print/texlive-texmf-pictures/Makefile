@@ -52,6 +52,4 @@ TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/bardiag/example/compile.all \
 				share/doc/texlive-texmf/hvfloat/runAll.sh \
 				share/doc/texlive-texmf/hvfloat/runEXA.sh
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

@@ -30,6 +30,4 @@ post-install-texmf:
 	# print/texlive-bin contains it
 	${RM} ${STAGEDIR}${TEXMFDISTDIR}/scripts/webquiz/webquiz.py
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

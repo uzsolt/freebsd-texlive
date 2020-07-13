@@ -35,6 +35,4 @@ post-install-texmf:
 	${RM} ${STAGEDIR}${PREFIX}/share/texmf-dist/web2c/${confl}
 .endfor
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

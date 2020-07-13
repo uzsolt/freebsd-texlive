@@ -12,6 +12,4 @@ TEXMF_DOCDIRS=	generic/pst-2dplot generic/pst-3dplot \
 		generic/pst-plot
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Npst-2dplot:Npst-3dplot:Npst-func:Npst-infixplot:Npst-plot}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

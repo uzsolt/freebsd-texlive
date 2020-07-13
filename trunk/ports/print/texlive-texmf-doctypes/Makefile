@@ -14,6 +14,4 @@ TEXMF_DIRS_LATEX=	\
 	sffms simplecd simpleinvoice stubs ticket xcookybooky yaletter
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

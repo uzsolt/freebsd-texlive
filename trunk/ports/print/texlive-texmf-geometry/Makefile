@@ -10,6 +10,4 @@ TEXMF_DIRS_LATEX=	\
 	twoinone vmargin zwpagelayout
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

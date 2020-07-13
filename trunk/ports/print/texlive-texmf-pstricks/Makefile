@@ -50,6 +50,4 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Npst*} pst-intersect
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/pst-mirror/createEPS/scripts/filtre.pl
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

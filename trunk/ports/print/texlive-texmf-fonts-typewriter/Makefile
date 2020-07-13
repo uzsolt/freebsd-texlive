@@ -44,6 +44,4 @@ TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX}
 TEXMF_DOCDIRS_FONTS:=${TEXMF_DOCDIRS_FONTS:N${nd}}
 .endfor
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

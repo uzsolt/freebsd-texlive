@@ -40,6 +40,4 @@ TEXMF_DOCDIRS=	generic/arrayjobx generic/bitelist generic/catcodes \
 	xelatex/quran generic/texapi
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nclasspack:Nmultido:Nnextpage:Nsavesym:Nstack} atbegshi
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

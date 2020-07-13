@@ -17,6 +17,4 @@ TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/pdfreview/pdfreview.sh \
 	share/doc/texlive-texmf/pdfreview/pdfshrink.sh
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

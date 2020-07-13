@@ -28,6 +28,4 @@ TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${nd}}
 .endfor
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

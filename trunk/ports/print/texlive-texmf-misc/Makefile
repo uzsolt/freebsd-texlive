@@ -26,6 +26,4 @@ TEXMF_DIRS_GENERIC=	\
 
 TEXMF_DOCDIRS_LATEX=	alphalph ${TEXMF_DIRS_LATEX:Ntex-locale:Nxindex:Ndsserif}
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

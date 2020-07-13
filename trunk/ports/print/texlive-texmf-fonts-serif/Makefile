@@ -225,6 +225,4 @@ TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/berenisadf/ff-ybd.pe \
 				share/doc/texlive-texmf/drm/allfonts.sh \
 				share/doc/texlive-texmf/xcharter/altone.py
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

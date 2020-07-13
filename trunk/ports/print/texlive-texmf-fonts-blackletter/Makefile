@@ -11,6 +11,4 @@ TEXMF_DIRS_LATEX=	missaali yfonts
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nmissaali}
 TEXMF_DOCDIRS_FONTS=	missaali
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

@@ -138,6 +138,4 @@ post-install-texmf:
 	${RM} ${STAGEDIR}${LOCALBASE}/share/texmf-dist/scripts/${script}
 .endfor
 
-MASTERDIR=	${.CURDIR}/../texlive-texmf-all
-
-.include "${MASTERDIR}/Makefile"
+.include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

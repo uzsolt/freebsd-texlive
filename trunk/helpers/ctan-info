@@ -1,0 +1,5 @@
+#!/bin/sh
+
+fetch -q https://ctan.org/pkg/$1 -o - | \
+  sed -n '/h1/,/table class/p ; /Topics/p' | \
+  sed 's,<br */>, ,g ; s,<[^>]*>,,g ; s,Topics,,g'

@@ -89,14 +89,19 @@ TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \
 	-s ',texmf-dist/doc/[^/]*/,doc/texlive-texmf/,' \
 	--no-same-permission --no-same-owner
 
-TEXMF_DIRS_gen=		${TEXMF_DIRS}
-TEXMF_DIRS_gen+=	${TEXMF_DIRS_LATEX:@dir@tex/latex/${dir}@}
-TEXMF_DIRS_gen+=	${TEXMF_DIRS_GENERIC:@dir@tex/generic/${dir}@}
-TEXMF_DIRS_gen+=	${TEXMF_DIRS_FONTS:@dir@fonts/${dir}@}
-TEXMF_DOCDIRS_gen=	${TEXMF_DOCDIRS}
-TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS_LATEX:@dir@latex/${dir}@}
-TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS_FONTS:@dir@fonts/${dir}@}
-TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS_GENERIC:@dir@generic/${dir}@}
+TEXMF_SHORTCUTS_DIRS=	\
+		FONTS:fonts \
+		GENERIC:tex/generic \
+		LATEX:tex/latex
+TEXMF_SHORTCUTS_DOCDIRS=	\
+		FONTS:fonts \
+		GENERIC:generic \
+		LATEX:latex
+
+TEXMF_DIRS_gen+=	${TEXMF_DIRS}
+TEXMF_DIRS_gen+=	${TEXMF_SHORTCUTS_DIRS:@sc@${TEXMF_DIRS_${sc:C,:.*,,}:@d@${sc:C,.*:,,}/${d}@}@}
+TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS}
+TEXMF_DOCDIRS_gen+=	${TEXMF_SHORTCUTS_DOCDIRS:@sc@${TEXMF_DOCDIRS_${sc:C,:.*,,}:@d@${sc:C,.*:,,}/${d}@}@}
 
 # Targets
 .if target(post-install-texmf)

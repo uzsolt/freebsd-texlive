@@ -4,8 +4,6 @@
 #
 # TEXMF_CATEG:
 #   Category of bundle. Like a package name suffix.
-#   This Makefile will create a "pkg-TEXMF_CATEG" in TEXMFDISTDIR to indicate
-#   that this package is installed (can use *_DEPENDS in ports Makefile).
 #
 # TEXMF_DIRS:
 #   List of directories which should extract from DISTFILE. They will be

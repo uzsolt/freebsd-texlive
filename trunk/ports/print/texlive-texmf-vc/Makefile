@@ -10,6 +10,6 @@ TEXMF_DIRS_LATEX=	\
 	todo todonotes vhistory
 TEXMF_DOCDIRS=		support/gitfile-info support/latex-git-log \
 	man/man1/
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ngitfile-info}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	gitfile-info
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

@@ -33,6 +33,8 @@
 #
 # TEXMF_DOCDIRS_LATEX, TEXMF_DOCDIRS_FONTS TEXMF_DOCDIRS_GENERIC:
 #   Similar to TEXMF_DIRS_LATEX and TEXMF_DIRS_FONTS.
+#   The TEXMF_DIRS_LATEX is appended to TEXMF_DOCDIRS_LATEX -
+#   if needed with TEXMF_DOCDIRS_LATEX_EXCLUDE can exclude items.
 #
 # TEXMF_LINKS:
 #   create symbolic links. Using RLS but shouldn't add STAGEDIR to files,
@@ -99,6 +101,7 @@ TEXMF_SHORTCUTS_DOCDIRS=	\
 TEXMF_DIRS_gen+=	${TEXMF_DIRS}
 TEXMF_DIRS_gen+=	${TEXMF_SHORTCUTS_DIRS:@sc@${TEXMF_DIRS_${sc:C,:.*,,}:@d@${sc:C,.*:,,}/${d}@}@}
 TEXMF_DOCDIRS_gen+=	${TEXMF_DOCDIRS}
+TEXMF_DOCDIRS_LATEX+=	${TEXMF_DIRS_LATEX:${TEXMF_DOCDIRS_LATEX_EXCLUDE:C,.*,N&,:ts:}}
 TEXMF_DOCDIRS_gen+=	${TEXMF_SHORTCUTS_DOCDIRS:@sc@${TEXMF_DOCDIRS_${sc:C,:.*,,}:@d@${sc:C,.*:,,}/${d}@}@}
 
 # Targets

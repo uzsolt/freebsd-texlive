@@ -7,7 +7,7 @@ TEXMF_DIRS=	\
 	fonts/source/public/knitting fonts/source/public/xypic \
 	fonts/tfm/public/knitting fonts/tfm/public/xypic \
 	fonts/type1/public/knitting fonts/type1/public/xypic makeindex/forest \
-	scripts/latex-make scripts/pgfmolbio tex/plain/knitting
+	scripts/pgfmolbio tex/plain/knitting
 TEXMF_DIRS_GENERIC=	\
 	dcpic dratex petri-nets pgfplots pictex texdraw tikz-cd \
 	xypic
@@ -21,7 +21,7 @@ TEXMF_DIRS_LATEX=	\
 	fitbox flowchart forest genealogytree getmap gincltex gnuplottex \
 	gradientframe grafcet graph35 graphicxpsd graphviz gtrlib-largetrees \
 	harveyballs here hf-tikz hobby hvfloat inline-images istgame knitting \
-	knittingpattern lapdf latex-make lpic lroundrect makebarcode maker \
+	knittingpattern lapdf lpic lroundrect makebarcode maker \
 	makeshape mathspic milsymb miniplot modiagram neuralnetwork overpic \
 	pawpict pb-diagram pgf-blur pgf-soroban pgf-spectra pgf-umlcd \
 	pgf-umlsd pgfgantt pgfkeyx picinpar pict2e pictex2 pinlabel pixelart \
@@ -38,16 +38,9 @@ TEXMF_DIRS_LATEX=	\
 	tikzsymbols timing-diagrams tipfr tkz-doc tkz-orm \
 	tqft tree-dvips tsemlines tufte-latex wallpaper wrapfig \
 	xpicture
-TEXMF_DOCDIRS=	fonts/knitting support/latex-make
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nknitting:Nlatex-make:Npgfplots/libs:Npictex2:Ntsemlines}
+TEXMF_DOCDIRS=	fonts/knitting 
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	knitting pgfplots/libs pictex2 tsemlines
 
-USES=	python
-
-TEXMF_SHEBANG_FILES=	share/texmf-dist/scripts/latex-make/figdepth.py \
-	share/texmf-dist/scripts/latex-make/latexfilter.py \
-	share/texmf-dist/scripts/latex-make/gensubfig.py \
-	share/texmf-dist/scripts/latex-make/svg2dev.py \
-	share/texmf-dist/scripts/latex-make/svgdepth.py
 TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/bardiag/example/compile.all \
 				share/doc/texlive-texmf/hvfloat/runAll.sh \
 				share/doc/texlive-texmf/hvfloat/runEXA.sh

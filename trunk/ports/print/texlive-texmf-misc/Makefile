@@ -24,6 +24,7 @@ TEXMF_DIRS_LATEX=	\
 TEXMF_DIRS_GENERIC=	\
 	alphalph
 
-TEXMF_DOCDIRS_LATEX=	alphalph ${TEXMF_DIRS_LATEX:Ntex-locale:Nxindex:Ndsserif}
+TEXMF_DOCDIRS_LATEX=	alphalph
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	tex-locale xindex dsserif
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

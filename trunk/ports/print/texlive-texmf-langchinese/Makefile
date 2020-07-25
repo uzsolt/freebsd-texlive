@@ -23,6 +23,6 @@ TEXMF_DIRS_LATEX=	\
 	zhmetrics zhnumber
 
 TEXMF_DOCDIRS+=	fonts/arphic fonts/arphic-ttf
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nzhmetrics}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	zhmetrics
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

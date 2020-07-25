@@ -60,7 +60,7 @@ TEXMF_DIRS_LATEX=	\
 	thaispec velthuis vntex wnri-latex
 
 TEXMF_DOCDIRS=	fonts/alkalami/ fonts/amiri/ bibtex/alpha-persian/ lualatex/arabluatex xelatex/arabxetex
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Namiri:Nbengali:Nburmese:Nfc:Nfonts-tlwg:Nvelthuis:Nvntex}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	amiri bengali burmese fc fonts-tlwg velthuis vntex
 
 USES=	python
 

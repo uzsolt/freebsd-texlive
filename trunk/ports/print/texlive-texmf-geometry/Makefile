@@ -8,6 +8,5 @@ TEXMF_DIRS_LATEX=	\
 	canoniclayout changelayout changepage fjodor fullwidth layouts \
 	midpage rmpage scale semioneside stdpage subfigmat subfigure subfloat \
 	twoinone vmargin zwpagelayout
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

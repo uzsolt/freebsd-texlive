@@ -11,6 +11,6 @@ TEXMF_DIRS=	\
 	fonts/type1/uhc/ fonts/vf/public/nanumtype1/ fonts/vf/uhc/ \
 	makeindex/kotex-utils/ tex/plain/kotex-plain/
 TEXMF_DIRS_LATEX=	cjk-ko kotex-oblivoir kotex-utf nanumtype1
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nnanumtype1}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	nanumtype1
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

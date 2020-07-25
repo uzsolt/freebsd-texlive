@@ -792,6 +792,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/l3packages/xfrac/xfrac.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/l3packages/xparse/xparse.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/l3packages/xtemplate/xtemplate.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/LaTeX.mk
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/LaTeX.mk.conf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/figlatex.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/latex-make.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/texdepends.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/latexbug/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/latexbug/changes.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/latexbug/latexbug.pdf
@@ -10254,6 +10260,11 @@
 %%TEXMFDIR%%scripts/ketcindy/template1basic.cdy
 %%TEXMFDIR%%scripts/ketcindy/template3Dfigure.cdy
 %%TEXMFDIR%%scripts/ketcindy/template4ketcindyjs.cdy
+%%TEXMFDIR%%scripts/latex-make/figdepth.py
+%%TEXMFDIR%%scripts/latex-make/gensubfig.py
+%%TEXMFDIR%%scripts/latex-make/latexfilter.py
+%%TEXMFDIR%%scripts/latex-make/svg2dev.py
+%%TEXMFDIR%%scripts/latex-make/svgdepth.py
 %%TEXMFDIR%%scripts/latexindent/LatexIndent/AlignmentAtAmpersand.pm
 %%TEXMFDIR%%scripts/latexindent/LatexIndent/Arguments.pm
 %%TEXMFDIR%%scripts/latexindent/LatexIndent/BackUpFileProcedure.pm

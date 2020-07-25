@@ -139,7 +139,9 @@ TEXMF_DOCDIRS_LATEX=	\
 	duerer-latex epsdice eulervm \
 	foekfont gillcm jamtimes mdputu mnsymbol mweights \
 	pigpen punk-latex sauterfonts tengwarscript tpslifonts trajan
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	*
 TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX:Nskull} astro
+
 .for nd in ${TEXMF_DOCDIRS_LATEX}
 TEXMF_DOCDIRS_FONTS:=	${TEXMF_DOCDIRS_FONTS:N${nd}}
 .endfor

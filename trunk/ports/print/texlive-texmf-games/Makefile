@@ -18,7 +18,7 @@ TEXMF_DIRS_LATEX=	\
 	schwalbe-chess sgame skak soup sudoku sudokubundle texmate xq xskak
 
 TEXMF_DOCDIRS=	fonts/chess fonts/xq
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nchess:Ngo:Nxq}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	chess go xq
 
 TEXMF_SHEBANG_FILES=	share/texmf-dist/scripts/logicpuzzle/createlpsudoku \
 			share/texmf-dist/scripts/logicpuzzle/lpsmag

@@ -44,9 +44,7 @@ TEXMF_DOCDIRS_FONTS+=	\
 	academicons adfsymbols asapsym dictsym dingbat fontawesome fontawesome5 \
 	fontmfizz genealogy ifsym marvosym superiors typicons nkarta spark-otf
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX} cryst
-.for fn in ${TEXMF_DOCDIRS_FONTS}
-TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${fn}}
-.endfor
+TEXMF_DOCDIRS_LATEX+=	cryst
+TEXMF_DOCDIRS_LATEX_EXCLUDE+=	${TEXMF_DOCDIRS_FONTS}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

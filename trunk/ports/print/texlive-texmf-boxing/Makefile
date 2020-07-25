@@ -13,6 +13,5 @@ TEXMF_DIRS_LATEX=	\
 	tram varwidth verbatimbox xsavebox
 
 TEXMF_DOCDIRS=	generic/frame
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

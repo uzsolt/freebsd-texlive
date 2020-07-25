@@ -13,6 +13,5 @@ TEXMF_DIRS_LATEX=	\
 TEXMF_DOCDIRS=	plain/resumemac \
 		xelatex/resumecls \
 		xelatex/simple-resume-cv
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

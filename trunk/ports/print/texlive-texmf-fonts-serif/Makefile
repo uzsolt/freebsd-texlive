@@ -210,6 +210,7 @@ TEXMF_DIRS_LATEX=	\
 	universalis venturis venturis2 venturisadf venturisold venturissans \
 	venturissans2 xcharter
 TEXMF_DOCDIRS_LATEX=	comicneue raleway sourcesanspro sourceserifpro stix2
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	*
 TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX} almfixed stickstoo libertinus-type1 Asana-Math
 .for nd in ${TEXMF_DOCDIRS_LATEX} venturis venturis2 venturisadf venturisold \
 	venturissans venturissans2

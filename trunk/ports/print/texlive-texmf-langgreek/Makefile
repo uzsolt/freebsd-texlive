@@ -28,4 +28,7 @@ TEXMF_DIRS_LATEX=	\
 	greek-fontenc greek-inputenc greekdates greektex greektonoi \
 	ibycus-babel kerkis lgreek teubner
 
+TEXMF_DOCDIRS_FONTS=	cbfonts-fd gfsbaskerville gfsporson greektex kerkis
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	${TEXMF_DOCDIRS_FONTS}
+
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

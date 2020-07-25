@@ -11,7 +11,6 @@ TEXMF_DIRS_LATEX=	\
 	pdfoverlay pdfpagediff pdfpages pdfpc-movie pdfprivacy pdfreview \
 	pdfsync pdfwin pdfx pstool repltext spotcolor tagpdf tdclock \
 	threadcol xcpdftips xfakebold xmpincl
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/pdfreview/pdfreview.sh \

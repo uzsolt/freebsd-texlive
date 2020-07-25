@@ -45,7 +45,8 @@ TEXMF_DIRS_LATEX=	\
 USES+=	python
 
 TEXMF_DOCDIRS_GENERIC+=	${TEXMF_DIRS_GENERIC:Npst-intersect}
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Npst*} pst-intersect
+TEXMF_DOCDIRS_LATEX+=	pst-intersect
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	pst*
 
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/pst-mirror/createEPS/scripts/filtre.pl

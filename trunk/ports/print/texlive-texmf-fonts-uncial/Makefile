@@ -11,6 +11,6 @@ TEXMF_DIRS_FONTS=	\
 
 TEXMF_DIRS_LATEX=	auncial-new bookhands eiad eiad-ltx
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nauncial-new:Nbookhands:Neiad}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	auncial-new bookhands eiad
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

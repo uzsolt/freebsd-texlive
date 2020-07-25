@@ -59,7 +59,7 @@ TEXMF_DIRS_LATEX=	\
 	uowthesistitlepage upmethodology urcls uspatent ut-thesis \
 	utexasthesis uwthesis wsemclassic xduthesis yathesis york-thesis
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Ntexilikechaps:Ntexilikecover:Neconomic:Nchicago}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	texilikechaps texilikecover economic chicago
 
 TEXMF_SHEBANG_FILES_DOCS=	\
 			share/doc/texlive-texmf/ejpecp/mgetmref.py \

@@ -554,12 +554,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lapdf/turtle.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lapdf/vector.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lapdf/vector.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/LaTeX.mk
-%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/LaTeX.mk.conf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/figlatex.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/latex-make.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/latex-make/texdepends.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lpic/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lpic/instructions-differential.eps
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lpic/instructions-differential.pdf
@@ -1329,11 +1323,6 @@
 %%TEXMFDIR%%fonts/type1/public/xypic/xylubt12.pfb
 %%TEXMFDIR%%fonts/type1/public/xypic/xylubt12.pfm
 %%TEXMFDIR%%makeindex/forest/forest-doc.ist
-%%TEXMFDIR%%scripts/latex-make/figdepth.py
-%%TEXMFDIR%%scripts/latex-make/gensubfig.py
-%%TEXMFDIR%%scripts/latex-make/latexfilter.py
-%%TEXMFDIR%%scripts/latex-make/svg2dev.py
-%%TEXMFDIR%%scripts/latex-make/svgdepth.py
 %%TEXMFDIR%%scripts/pgfmolbio/pgfmolbio.lua
 %%TEXMFDIR%%tex/generic/dcpic/dcpic.sty
 %%TEXMFDIR%%tex/generic/dcpic/europroc.cls
@@ -1640,11 +1629,6 @@
 %%TEXMFDIR%%tex/latex/knitting/uknit.fd
 %%TEXMFDIR%%tex/latex/knittingpattern/knittingpattern.cls
 %%TEXMFDIR%%tex/latex/lapdf/lapdf.sty
-%%TEXMFDIR%%tex/latex/latex-make/figlatex.cfg
-%%TEXMFDIR%%tex/latex/latex-make/figlatex.sty
-%%TEXMFDIR%%tex/latex/latex-make/pdfswitch.sty
-%%TEXMFDIR%%tex/latex/latex-make/texdepends.sty
-%%TEXMFDIR%%tex/latex/latex-make/texgraphicx.sty
 %%TEXMFDIR%%tex/latex/lpic/lpic.sty
 %%TEXMFDIR%%tex/latex/lroundrect/lroundrect.sty
 %%TEXMFDIR%%tex/latex/makebarcode/makebarcode.sty

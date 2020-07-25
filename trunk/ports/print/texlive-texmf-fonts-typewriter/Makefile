@@ -33,15 +33,14 @@ TEXMF_DIRS_FONTS=	\
 		vf/adobe/sourcecodepro/ \
 		vf/public/anonymouspro/ \
 		vf/public/bera/ \
-		vf/public/kpfonts/ \
+		vf/public/kpfonts/
 
 TEXMF_DIRS_LATEX=	\
 	anonymouspro ascii-font bera inconsolata \
 	kpfonts newtxtt sourcecodepro
-TEXMF_DOCDIRS_LATEX=	sourcecodepro
-TEXMF_DOCDIRS_FONTS=	${TEXMF_DIRS_LATEX}
-.for nd in ${TEXMF_DOCDIRS_LATEX}
-TEXMF_DOCDIRS_FONTS:=${TEXMF_DOCDIRS_FONTS:N${nd}}
-.endfor
+TEXMF_DOCDIRS_FONTS=	\
+	anonymouspro ascii-font bera inconsolata \
+	kpfonts newtxtt
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	${TEXMF_DOCDIRS_FONTS}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

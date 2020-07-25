@@ -12,6 +12,5 @@ TEXMF_DIRS_LATEX=	\
 	newlfm newspaper octavo papercdcase papertex petiteannonce postcards \
 	pressrelease recipe recipebook recipecard sciposter scrlttr2copy \
 	sffms simplecd simpleinvoice stubs ticket xcookybooky yaletter
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

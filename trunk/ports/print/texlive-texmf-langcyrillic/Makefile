@@ -24,6 +24,6 @@ TEXMF_DIRS_LATEX=	\
 	mongolian-babel montex numnameru russ serbian-apostrophe \
 	serbian-date-lat serbian-def-cyr serbian-lig t2
 
-TEXMF_DOCDIRS_LATEX=${TEXMF_DIRS_LATEX:Nlh:Nlhcyr:Nt2}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	lh lhcyr t2
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

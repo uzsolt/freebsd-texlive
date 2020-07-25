@@ -168,6 +168,7 @@ TEXMF_DIRS=	\
 	scripts/ketcindy/ketlibC/ scripts/latexindent/LatexIndent/ \
 	scripts/lua-alt-getopt/ scripts/luaindex/ scripts/make4ht/ \
 	scripts/mflua/ scripts/placeat/ scripts/spelling/ \
+	scripts/latex-make \
 	tex/context/base/mkiv/ \
 	tex/context/bib/ tex/context/colors/ tex/context/fonts/ \
 	tex/context/interface/ tex/context/modules/common/ \
@@ -278,16 +279,16 @@ TEXMF_DIRS_LATEX=	\
 	tex4ebook texosquery textpath times tipa titlesec tracklang \
 	translator turkmen txfonts typehtml ucharcat ucs udesoftec uhrzeit \
 	umlaute underscore unicode-math url wasysym xcjk2uni xcolor \
-	xebaposter xkeyval zapfchan zapfding zxjafont
+	xebaposter xkeyval zapfchan zapfding zxjafont \
+	latex-make 
 
 TEXMF_DOCDIRS+=	bibtex/abstyles bibtex/apalike-german fonts/accfonts generic/abbr generic/apnum generic/pgf/pgfmanual.pdf \
 	generic/autoaligne generic/barr generic/randomlist/randomlist.pdf \
 	metapost/automata metapost/bbcard \
 	support/adhocfilelist \
-	fonts/amsfonts generic/armenian
-TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*} amslatex-primer amsldoc-it amsldoc-vn amsmath-it
-
-.for exc in \
+	fonts/amsfonts generic/armenian \
+	support/latex-make
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	pgf* latex-make \
 	accfonts ae amsfonts armenian asymptote\
 	avantgar babelbib bookman bundledoc cm-super\
 	context courier ctable encxvlna enigma eurosym fontinst\
@@ -295,8 +296,7 @@ TEXMF_DOCDIRS_LATEX:=	${TEXMF_DIRS_LATEX:Npgf*} amslatex-primer amsldoc-it amsld
 	ltxmisc multido ncntrsbk palatino compatibility\
 	pslatex pxfonts seminar symbol tex-gyre tex4ebook texosquery\
 	textpath times tipa tracklang txfonts zapfchan zapfding
-TEXMF_DOCDIRS_LATEX:=${TEXMF_DOCDIRS_LATEX:N${exc}}
-.endfor
+TEXMF_DOCDIRS_LATEX+=	amslatex-primer amsldoc-it amsldoc-vn amsmath-it
 
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/ucs/latexout.pl\

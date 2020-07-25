@@ -38,6 +38,7 @@ TEXMF_DOCDIRS=	generic/arrayjobx generic/bitelist generic/catcodes \
 	generic/gtl generic/midnight generic/multido generic/multiexpand \
 	plain/lambda-lists generic/plainpkg plain/plipsum xelatex/ptext \
 	xelatex/quran generic/texapi
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nclasspack:Nmultido:Nnextpage:Nsavesym:Nstack} atbegshi
+TEXMF_DOCDIRS_LATEX+=	atbegshi
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	classpack multido nextpage savesym stack
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

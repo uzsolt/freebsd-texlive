@@ -17,7 +17,6 @@ TEXMF_DIRS_LATEX=	\
         widetable xltabular xtab lstfiracode topiclongtable
 
 TEXMF_DOCDIRS=	generic/colortab generic/hlist lualatex/odsfile generic/tap
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
 
 TEXMF_SHEBANG_FILES_DOCS=	share/doc/texlive-texmf/ctable/inst
 

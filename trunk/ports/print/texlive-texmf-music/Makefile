@@ -23,7 +23,7 @@ TEXMF_DOCDIRS=	generic/bagpipe generic/musixtex generic/musixtnt generic/pmx \
 		support/lyluatex \
 		generic/musixtex \
 		lualatex/lilyglyphs luatex/gregoriotex
-TEXMF_DOCDIRS_LATEX=${TEXMF_DIRS_LATEX:Nlyluatex:Nmusixtex:Nm-tx}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	lyluatex musixtex m-tx
 
 USES+=	python
 

@@ -19,7 +19,8 @@ TEXMF_DIRS_LATEX=	\
 TEXMF_DOCDIRS=	lualatex/cloze/ \
 		xelatex/na-box xelatex/sexam/ \
 		generic/around-the-bend
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nexample} anufinalexam
+TEXMF_DOCDIRS_LATEX=	anufinalexam
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	example
 
 TEXMF_SHEBANG_FILES+=	\
 	share/texmf-dist/scripts/webquiz/webquiz \

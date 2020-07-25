@@ -22,7 +22,7 @@ TEXMF_DIRS_LATEX=	\
 
 TEXMF_DOCDIRS=	xelatex/bidipresentation generic/lecturer plain/present \
 	metapost/slideshow
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	beamerthemejltree
 
 USES+=	perl5
 

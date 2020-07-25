@@ -23,9 +23,6 @@ TEXMF_DIRS_LATEX=	\
 	schulschriften
 
 TEXMF_DOCDIRS_FONTS=	almendra brushscr schulschriften frcursive lobster2 miama
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX}
-.for nd in ${TEXMF_DOCDIRS_FONTS}
-TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${nd}}
-.endfor
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	${TEXMF_DOCDIRS_FONTS}
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

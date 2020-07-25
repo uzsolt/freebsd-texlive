@@ -115,7 +115,9 @@ TEXMF_DIRS_LATEX=	\
 	xbmks xcolor-material xcolor-solarized xdoc xprintlen xurl yafoot \
 	ycbook yplan zed-csp
 TEXMF_DOCDIRS=	lualatex/addliga/
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbeamerthemejltree:Nclasspack:Neqname:Neulerpx:Nexample:Nfundus-cyr:Nmakedtx:Nmanfnt:Nnestquot:Nnextpage:Nsavesym:Nsfmath:Nstack:Ntexlogos:Ntitlefoot:Nvariablelm:Ncrossrefware}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	beamerthemejltree classpack eqname eulerpx example \
+				fundus-cyr makedtx manfnt nestquot nextpage savesym \
+				sfmath stack texlogos titlefoot variablelm crossrefware
 
 USES=	perl5 python
 

@@ -58,11 +58,10 @@ TEXMF_DIRS_LATEX=	\
 	ytableau ziffer
 TEXMF_DOCDIRS_FONTS=	chemarrow stmaryrd
 TEXMF_DOCDIRS_GENERIC=	${TEXMF_DIRS_GENERIC} pst-platon
-TEXMF_DOCDIRS_LATEX=	amscls-doc ${TEXMF_DIRS_LATEX}
-.for nd in chemarrow hepnames stmaryrd yhmath pst-circ pst-cox pst-eucl pst-geometrictools pst-math pst-ode \
-  pst-platon pst-poly pst-vehicle pst-moire pst-venn pst-contourplot pst-feyn pst-lsystem stmaryrd
-TEXMF_DOCDIRS_LATEX:=	${TEXMF_DOCDIRS_LATEX:N${nd}}
-.endfor
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	chemarrow hepnames stmaryrd yhmath pst-circ pst-cox \
+				pst-eucl pst-geometrictools pst-math pst-ode \
+				pst-platon pst-poly pst-vehicle pst-moire pst-venn \
+				pst-contourplot pst-feyn pst-lsystem stmaryrd
 
 TEXMF_SHEBANG_FILES_DOCS+=	share/doc/texlive-texmf/shdoc/shreformat.sh
 

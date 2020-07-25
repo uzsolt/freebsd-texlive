@@ -30,6 +30,6 @@ TEXMF_DIRS_LATEX=	\
 	bxorigcapt bxwareki endnotesj gentombow jlreq morisawa platex-tools \
 	plautopatch pxcjkcat pxjodel pxufont zxjafbfont zxjatype
 
-TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nmorisawa}
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	morisawa
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

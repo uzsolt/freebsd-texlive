@@ -2,25 +2,26 @@
 
 COMMENT=	Classes and packages for specific publishers
 TEXMF_CATEG=	publishers
-TEXMF_DIRS=	\
-	bibtex/bib/abntex2 bibtex/bib/IEEEtran/ bibtex/bib/nostarch \
-	bibtex/bib/revtex4 bibtex/bib/spie bibtex/bst/aastex \
-	bibtex/bst/abntex2 bibtex/bst/acmart bibtex/bst/adfathesis \
-	bibtex/bst/afthesis bibtex/bst/aguplus bibtex/bst/aiaa \
-	bibtex/bst/ametsoc bibtex/bst/aomart bibtex/bst/asaetr \
-	bibtex/bst/ascelike bibtex/bst/beilstein bibtex/bst/bgteubner \
-	bibtex/bst/cascadilla bibtex/bst/chem-journal bibtex/bst/cje \
-	bibtex/bst/cmpj bibtex/bst/confproc bibtex/bst/cquthesis \
-	bibtex/bst/elsarticle bibtex/bst/fcavtex bibtex/bst/gatech-thesis \
-	bibtex/bst/hithesis bibtex/bst/hustthesis bibtex/bst/ieeepes \
-	bibtex/bst/IEEEtran bibtex/bst/ijmart bibtex/bst/imac \
-	bibtex/bst/kluwer bibtex/bst/lion-msc bibtex/bst/lni bibtex/bst/mnras \
-	bibtex/bst/nature bibtex/bst/nddiss bibtex/bst/resphilosophica \
-	bibtex/bst/revtex bibtex/bst/revtex4 bibtex/bst/sageep \
-	bibtex/bst/sapthesis bibtex/bst/seuthesis bibtex/bst/seuthesix \
-	bibtex/bst/spie bibtex/bst/stellenbosch bibtex/bst/thuthesis \
-	bibtex/bst/tugboat bibtex/bst/uestcthesis bibtex/bst/unamthesis \
-	bibtex/bst/vancouver fonts/opentype/novel makeindex/bgteubner \
+TEXMF_DIRS_BIBTEX_BIB=	abntex2 archaeologie beebe dk-bib harvard \
+	IEEEtran jurabib nostarch revtex4 spie
+TEXMF_DIRS_BIBTEX_BST=	aaai-named aastex abntex2 acmart adfathesis \
+	afthesis aguplus aiaa aichej ajl ametsoc annotate aomart apacite \
+	apalike2 asaetr \
+	ascelike asmeconf authordate bath-bst beilstein besjournals \
+	bestpapers bgteubner bibexport bibhtml biolett-bst bookdb \
+	cascadilla chem-journal cell chicago-annote chicagoa chscite cje \
+	cmpj confproc cquthesis din1505 dk-bib econ-bst economic \
+	els-cas-templates elsarticle fbs fcavtex figbib gatech-thesis \
+	francais-bst gammas harvard hitszbeamer hitszthesis \
+	hithesis hustthesis ieeepes IEEEtran ijqc ijmart imac \
+	inlinebib iopart-num is-bst jbact jmb jneurosci jurabib \
+	kluwer ksfh_nat lion-msc listbib lni mnras multibib multibibliography \
+	munich nar nature nddiss nmbib notex-bst perception plainyr pnas2009 \
+	prtec resphilosophica revtex revtex4 rsc \
+	sageep sapthesis seuthesis seuthesix sort-by-letters \
+	spie stellenbosch texsis thuthesis tufte-latex tugboat \
+	uestcthesis unamthesis unifith urlbst vak vancouver zootaxa-bst
+TEXMF_DIRS+=	fonts/opentype/novel makeindex/bgteubner \
 	makeindex/confproc makeindex/gatech-thesis makeindex/hithesis \
 	makeindex/nostarch scripts/jmlr tex/plain/tugboat-plain \
 	tex/xelatex/langsci tex/xelatex/mynsfc \

@@ -90,6 +90,8 @@ TEXMF_TARXF=	${TAR} xf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} \
 	--no-same-permission --no-same-owner
 
 TEXMF_SHORTCUTS_DIRS=	\
+		BIBTEX_BIB:bibtex/bib \
+		BIBTEX_BST:bibtex/bst \
 		FONTS:fonts \
 		GENERIC:tex/generic \
 		LATEX:tex/latex

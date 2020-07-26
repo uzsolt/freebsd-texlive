@@ -6,8 +6,11 @@ TEXMF_CATEG=	macro
 TEXMF_DIRS=	\
 	tex/plain/lambda-lists tex/plain/plipsum
 TEXMF_DIRS_GENERIC=	\
-	atbegshi bitelist catcodes commado dowith fenixpar fixjfm gates gobble gtl \
-	midnight multido multiexpand plainpkg texapi
+	arrayjobx atbegshi bigintcalc bitelist bitset catchfile catcodes \
+	commado compare dowith etexcmds expkv expkv-def fenixpar fixjfm gates gettitlestring \
+	gobble gtl intcalc kvdefinekeys kvsetkeys ltxcmds \
+	magicnum midnight modulus multido multiexpand poormanlog plainpkg scontents texapi \
+	tokcycle
 TEXMF_DIRS_LATEX=	\
 	arraysort askinclude assoccnt atenddvi authoraftertitle bashful blindtext boolexpr \
 	bophook bxbase bxenclose calcage calculator catchfilebetweentags \
@@ -35,10 +38,12 @@ TEXMF_DIRS_LATEX=	\
 
 TEXMF_DOCDIRS=	generic/arrayjobx generic/bitelist generic/catcodes \
 	generic/dowith generic/fenixpar generic/fixjfm generic/gobble \
-	generic/gtl generic/midnight generic/multido generic/multiexpand \
+	generic/gtl generic/midnight generic/modulus generic/multido generic/multiexpand \
+	generic/poormanlog generic/tokcycle \
 	plain/lambda-lists generic/plainpkg plain/plipsum xelatex/ptext \
 	xelatex/quran generic/texapi
-TEXMF_DOCDIRS_LATEX+=	atbegshi
+TEXMF_DOCDIRS_LATEX+=	atbegshi bigintcalc bitset etexcmds expkv gettitlestring intcalc \
+	kvdefinekeys kvsetkeys ltxcmds magicnum scontents
 TEXMF_DOCDIRS_LATEX_EXCLUDE=	classpack multido nextpage savesym stack
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

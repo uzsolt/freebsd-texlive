@@ -11,6 +11,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/animate/animate.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/attachfile/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/attachfile/attachfile.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/attachfile2/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/attachfile2/attachfile2.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/autopdf/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/autopdf/autopdf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/axessibility/README
@@ -32,6 +34,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/cooltooltips/cooltooltips.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/embedall/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/embedall/embedall.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/embedfile-example-collection.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/embedfile-example-plain.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/embedfile.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/cite.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/examples/fancy-preview-demo.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/examples/fancy-preview-demo.sin.table
@@ -248,6 +254,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdf14/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdf14/pdf14.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdf14/test-pdf14.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcolmk/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcomment/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcomment/INSTALL
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcomment/README.md
@@ -274,6 +281,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcprot/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcprot/TODO
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfcprot/pdfcprot.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfescape/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfescape/pdfescape.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdflscape/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdflscape/pdflscape.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfmarginpar/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfmarginpar/pdfmarginpar.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfmarginpar/pdfmarginpar.tex
@@ -305,6 +316,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpages/pdfpages.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpc-movie/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpc-movie/pdfpc-movie-doc.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpc/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdfpc/pdfpc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfprivacy/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfprivacy/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfprivacy/pdfprivacy.pdf
@@ -319,6 +332,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfsync/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfsync/pdfsync-doc.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfsync/pdfsync-doc.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdftexcmds/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pdftexcmds/pdftexcmds.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfwin/BucResampling.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfwin/BucSystem1.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pdfwin/BucSystem2.pdf
@@ -406,6 +421,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/license.xmp
 %%PORTDOCS%%%%DOCSDIR%%-texmf/xmpincl/xmpincl.pdf
+%%TEXMFDIR%%tex/generic/embedfile/embedfile.sty
+%%TEXMFDIR%%tex/generic/pdfescape/pdfescape.sty
 %%TEXMFDIR%%tex/latex/accessibility/accessibility.sty
 %%TEXMFDIR%%tex/latex/accsupp/accsupp-dvipdfm.def
 %%TEXMFDIR%%tex/latex/accsupp/accsupp-dvips.def
@@ -414,12 +431,18 @@
 %%TEXMFDIR%%tex/latex/accsupp/accsupp.sty
 %%TEXMFDIR%%tex/latex/animate/animate.sty
 %%TEXMFDIR%%tex/latex/attachfile/attachfile.sty
+%%TEXMFDIR%%tex/latex/attachfile2/atfi-dvipdfmx.def
+%%TEXMFDIR%%tex/latex/attachfile2/atfi-dvips.def
+%%TEXMFDIR%%tex/latex/attachfile2/atfi-luatex.def
+%%TEXMFDIR%%tex/latex/attachfile2/atfi-pdftex.def
+%%TEXMFDIR%%tex/latex/attachfile2/attachfile2.sty
 %%TEXMFDIR%%tex/latex/autopdf/autopdf.sty
 %%TEXMFDIR%%tex/latex/axessibility/axessibility.sty
 %%TEXMFDIR%%tex/latex/bxpdfver/bxpdfver.sty
 %%TEXMFDIR%%tex/latex/colorspace/colorspace.sty
 %%TEXMFDIR%%tex/latex/cooltooltips/cooltooltips.sty
 %%TEXMFDIR%%tex/latex/embedall/embedall.sty
+%%TEXMFDIR%%tex/latex/embedfile/dtx-attach.sty
 %%TEXMFDIR%%tex/latex/fancytooltips/fancytipmark.eps
 %%TEXMFDIR%%tex/latex/fancytooltips/fancytipmark.pdf
 %%TEXMFDIR%%tex/latex/fancytooltips/fancytipmark.svg
@@ -500,6 +523,7 @@
 %%TEXMFDIR%%tex/latex/ocgx2/ocgx2.sty
 %%TEXMFDIR%%tex/latex/pax/pax.sty
 %%TEXMFDIR%%tex/latex/pdf14/pdf14.sty
+%%TEXMFDIR%%tex/latex/pdfcolmk/pdfcolmk.sty
 %%TEXMFDIR%%tex/latex/pdfcomment/pdfcomment.sty
 %%TEXMFDIR%%tex/latex/pdfcprot/pdfcprot.sty
 %%TEXMFDIR%%tex/latex/pdfcprot/pplmnOT1.cpa
@@ -507,6 +531,7 @@
 %%TEXMFDIR%%tex/latex/pdfcprot/pplmnT1.cpa
 %%TEXMFDIR%%tex/latex/pdfcprot/pplmnT2A.cpa
 %%TEXMFDIR%%tex/latex/pdfcprot/pplmnTS1.cpa
+%%TEXMFDIR%%tex/latex/pdflscape/pdflscape.sty
 %%TEXMFDIR%%tex/latex/pdfmarginpar/pdfmarginpar.sty
 %%TEXMFDIR%%tex/latex/pdfoverlay/pdfoverlay.sty
 %%TEXMFDIR%%tex/latex/pdfpagediff/pdfpagediff.sty
@@ -519,9 +544,11 @@
 %%TEXMFDIR%%tex/latex/pdfpages/ppvtex.def
 %%TEXMFDIR%%tex/latex/pdfpages/ppxetex.def
 %%TEXMFDIR%%tex/latex/pdfpc-movie/pdfpc-movie.sty
+%%TEXMFDIR%%tex/latex/pdfpc/pdfpc.sty
 %%TEXMFDIR%%tex/latex/pdfprivacy/pdfprivacy.sty
 %%TEXMFDIR%%tex/latex/pdfreview/pdfreview.sty
 %%TEXMFDIR%%tex/latex/pdfsync/pdfsync.sty
+%%TEXMFDIR%%tex/latex/pdftexcmds/pdftexcmds.sty
 %%TEXMFDIR%%tex/latex/pdfwin/pdfwin.cfg
 %%TEXMFDIR%%tex/latex/pdfwin/pdfwin.sty
 %%TEXMFDIR%%tex/latex/pdfx/8bit.def

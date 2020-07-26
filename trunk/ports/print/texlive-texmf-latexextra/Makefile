@@ -80,7 +80,7 @@ TEXMF_DIRS_LATEX=	\
 	hanging harpoon hc he-she hitec hletter hrefhide hvindex hypdvips \
 	hyper hypernat hyperxmp icite idxcmds idxlayout iffont imakeidx \
 	indextools interfaces iso iso10303 isodate isonums isopt isorot \
-	issuulinks jlabels jumplines jvlisting kerntest keyfloat keyreader \
+	issuulinks jlabels jumplines jvlisting kerntest keyfloat \
 	kix knowledge koma-script-sfs l3build labels labelschanged latexdemo \
 	lazylist lccaps leading lengthconvert lettrine libgreek linegoal \
 	lisp-on-tex listing listlbls listofsymbols logical-markup-utils lsc \

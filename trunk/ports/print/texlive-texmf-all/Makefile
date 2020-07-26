@@ -13,7 +13,7 @@ TEXMF_CATEGORIES=	\
 	fonts-blackletter fonts-calligraphical fonts-extra \
 	fonts-serif fonts-symbols fonts-typewriter fonts-uncial \
 	games geometry \
-	humanities latexextra macro misc music pdf pictures plot presentation \
+	humanities keyval latexextra macro misc music pdf pictures plot presentation \
 	pstricks publishers school science table vc \
 	langchinese langcyrillic langextra langgreek langjapanese langkorean
 

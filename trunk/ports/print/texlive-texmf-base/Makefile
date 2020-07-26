@@ -250,9 +250,9 @@ TEXMF_DIRS_GENERIC=	\
 	fntproof german hyphenex iftex insbox kastrup \
 	knuth-lib langcode librarian listofitems mathdots metapost mfpic \
 	navigator oberdiek ofs olsak-misc path pdf-trans pdftex pgf qpxqtx \
-	randomlist schemata shade simplekv systeme tabto-generic termmenu \
+	randomlist schemata shade systeme tabto-generic termmenu \
 	tex-ps tex4ht thumbpdf tracklang trigonometry ulem upca variations \
-	xkeyval xlop yax
+	xlop
 
 TEXMF_DIRS_LATEX=	\
 	accfonts ae aeguill amscls amsfonts amsmath anysize armenian \
@@ -279,7 +279,7 @@ TEXMF_DIRS_LATEX=	\
 	tex4ebook texosquery textpath times tipa titlesec tracklang \
 	translator turkmen txfonts typehtml ucharcat ucs udesoftec uhrzeit \
 	umlaute underscore unicode-math url wasysym xcjk2uni xcolor \
-	xebaposter xkeyval zapfchan zapfding zxjafont \
+	xebaposter zapfchan zapfding zxjafont \
 	latex-make 
 
 TEXMF_DOCDIRS+=	bibtex/abstyles bibtex/apalike-german fonts/accfonts generic/abbr generic/apnum generic/pgf/pgfmanual.pdf \

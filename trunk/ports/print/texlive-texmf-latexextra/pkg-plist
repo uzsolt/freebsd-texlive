@@ -1503,10 +1503,6 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/keyfloat/images/image.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/keyfloat/images/image2.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/keyfloat/keyfloat.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keyreader/README
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keyreader/keyreader-example1.tex
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keyreader/keyreader-guide.pdf
-%%PORTDOCS%%%%DOCSDIR%%-texmf/keyreader/keyreader-guide.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/kix/kix.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/kix/kix.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/knowledge/README.md
@@ -3608,7 +3604,6 @@
 %%TEXMFDIR%%tex/latex/kerntest/t2bmtx.clo
 %%TEXMFDIR%%tex/latex/kerntest/ts1mtx.clo
 %%TEXMFDIR%%tex/latex/keyfloat/keyfloat.sty
-%%TEXMFDIR%%tex/latex/keyreader/keyreader.sty
 %%TEXMFDIR%%tex/latex/kix/kix.sty
 %%TEXMFDIR%%tex/latex/knowledge/knowledge.sty
 %%TEXMFDIR%%tex/latex/koma-script-sfs/SFS.lco

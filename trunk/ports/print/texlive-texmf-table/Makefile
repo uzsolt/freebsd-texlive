@@ -14,7 +14,7 @@ TEXMF_DIRS_LATEX=	\
         rccol sitem spreadtab supertabular tableaux tablefootnote tablestyles \
         tablists tabls tablvar tabu tabularborder tabularcalc tabularew \
         tabulary threeparttable threeparttablex typed-checklist warpcol \
-        widetable xltabular xtab lstfiracode topiclongtable
+        widetable xltabular xtab lstfiracode topiclongtable ehhline
 
 TEXMF_DOCDIRS=	generic/colortab generic/hlist lualatex/odsfile generic/tap
 

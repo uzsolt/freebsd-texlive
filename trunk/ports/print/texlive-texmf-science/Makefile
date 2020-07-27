@@ -19,12 +19,12 @@ TEXMF_DIRS_GENERIC=	\
 TEXMF_DIRS_LATEX=	\
 	12many abraces accents alg algobox algorithm2e algorithmicx algorithms algxpar \
 	aligned-overset apxproof autobreak axodraw2 backnaur basicarith \
-	amscdx \
+	amscdx clojure-pamphlet codeanatomy\
 	begriff bez123 bigints binomexp biochemistry-colors biocon bitpattern \
 	bnumexpr bohr boldtensors bosisio bpchem braids braket bropd \
 	bussproofs bytefield calculation cancel carbohydrates cascade ccfonts \
 	chemarrow chemcompounds chemcono chemformula chemgreek chemmacros \
-	chemnum chemschemex chemsec chemstyle circ circuitikz clrscode \
+	chemnum chemplants chemschemex chemsec chemstyle circ circuitikz circuit-macros clrscode \
 	clrscode3e colorwav comma commath complexity computational-complexity \
 	concepts conteq cool coollist coordsys correctmathalign cryptocode \
 	decimal delim delimseasy delimset diffcoeff digiconfigs dijkstra \
@@ -55,13 +55,16 @@ TEXMF_DIRS_LATEX=	\
 	tikz-optics tikz-sfc tkz-base tkz-euclide \
 	trfsigns truncate turnstile ulqda underoverlap units unitsdef \
 	venndiagram verbments vertbars was xymtex yhmath youngtab \
-	ytableau ziffer
+	ytableau ziffer derivative euclideangeometry letterswitharrows \
+	lie-hasse mathcommand matrix-skeleton oops physconst physunits practicalreports
+TEXMF_DOCDIRS+=	support/clojure-pamphlet
 TEXMF_DOCDIRS_FONTS=	chemarrow stmaryrd
 TEXMF_DOCDIRS_GENERIC=	${TEXMF_DIRS_GENERIC} pst-platon
 TEXMF_DOCDIRS_LATEX_EXCLUDE=	chemarrow hepnames stmaryrd yhmath pst-circ pst-cox \
 				pst-eucl pst-geometrictools pst-math pst-ode \
 				pst-platon pst-poly pst-vehicle pst-moire pst-venn \
-				pst-contourplot pst-feyn pst-lsystem stmaryrd
+				pst-contourplot pst-feyn pst-lsystem stmaryrd \
+				clojure-pamphlet
 
 TEXMF_SHEBANG_FILES_DOCS+=	share/doc/texlive-texmf/shdoc/shreformat.sh
 

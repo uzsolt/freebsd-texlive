@@ -114,6 +114,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/catcodes/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/catcodes/SrcFILEs.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/catcodes/catcodes.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/checkend/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chngcntr/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chngcntr/chngcntr.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chngcntr/chngcntr.tex
@@ -307,6 +308,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/grabbox/grabbox.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gtl/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gtl/gtl.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hobsub/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hobsub/hobsub.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hobsub/hobsub.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hulipsum/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hulipsum/hulipsum.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ifmtarg/README
@@ -341,6 +345,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lastpackage/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lastpackage/lastpackage.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lcg/lcg.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/letltxmacro/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/letltxmacro/letltxmacro-showcases.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/letltxmacro/letltxmacro.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lhelp/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lhelp/lhelp.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/lipsum/README.txt
@@ -374,6 +381,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/magicnum/magicnum.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecmds/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/makecmds/makecmds.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makerobust/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makerobust/makerobust.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/makerobust/makerobust.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/markdown/examples/example.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/markdown/examples/latex.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/markdown/examples/scientists.csv
@@ -794,6 +804,8 @@
 %%TEXMFDIR%%tex/latex/calculator/calculator.sty
 %%TEXMFDIR%%tex/latex/calculator/calculus.sty
 %%TEXMFDIR%%tex/latex/catchfilebetweentags/catchfilebetweentags.sty
+%%TEXMFDIR%%tex/latex/checkend/checkend.sty
+%%TEXMFDIR%%tex/latex/chklref/chklref.sty
 %%TEXMFDIR%%tex/latex/chngcntr/chngcntr.sty
 %%TEXMFDIR%%tex/latex/classpack/classpack.sty
 %%TEXMFDIR%%tex/latex/clipboard/clipboard.sty
@@ -896,6 +908,9 @@
 %%TEXMFDIR%%tex/latex/gmutils/gmurl.sty
 %%TEXMFDIR%%tex/latex/gmutils/gmutils.sty
 %%TEXMFDIR%%tex/latex/grabbox/grabbox.sty
+%%TEXMFDIR%%tex/latex/hobsub/hobsub-generic.sty
+%%TEXMFDIR%%tex/latex/hobsub/hobsub-hyperref.sty
+%%TEXMFDIR%%tex/latex/hobsub/hobsub.sty
 %%TEXMFDIR%%tex/latex/hulipsum/hulipsum.sty
 %%TEXMFDIR%%tex/latex/ifmtarg/ifmtarg.sty
 %%TEXMFDIR%%tex/latex/ifnextok/ifnextok.sty
@@ -909,6 +924,7 @@
 %%TEXMFDIR%%tex/latex/kantlipsum/kantlipsum.sty
 %%TEXMFDIR%%tex/latex/lastpackage/lastpackage.sty
 %%TEXMFDIR%%tex/latex/lcg/lcg.sty
+%%TEXMFDIR%%tex/latex/letltxmacro/letltxmacro.sty
 %%TEXMFDIR%%tex/latex/lhelp/lhelp.sty
 %%TEXMFDIR%%tex/latex/lipsum/cicero.ltd.tex
 %%TEXMFDIR%%tex/latex/lipsum/lipsum.ltd.tex
@@ -932,6 +948,7 @@
 %%TEXMFDIR%%tex/latex/ltxtools/ltxtools.sty
 %%TEXMFDIR%%tex/latex/macroswap/macroswap.sty
 %%TEXMFDIR%%tex/latex/makecmds/makecmds.sty
+%%TEXMFDIR%%tex/latex/makerobust/makerobust.sty
 %%TEXMFDIR%%tex/latex/markdown/markdown.sty
 %%TEXMFDIR%%tex/latex/mdwtools/at.sty
 %%TEXMFDIR%%tex/latex/mdwtools/cmtt.sty

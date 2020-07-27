@@ -14,7 +14,7 @@ TEXMF_DIRS_BIBTEX_BST=	aaai-named aastex abntex2 acmart adfathesis \
 	els-cas-templates elsarticle fbs fcavtex figbib gatech-thesis \
 	francais-bst gammas harvard hitszbeamer hitszthesis \
 	hithesis hustthesis ieeepes IEEEtran ijqc ijmart imac \
-	inlinebib iopart-num is-bst jbact jmb jneurosci jurabib \
+	inlinebib iopart-num is-bst jbact jneurosci jurabib \
 	kluwer ksfh_nat lion-msc listbib lni mnras multibib multibibliography \
 	munich nar nature nddiss nmbib notex-bst perception plainyr pnas2009 \
 	prtec resphilosophica revtex revtex4 rsc \
@@ -58,7 +58,8 @@ TEXMF_DIRS_LATEX=	\
 	ulthese umbclegislation umich-thesis umthesis unamthesis uni-wtal-ger \
 	uni-wtal-lin unitn-bimrep univie-ling unswcover uothesis uowthesis \
 	uowthesistitlepage upmethodology urcls uspatent ut-thesis \
-	utexasthesis uwthesis wsemclassic xduthesis yathesis york-thesis
+	utexasthesis uwthesis wsemclassic xduthesis yathesis york-thesis \
+	hep-paper hitszbeamer hitszthesis hu-berlin-bundle inkpaper mlacls
 
 TEXMF_DOCDIRS_LATEX_EXCLUDE=	texilikechaps texilikecover economic chicago
 

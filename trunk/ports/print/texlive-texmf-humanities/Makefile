@@ -12,7 +12,8 @@ TEXMF_DIRS_LATEX=	\
 	lexref ling-macros linguex liturg metre metrix msc parallel parrun \
 	phonrule plari play poemscol poetry poetrytex qobitree qtree reledmac \
 	rrgtrees rtklage screenplay screenplay-pkg sdrt semantic-markup sides \
-	stage syntrace synttree textglos thalie verse xyling xytree
+	stage syntrace synttree textglos thalie verse xyling xytree \
+	langsci-avm latino-sine-flexione
 
 TEXMF_DOCDIRS=	generic/expex
 TEXMF_DOCDIRS_LATEX=	${TEXMF_DIRS_LATEX:Nbibleref-parse}

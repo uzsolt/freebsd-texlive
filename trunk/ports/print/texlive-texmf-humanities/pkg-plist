@@ -5,6 +5,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref-lds/bibleref-lds.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref-mouth/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref-mouth/bibleref-mouth.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref-parse/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref-parse/bibleref-parse.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref-parse/bibleref-parse.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bibleref/bibleref.pdf
@@ -167,6 +170,11 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/jurarsp/rsptest.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/kalendarium/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/kalendarium/kalendarium.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/langsci-avm/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/langsci-avm/include/smallcaps-standalone.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/langsci-avm/langsci-avm.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latino-sine-flexione/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/latino-sine-flexione/fundamento.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ledmac/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ledmac/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ledmac/djd17nov.tex
@@ -478,6 +486,8 @@
 %%TEXMFDIR%%tex/latex/jurarsp/jurarsp.cfg
 %%TEXMFDIR%%tex/latex/jurarsp/jurarsp.sty
 %%TEXMFDIR%%tex/latex/kalendarium/kalendarium.sty
+%%TEXMFDIR%%tex/latex/langsci-avm/langsci-avm.sty
+%%TEXMFDIR%%tex/latex/latino-sine-flexione/latino-sine-flexione.sty
 %%TEXMFDIR%%tex/latex/ledmac/afoot.sty
 %%TEXMFDIR%%tex/latex/ledmac/ledarab.sty
 %%TEXMFDIR%%tex/latex/ledmac/ledmac.sty

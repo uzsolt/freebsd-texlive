@@ -1,3 +1,5 @@
+%%PORTDOCS%%%%DOCSDIR%%-texmf/csvmerge/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/csvmerge/csvmerge.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/csvsimple/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%-texmf/csvsimple/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/csvsimple/amountsort.xml
@@ -46,6 +48,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/datatool/samples/sample-student-scores.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/datatool/samples/sample-two-per-row.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/datatool/samples/sample-two-per-row.tex
+%%TEXMFDIR%%tex/latex/csvmerge/csvmerge.sty
 %%TEXMFDIR%%tex/latex/csvsimple/csvsimple.sty
 %%TEXMFDIR%%tex/latex/datatool/databar.sty
 %%TEXMFDIR%%tex/latex/datatool/databib.sty

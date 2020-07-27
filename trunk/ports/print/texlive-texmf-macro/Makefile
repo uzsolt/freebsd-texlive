@@ -13,8 +13,8 @@ TEXMF_DIRS_GENERIC=	\
 	tokcycle
 TEXMF_DIRS_LATEX=	\
 	arraysort askinclude assoccnt atenddvi authoraftertitle bashful blindtext boolexpr \
-	bophook bxbase bxenclose calcage calculator catchfilebetweentags \
-	chngcntr classpack clipboard cmdstring cmdtrack \
+	bophook bxbase bxenclose calcage calculator catchfilebetweentags checkend \
+	chklref chngcntr classpack clipboard cmdstring cmdtrack \
 	cntperchap codedoc codesection colordoc coloring comment conv-xkv \
 	coolstr copyedit cprotect currfile dataref denisbdoc diagnose dialogl \
 	docmute doctools download dprogress drac dtxdescribe duckuments \
@@ -34,7 +34,7 @@ TEXMF_DIRS_LATEX=	\
 	stdclsdv storebox storecmd stringstrings substr tabstackengine ted \
 	testidx textcase toolbox totcount trimspaces unravel williams \
 	withargs xargs xassoccnt xcntperchap xfor xifthen xnewcommand xoptarg \
-	xpatch xpeek xpunctuate ydoc zwgetfdate
+	xpatch xpeek xpunctuate ydoc zwgetfdate hobsub letltxmacro makerobust
 
 TEXMF_DOCDIRS=	generic/arrayjobx generic/bitelist generic/catcodes \
 	generic/dowith generic/fenixpar generic/fixjfm generic/gobble \
@@ -44,6 +44,6 @@ TEXMF_DOCDIRS=	generic/arrayjobx generic/bitelist generic/catcodes \
 	xelatex/quran generic/texapi
 TEXMF_DOCDIRS_LATEX+=	atbegshi bigintcalc bitset etexcmds gettitlestring intcalc \
 	ltxcmds magicnum scontents
-TEXMF_DOCDIRS_LATEX_EXCLUDE=	classpack multido nextpage savesym stack
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	chklref classpack multido nextpage savesym stack
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

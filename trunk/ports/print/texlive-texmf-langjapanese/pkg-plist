@@ -8,6 +8,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxcjkjatype/sample-bxcjkjatype-beamer.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxcjkjatype/sample-bxcjkjatype.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxcjkjatype/sample-bxcjkjatype.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxghost/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxghost/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjaholiday/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjaholiday/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjaholiday/bxjaholiday.pdf
@@ -23,6 +25,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjaprnind/bxjaprnind.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjaprnind/sample-bxjaprnind.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjaprnind/sample-bxjaprnind.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxjatoucs/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%-texmf/bxjatoucs/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjscls/LICENSE
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjscls/README-ja.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxjscls/README.md
@@ -5359,9 +5363,11 @@
 %%TEXMFDIR%%tex/latex/ascmac/ascmac.sty
 %%TEXMFDIR%%tex/latex/ascmac/tascmac.sty
 %%TEXMFDIR%%tex/latex/bxcjkjatype/bxcjkjatype.sty
+%%TEXMFDIR%%tex/latex/bxghost/bxghost.sty
 %%TEXMFDIR%%tex/latex/bxjaholiday/bxjaholiday.sty
 %%TEXMFDIR%%tex/latex/bxjalipsum/bxjalipsum.sty
 %%TEXMFDIR%%tex/latex/bxjaprnind/bxjaprnind.sty
+%%TEXMFDIR%%tex/latex/bxjatoucs/bxjatoucs.sty
 %%TEXMFDIR%%tex/latex/bxjscls/bxjsarticle.cls
 %%TEXMFDIR%%tex/latex/bxjscls/bxjsbook.cls
 %%TEXMFDIR%%tex/latex/bxjscls/bxjscjkcat.sty

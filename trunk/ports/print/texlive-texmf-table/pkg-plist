@@ -203,6 +203,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/ctable/penguin.jpg
 %%PORTDOCS%%%%DOCSDIR%%-texmf/diagbox/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/diagbox/diagbox.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ehhline/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ehhline/ehhline.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ehhline/ehhline.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/enumitem-zref/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/enumitem-zref/enumitem-zexample.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/enumitem-zref/enumitem-zref.pdf
@@ -402,6 +405,7 @@
 %%TEXMFDIR%%tex/latex/colortbl/colortbl.sty
 %%TEXMFDIR%%tex/latex/ctable/ctable.sty
 %%TEXMFDIR%%tex/latex/diagbox/diagbox.sty
+%%TEXMFDIR%%tex/latex/ehhline/ehhline.sty
 %%TEXMFDIR%%tex/latex/enumitem-zref/enumitem-zref.sty
 %%TEXMFDIR%%tex/latex/eqlist/eqlist.sty
 %%TEXMFDIR%%tex/latex/etaremune/etaremune.sty

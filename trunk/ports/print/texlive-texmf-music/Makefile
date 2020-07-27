@@ -15,9 +15,9 @@ TEXMF_DIRS=	\
 	tex/lualatex/lilyglyphs/commands tex/lualatex/lilyglyphs/core \
 	tex/lualatex/lilyglyphs/pdfs tex/luatex/gregoriotex
 TEXMF_DIRS_LATEX=	\
-	abc chordbars gchords gtrcrd guitar guitarchordschemes guitartabs \
+	abc chordbars chordbox gchords gtrcrd guitar guitarchordschemes guitartabs \
 	harmony leadsheets m-tx musicography musixguit musixtex octave piano \
-	songbook songs xpiano
+	songbook songs xpiano ddphonism
 
 TEXMF_DOCDIRS=	generic/bagpipe generic/musixtex generic/musixtnt generic/pmx \
 		support/lyluatex \

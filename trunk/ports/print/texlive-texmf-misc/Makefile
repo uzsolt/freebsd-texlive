@@ -4,7 +4,7 @@ COMMENT=	Miscellaneous LaTeX packages
 TEXMF_CATEG=	misc
 
 TEXMF_DIRS_LATEX=	\
-	citeall clrstrip collref colophon ditaa doipubmed draftcopy \
+	circledsteps citeall clrstrip collref colophon ditaa doipubmed draftcopy \
 	draftwatermark dsserif easy-todo ed edmargin emptypage engrec enotez \
 	epigraph errata etoc everypage exceltex extract fancylabel fancytabs \
 	fbox fgruler fixme fixmetodonotes flipbook flowfram fonttable \
@@ -20,7 +20,8 @@ TEXMF_DIRS_LATEX=	\
 	shadowtext silence standalone subfiles tagging templatetools \
 	tex-locale textfit texvc titling totpages umoline undolabl uri usebib \
 	ushort varsfromjobname vwcol widows-and-orphans wordcount wordlike \
-	xcite xellipsis xhfill xindex xwatermark yagusylo zebra-goodies
+	xcite xellipsis xhfill xindex xwatermark yagusylo zebra-goodies \
+	clrdblpg dotlessi hycolor kblocks ltxguidex
 TEXMF_DIRS_GENERIC=	\
 	alphalph
 

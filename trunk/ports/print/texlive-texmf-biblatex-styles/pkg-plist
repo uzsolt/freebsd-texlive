@@ -503,6 +503,7 @@
 %%TEXMFDIR%%bibtex/bst/chicago/chicago.bst
 %%TEXMFDIR%%bibtex/bst/gbt7714/gbt7714-author-year.bst
 %%TEXMFDIR%%bibtex/bst/gbt7714/gbt7714-numerical.bst
+%%TEXMFDIR%%bibtex/bst/jmb/jmb.bst
 %%TEXMFDIR%%tex/latex/adrconv/adrdir.cfg
 %%TEXMFDIR%%tex/latex/adrconv/adrplaner.cfg
 %%TEXMFDIR%%tex/latex/adrconv/adrsmall.cfg
@@ -1335,6 +1336,7 @@
 %%TEXMFDIR%%tex/latex/biblatex-trad/trad-unsrt.cbx
 %%TEXMFDIR%%tex/latex/biblatex-true-citepages-omit/biblatex-true-citepages-omit.sty
 %%TEXMFDIR%%tex/latex/gbt7714/gbt7714.sty
+%%TEXMFDIR%%tex/latex/jmb/jmb.sty
 %%TEXMFDIR%%tex/latex/oscola/american-oscola.lbx
 %%TEXMFDIR%%tex/latex/oscola/british-oscola.lbx
 %%TEXMFDIR%%tex/latex/oscola/english-oscola.lbx

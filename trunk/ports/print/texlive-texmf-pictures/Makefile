@@ -37,7 +37,7 @@ TEXMF_DIRS_LATEX=	\
 	tikzorbital tikzpagenodes tikzpeople tikzpfeile tikzposter tikzscale \
 	tikzsymbols timing-diagrams tipfr tkz-doc tkz-orm \
 	tqft tree-dvips tsemlines tufte-latex wallpaper wrapfig \
-	xpicture
+	xpicture grfext grffile hvqrurl
 TEXMF_DOCDIRS=	fonts/knitting 
 TEXMF_DOCDIRS_LATEX_EXCLUDE=	knitting pgfplots/libs pictex2 tsemlines
 

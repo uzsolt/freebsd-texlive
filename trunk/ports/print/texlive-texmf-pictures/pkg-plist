@@ -336,6 +336,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/graphviz/test/pdf-tmpdir.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/graphviz/test/pdf.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/graphviz/test/ps.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/grfext/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/grfext/grfext.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/grffile/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/grffile/grffile.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gtrlib-largetrees/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gtrlib-largetrees/gtrlib.largetrees.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/harveyballs/README
@@ -455,6 +459,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hvfloat/sub-right1s2c.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hvfloat/sub-right2s2c.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/hvfloat/sub-right2s2c.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hvqrurl/Changes
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hvqrurl/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hvqrurl/hvqrurl.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/hvqrurl/hvqrurl.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/inline-images/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/inline-images/examples/example.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/inline-images/examples/example.tex
@@ -1612,6 +1620,9 @@
 %%TEXMFDIR%%tex/latex/graph35/graph35.sty
 %%TEXMFDIR%%tex/latex/graphicxpsd/graphicxpsd.sty
 %%TEXMFDIR%%tex/latex/graphviz/graphviz.sty
+%%TEXMFDIR%%tex/latex/grfext/grfext.sty
+%%TEXMFDIR%%tex/latex/grffile/grffile-2017-06-30.sty
+%%TEXMFDIR%%tex/latex/grffile/grffile.sty
 %%TEXMFDIR%%tex/latex/gtrlib-largetrees/gtrlib.largetrees.code.tex
 %%TEXMFDIR%%tex/latex/gtrlib-largetrees/gtrlib.largetrees.sty
 %%TEXMFDIR%%tex/latex/harveyballs/harveyballs.sty
@@ -1623,6 +1634,7 @@
 %%TEXMFDIR%%tex/latex/hobby/tikzlibraryhobby.code.tex
 %%TEXMFDIR%%tex/latex/hvfloat/hvfloat-fps.sty
 %%TEXMFDIR%%tex/latex/hvfloat/hvfloat.sty
+%%TEXMFDIR%%tex/latex/hvqrurl/hvqrurl.sty
 %%TEXMFDIR%%tex/latex/inline-images/inline-images.sty
 %%TEXMFDIR%%tex/latex/istgame/istgame.sty
 %%TEXMFDIR%%tex/latex/knitting/knitting.sty

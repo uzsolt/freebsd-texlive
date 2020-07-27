@@ -12,12 +12,13 @@ STYLES=	abnt anonymous apa archaeology \
 	oxref philosophy phys publist realauthor sbl socialscienceshuberlin \
 	science shortfields source-division subseries swiss-legal \
 	trad true-citepages-omit
-TEXMF_DIRS_LATEX=	amsrefs apacite ${STYLES:S/^/biblatex-/} adrconv archaeologie gbt7714 oscola rsc windycity
+TEXMF_DIRS_LATEX=	amsrefs apacite ${STYLES:S/^/biblatex-/} adrconv archaeologie gbt7714 oscola rsc windycity jmb
 TEXMF_DIRS+=	\
 	bibtex/bst/chembst bibtex/bst/chicago \
-	bibtex/bst/gbt7714 bibtex/bst/amsrefs bibtex/bib/amsrefs
+	bibtex/bst/gbt7714 bibtex/bst/amsrefs bibtex/bib/amsrefs \
+	bibtex/bst/jmb
 TEXMF_DOCDIRS+=	bibtex/gbt7714 bibtex/apacite
-TEXMF_DOCDIRS_LATEX_EXCLUDE=	apacite gbt7714
+TEXMF_DOCDIRS_LATEX_EXCLUDE=	apacite gbt7714 jmb
 
 TEXMF_SHEBANG_FILES_DOCS+=	share/doc/texlive-texmf/biblatex-abnt/test.sh
 

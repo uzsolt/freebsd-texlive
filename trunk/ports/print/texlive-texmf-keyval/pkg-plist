@@ -9,6 +9,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/clefval/example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/clefval/exemple.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/clefval/exemple.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/expkv-def/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/expkv-def/expkv-def.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/expkv/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/expkv/expkv.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/keycommand/README
@@ -85,6 +87,8 @@
 %%TEXMFDIR%%tex/latex/catoptions/catoptions-guide.cfg
 %%TEXMFDIR%%tex/latex/catoptions/catoptions.sty
 %%TEXMFDIR%%tex/latex/clefval/clefval.sty
+%%TEXMFDIR%%tex/latex/expkv-def/expkv-def.sty
+%%TEXMFDIR%%tex/latex/expkv/expkv.sty
 %%TEXMFDIR%%tex/latex/keycommand/keycommand.sty
 %%TEXMFDIR%%tex/latex/keyreader/keyreader.sty
 %%TEXMFDIR%%tex/latex/keyval2e/keyval2e.sty

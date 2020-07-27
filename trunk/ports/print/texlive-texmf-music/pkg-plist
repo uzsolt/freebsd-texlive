@@ -28,6 +28,12 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chordbars/listing_blues.lst
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chordbars/listing_halfbar.lst
 %%PORTDOCS%%%%DOCSDIR%%-texmf/chordbars/listing_sharp_flat.lst
+%%PORTDOCS%%%%DOCSDIR%%-texmf/chordbox/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/chordbox/chordbox.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/chordbox/chordbox.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ddphonism/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ddphonism/ddphonism.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/ddphonism/ddphonism.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gchords/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gchords/chordbox.tcl
 %%PORTDOCS%%%%DOCSDIR%%-texmf/gchords/gchords_doc.pdf
@@ -724,6 +730,8 @@
 %%TEXMFDIR%%tex/latex/abc/abc.sty
 %%TEXMFDIR%%tex/latex/abc/mup.sty
 %%TEXMFDIR%%tex/latex/chordbars/chordbars.sty
+%%TEXMFDIR%%tex/latex/chordbox/chordbox.sty
+%%TEXMFDIR%%tex/latex/ddphonism/ddphonism.sty
 %%TEXMFDIR%%tex/latex/gchords/gchords.sty
 %%TEXMFDIR%%tex/latex/gtrcrd/gtrcrd.sty
 %%TEXMFDIR%%tex/latex/guitar/guitar.sty

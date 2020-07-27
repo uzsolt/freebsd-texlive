@@ -28,6 +28,7 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/bxpapersize/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/canoniclayout/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/canoniclayout/canoniclayout.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/centeredline/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/changelayout/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/changelayout/changelayout-guide.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/changelayout/changelayout-guide.tex
@@ -100,6 +101,7 @@
 %%TEXMFDIR%%tex/latex/blowup/blowup.sty
 %%TEXMFDIR%%tex/latex/bxpapersize/bxpapersize.sty
 %%TEXMFDIR%%tex/latex/canoniclayout/canoniclayout.sty
+%%TEXMFDIR%%tex/latex/centeredline/centeredline.sty
 %%TEXMFDIR%%tex/latex/changelayout/changelayout.sty
 %%TEXMFDIR%%tex/latex/changepage/changepage.sty
 %%TEXMFDIR%%tex/latex/changepage/chngpage.sty

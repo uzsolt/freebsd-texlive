@@ -26,7 +26,7 @@ TEXMF_DIRS=	\
 	tex/platex/japanese-otf/ tex/platex/jsclasses/ tex/platex/pxbase/ \
 	tex/platex/pxchfon/ tex/platex/pxjahyper/ tex/platex/pxrubrica/
 TEXMF_DIRS_LATEX=	\
-	ascmac bxcjkjatype bxjaholiday bxjalipsum bxjaprnind bxjscls \
+	ascmac bxcjkjatype bxghost bxjaholiday bxjatoucs bxjalipsum bxjaprnind bxjscls \
 	bxorigcapt bxwareki endnotesj gentombow jlreq morisawa platex-tools \
 	plautopatch pxcjkcat pxjodel pxufont zxjafbfont zxjatype
 

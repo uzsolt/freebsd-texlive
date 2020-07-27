@@ -7,7 +7,7 @@ TEXMF_DIRS=	\
 	metapost/slideshow tex/generic/lecturer tex/plain/present \
 	tex/xelatex/bidipresentation
 TEXMF_DIRS_LATEX=	\
-	appendixnumberbeamer beamer beamer-verona beamer2thesis \
+	appendixnumberbeamer beamer beamer-verona beamer2thesis beamerauxtheme \
 	beameraudience beamercolorthemeowl beamerdarkthemes beamerposter \
 	beamersubframe beamertheme-cuerna beamertheme-detlevcm \
 	beamertheme-epyt beamertheme-focus beamertheme-light \
@@ -18,7 +18,7 @@ TEXMF_DIRS_LATEX=	\
 	HA-prosper hackthefootline handout hobete ifmslide medstarbeamer \
 	overlays pdfscreen pdfslide powerdot powerdot-tuliplab ppr-prv \
 	prosper seminar soton spot sslides studenthandouts talk texpower \
-	uwmslide
+	uwmslide powerdot-fuberlin
 
 TEXMF_DOCDIRS=	xelatex/bidipresentation generic/lecturer plain/present \
 	metapost/slideshow

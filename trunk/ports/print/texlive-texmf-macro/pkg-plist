@@ -465,6 +465,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/perltex/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/perltex/example.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/perltex/perltex.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/picture/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/picture/picture-example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/picture/picture.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pkgloader/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pkgloader/pkgloader-packagedoc.cls
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pkgloader/pkgloader.pdf
@@ -984,6 +987,7 @@
 %%TEXMFDIR%%tex/latex/parselines/parselines.sty
 %%TEXMFDIR%%tex/latex/patchcmd/patchcmd.sty
 %%TEXMFDIR%%tex/latex/perltex/perltex.sty
+%%TEXMFDIR%%tex/latex/picture/picture.sty
 %%TEXMFDIR%%tex/latex/pkgloader/pkgloader-cls-pkg.sty
 %%TEXMFDIR%%tex/latex/pkgloader/pkgloader-dry.sty
 %%TEXMFDIR%%tex/latex/pkgloader/pkgloader-early.sty
@@ -1009,6 +1013,7 @@
 %%TEXMFDIR%%tex/latex/robustcommand/robustcommand.sty
 %%TEXMFDIR%%tex/latex/rvwrite/rvwrite.sty
 %%TEXMFDIR%%tex/latex/savesym/savesym.sty
+%%TEXMFDIR%%tex/latex/scontents/scontents.sty
 %%TEXMFDIR%%tex/latex/showlabels/showlabels.sty
 %%TEXMFDIR%%tex/latex/skdoc/skdoc.cls
 %%TEXMFDIR%%tex/latex/sphack/sphack.sty

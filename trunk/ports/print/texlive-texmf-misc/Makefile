@@ -21,7 +21,8 @@ TEXMF_DIRS_LATEX=	\
 	tex-locale textfit texvc titling totpages umoline undolabl uri usebib \
 	ushort varsfromjobname vwcol widows-and-orphans wordcount wordlike \
 	xcite xellipsis xhfill xindex xwatermark yagusylo zebra-goodies \
-	clrdblpg dotlessi hycolor kblocks ltxguidex
+	clrdblpg dotlessi hycolor kblocks ltxguidex metastr refcount rerunfilecheck \
+	returntogrid secnum transparent
 TEXMF_DIRS_GENERIC=	\
 	alphalph
 

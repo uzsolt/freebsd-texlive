@@ -36,12 +36,12 @@ TEXMF_DIRS_GENERIC=	\
 	2up filemod formlett markdown minifp poster-mac rlepsf shapepar \
 	splitindex textmerg xcomment xint xstring ydoc
 TEXMF_DIRS_LATEX=	\
-	acro acronym acroterm addfont advdate akktex akletter altfont amsaddr \
-	anonchap anyfontsize appendix apptools arcs aurl authorindex autonum \
-	avremu bankstatement beton bibletext bigfoot block bold-extra \
-	bookest bracketkey breakurl bxcalc bxdvidriver bxnewfont bxtexlogo \
-	calrsfs calxxxx-yyyy captcont captdef cases casyl catechis ccaption \
-	cclicenses cd cd-cover cdpbundl censor changebar changes chappg \
+	acro acronym acroterm addfont advdate altfont amsaddr \
+	anonchap anyfontsize appendix apptools arcs aurl authorindex \
+	beton bibletext bigfoot bold-extra \
+	breakurl bxcalc bxdvidriver bxnewfont bxtexlogo \
+	calrsfs calxxxx-yyyy captcont captdef casyl ccaption \
+	cclicenses censor changebar changes chappg \
 	chapterfolder chet chextras childdoc chkfloat chletter classics \
 	cleveref cmsd codepage colorinfo colorweb combelow combine concprog \
 	constants continue coolthms coseoul counttexruns coursepaper \

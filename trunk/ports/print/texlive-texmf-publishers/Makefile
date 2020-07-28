@@ -59,7 +59,9 @@ TEXMF_DIRS_LATEX=	\
 	uni-wtal-lin unitn-bimrep univie-ling unswcover uothesis uowthesis \
 	uowthesistitlepage upmethodology urcls uspatent ut-thesis \
 	utexasthesis uwthesis wsemclassic xduthesis yathesis york-thesis \
-	hep-paper hitszbeamer hitszthesis hu-berlin-bundle inkpaper mlacls
+	hep-paper hitszbeamer hitszthesis hu-berlin-bundle inkpaper mlacls \
+	brandeis-thesis njurepo prtec quantumarticle ryersonsgsthesis shortmathj \
+	thuaslogos tuda-ci unam-thesis unifith unizgklasa
 
 TEXMF_DOCDIRS_LATEX_EXCLUDE=	texilikechaps texilikecover economic chicago
 

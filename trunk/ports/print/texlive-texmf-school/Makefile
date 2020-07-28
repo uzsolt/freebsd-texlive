@@ -14,7 +14,8 @@ TEXMF_DIRS_LATEX=	\
 	jnuexam jslectureplanner lectures mafr mathexam mcexam mensa-tex \
 	mi-solns moodle musikui notestex pas-cours pbsheet probsoln qcm \
 	schule sesstime tasks termcal translations uantwerpendocs uassign \
-	uebungsblatt webquiz worksheet xsim
+	uebungsblatt webquiz worksheet xsim schulmathematik quiz2socrative \
+	verifica
 
 TEXMF_DOCDIRS=	lualatex/cloze/ \
 		xelatex/na-box xelatex/sexam/ \

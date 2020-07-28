@@ -98,9 +98,14 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pbox/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pbox/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/pbox/pbox.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pmboxdraw/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/pmboxdraw/pmboxdraw.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/realboxes/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/realboxes/realboxes.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/roundbox/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rulerbox/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rulerbox/rulerbox.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rulerbox/rulerbox.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/Basilica_5.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/CHANGES
 %%PORTDOCS%%%%DOCSDIR%%-texmf/tcolorbox/README
@@ -202,8 +207,11 @@
 %%TEXMFDIR%%tex/latex/minipage-marginpar/minipage-marginpar.sty
 %%TEXMFDIR%%tex/latex/minipage-marginpar/mpgmpar.sty
 %%TEXMFDIR%%tex/latex/pbox/pbox.sty
+%%TEXMFDIR%%tex/latex/pmboxdraw/pmboxdraw.sty
+%%TEXMFDIR%%tex/latex/pmboxdraw/pmboxdrawenc.dfu
 %%TEXMFDIR%%tex/latex/realboxes/realboxes.sty
 %%TEXMFDIR%%tex/latex/roundbox/roundbox.sty
+%%TEXMFDIR%%tex/latex/rulerbox/rulerbox.sty
 %%TEXMFDIR%%tex/latex/tcolorbox/blueshade.png
 %%TEXMFDIR%%tex/latex/tcolorbox/crinklepaper.png
 %%TEXMFDIR%%tex/latex/tcolorbox/goldshade.png

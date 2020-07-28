@@ -34,7 +34,8 @@ TEXMF_DIRS_LATEX=	\
 	stdclsdv storebox storecmd stringstrings substr tabstackengine ted \
 	testidx textcase toolbox totcount trimspaces unravel williams \
 	withargs xargs xassoccnt xcntperchap xfor xifthen xnewcommand xoptarg \
-	xpatch xpeek xpunctuate ydoc zwgetfdate hobsub letltxmacro makerobust
+	xpatch xpeek xpunctuate ydoc zwgetfdate hobsub letltxmacro makerobust \
+	picture scontents
 
 TEXMF_DOCDIRS=	generic/arrayjobx generic/bitelist generic/catcodes \
 	generic/dowith generic/fenixpar generic/fixjfm generic/gobble \

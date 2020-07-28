@@ -11,6 +11,8 @@ TEXMF_DIRS_LATEX=	\
 	magaz mceinleger modeles-factures-belges-assocs modernposter modroman \
 	newlfm newspaper octavo papercdcase papertex petiteannonce postcards \
 	pressrelease recipe recipebook recipecard sciposter scrlttr2copy \
-	sffms simplecd simpleinvoice stubs ticket xcookybooky yaletter
+	sffms simplecd simpleinvoice stubs ticket xcookybooky yaletter \
+	schedule sdaps akktex akletter bankstatement block bookest cd cd-cover \
+	cdpbundl
 
 .include "${.CURDIR}/../texlive-texmf-all/bsd.texmf.mk"

@@ -489,6 +489,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/menukeys/menukeys.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/metalogox/README.txt
 %%PORTDOCS%%%%DOCSDIR%%-texmf/metalogox/metalogox.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/metastr/README.txt
+%%PORTDOCS%%%%DOCSDIR%%-texmf/metastr/metasamp.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/metastr/metastr.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/minidocument/Makefile
 %%PORTDOCS%%%%DOCSDIR%%-texmf/minidocument/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/minidocument/minidocument.pdf
@@ -656,8 +659,16 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/refcheck/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/refcheck/refdemo.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/refcheck/refdemo.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/refcount/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/refcount/refcount.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/repeatindex/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/repeatindex/testrepeatindex.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rerunfilecheck/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rerunfilecheck/rerunfilecheck-example.cfg
+%%PORTDOCS%%%%DOCSDIR%%-texmf/rerunfilecheck/rerunfilecheck.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/returntogrid/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/returntogrid/returntogrid.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/returntogrid/returntogrid.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/romanbar/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/romanbar/romanbar-example.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/romanbar/romanbar-example.tex
@@ -672,6 +683,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/savetrees/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/savetrees/savetrees.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/savetrees/st-sample2e.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/secnum/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/secnum/secnum.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/seealso/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/seealso/seealso.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/shadow/shadow-doc.pdf
@@ -702,6 +715,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/totpages/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/totpages/totexmpl.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/totpages/totpages.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/transparent/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/transparent/transparent-example.tex
+%%PORTDOCS%%%%DOCSDIR%%-texmf/transparent/transparent.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/umoline/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/umoline/umoline-man.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/umoline/umoline.pdf
@@ -856,6 +872,7 @@
 %%TEXMFDIR%%tex/latex/menu/menu.sty
 %%TEXMFDIR%%tex/latex/menukeys/menukeys.sty
 %%TEXMFDIR%%tex/latex/metalogox/metalogox.sty
+%%TEXMFDIR%%tex/latex/metastr/metastr.sty
 %%TEXMFDIR%%tex/latex/minidocument/minidocument.sty
 %%TEXMFDIR%%tex/latex/minitoc/UKenglish.mld
 %%TEXMFDIR%%tex/latex/minitoc/USenglish.mld
@@ -1118,7 +1135,11 @@
 %%TEXMFDIR%%tex/latex/phonenumbers/phonenumbers.sty
 %%TEXMFDIR%%tex/latex/progress/progress.sty
 %%TEXMFDIR%%tex/latex/refcheck/refcheck.sty
+%%TEXMFDIR%%tex/latex/refcount/refcount.sty
 %%TEXMFDIR%%tex/latex/repeatindex/repeatindex.sty
+%%TEXMFDIR%%tex/latex/rerunfilecheck/rerunfilecheck.sty
+%%TEXMFDIR%%tex/latex/returntogrid/returntogrid.lua
+%%TEXMFDIR%%tex/latex/returntogrid/returntogrid.sty
 %%TEXMFDIR%%tex/latex/romanbar/romanbar.sty
 %%TEXMFDIR%%tex/latex/romanbarpagenumber/romanbarpagenumber.sty
 %%TEXMFDIR%%tex/latex/romannum/romannum.sty
@@ -1126,6 +1147,7 @@
 %%TEXMFDIR%%tex/latex/savetrees/savetrees.bbx
 %%TEXMFDIR%%tex/latex/savetrees/savetrees.cbx
 %%TEXMFDIR%%tex/latex/savetrees/savetrees.sty
+%%TEXMFDIR%%tex/latex/secnum/secnum.sty
 %%TEXMFDIR%%tex/latex/seealso/seealso.sty
 %%TEXMFDIR%%tex/latex/shadow/shadow.sty
 %%TEXMFDIR%%tex/latex/shadowtext/shadowtext.sty
@@ -1145,6 +1167,7 @@
 %%TEXMFDIR%%tex/latex/texvc/texvc.sty
 %%TEXMFDIR%%tex/latex/titling/titling.sty
 %%TEXMFDIR%%tex/latex/totpages/totpages.sty
+%%TEXMFDIR%%tex/latex/transparent/transparent.sty
 %%TEXMFDIR%%tex/latex/umoline/umoline.sty
 %%TEXMFDIR%%tex/latex/undolabl/undolabl.sty
 %%TEXMFDIR%%tex/latex/uri/uri.sty

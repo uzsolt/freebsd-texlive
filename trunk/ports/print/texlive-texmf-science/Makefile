@@ -22,7 +22,7 @@ TEXMF_DIRS_LATEX=	\
 	amscdx clojure-pamphlet codeanatomy\
 	begriff bez123 bigints binomexp biochemistry-colors biocon bitpattern \
 	bnumexpr bohr boldtensors bosisio bpchem braids braket bropd \
-	bussproofs bytefield calculation cancel carbohydrates cascade ccfonts \
+	bussproofs bussproofs-extra bytefield calculation cancel carbohydrates cascade ccfonts \
 	chemarrow chemcompounds chemcono chemformula chemgreek chemmacros \
 	chemnum chemplants chemschemex chemsec chemstyle circ circuitikz circuit-macros clrscode \
 	clrscode3e colorwav comma commath complexity computational-complexity \
@@ -56,7 +56,10 @@ TEXMF_DIRS_LATEX=	\
 	trfsigns truncate turnstile ulqda underoverlap units unitsdef \
 	venndiagram verbments vertbars was xymtex yhmath youngtab \
 	ytableau ziffer derivative euclideangeometry letterswitharrows \
-	lie-hasse mathcommand matrix-skeleton oops physconst physunits practicalreports
+	lie-hasse mathcommand matrix-skeleton oops physconst physunits practicalreports \
+	mismath pinoutikz proof-at-the-end pseudo simpleoptics tensind \
+	tikz-relay tikz-trackschematic yquant autonum avremu bracketkey\
+	cases 
 TEXMF_DOCDIRS+=	support/clojure-pamphlet
 TEXMF_DOCDIRS_FONTS=	chemarrow stmaryrd
 TEXMF_DOCDIRS_GENERIC=	${TEXMF_DIRS_GENERIC} pst-platon

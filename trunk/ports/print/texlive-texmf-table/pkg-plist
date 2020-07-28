@@ -369,6 +369,9 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/topiclongtable/topiclongtable-doc.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/typed-checklist/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/typed-checklist/typed-checklist.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vtable/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vtable/vtable.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/vtable/vtable.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/README
 %%PORTDOCS%%%%DOCSDIR%%-texmf/warpcol/warpcol.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/widetable/README.txt
@@ -454,6 +457,7 @@
 %%TEXMFDIR%%tex/latex/threeparttablex/threeparttablex.sty
 %%TEXMFDIR%%tex/latex/topiclongtable/topiclongtable.sty
 %%TEXMFDIR%%tex/latex/typed-checklist/typed-checklist.sty
+%%TEXMFDIR%%tex/latex/vtable/vtable.sty
 %%TEXMFDIR%%tex/latex/warpcol/warpcol.sty
 %%TEXMFDIR%%tex/latex/widetable/widetable.sty
 %%TEXMFDIR%%tex/latex/xltabular/xltabular.sty

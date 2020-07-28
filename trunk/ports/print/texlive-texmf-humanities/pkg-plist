@@ -537,3 +537,8 @@
 %%TEXMFDIR%%tex/latex/verse/verse.sty
 %%TEXMFDIR%%tex/latex/xyling/xyling.sty
 %%TEXMFDIR%%tex/latex/xytree/xytree.sty
+%%PORTDOCS%%%%DOCSDIR%%-texmf/catechis/CHANGES
+%%PORTDOCS%%%%DOCSDIR%%-texmf/catechis/README
+%%PORTDOCS%%%%DOCSDIR%%-texmf/catechis/catechis.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/catechis/lppl.txt
+%%TEXMFDIR%%tex/latex/catechis/catechis.sty

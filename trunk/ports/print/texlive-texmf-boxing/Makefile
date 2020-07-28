@@ -10,7 +10,7 @@ TEXMF_DIRS_LATEX=	\
 	boxedminipage2e boxhandler capt-of collectbox crbox dashbox efbox \
 	eqparbox fancybox framed genmpage ghab graphicxbox longfbox makebox \
 	mdframed minibox minipage-marginpar pbox realboxes roundbox tcolorbox \
-	tram varwidth verbatimbox xsavebox
+	tram varwidth verbatimbox xsavebox pmboxdraw rulerbox
 
 TEXMF_DOCDIRS=	generic/frame
 

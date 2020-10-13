@@ -266,7 +266,7 @@ TEXMF_DIRS_LATEX=	\
 	float fontinst fontspec fp frletter frontespizio geometry germbib \
 	germkorr gmp graphics-cfg graphics-def hausarbeit-jura \
 	helvetic hrlatex hyperref impnattypo index itnumpar jknapltx \
-	ketcindy koma-script l3experimental l3kernel l3packages latex2man \
+	ketcindy koma-script l3backend l3experimental l3kernel l3packages latex2man \
 	latexbug latexfileinfo-pkgs layaureo lineno listings listings-ext \
 	lithuanian lm ltxmisc lwarp macros2e mathtools memoir metalogo mflogo \
 	mfnfss mfpic4ode microtype milog mpgraphics ms mwcls natbib ncntrsbk \
@@ -297,6 +297,15 @@ TEXMF_DOCDIRS_LATEX_EXCLUDE=	pgf* latex-make \
 	pslatex pxfonts seminar symbol tex-gyre tex4ebook texosquery\
 	textpath times tipa tracklang txfonts zapfchan zapfding
 TEXMF_DOCDIRS_LATEX+=	amslatex-primer amsldoc-it amsldoc-vn amsmath-it
+
+USES+=	python
+
+TEXMF_SHEBANG_FILES=	\
+	share/texmf-dist/scripts/latex-make/figdepth.py \
+	share/texmf-dist/scripts/latex-make/latexfilter.py \
+	share/texmf-dist/scripts/latex-make/gensubfig.py \
+	share/texmf-dist/scripts/latex-make/svg2dev.py \
+	share/texmf-dist/scripts/latex-make/svgdepth.py
 
 TEXMF_SHEBANG_FILES_DOCS=	\
 	share/doc/texlive-texmf/ucs/latexout.pl\

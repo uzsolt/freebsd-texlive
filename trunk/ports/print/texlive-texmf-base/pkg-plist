@@ -722,6 +722,10 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/koma-script/tocbasic.html
 %%PORTDOCS%%%%DOCSDIR%%-texmf/koma-script/tocstyle.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/koma-script/typearea.html
+%%PORTDOCS%%%%DOCSDIR%%-texmf/l3backend/CHANGELOG.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/l3backend/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/l3backend/l3backend-code.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/l3backend/l3backend-code.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/l3experimental/CHANGELOG.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/l3experimental/README.md
 %%PORTDOCS%%%%DOCSDIR%%-texmf/l3experimental/l3benchmark/l3benchmark.pdf
@@ -14644,6 +14648,11 @@
 %%TEXMFDIR%%tex/latex/koma-script/tocstyle.sty
 %%TEXMFDIR%%tex/latex/koma-script/typearea.sty
 %%TEXMFDIR%%tex/latex/koma-script/visualize.lco
+%%TEXMFDIR%%tex/latex/l3backend/l3backend-dvipdfmx.def
+%%TEXMFDIR%%tex/latex/l3backend/l3backend-dvips.def
+%%TEXMFDIR%%tex/latex/l3backend/l3backend-dvisvgm.def
+%%TEXMFDIR%%tex/latex/l3backend/l3backend-pdfmode.def
+%%TEXMFDIR%%tex/latex/l3backend/l3backend-xdvipdfmx.def
 %%TEXMFDIR%%tex/latex/l3experimental/l3benchmark/l3benchmark.sty
 %%TEXMFDIR%%tex/latex/l3experimental/l3cctab/l3cctab.sty
 %%TEXMFDIR%%tex/latex/l3experimental/l3color/l3color.sty
@@ -14685,6 +14694,11 @@
 %%TEXMFDIR%%tex/latex/l3packages/xparse/xparse.ltx
 %%TEXMFDIR%%tex/latex/l3packages/xparse/xparse.sty
 %%TEXMFDIR%%tex/latex/l3packages/xtemplate/xtemplate.sty
+%%TEXMFDIR%%tex/latex/latex-make/figlatex.cfg
+%%TEXMFDIR%%tex/latex/latex-make/figlatex.sty
+%%TEXMFDIR%%tex/latex/latex-make/pdfswitch.sty
+%%TEXMFDIR%%tex/latex/latex-make/texdepends.sty
+%%TEXMFDIR%%tex/latex/latex-make/texgraphicx.sty
 %%TEXMFDIR%%tex/latex/latex2man/latex2man.cfg
 %%TEXMFDIR%%tex/latex/latex2man/latex2man.sty
 %%TEXMFDIR%%tex/latex/latexbug/latexbug.sty

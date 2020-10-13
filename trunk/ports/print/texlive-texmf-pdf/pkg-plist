@@ -38,6 +38,8 @@
 %%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/embedfile-example-collection.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/embedfile-example-plain.tex
 %%PORTDOCS%%%%DOCSDIR%%-texmf/embedfile/embedfile.pdf
+%%PORTDOCS%%%%DOCSDIR%%-texmf/epstopdf-pkg/README.md
+%%PORTDOCS%%%%DOCSDIR%%-texmf/epstopdf-pkg/epstopdf.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/cite.png
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/examples/fancy-preview-demo.pdf
 %%PORTDOCS%%%%DOCSDIR%%-texmf/fancytooltips/examples/fancy-preview-demo.sin.table
@@ -443,6 +445,8 @@
 %%TEXMFDIR%%tex/latex/cooltooltips/cooltooltips.sty
 %%TEXMFDIR%%tex/latex/embedall/embedall.sty
 %%TEXMFDIR%%tex/latex/embedfile/dtx-attach.sty
+%%TEXMFDIR%%tex/latex/epstopdf-pkg/epstopdf-base.sty
+%%TEXMFDIR%%tex/latex/epstopdf-pkg/epstopdf.sty
 %%TEXMFDIR%%tex/latex/fancytooltips/fancytipmark.eps
 %%TEXMFDIR%%tex/latex/fancytooltips/fancytipmark.pdf
 %%TEXMFDIR%%tex/latex/fancytooltips/fancytipmark.svg

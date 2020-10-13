@@ -6,7 +6,7 @@ TEXMF_CATEG=	pdf
 TEXMF_DIRS_GENERIC=	embedfile pdfescape
 TEXMF_DIRS_LATEX=	\
 	accessibility accsupp animate attachfile attachfile2 autopdf axessibility bxpdfver colorspace \
-	cooltooltips embedall embedfile fancytooltips flashmovie flippdf grayhints \
+	cooltooltips embedall embedfile epstopdf-pkg fancytooltips flashmovie flippdf grayhints \
 	hyperbar incgraph interactiveworkbook intopdf media9 mmap movie15 \
 	ocg-p ocgx ocgx2 pax pdf14 pdfcomment pdfcolmk pdfcprot pdflscape pdfmarginpar \
 	pdfoverlay pdfpagediff pdfpages pdfpc pdfpc-movie pdfprivacy pdftexcmds pdfreview \
